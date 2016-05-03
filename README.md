@@ -1,10 +1,10 @@
 # The Cable Bible
-A comprehensive guide to cables and connectors used for audiovisual preservation. Cable types and connectors are organized by the primary purpose of the signal being transferred - video, audio-only, data (i.e. computer cables) and power. The nesting structure then allows for different signal types, wiring, interfaces and protocols, etc. Click through for examples of physical connectors, pinouts, and contextual uses for each kind of cable!
+A comprehensive guide to cables and connectors potentially used for audiovisual/media preservation. Cable types and connectors are organized by the primary purpose of the signal being transferred - video, audio-only, data (i.e. computer cables) and power. Examples of physical connectors, pinouts and contextual uses for each kind of cable are nested within descriptions of signal types, wiring, interfaces and protocols!
 
 ## Table of Contents ##
 
 1. [Video] (README.md#video) :tv:
-  1. [Analog]
+  1. [Analog] (README.md#analog)
     1. [Composite] (README.md#composite)
     2. [Component YPbPr] (README.md#component-ypbpr)
     3. [S-Video] (README.md#s-video)
