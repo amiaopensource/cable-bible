@@ -5,60 +5,60 @@ A comprehensive guide to cables and connectors used for audiovisual preservation
 
 1. [Video] (https://github.com/MIAPtech/cable-bible#video) :tv:
   1. [Analog] (https://github.com/MIAPtech/cable-bible#analog)
-    1. [Composite]
-    2. [Component YPbPr]
-    3. [S-Video]
-    4. [VGA]
-    5. [DVI-A]
+    1. [Composite] (https://github.com/MIAPtech/cable-bible#composite)
+    2. [Component YPbPr] (https://github.com/MIAPtech/cable-bible#component-ypbpr)
+    3. [S-Video] (https://github.com/MIAPtech/cable-bible#s-video)
+    4. [VGA] (https://github.com/MIAPtech/cable-bible#vga)
+    5. [DVI-A] (https://github.com/MIAPtech/cable-bible#dvi-a)
   2. [Digital] (https://github.com/MIAPtech/cable-bible#digital)
-    1. [SDI]
-    2. [DVI-D]
-    3. [FireWire (IEEE 1394)]
-    4. [DisplayPort]
-    5. [HDMI]
-    6. [ThunderBolt]
+    1. [SDI] (https://github.com/MIAPtech/cable-bible#sdi)
+    2. [DVI-D] (https://github.com/MIAPtech/cable-bible#dvi-d)
+    3. [FireWire (IEEE 1394)] (https://github.com/MIAPtech/cable-bible#firewire)
+    4. [DisplayPort] (https://github.com/MIAPtech/cable-bible#displayport)
+    5. [HDMI] (https://github.com/MIAPtech/cable-bible#hdmi)
+    6. [ThunderBolt] (https://github.com/MIAPtech/cable-bible#thunderbolt)
   3. [Integrated] (https://github.com/MIAPtech/cable-bible#integrated)
-    1. [DVI-I]
+    1. [DVI-I] (https://github.com/MIAPtech/cable-bible#dvi-i)
 2. [Audio] (https://github.com/MIAPtech/cable-bible#audio) :sound:
   1. [Analog] (https://github.com/MIAPtech/cable-bible#analog)
     1. [Balanced]
     2. [Unbalanced]
   2. [Digital] (https://github.com/MIAPtech/cable-bible#digital)
-    1. [AES-3 (AES/EBU)]
+    1. [AES-3 (AES/EBU)] (https://github.com/MIAPtech/cable-bible#aes-3)
       1. [Balanced]
       2. [Unbalanced]
-    2. [S/PDIF]
+    2. [S/PDIF] (https://github.com/MIAPtech/cable-bible#s/pdif)
       1. [Optical]
       2. [Unbalanced]
-    3. [MIDI]
+    3. [MIDI] (https://github.com/MIAPtech/cable-bible#midi)
       1. [Balanced]
-    4. [TDIF]
+    4. [TDIF] (https://github.com/MIAPtech/cable-bible#tdif)
       1. [Unbalanced]
-    5. [ADAT]
+    5. [ADAT] (https://github.com/MIAPtech/cable-bible#adat)
       1. [Optical]
-3. [Data/Computer] (https://github.com/MIAPtech/cable-bible#data/computer) :computer: :floppy_disk:
+3. [Data] (https://github.com/MIAPtech/cable-bible#data) :computer: :floppy_disk:
   1. [Parallel] (https://github.com/MIAPtech/cable-bible#parallel)
-    1. [PATA]
-    2. [Parallel SCSI]
-    3. [IEEE 1284 ("Parallel Port", "printer port", "Centronics port")]
+    1. [PATA] (https://github.com/MIAPtech/cable-bible#pata)
+    2. [Parallel SCSI] (https://github.com/MIAPtech/cable-bible#parallel-scsi)
+    3. [IEEE 1284 ("Parallel Port", "printer port", "Centronics port")] (https://github.com/MIAPtech/cable-bible#ieee-1284)
   2. [Serial] (https://github.com/MIAPtech/cable-bible#serial)
-    1. [RS-232 ("the serial port")]
-    2. [RS-422]
-    3. [SAS (Serial SCSI)]
-    4. [SATA]
-    5. [Apple Desktop Bus]
-    6. [PS/2]
-    7. [USB]
-      1. [USB 2.0]
-      2. [USB 3.0]
-      3. [USB 3.1]
+    1. [RS-232 ("the serial port")] (https://github.com/MIAPtech/cable-bible#rs-232)
+    2. [RS-422] (https://github.com/MIAPtech/cable-bible#rs-422)
+    3. [SAS (Serial SCSI)] (https://github.com/MIAPtech/cable-bible#serial-scsi)
+    4. [SATA] (https://github.com/MIAPtech/cable-bible#sata)
+    5. [Apple Desktop Bus] (https://github.com/MIAPtech/cable-bible#apple-desktop-bus)
+    6. [PS/2] (https://github.com/MIAPtech/cable-bible#ps/2)
+    7. [USB] (https://github.com/MIAPtech/cable-bible#usb)
+      1. [USB 2.0] (https://github.com/MIAPtech/cable-bible#usb-2.0)
+      2. [USB 3.0] (https://github.com/MIAPtech/cable-bible#usb-3.0)
+      3. [USB 3.1] (https://github.com/MIAPtech/cable-bible#usb-3.1)
     8. [FireWire]
-      1. [FireWire 400]
-      2. [FireWire 800]
+      1. [FireWire 400] (https://github.com/MIAPtech/cable-bible#firewire-400)
+      2. [FireWire 800] (https://github.com/MIAPtech/cable-bible#firewire-800)
     9. [ThunderBolt]
-      1. [ThunderBolt 1 and 2]
-      2. [ThunderBolt 3]
-    10. [HDBaseT]
+      1. [ThunderBolt 1 and 2] (https://github.com/MIAPtech/cable-bible#thunderbolt-1-and-2)
+      2. [ThunderBolt 3] (https://github.com/MIAPtech/cable-bible#thunderbolt-3)
+    10. [HDBaseT (network)] (https://github.com/MIAPtech/cable-bible#hdbaset)
 4. [Power] (https://github.com/MIAPtech/cable-bible#power)
 
 
@@ -72,7 +72,7 @@ A comprehensive guide to cables and connectors used for audiovisual preservation
 ### Digital ###
 #### SDI ####
 #### DVI-D ####
-#### FireWire (IEEE 1394) ####
+#### FireWire ####
 #### DisplayPort ####
 #### HDMI ####
 #### ThunderBolt ####
@@ -85,7 +85,7 @@ A comprehensive guide to cables and connectors used for audiovisual preservation
 #### Balanced ####
 #### Unbalanced ####
 ### Digital ###
-#### AES-3 (AES-EBU) ####
+#### AES-3 ####
 ##### Balanced #####
 ##### Unbalanced #####
 #### S/PDIF ####
@@ -99,7 +99,7 @@ A comprehensive guide to cables and connectors used for audiovisual preservation
 ##### Optical #####
 
 
-## Data/Computer ##
+## Data ##
 ### Parallel ###
 #### PATA ####
 #### Parallel SCSI ####
@@ -107,7 +107,7 @@ A comprehensive guide to cables and connectors used for audiovisual preservation
 ### Serial ###
 #### RS-232 ####
 #### RS-422 ####
-#### SAS (Serial SCSI) ####
+#### Serial SCSI ####
 #### SATA ####
 #### Apple Desktop Bus ####
 #### PS/2 ####
@@ -121,7 +121,7 @@ A comprehensive guide to cables and connectors used for audiovisual preservation
 #### ThunderBolt ####
 ##### ThunderBolt 1 and 2 #####
 ##### ThunderBolt 3 #####
-#### HDBaseT (network) ####
+#### HDBaseT ####
 
 
 ## Power ##
