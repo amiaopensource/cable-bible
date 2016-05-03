@@ -4,27 +4,27 @@ A comprehensive guide to cables and connectors used for audiovisual preservation
 ## Table of Contents ##
 
 1. [Video] (https://github.com/MIAPtech/cable-bible#video) :tv:
-  1. [Analog] (https://github.com/MIAPtech/cable-bible#analog)
+  1. [Analog]
     1. [Composite] (https://github.com/MIAPtech/cable-bible#composite)
     2. [Component YPbPr] (https://github.com/MIAPtech/cable-bible#component-ypbpr)
     3. [S-Video] (https://github.com/MIAPtech/cable-bible#s-video)
     4. [VGA] (https://github.com/MIAPtech/cable-bible#vga)
     5. [DVI-A] (https://github.com/MIAPtech/cable-bible#dvi-a)
-  2. [Digital] (https://github.com/MIAPtech/cable-bible#digital)
+  2. [Digital]
     1. [SDI] (https://github.com/MIAPtech/cable-bible#sdi)
     2. [DVI-D] (https://github.com/MIAPtech/cable-bible#dvi-d)
-    3. [FireWire (IEEE 1394)] (https://github.com/MIAPtech/cable-bible#video#digital#firewire)
+    3. [FireWire (IEEE 1394)]
     4. [DisplayPort] (https://github.com/MIAPtech/cable-bible#displayport)
     5. [HDMI] (https://github.com/MIAPtech/cable-bible#hdmi)
-    6. [ThunderBolt] (https://github.com/MIAPtech/cable-bible#thunderbolt)
+    6. [ThunderBolt]
   3. [Integrated] (https://github.com/MIAPtech/cable-bible#integrated)
     1. [DVI-I] (https://github.com/MIAPtech/cable-bible#dvi-i)
 2. [Audio] (https://github.com/MIAPtech/cable-bible#audio) :sound:
-  1. [Analog] (https://github.com/MIAPtech/cable-bible#analog)
+  1. [Analog]
     1. [Balanced]
     2. [Unbalanced]
-  2. [Digital] (https://github.com/MIAPtech/cable-bible#digital)
-    1. [AES 3 (AES/EBU)] (https://github.com/MIAPtech/cable-bible#aes3)
+  2. [Digital]
+    1. [AES-3 (AES/EBU)] (https://github.com/MIAPtech/cable-bible#aes-3)
       1. [Balanced]
       2. [Unbalanced]
     2. [S/PDIF] (https://github.com/MIAPtech/cable-bible#spdif)
