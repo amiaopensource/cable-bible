@@ -8,7 +8,8 @@ A comprehensive guide to cables and connectors potentially used for audiovisual/
     1. [Composite] (README.md#composite)
     2. [Component YPbPr] (README.md#component-ypbpr)
     3. [S-Video] (README.md#s-video)
-    4. [VGA] (README.md#vga)
+    4. [RGBVH] (README.md#rgbvh)
+    5. [RGBS] (README.md#rgbs)
     5. [DVI-A] (README.md#dvi-a)
   2. [Digital] (README.md#digital)
     1. [SDI] (README.md#sdi)
@@ -67,7 +68,8 @@ A comprehensive guide to cables and connectors potentially used for audiovisual/
 #### Composite ####
 #### Component YPbPr ####
 #### S-Video ####
-#### VGA ####
+#### RGBVH ####
+#### RGBS ####
 #### DVI-A ####
 ### Digital ###
 #### SDI ####
