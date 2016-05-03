@@ -1,5 +1,5 @@
 # The Cable Bible
-A comprehensive guide to cables and connectors used for audiovisual preservation. Cable types and connectors are organized by the primary purpose of the signal being transferred - video, audio-only, data (i.e. computer cables) and power. The nesting structure then allows for different wiring types, interfaces and protocols, physical connectors, etc.
+A comprehensive guide to cables and connectors used for audiovisual preservation. Cable types and connectors are organized by the primary purpose of the signal being transferred - video, audio-only, data (i.e. computer cables) and power. The nesting structure then allows for different signal types, wiring, interfaces and protocols, etc. Click through for examples of physical connectors, pinouts, and contextual uses for each kind of cable!
 
 ## Table of Contents ##
 
@@ -13,7 +13,7 @@ A comprehensive guide to cables and connectors used for audiovisual preservation
   2. [Digital] (https://github.com/MIAPtech/cable-bible#digital)
     1. [SDI] (https://github.com/MIAPtech/cable-bible#sdi)
     2. [DVI-D] (https://github.com/MIAPtech/cable-bible#dvi-d)
-    3. [FireWire (IEEE 1394)] (https://github.com/MIAPtech/cable-bible#firewire)
+    3. [FireWire (IEEE 1394)] (https://github.com/MIAPtech/cable-bible#video#digital#firewire)
     4. [DisplayPort] (https://github.com/MIAPtech/cable-bible#displayport)
     5. [HDMI] (https://github.com/MIAPtech/cable-bible#hdmi)
     6. [ThunderBolt] (https://github.com/MIAPtech/cable-bible#thunderbolt)
@@ -24,10 +24,10 @@ A comprehensive guide to cables and connectors used for audiovisual preservation
     1. [Balanced]
     2. [Unbalanced]
   2. [Digital] (https://github.com/MIAPtech/cable-bible#digital)
-    1. [AES-3 (AES/EBU)] (https://github.com/MIAPtech/cable-bible#aes-3)
+    1. [AES 3 (AES/EBU)] (https://github.com/MIAPtech/cable-bible#aes3)
       1. [Balanced]
       2. [Unbalanced]
-    2. [S/PDIF] (https://github.com/MIAPtech/cable-bible#s/pdif)
+    2. [S/PDIF] (https://github.com/MIAPtech/cable-bible#spdif)
       1. [Optical]
       2. [Unbalanced]
     3. [MIDI] (https://github.com/MIAPtech/cable-bible#midi)
@@ -47,11 +47,11 @@ A comprehensive guide to cables and connectors used for audiovisual preservation
     3. [SAS (Serial SCSI)] (https://github.com/MIAPtech/cable-bible#serial-scsi)
     4. [SATA] (https://github.com/MIAPtech/cable-bible#sata)
     5. [Apple Desktop Bus] (https://github.com/MIAPtech/cable-bible#apple-desktop-bus)
-    6. [PS/2] (https://github.com/MIAPtech/cable-bible#ps/2)
+    6. [PS/2] (https://github.com/MIAPtech/cable-bible#ps2)
     7. [USB] (https://github.com/MIAPtech/cable-bible#usb)
-      1. [USB 2.0] (https://github.com/MIAPtech/cable-bible#usb-2.0)
-      2. [USB 3.0] (https://github.com/MIAPtech/cable-bible#usb-3.0)
-      3. [USB 3.1] (https://github.com/MIAPtech/cable-bible#usb-3.1)
+      1. [USB 2.0] (https://github.com/MIAPtech/cable-bible#usb-20)
+      2. [USB 3.0] (https://github.com/MIAPtech/cable-bible#usb-30)
+      3. [USB 3.1] (https://github.com/MIAPtech/cable-bible#usb-31)
     8. [FireWire]
       1. [FireWire 400] (https://github.com/MIAPtech/cable-bible#firewire-400)
       2. [FireWire 800] (https://github.com/MIAPtech/cable-bible#firewire-800)
@@ -88,7 +88,7 @@ A comprehensive guide to cables and connectors used for audiovisual preservation
 #### AES-3 ####
 ##### Balanced #####
 ##### Unbalanced #####
-#### S/PDIF ####
+#### SPDIF ####
 ##### Optical #####
 ##### Unbalanced #####
 #### MIDI ####
@@ -110,7 +110,7 @@ A comprehensive guide to cables and connectors used for audiovisual preservation
 #### Serial SCSI ####
 #### SATA ####
 #### Apple Desktop Bus ####
-#### PS/2 ####
+#### PS2 ####
 #### USB ####
 ##### USB 2.0 #####
 ##### USB 3.0 #####
