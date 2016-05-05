@@ -8,13 +8,12 @@ A comprehensive guide to cables and connectors potentially used for audiovisual/
     1. [Composite] (README.md#composite)
     2. [Component YPbPr] (README.md#component-ypbpr)
     3. [S-Video] (README.md#s-video)
-    4. [RGBVH] (README.md#rgbvh)
-    5. [RGBS] (README.md#rgbs)
-    5. [DVI-A] (README.md#dvi-a)
+    4. [RGBS] (README.md#rgbs)
+    5. [RGBVH] (README.md#rgbvh)
   2. [Digital] (README.md#digital)
     1. [SDI] (README.md#sdi)
-    2. [DVI-D] (README.md#dvi-d)
-    3. [FireWire (IEEE 1394)] (README.md#firewire)
+    2. [FireWire (IEEE 1394)] (README.md#firewire)
+    3. [DVI] (README.md#dvi)
     4. [DisplayPort] (README.md#displayport)
     5. [HDMI] (README.md#hdmi)
   3. [Integrated] (README.md#integrated)
@@ -69,7 +68,6 @@ A comprehensive guide to cables and connectors potentially used for audiovisual/
   
   **Introduced:** 1956  
   **Max resolution:** Standard Definition (typically 480i or 576i)  
-  **Color encoding:** NTSC, PAL, SECAM  
   **Connectors and ports:**  
   ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Composite-video-cable.jpg/320px-Composite-video-cable.jpg)  
   _RCA_  
@@ -109,7 +107,6 @@ YPbPr signal is often referred to, imprecisely, simply as "component" video, alt
 
 **Introduced:**  
 **Max resolution:** High Definition (up to 1080p)  
-**Color encoding:** NTSC, PAL, SECAM  
 **Connectors and ports:**  
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Component-cables.jpg/309px-Component-cables.jpg)  
 _RCA_  
@@ -130,7 +127,6 @@ S-Video (sometimes known as "separate video") cables carry video over two synchr
 
 **Introduced:**  
 **Max resolution:** Standard Definition (generally 480i or 576i)  
-**Color encoding:**  NTSC, PAL, SECAM  
 **Connectors and ports:**  
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/S-video-connection.jpg/320px-S-video-connection.jpg)  
 _Mini-DIN 4-pin_  
@@ -151,7 +147,6 @@ A component video standard in which luminance and chrominance information is enc
 
 **Introduced:**  
 **Max resolution:** Generally up to 1080p (HD), but can go beyond  
-**Color encoding:** NTSC, PAL, SECAM  
 **Connectors and ports:**  
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/SCART_20050724_002.jpg/320px-SCART_20050724_002.jpg)  
 _SCART_  
@@ -163,7 +158,6 @@ A component video standard essentially the same as [RGBS] (README.md#rgbs), exce
 
 **Introduced:**  
 **Max resolution:** Generally up to 1080p (HD), but can go beyond  
-**Color encoding:** NTSC, PAL, SECAM  
 **Connectors and ports:**  
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Vga-cable.jpg/320px-Vga-cable.jpg)  
 _VGA (DE-15)_  
