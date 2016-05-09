@@ -86,6 +86,7 @@ Please feel free to clone this repository or create a new branch with your own a
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/UHF-Connector.png" height="289" width="322">  
   _UHF_  
   A WWII-era connector design originally intended for video connections in radar applications. Used with late-period 1/2" open reel decks (e.g. Sony AV decks) and some early 3/4" U-matic players.  
+  Audio: no  
   
   ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/F_Connector_Side.jpg/320px-F_Connector_Side.jpg)  
   _F-type_  
@@ -185,12 +186,96 @@ Audio: no
 
 ### Digital ###
 #### SDI ####
+Serial Digital Interface (SDI) actually refers to a family of SMPTE interface standards designed for the transmission of uncompressed, unencrypted digital video signals. The original standard ("SD-SDI"), defined for 480i and 576i standard definition video, has been periodically updated (e.g. HD-SDI, 6G-SDI) to allow for steadily increasing bit rates, frame rates, video resolutions, etc. Because SDI is an unencypted digital signal, it has generally been restricted from use in consumer equipment, and is usually found in professional, broadcast-grade production and preservation environments.
+
+**Introduced:** 1989  
+**Max resolution and data rate:** As of 2015, the 12G-SDI standard allows up to 2160p60 video at 12 Gb/s  
+**Connectors and ports:**  
+_BNC_  
+SDI-compatible equipment almost always employ BNC connections, especially in broadcast/production environments.  
+Audio: No
+
+_Video patch (MUSA)_  
+Video patch connections can be used to transfer SDI signals through a patch bay.  
+Audio: No  
+
 #### FireWire ####
+IEEE 1394, referred to as "FireWire," was developed by Apple as an interface for high-speed data transfer (see: [FireWire] (README.md#firewire-1) section under Data signals). However the FireWire interface was also employed by digital cameras recording to tape media with the DV (Digital Video) protocol (e.g. MiniDV, DVCAM, DVCPRO). Some camcorders were also able to directly output a DV signal to a digital video recorder or computer via a FireWire cable/interface.  When used with digital video, the FireWire interface operates at a slower data rate than in most of its data transfer applications.  
+**Introduced:** 1994  
+**Max resolution and data rate:** Standard Definiton, 100 Mb/s  
+**Connectors and ports:**  
+_4-pin_  
+The smallest type of FireWire connector - found on DV cameras.  
+Audio: yes  
+
 #### DVI ####
+Digital Video Interface (DVI) was designed to transmit uncompressed digital video while also supporting analog video modes (see [DVI-A] (README.md#rgbvh), [DVI-I] (README.md#dvi-i)). This broad compatibility led ot widespread adoption in consumer electronics/computers. 
+**Introduced:** 1999  
+**Max resolution and data rate:**  _Single Link_: 1920x1200, 4.95 Gb/s, _Dual Link_: 2560x1600, 9.90 Gb/s  
+**Connectors and ports:**  
+_DVI-D Single Link_  
+Employs a single transmitter to support 1920x1200 resolution digital video. Notably missing the 4 pins present in DVI-A and DVI-A to carry analog video signal.  
+Audio: no  
+
+_DVI-D Dual Link_  
+The same as DVI-D Single Link connectors, except with six additional pins in the center of the connector/port to increase bandwidth and support higher resolutions.  
+Audio: no  
+
+_Mini-DVI_  
+Used on some laptops, especially Apple products, to accept a DVI-D signal.  
+Audio: no  
+
+_Micro-DVI_  
+Employed for a very brief time by Apple specifically on its 2008 MacBook Air line of laptops. Smaller than Mini-DVI connectors but can only accept DVI-D signals (incompatible with DVI-I or DVI-A) and almost immediately replaced by the [DisplayPort] (README.md#displayport) standard.  
+Audio: no  
+
 #### DisplayPort ####
+A digital display interface standard developed by the Video Electronics Standards Association (VESA). Can be used to carry audio and packeted data transmissions, but most frequently employed to connect video sources to display devices. The development of succeeding versions of the DisplayPort standard (from 1.0 to the latest 1.4) have allowed for increases in display resolution, data rate, color depth, etc. "Dual-Mode DisplayPort" ports and connectors (also known as DisplayPort++) are also compatible with single-link DVI and HDMI output with the use of adapters; active converters are also available to make DisplayPort compatible with dual-link DVI or DVI-A/VGA signals.  
+**Introduced:** 2008  
+**Max video resolution and data rate:** _1.0/1.1_: 1.62 Gb/s, _1.2_: 2.7 Gb/s, _1.3_: 8K UHD, 5.4 Gb/s, _1.4_: 8K UHD, 8.1 Gb/s
+**Connectors and ports:**  
+_DisplayPort (20-pin)_  
+The full-size, 20-pin DisplayPort connection used for external connections on desktop computers, graphics cards, monitors, etc.
+Audio: yes, optionally (use of channels for audio signal will limit bandwidth, resolution available for video)  
+
+_Mini DisplayPort_  
+Miniaturized version of the DisplayPort connector developed by Apple. Used on Apple products, especially laptops, from 2008 to the present (from ~2011 on, paired with the DisplayPort-compatible [ThunderBolt] (README.md#thunderbolt) protocol). Licensed out to many PC manufacturers as well.  
+Audio: yes (if used in conjunction with an audio-capable DisplayPort or HDMI cable)  
+
 #### HDMI ####
+High-Definition Multimedia Interface (HDMI) is a proprietary interface for transferring uncompressed digital video and audio signals. HDMI was developed in order to provide an integrated, increased-bandwidth interface capable of carrying very high video resolutions and an audio signal while maintaining backwards compatibility with DVI. As with DisplayPort, succeeding versions (from 1.0 to current 2.0) have allowed for increases in resolution, frame rate, data rate, etc.  
+**Introduced:** 2002  
+**Max video resolution and data rate:** _1.0/1.1/1.2_: 1920x1200p, 4.95 Gb/s, _1.3/1.4_: 2560x1600p, 10.2 Gb/s, _2.0_: 4096x1600p, 18 Gb/s  
+**Connectors and ports:**  
+_Type A ("Standard","Full Size")_  
+Generally used for HDMI input/output on television/computer monitors and desktops.  
+Audio: yes  
+
+_Type B ("Mini")_  
+Employed starting with HDMI Version 1.3 - designed for smaller, portable equipment such as laptops.  
+Audio: yes  
+
+_Type C ("Micro")_  
+Released starting with HDMI Version 1.4, intended for use with cell phones/smart phones.  
+Audio: yes  
+
 ### Integrated ###
+There is no such thing as a signal that combines analog and digital data in the same channel. However, The DVI interface allows for both analog and digital signals to be passed through the same cable and connector, creating something of a unique case.  
+
 #### DVI-I ####
+DVI are backwards-compatible to allow for the transmission of analog RGBVH data via the VGA standard. The cable is the same as that employed by [DVI-A] (README.md#rgbvh) (analog-only) or [DVI-D] (README.md#dvi) (digital only), the difference with DVI-I is merely in the compatible connectors and ports.  
+_Single-Link DVI-I_  
+Contains pins that allow for an analog VGA signal or digital video at up to 1920x1200 resolution.  
+Audio: no  
+
+_Dual-Link DVI-I_  
+The same as Single-Link DVI-I, but adds six pins in the middle of the connector for increased digital video resolution up to 2560x1600.  
+Audio: no  
+
+_Mini-DVI_  
+Can connect either an analog or digital signal to an Apple laptop, as long as the proper adapter is used in conjunction with a DVI cable with DVI-A, DVI-D or DVI-I connectors.  
+Audio: no  
+
 
 
 ## Audio ##
