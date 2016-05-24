@@ -192,7 +192,7 @@ Serial Digital Interface (SDI) actually refers to a family of SMPTE interface st
 **Max resolution and data rate:** As of 2015, the 12G-SDI standard allows up to 2160p60 video at 12 Gb/s  
 **Connectors and ports:**  
 _BNC_  
-SDI-compatible equipment almost always employ BNC connections, especially in broadcast/production environments.  
+SDI-compatible equipment almost always employ BNC connections, especially in broadcast/production environments. Note: even though they use the same connectors, SDI coax cables using BNC are wired differently than composite/component video cables that use BNC, and the two are not interchangeable.  
 Audio: yes
 
 _Video patch (MUSA)_  
@@ -328,18 +328,52 @@ Similar to the purpose of the 8-pin video monitor cable/connector, DIN 5-pins we
 
 ### Digital ###
 #### AES-3 ####
-##### Balanced #####
-##### Unbalanced #####
-#### SPDIF ####
-##### Optical #####
-##### Unbalanced #####
-#### MIDI ####
-##### Balanced ######
-#### TDIF ####
-##### Unbalanced ######
-#### ADAT ####
-##### Optical #####
+AES-3 is a standard for the exchange of digital audio signals developed in conjunction by the Audio Engineering Society and the European Broadcasting Union, and is therefore also often referred to as "AES-EBU." AES-3 is capable of carrying two uncompressed channels of PCM audio over the same cable.  
 
+##### Balanced #####
+_XLR_  
+The most common variant of AES-3 connection, found with professional installations and equipment.  
+
+##### Unbalanced #####
+_BNC_  
+A variant of AES-3 with lower (75-ohm vs balanced XLR's 110-ohm) electrical impedence. Sometimes found in broadcast applications as it uses the same cabling infrastructure as digital video, so it can be convenient for patch bays that employ BNC connections.  
+
+#### SPDIF ####
+Standing for Sony/Philips Digital Interface Format, S/PDIF refers to a consumer-grade variant of the AES-3 protocol (listed as "Type II" in the same international standard as AES-3: IEC 60958). Essentially interchangeable at the protocol level with AES-3, so devices carrying these signals can interface easily, provided the difference in physical connections and electrical level/impedence are accounted for.  
+
+##### Optical #####
+Fiber optic cables transmit data signals as flashes of light over flexible, transparent fibers made of glass or plastic. In audio applications, they can allow transmission at higher bandwidths without the electromagnetic interference to which metal wires are susceptible. Due to attenuation (the reduction of the intensity of the light over distance), consumer-grade optical audio cables are generally short (5-10 meters).  
+
+_F05/TOSLINK_  
+Also sometimes referred to as "EIAJ optical" connectors. While F05 is the technical name for the physical specification, Toshiba's specific brand name for optical cables, TOSLINK, has essentially become the name for the connector. Found with larger consumer-grade S/PDIF devices, particularly Toshiba-brand audio products.  
+
+_Mini TOSLINK_  
+A smaller version of the TOSLINK connector that is almost the same size and shape of a 1/8" TRS stereo jack. Some combined 1/8" stereo jack and Mini TOSLINK ports exist to accept either digital or analog audio input/output. Mini TOSLINK is generally used with smaller consumer-grade digital audio equipment (e.g. portable CD players).  
+
+##### Unbalanced #####
+_RCA_  
+The S/PDIF protocol can also be found in consumer audio installations with two-contact RCA connectors over unbalanced coax cables. Such S/PDIF connectors are usually color-coded orange to differentiate them from analog audio and video cables that employ RCA.  
+
+#### MIDI ####
+Short for Musical Instrument Digital Interface, a standard usually used for connecting a wide variety of musical instruments and/or computers to each other. MIDI links allow for the transmission of up to 16 channels of digital audio at a time (although only in one direction, so separate cables are required for input/output). Because it is most commonly used with instruments, MIDI is usually employed fairly exclusively in production/recording envrionments.  
+
+##### Balanced ######
+_DIN 5-pin_  
+Though they have 5-pins, only 3 of the pins in MIDI connectors are used in typical applications: ground, and then a balanced pair of contacts.  
+
+#### TDIF ####
+The Tascam Digital Interface Format is a proprietary protocol and connector, therefore seen exclusively with Tascam devices. It is bidirectional, allowing the transmission of up to eight channels of digital audio.  
+
+##### Unbalanced ######
+_DB-25_  
+A D-subminiature connection with a pinout that allows for input and ouput of TDIF's eight channels of audio to be transmitted over the same cable.  
+
+#### ADAT ####
+Originally developed by Alesis for its Digital Audio Tape products, the ADAT Lightpipe interface became popular with third party manufacturers and so became synonymous with the standard rather than specifically Alesis DAT connections. ADAT supports transmission of up to eight channels of uncompressed digital audio at up to 48 kHz and 24-bit, giving them a much higher bandwidth than similar S/PDIF optical cables. Found exclusively in optical cable variety.  
+
+##### Optical #####
+_F05/TOSLINK_  
+Since they use the exact same connectors, ADAT cables and connections are visually indistinguishable from S/PDIF, though the interfaces and cables are completely incompatible at the protocol level.  
 
 ## Data ##
 ### Parallel ###
