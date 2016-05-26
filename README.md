@@ -329,6 +329,7 @@ Similar to the purpose of the 8-pin video monitor cable/connector, DIN 5-pins we
 ### Digital ###
 #### AES-3 ####
 AES-3 is a standard for the exchange of digital audio signals developed in conjunction by the Audio Engineering Society and the European Broadcasting Union, and is therefore also often referred to as "AES-EBU." AES-3 is capable of carrying two uncompressed channels of uncompressed PCM audio, or compressed 5.1/7.1 surround sound over the same cable.  
+
 **Introduced:** 1985  
 **Max resolution:** 24-bit  
 **Wiring, Connectors and Ports:**  
@@ -343,6 +344,7 @@ A variant of AES-3 with lower (75-ohm vs balanced XLR's 110-ohm) electrical impe
 
 #### SPDIF ####
 Standing for Sony/Philips Digital Interface Format, S/PDIF refers to a consumer-grade variant of the AES-3 protocol (listed as "Type II" in the same international standard as AES-3: IEC 60958). Essentially interchangeable at the protocol level with AES-3, so devices carrying these signals can interface easily, provided the difference in physical connections and electrical level/impedence are accounted for.  
+
 **Introduced:** 1985  
 **Max resolution:** 20-bit  
 **Wiring, Connectors and Ports:**  
@@ -362,6 +364,7 @@ The S/PDIF protocol can also be found in consumer audio installations with two-c
 
 #### MIDI ####
 Short for Musical Instrument Digital Interface, a standard usually used for connecting a wide variety of musical instruments and/or computers to each other. MIDI links allow for the transmission of up to 16 channels of information at a time (although only in one direction, so separate cables are required for input/output). Technically speaking, MIDI does not actually carry digital audio - it carries event information that specifies control parameters such as pitch, notation, volume, vibrato, clock signals and other metadata to synchronize audio/musical devices with each other. MIDI is usually employed fairly exclusively in production/recording envrionments.  
+
 **Introduced:** 1983  
 **Max speed:** 31.25 kb/s  
 **Wiring, Connectors and Ports:**  
@@ -371,7 +374,8 @@ _DIN 5-pin_
 Though they have 5-pins, only 3 of the pins in MIDI connectors are used in typical applications: ground, and then a balanced pair of contacts.  
 
 #### TDIF ####
-The Tascam Digital Interface Format is a proprietary protocol and connector, therefore seen exclusively with Tascam devices. It is bidirectional, allowing the transmission of up to eight channels of digital audio.  
+The Tascam Digital Interface Format is a proprietary protocol and connector, therefore seen exclusively with Tascam devices. It is bidirectional, allowing the transmission of up to eight channels of digital audio. 
+
 **Introduced:** 1993  
 **Max resolution:**  
 **Wiring, Connectors and Ports:**  
@@ -382,6 +386,7 @@ A D-subminiature connection with a pinout that allows for input and ouput of TDI
 
 #### ADAT ####
 Originally developed by Alesis for its Digital Audio Tape products, the ADAT Lightpipe interface became popular with third party manufacturers and so became synonymous with the standard rather than specifically Alesis DAT connections. ADAT supports transmission of up to eight channels of uncompressed digital audio at up to 48 kHz and 24-bit, giving them a much higher bandwidth than similar S/PDIF optical cables. Found exclusively in optical cable variety.  
+
 **Introduced:** 1992  
 **Max resolution:** 24-bit  
 **Wiring, Connectors and Ports:**  
@@ -392,10 +397,47 @@ Since they use the exact same connectors, ADAT cables and connections are visual
 
 ## Data ##
 ### Parallel ###
+Digital transmission can occur in one of two basic methods: parallel or serial communication. In parallel communication, multiple bits (usually 8 bits, otherwise known as one byte) are transferred simultaneously on separate channels within the same cable, then combined and synchronized. This can result in a faster bit rate than serial transmission, but is also significantly more expensive (since it requires far more wires to create the cable) and the synchronization timing in parallel transmission is also susceptible to distance, making it impractical for longer cables. Parallel communication was popular in the 1980s but has generally fallen out of favor in modern data transmission.   
+
 #### PATA ####
+Short for Parallel Advanced Technology Attachment, originally known simply as ATA until the later [Serial ATA] (README.md#SATA) standard was developed. An interface standard for the connection of storage devices, e.g. hard disk drives, floppy drives and optical drives. Given its maximum cable length of 18 inches, PATA is mostly limited to internal computer use, but it can occasionally be seen/used to connect to external drives.  
+
+**Introduced:** 1986  
+**Max bit depth and rate:** 16-bit depth; originally 16 mb/s, developed up to 133 mb/s  
+**Connectors and ports:**  
+_40-pin ribbon_  
+Used with the most common 40-wire PATA ribbon cables, as well as the more rare 80-wire ribbons developed late in the PATA standard's lifespan to increase data rate.  
+
 #### Parallel SCSI ####
+Referred to alternately as SCSI Parallel Interface, SPI, or before the advent of [Serial SCSI] (README.md#serial-scsi), simply SCSI (pronounced "scuzzy"). Unfortunately, Parallel SCSI is not technically a single standard, but a series of almost a dozen related interfaces with ambiguous names ("Fast SCSI", "Ultra SCSI," etc.) and variable bit depths and rates. See the link to a comparison table below. In any case, Parallel SCSI cables were used to connect peripheral devices to computers; unlike PATA, which could only connect a maximum of two devices, a single Parallel SCSI data bus could be attached to up to 8 or 16 devices. The symbol below generally marked a SCSI port on computers.  
+
+**Introduced:** 1986  
+**Max bit depth and rate:** See [comparison table] (https://en.wikipedia.org/wiki/Parallel_SCSI#Comparison_table)  
+**Connectors and ports:**  
+_50-pin micro-ribbon_  
+Micro ribbon or miniature ribbon connectors have a similar shielded design to the D-sub family of connectors, but used a different kind of contact known as ribbon contacts rather than pin contacts. There are various configurations that were used with Parallel SCSI but the most common variety was a 50-contact micro-ribbon connector. These connectors were often referred to by the brand name of the company that manufactured them: for instance, Amphenol-50, IDC-50, CN-50 (Centronics).  
+
+_DB-25_  
+A D-sub connector used by Apple for Parallel SCSI connections on their early desktop computers.  
+
+_HDI-30_  
+A singular square-shaped pin contact connector used by Apple for Parallel SCSI connections on a few of their early laptop designs.  
+
 #### IEEE 1284 ####
+A standard for parallel communication alternately, and more commonly, referred to as "parallel port", "printer port" or the "Centronics port", as it was originally developed by Centronics to facilitate communication between computers and Centronics-brand dot-matrix printers. Originally unidirectional ("send-only") for sending data from a computer to a printer, but later developed to allow for bidirectional communication, it became a popular alternative to Parallel SCSI for peripherals like floppy drives and network adapters and hard drives as it had cheaper circuitry. The symbol below generally marked parallel/printer port connections on computers.  
+
+**Introduced:** 1970s  
+**Max bit depth and rate:**  
+**Connectors and ports:**  
+_DB-25_  
+A D-sub connection, usually used for the host (computer) end of a parallel port cable/connection.  
+
+_36-pin micro-ribbon_  
+A micro-ribbon connector developed by Centronics (also called CN-36), usually used for the printer or device connection.  
+
 ### Serial ###
+As opposed to [parallel transmission] (README.md#parallel), in serial communication bits are transferred sequentially over the same wire. Bytes must be assembled and sent as a unit and then disassembled by the receiving device. Though serial data transmission was developed before parallel transmission, parallel communication reigned for much of the late 1970s-1980s as physical performance limitations originally gave parallel communication higher data rates. Improvements in cable and circuit design have since made serial transmission the far faster and preferred option.  
+
 #### RS-232 ####
 #### RS-422 ####
 #### Serial SCSI ####
