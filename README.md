@@ -328,7 +328,10 @@ Similar to the purpose of the 8-pin video monitor cable/connector, DIN 5-pins we
 
 ### Digital ###
 #### AES-3 ####
-AES-3 is a standard for the exchange of digital audio signals developed in conjunction by the Audio Engineering Society and the European Broadcasting Union, and is therefore also often referred to as "AES-EBU." AES-3 is capable of carrying two uncompressed channels of PCM audio over the same cable.  
+AES-3 is a standard for the exchange of digital audio signals developed in conjunction by the Audio Engineering Society and the European Broadcasting Union, and is therefore also often referred to as "AES-EBU." AES-3 is capable of carrying two uncompressed channels of uncompressed PCM audio, or compressed 5.1/7.1 surround sound over the same cable.  
+**Introduced:** 1985  
+**Max resolution:** 24-bit  
+**Wiring, Connectors and Ports:**  
 
 ##### Balanced #####
 _XLR_  
@@ -340,6 +343,9 @@ A variant of AES-3 with lower (75-ohm vs balanced XLR's 110-ohm) electrical impe
 
 #### SPDIF ####
 Standing for Sony/Philips Digital Interface Format, S/PDIF refers to a consumer-grade variant of the AES-3 protocol (listed as "Type II" in the same international standard as AES-3: IEC 60958). Essentially interchangeable at the protocol level with AES-3, so devices carrying these signals can interface easily, provided the difference in physical connections and electrical level/impedence are accounted for.  
+**Introduced:** 1985  
+**Max resolution:** 20-bit  
+**Wiring, Connectors and Ports:**  
 
 ##### Optical #####
 Fiber optic cables transmit data signals as flashes of light over flexible, transparent fibers made of glass or plastic. In audio applications, they can allow transmission at higher bandwidths without the electromagnetic interference to which metal wires are susceptible. Due to attenuation (the reduction of the intensity of the light over distance), consumer-grade optical audio cables are generally short (5-10 meters).  
@@ -355,7 +361,10 @@ _RCA_
 The S/PDIF protocol can also be found in consumer audio installations with two-contact RCA connectors over unbalanced coax cables. Such S/PDIF connectors are usually color-coded orange to differentiate them from analog audio and video cables that employ RCA.  
 
 #### MIDI ####
-Short for Musical Instrument Digital Interface, a standard usually used for connecting a wide variety of musical instruments and/or computers to each other. MIDI links allow for the transmission of up to 16 channels of digital audio at a time (although only in one direction, so separate cables are required for input/output). Because it is most commonly used with instruments, MIDI is usually employed fairly exclusively in production/recording envrionments.  
+Short for Musical Instrument Digital Interface, a standard usually used for connecting a wide variety of musical instruments and/or computers to each other. MIDI links allow for the transmission of up to 16 channels of information at a time (although only in one direction, so separate cables are required for input/output). Technically speaking, MIDI does not actually carry digital audio - it carries event information that specifies control parameters such as pitch, notation, volume, vibrato, clock signals and other metadata to synchronize audio/musical devices with each other. MIDI is usually employed fairly exclusively in production/recording envrionments.  
+**Introduced:** 1983  
+**Max speed:** 31.25 kb/s  
+**Wiring, Connectors and Ports:**  
 
 ##### Balanced ######
 _DIN 5-pin_  
@@ -363,6 +372,9 @@ Though they have 5-pins, only 3 of the pins in MIDI connectors are used in typic
 
 #### TDIF ####
 The Tascam Digital Interface Format is a proprietary protocol and connector, therefore seen exclusively with Tascam devices. It is bidirectional, allowing the transmission of up to eight channels of digital audio.  
+**Introduced:** 1993  
+**Max resolution:**  
+**Wiring, Connectors and Ports:**  
 
 ##### Unbalanced ######
 _DB-25_  
@@ -370,6 +382,9 @@ A D-subminiature connection with a pinout that allows for input and ouput of TDI
 
 #### ADAT ####
 Originally developed by Alesis for its Digital Audio Tape products, the ADAT Lightpipe interface became popular with third party manufacturers and so became synonymous with the standard rather than specifically Alesis DAT connections. ADAT supports transmission of up to eight channels of uncompressed digital audio at up to 48 kHz and 24-bit, giving them a much higher bandwidth than similar S/PDIF optical cables. Found exclusively in optical cable variety.  
+**Introduced:** 1992  
+**Max resolution:** 24-bit  
+**Wiring, Connectors and Ports:**  
 
 ##### Optical #####
 _F05/TOSLINK_  
