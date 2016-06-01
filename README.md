@@ -46,7 +46,7 @@ Please feel free to clone this repository or create a new branch with your own a
   2. [Serial] (README.md#serial)
     1. [RS-232 ("the serial port")] (README.md#rs-232)
     2. [RS-422] (README.md#rs-422)
-    3. [SAS (Serial SCSI)] (README.md#serial-scsi)
+    3. [SAS (Serial Attached SCSI)] (README.md#serial-scsi)
     4. [SATA] (README.md#sata)
     5. [Apple Desktop Bus] (README.md#apple-desktop-bus)
     6. [PS/2] (README.md#ps2)
@@ -60,7 +60,7 @@ Please feel free to clone this repository or create a new branch with your own a
     9. [ThunderBolt] (README.md#thunderbolt)
       1. [ThunderBolt 1 and 2] (README.md#thunderbolt-1-and-2)
       2. [ThunderBolt 3] (README.md#thunderbolt-3)
-    10. [HDBaseT (network)] (README.md#hdbaset)
+    10. [HDBaseT] (README.md#hdbaset)
 4. [Power] (README.md#power)
 
 
@@ -439,22 +439,154 @@ A micro-ribbon connector developed by Centronics (also called CN-36), usually us
 As opposed to [parallel transmission] (README.md#parallel), in serial communication bits are transferred sequentially over the same wire. Bytes must be assembled and sent as a unit and then disassembled by the receiving device. Though serial data transmission was developed before parallel transmission, parallel communication reigned for much of the late 1970s-1980s as physical performance limitations originally gave parallel communication higher data rates. Improvements in cable and circuit design have since made serial transmission the far faster and preferred option.  
 
 #### RS-232 ####
+Because it was the first serial data protocol to become a standard feature in personal computing, RS-232 was commonly referred to simply as "the serial port." It was used for bidirectional connection to many peripheral computer devices, including modems, printers, mice, external drives, etc. It was also used for remote connection and control of some VTRs. It is referred to as "RS" because it was originally sponsored by the Radio Sector of the Electronic Industries Association - changes in the sponsoring organization have caused the standard to be alternately referred to as EIA-232 and TIA-232. The symbol below generally marked serial port connections on computers.  
+
+**Introduced:** 1962  
+**Max bit depth and rate:**  
+**Connectors and ports:**  
+_DB-25_  
+The RS-232 standard recommends a 25-pin D-sub connector but did not make it mandatory - therefore it is by far the most common type of connector for both host computers and peripherals but not exclusive.  
+
+_DB-15_  
+Found with RS-232 connections on some modems (on the modem end).  
+
+_DB-9_  
+Found with RS-232 connections with some modems, printers, peripherals (on the host computer end).  
+
+_DE-9_  
+Found with RS-232 connections on early mice and keyboards.  
+
 #### RS-422 ####
+An improvement to the RS-232 standard to increase transmit speeds and/or maximum cable length. Introduced differential signaling to data cabling - a technique of reducing electromagnetic noise as it is transmitted over the wires in a cable, similar to [balanced cables] (README.md#balanced) in analog audio.  
+
+**Introduced:** 1996  
+**Max bit depth and rate:** 10Mbit/s  
+**Connectors and ports:**  
+_DE-9_  
+Found on later VTRs, especially Sony models.  
+
+_Mini-DIN 8-pin_  
+An RS-232 compatible variant of RS-422 widely used on Macintosh hardware.  
+
 #### Serial SCSI ####
+Serial Attached SCSI (SAS) replaced [Parallel SCSI] (README.md#parallel-scsi), using the same basic command set but replacing the transmission method from parallel to serial to improve transfer rate. Backwards compatible with [SATA] (README.md#sata). Unlike Parallel SCSI, almost exclusively used in internal computer connections and very rarely found in use with peripherals.  
+
+**Introduced:** 2004  
+**Max bit depth and rate:** Originally 3.0 Gbit/s, now 12.0 Gbit/s  
+**Connectors and ports:**  
+_SF-8088 (Mini-SAS)_  
+
+_SFF-8470 (Infiniband)_  
+
 #### SATA ####
+Developed to replace [Parallel ATA] (README.md#pata), Serial ATA is used to connect host bus devices to mass storage devices such as hard drives, optical drives, solid-state drives, etc. Generally found for internal connections in desktops and laptops, but used in some cases to connect to external drives as well.  
+
+**Introduced:** 2003  
+**Max bit depth and rate:** Originally 1.5 Gbit/s, now up to 16 Gbit/s  
+**Connectors and ports:**  
+_eSATA_  
+Found exclusively with SATA connections to external drives (the "e" stands for "external").  
+
 #### Apple Desktop Bus ####
+A Macintosh-exclusive computer bus for connecting low-speed peripherals - mice, keyboards, etc. ADB connections were generally marked by the symbol below. 
+
+**Introduced:** 1986  
+**Max bit depth and rate:** 125 Kbit/s  
+**Connectors and ports:**  
+_Mini-DIN 4-pin_  
+The exact same connector used for [S-Video] (README.md#s-video) connections and the cables are interchangeable. ADB cables usually were marked by the symbol above.  
+
 #### PS2 ####
+A PC-compatible low-speed computer bus for peripherals like mice, keyboards, etc. Its name comes from the IBM Personal System/2 line of computers with which it was introduced. Generally replaced older [RS-232] (README.md#rs-232) connections employing DE-9 connectors.
+
+**Introduced:** 1987  
+**Max bit depth and rate:**  
+**Connectors and ports:**  
+_Mini-DIN 6-pin_  
+The only connectors used for PS/2 connections. Often color-coded: green connectors were used for mice and purple for keyboards.  
+
 #### USB ####
+Short for Universal Serial Bus, designed to standardize connections of computer peripherals after the proliferation of connections in the '80s and early '90s. Used with keyboards, mice, digital cameras, external drives, network adapters, etc. Capable of supplying power to many of these devices in addition to transmitting data. Updates to the original USB 1.0 standard (1.5 Mbit/s at Low Speed, 12 Mbit/s at Full Speed) have represented major shifts in data transmission, usually with accompanied changes in physical connection, so they are elaborated on more below. Ports are also usually marked by the symbol below.  
+**Introduced:** 1996  
+
 ##### USB 2.0 #####
+"High Speed"  
+**Introduced:** 2000  
+**Max bit depth and rate:** 480 Mbit/s  
+**Connectors and ports:**  
+_Type A_  
+
+_Type B_  
+
+_Mini Type A_  
+
+_Mini Type B 5-pin_  
+
+_Mini Type B 4-pin_  
+
+_Micro Type A_  
+
+_Micro Type B_  
+
 ##### USB 3.0 #####
+"SuperSpeed"  
+**Introduced:** 2008
+**Max bit depth and rate:** 5 Gbit/s  
+**Connectors and ports:**  
+
+_Type A_  
+
+_Type B_  
+
+_Micro Type B_  
+
 ##### USB 3.1 #####
+"SuperSpeed+"  
+**Introduced:** 2013  
+**Max bit depth and rate:** 10 Gbit/s  
+**Connectors and ports:**  
+_Type C_  
+
 #### FireWire ####
+Developed by Apple at roughly the same time as [USB] (README.md#usb), for the similar purpose of consolidating connections and improving data transfer speeds. Sometimes referred to as i.Link (in Sony applications) and Lynx (Texas Instruments), as FireWire is technically just the Apple branding of the IEEE 1394 standard. Used for connections to external hard drives, as well as A/V component communication and control. Two major flavors of FireWire were introduced before Apple phased out development of the standard in favor of [ThunderBolt] (README.md#thunderbolt). Ports usually represented by the symbol below.  
+
 ##### FireWire 400 #####
+"IEEE 1394a"  
+**Introduced:** 1995  
+**Max bit depth and rate:** 400 Mbit/s  
+**Connectors and ports:**  
+_6-pin_  
+
+_4-pin_  
+
 ##### FireWire 800 #####
+"IEEE 1394b"  
+**Introduced:** 2002  
+**Max bit depth and rate:** 800 Mbit/s  
+**Connectors and ports:**  
+_9-pin_  
+
 #### ThunderBolt ####
+Developed by Apple as a replacement for [FireWire] (README.md#firewire-1). Combines computer bus data transmission with the DisplayPort digital video interface, as well as DC power, all over one cable/connection. The first two major versions of ThunderBolt shared a physical connector and had compatible wiring/channels, but the introduction of ThunderBolt 3 has been marked by major shifts in physical interface. Ports usually represented by the symbol below.  
+
 ##### ThunderBolt 1 and 2 #####
+**Introduced:** 2011; 2013  
+**Max bit depth and rate:** 10 Gbit/s; 20 Gbit/s  
+**Connectors and ports:**  
+_Mini DisplayPort_  
+
 ##### ThunderBolt 3 #####
+**Introduced:** 2015  
+**Max bit depth and rate:** 40 Gbit/s  
+**Connectors and ports:**  
+_USB Type C_  
+
 #### HDBaseT ####
+A standard for the transmission of uncompressed HD video, audio, power, and/or networking and Ethernet connections.  
+**Introduced:** 2010  
+**Max bit depth and rate:** 10.2 Gbit/s (100 Mbit/s Ethernet)  
+**Connectors and ports:**  
+_8P8C_  
 
 
 ## Power ##
