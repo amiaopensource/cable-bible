@@ -411,6 +411,8 @@ Used with the most common 40-wire PATA ribbon cables, as well as the more rare 8
 #### Parallel SCSI ####
 Referred to alternately as SCSI (Small Computers Systems Interface) Parallel Interface, SPI, or before the advent of [Serial SCSI] (README.md#serial-scsi), simply SCSI (pronounced "scuzzy"). Unfortunately, Parallel SCSI is not technically a single standard, but a series of almost a dozen related interfaces with ambiguous names ("Fast SCSI", "Ultra SCSI," etc.) and variable bit depths and rates. See the link to a comparison table below. In any case, Parallel SCSI cables were used to connect peripheral devices to computers; unlike PATA, which could only connect a maximum of two devices, a single Parallel SCSI data bus could be attached to up to 8 or 16 devices. The symbol below generally marked a SCSI port on computers.  
 
+![](https://upload.wikimedia.org/wikipedia/commons/6/6e/Scsi_logo.svg)
+
 **Introduced:** 1986  
 **Max bit depth and rate:** See [comparison table] (https://en.wikipedia.org/wiki/Parallel_SCSI#Comparison_table)  
 **Connectors and ports:**  
@@ -424,7 +426,9 @@ _HDI-30_
 A singular square-shaped pin contact connector used by Apple for Parallel SCSI connections on a few of their early laptop designs.  
 
 #### IEEE 1284 ####
-A standard for parallel communication alternately, and more commonly, referred to as "parallel port", "printer port" or the "Centronics port", as it was originally developed by Centronics to facilitate communication between computers and Centronics-brand dot-matrix printers. Originally unidirectional ("send-only") for sending data from a computer to a printer, but later developed to allow for bidirectional communication, it became a popular alternative to Parallel SCSI for peripherals like floppy drives and network adapters and hard drives as it had cheaper circuitry. The symbol below generally marked parallel/printer port connections on computers.  
+A standard for parallel communication alternately, and more commonly, referred to as "parallel port", "printer port" or the "Centronics port", as it was originally developed by Centronics to facilitate communication between computers and Centronics-brand dot-matrix printers. Originally unidirectional ("send-only") for sending data from a computer to a printer, but later developed to allow for bidirectional communication, it became a popular alternative to Parallel SCSI for peripherals like floppy drives and network adapters and hard drives as it had cheaper circuitry. A symbol similar to the one below generally marked parallel/printer port connections on computers.  
+
+![](http://www.danielcraig.com/indiana/classes/r521/ports/picts/lptsymbol.gif)  
 
 **Introduced:** 1970s  
 **Max bit depth and rate:**  
@@ -440,6 +444,8 @@ As opposed to [parallel transmission] (README.md#parallel), in serial communicat
 
 #### RS-232 ####
 Because it was the first serial data protocol to become a standard feature in personal computing, RS-232 was commonly referred to simply as "the serial port." It was used for bidirectional connection to many peripheral computer devices, including modems, printers, mice, external drives, etc. It was also used for remote connection and control of some VTRs. It is referred to as "RS" because it was originally sponsored by the Radio Sector of the Electronic Industries Association - changes in the sponsoring organization have caused the standard to be alternately referred to as EIA-232 and TIA-232. The symbol below generally marked serial port connections on computers.  
+
+![](http://www.danielcraig.com/indiana/classes/r521/ports/picts/comsymbol.gif)  
 
 **Introduced:** 1962  
 **Max bit depth and rate:**  
@@ -492,6 +498,8 @@ Found exclusively with SATA connections to external drives (the "e" stands for "
 #### Apple Desktop Bus ####
 A Macintosh-exclusive computer bus for connecting low-speed peripherals - mice, keyboards, etc. ADB connections were generally marked by the symbol below. 
 
+![](https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/ADB_Icon.svg/130px-ADB_Icon.svg.png)  
+
 **Introduced:** 1986  
 **Max bit depth and rate:** 125 Kbit/s  
 **Connectors and ports:**  
@@ -509,6 +517,9 @@ The only connectors used for PS/2 connections. Often color-coded: green connecto
 
 #### USB ####
 Short for Universal Serial Bus, designed to standardize connections of computer peripherals after the proliferation of connections in the '80s and early '90s. Used with keyboards, mice, digital cameras, external drives, network adapters, etc. Capable of supplying power to many of these devices in addition to transmitting data. Updates to the original USB 1.0 standard (1.5 Mbit/s at Low Speed, 12 Mbit/s at Full Speed) have represented major shifts in data transmission, usually with accompanied changes in physical connection, so they are elaborated on more below. All advancements in USB have been backwards-compatible (so a USB 3.0 connection can carry USB 2.0 data, etc). Ports are also usually marked by the symbol below.  
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/USB_Icon.svg/320px-USB_Icon.svg.png)  
+
 **Introduced:** 1996  
 
 ##### USB 2.0 #####
@@ -563,6 +574,8 @@ A reversible, symmetrical design capable of carrying data at 10 Gbit/s (between 
 #### FireWire ####
 Developed by Apple at roughly the same time as [USB] (README.md#usb), for the similar purpose of consolidating connections and improving data transfer speeds. Unlike USB, FireWire does not require the use of a host controller (FireWire-compatible devices can communicate directly to each other without the use of a computer), but it was more costly to implement than USB and therefore never quite as popular. Sometimes referred to as i.Link (in Sony applications) and Lynx (Texas Instruments), as FireWire is technically just the Apple branding of the IEEE 1394 standard. Used for connections to external hard drives, as well as A/V component communication and control. Two major flavors of FireWire were introduced before Apple phased out development of the standard in favor of [ThunderBolt] (README.md#thunderbolt). Ports usually represented by the symbol below.  
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/FireWire_Logo.svg/200px-FireWire_Logo.svg.png)  
+
 ##### FireWire 400 #####
 "IEEE 1394a"  
 **Introduced:** 1995  
@@ -583,7 +596,9 @@ _9-pin_
 Commonly found on Apple computers. Can be adapted to older 6-pin and 4-pin connectors, but data transfer will be limited to the old 400 Mbit/s rate.  
 
 #### ThunderBolt ####
-Developed by Apple as a replacement for [FireWire] (README.md#firewire-1). Combines computer bus data transmission with the DisplayPort digital video interface, as well as DC power, all over one cable/connection. The first two major versions of ThunderBolt shared a physical connector and had compatible wiring/channels, but the introduction of ThunderBolt 3 has been marked by major shifts in physical interface. Ports usually represented by the symbol below.  
+Developed by Apple as a replacement for [FireWire] (README.md#firewire-1). Combines computer bus data transmission with the DisplayPort digital video interface, as well as DC power, all over one cable/connection. The first two major versions of ThunderBolt shared a physical connector and had compatible wiring/channels, but the introduction of ThunderBolt 3 has been marked by major shifts in physical interface. Ports usually labelled by the symbol below.  
+
+![](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macpro/thunderbolt_logo.png)  
 
 ##### ThunderBolt 1 and 2 #####
 **Introduced:** 2011; 2013  
