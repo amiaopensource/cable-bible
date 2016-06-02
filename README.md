@@ -409,7 +409,7 @@ _40-pin ribbon_
 Used with the most common 40-wire PATA ribbon cables, as well as the more rare 80-wire ribbons developed late in the PATA standard's lifespan to increase data rate.  
 
 #### Parallel SCSI ####
-Referred to alternately as SCSI Parallel Interface, SPI, or before the advent of [Serial SCSI] (README.md#serial-scsi), simply SCSI (pronounced "scuzzy"). Unfortunately, Parallel SCSI is not technically a single standard, but a series of almost a dozen related interfaces with ambiguous names ("Fast SCSI", "Ultra SCSI," etc.) and variable bit depths and rates. See the link to a comparison table below. In any case, Parallel SCSI cables were used to connect peripheral devices to computers; unlike PATA, which could only connect a maximum of two devices, a single Parallel SCSI data bus could be attached to up to 8 or 16 devices. The symbol below generally marked a SCSI port on computers.  
+Referred to alternately as SCSI (Small Computers Systems Interface) Parallel Interface, SPI, or before the advent of [Serial SCSI] (README.md#serial-scsi), simply SCSI (pronounced "scuzzy"). Unfortunately, Parallel SCSI is not technically a single standard, but a series of almost a dozen related interfaces with ambiguous names ("Fast SCSI", "Ultra SCSI," etc.) and variable bit depths and rates. See the link to a comparison table below. In any case, Parallel SCSI cables were used to connect peripheral devices to computers; unlike PATA, which could only connect a maximum of two devices, a single Parallel SCSI data bus could be attached to up to 8 or 16 devices. The symbol below generally marked a SCSI port on computers.  
 
 **Introduced:** 1986  
 **Max bit depth and rate:** See [comparison table] (https://en.wikipedia.org/wiki/Parallel_SCSI#Comparison_table)  
@@ -475,8 +475,10 @@ Serial Attached SCSI (SAS) replaced [Parallel SCSI] (README.md#parallel-scsi), u
 **Max bit depth and rate:** Originally 3.0 Gbit/s, now 12.0 Gbit/s  
 **Connectors and ports:**  
 _SF-8088 (Mini-SAS)_  
+Shielded 26-pin implementation of SAS.  
 
 _SFF-8470 (Infiniband)_  
+High-density, 34-pin external connector.  
 
 #### SATA ####
 Developed to replace [Parallel ATA] (README.md#pata), Serial ATA is used to connect host bus devices to mass storage devices such as hard drives, optical drives, solid-state drives, etc. Generally found for internal connections in desktops and laptops, but used in some cases to connect to external drives as well.  
@@ -506,7 +508,7 @@ _Mini-DIN 6-pin_
 The only connectors used for PS/2 connections. Often color-coded: green connectors were used for mice and purple for keyboards.  
 
 #### USB ####
-Short for Universal Serial Bus, designed to standardize connections of computer peripherals after the proliferation of connections in the '80s and early '90s. Used with keyboards, mice, digital cameras, external drives, network adapters, etc. Capable of supplying power to many of these devices in addition to transmitting data. Updates to the original USB 1.0 standard (1.5 Mbit/s at Low Speed, 12 Mbit/s at Full Speed) have represented major shifts in data transmission, usually with accompanied changes in physical connection, so they are elaborated on more below. Ports are also usually marked by the symbol below.  
+Short for Universal Serial Bus, designed to standardize connections of computer peripherals after the proliferation of connections in the '80s and early '90s. Used with keyboards, mice, digital cameras, external drives, network adapters, etc. Capable of supplying power to many of these devices in addition to transmitting data. Updates to the original USB 1.0 standard (1.5 Mbit/s at Low Speed, 12 Mbit/s at Full Speed) have represented major shifts in data transmission, usually with accompanied changes in physical connection, so they are elaborated on more below. All advancements in USB have been backwards-compatible (so a USB 3.0 connection can carry USB 2.0 data, etc). Ports are also usually marked by the symbol below.  
 **Introduced:** 1996  
 
 ##### USB 2.0 #####
@@ -515,30 +517,40 @@ Short for Universal Serial Bus, designed to standardize connections of computer 
 **Max bit depth and rate:** 480 Mbit/s  
 **Connectors and ports:**  
 _Type A_  
+Found with USB host controllers, i.e. computers and hubs. Uses flat pins to withstand repeated attachment and removal.  
 
 _Type B_  
+An "upstream" connection intended for use on USB-compatible peripheral devices (thus, the majority of USB 2.0 connections require a Type A-to-Type B cable).  
 
 _Mini Type A_  
+Designed to slim down the Type A interface for use with mobile devices; quickly deprecated by the USB Implementers Forum (which guides specification and compliance of the USB protocol), meaning only a handful of certified devices ever used Mini Type A connections.  
 
 _Mini Type B 5-pin_  
+Designed to slim down the Type B interface for use with mobile devices (PDAs, digital cameras, etc.)
 
 _Mini Type B 4-pin_  
+An unofficial implementation of USB (never supported by the USB-IF), used with some digital cameras, particularly Kodak models.  
 
 _Micro Type A_  
+Used on mobile devices such as cellphones, digital cameras, GPS units, etc. Smaller than Mini Type connections and identified by white-colored receptacle with 5 pins.  
 
 _Micro Type B_  
+Used on mobile devices such as cellphones, digital cameras, GPS units, etc. Smaller than Mini Type connections and identified by black-colored receptacle with 5 pins.  
 
 ##### USB 3.0 #####
 "SuperSpeed"  
-**Introduced:** 2008
+**Introduced:** 2008  
 **Max bit depth and rate:** 5 Gbit/s  
 **Connectors and ports:**  
 
 _Type A_  
+Similar in sixe, shape, appearance to USB 2.0 Type A, though it has additional pins. Typically colored blue to differentiate from USB 2.0 Type A connections.  
 
 _Type B_  
+A boxy connection similar in appearance to USB 2.0 Type B, but (unlike Type A) not physically compatible with its preceding equivalent. Therefore cables with a USB 3.0 Type B connector are not compatible with devices with a USB 2.0 Type B port; however devices with a USB 3.0 Type B port _will_ accept USB 2.0 Type B cables. Usually colored blue.  
 
 _Micro Type B_  
+A connection totally unique to USB 3.0 cables and devices, incompatible with previous USB devices.  
 
 ##### USB 3.1 #####
 "SuperSpeed+"  
@@ -546,9 +558,10 @@ _Micro Type B_
 **Max bit depth and rate:** 10 Gbit/s  
 **Connectors and ports:**  
 _Type C_  
+A reversible, symmetrical design capable of carrying data at 10 Gbit/s (between two USB 3.1-compatible devices), power, and built-in support for DisplayPort video and four channels of audio. Increasingly found as a charging/data port for Apple and PC laptops.  
 
 #### FireWire ####
-Developed by Apple at roughly the same time as [USB] (README.md#usb), for the similar purpose of consolidating connections and improving data transfer speeds. Sometimes referred to as i.Link (in Sony applications) and Lynx (Texas Instruments), as FireWire is technically just the Apple branding of the IEEE 1394 standard. Used for connections to external hard drives, as well as A/V component communication and control. Two major flavors of FireWire were introduced before Apple phased out development of the standard in favor of [ThunderBolt] (README.md#thunderbolt). Ports usually represented by the symbol below.  
+Developed by Apple at roughly the same time as [USB] (README.md#usb), for the similar purpose of consolidating connections and improving data transfer speeds. Unlike USB, FireWire does not require the use of a host controller (FireWire-compatible devices can communicate directly to each other without the use of a computer), but it was more costly to implement than USB and therefore never quite as popular. Sometimes referred to as i.Link (in Sony applications) and Lynx (Texas Instruments), as FireWire is technically just the Apple branding of the IEEE 1394 standard. Used for connections to external hard drives, as well as A/V component communication and control. Two major flavors of FireWire were introduced before Apple phased out development of the standard in favor of [ThunderBolt] (README.md#thunderbolt). Ports usually represented by the symbol below.  
 
 ##### FireWire 400 #####
 "IEEE 1394a"  
@@ -556,8 +569,10 @@ Developed by Apple at roughly the same time as [USB] (README.md#usb), for the si
 **Max bit depth and rate:** 400 Mbit/s  
 **Connectors and ports:**  
 _6-pin_  
+Can carry DC power in addition to data; thus 6-pin connections are usually found on devices that can provide power, e.g. computers.  
 
 _4-pin_  
+Can only carry data, no power, thus found on peripherals and devices with their own power supply, such as DV cameras, certain external hard drives.  
 
 ##### FireWire 800 #####
 "IEEE 1394b"  
@@ -565,6 +580,7 @@ _4-pin_
 **Max bit depth and rate:** 800 Mbit/s  
 **Connectors and ports:**  
 _9-pin_  
+Commonly found on Apple computers. Can be adapted to older 6-pin and 4-pin connectors, but data transfer will be limited to the old 400 Mbit/s rate.  
 
 #### ThunderBolt ####
 Developed by Apple as a replacement for [FireWire] (README.md#firewire-1). Combines computer bus data transmission with the DisplayPort digital video interface, as well as DC power, all over one cable/connection. The first two major versions of ThunderBolt shared a physical connector and had compatible wiring/channels, but the introduction of ThunderBolt 3 has been marked by major shifts in physical interface. Ports usually represented by the symbol below.  
@@ -574,19 +590,21 @@ Developed by Apple as a replacement for [FireWire] (README.md#firewire-1). Combi
 **Max bit depth and rate:** 10 Gbit/s; 20 Gbit/s  
 **Connectors and ports:**  
 _Mini DisplayPort_  
+The ThunderBolt protocol was designed to be compatible with the Mini DisplayPort connections already present since 2008 on many Apple computers. Saved Apple from a major redesign for several years.  
 
 ##### ThunderBolt 3 #####
 **Introduced:** 2015  
 **Max bit depth and rate:** 40 Gbit/s  
 **Connectors and ports:**  
 _USB Type C_  
+Because of its capability for transferring data, digital video/audio and power all over the same connection, Apple adapted the USB Type C connector to its ThunderBolt protocol and has started using the connection as the single port on its latest MacBook Air products.  
 
 #### HDBaseT ####
 A standard for the transmission of uncompressed HD video, audio, power, and/or networking and Ethernet connections.  
 **Introduced:** 2010  
 **Max bit depth and rate:** 10.2 Gbit/s (100 Mbit/s Ethernet)  
 **Connectors and ports:**  
-_8P8C_  
-
+_8P8C/RJ-45_  
+A modular connector with 8 pins/conductors. Similar to but wider than the modular connectors used for phone lines.  
 
 ## Power ##
