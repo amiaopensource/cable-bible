@@ -558,7 +558,7 @@ A connection totally unique to USB 3.0 cables and devices, incompatible with pre
 **Max bit depth and rate:** 10 Gbit/s  
 **Connectors and ports:**  
 _Type C_  
-A reversible, symmetrical design capable of carrying data at 10 Gbit/s (between two USB 3.1-compatible devices), power, and built-in support for DisplayPort video and four channels of audio. Increasingly found as a charging/data port for Apple and PC laptops.  
+A reversible, symmetrical design capable of carrying data at 10 Gbit/s (between two USB 3.1-compatible devices), power, and built-in support for DisplayPort video and four channels of audio. Increasingly found as a charging/data port for PC laptops and Apple laptops via the [ThunderBolt] (README.md#thunderbolt-3) protocol.  
 
 #### FireWire ####
 Developed by Apple at roughly the same time as [USB] (README.md#usb), for the similar purpose of consolidating connections and improving data transfer speeds. Unlike USB, FireWire does not require the use of a host controller (FireWire-compatible devices can communicate directly to each other without the use of a computer), but it was more costly to implement than USB and therefore never quite as popular. Sometimes referred to as i.Link (in Sony applications) and Lynx (Texas Instruments), as FireWire is technically just the Apple branding of the IEEE 1394 standard. Used for connections to external hard drives, as well as A/V component communication and control. Two major flavors of FireWire were introduced before Apple phased out development of the standard in favor of [ThunderBolt] (README.md#thunderbolt). Ports usually represented by the symbol below.  
