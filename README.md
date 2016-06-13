@@ -4,6 +4,9 @@ A comprehensive guide to cables and connectors potentially used for audiovisual/
 ## Contribute ##
 Please feel free to clone this repository or create a new branch with your own additions of signal types, interfaces or connectors you think we're missing (there's a lot!). There are already some checklists under the [Issue] (https://github.com/amiaopensource/cable-bible/issues) page that show what at least needs to be filled in from the current TOC. Submit a pull request so that someone can review your changes and make sure that everything remains at least somewhat orderly - or if you're not so comfortable with github but have photos or information that you think should be added, please submit an issue and I'll update when I can!
 
+## License ##
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+
 ## Table of Contents ##
 
 1. [Video] (README.md#video) :tv:
@@ -74,23 +77,18 @@ Analog audiovisual media record image and sound information as a continuous sign
   **Introduced:** 1956  
   **Max resolution:** Standard Definition (typically 480i or 576i)  
   **Connectors and ports:**  
-  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Composite-video-cable.jpg/320px-Composite-video-cable.jpg)  
   _RCA_  
   Used primarily with consumer equipment (e.g. Betamax, VHS, DVD)  
   Audio: no
   
-  
-  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/BNC_connector_%28male%29.jpg/320px-BNC_connector_%28male%29.jpg)  
   _BNC_  
   Used in professional broadcast and some consumer equipment  
   Audio: no
   
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/UHF-Connector.png" height="289" width="322">  
   _UHF_  
   A WWII-era connector design originally intended for video connections in radar applications. Used with late-period 1/2" open reel decks (e.g. Sony AV decks) and some early 3/4" U-matic players.  
   Audio: no  
   
-  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/F_Connector_Side.jpg/320px-F_Connector_Side.jpg)  
   _F-type_  
   Found in North American television antenna, cable and satellite television installations; some older VCRs  
   Audio: no
@@ -103,7 +101,6 @@ Analog audiovisual media record image and sound information as a continuous sign
   Monitor cables designed specifically to carry both input and output signal between a video deck and monitor over the same cable. Seen on 1/2" open reel decks (the only available output on Sony CVs), 3/4" U-matic, and contemporary monitors.  
   Audio: yes, stereo, unbalanced
   
-  ![](https://upload.wikimedia.org/wikipedia/en/e/e0/Fake-scart-brkn.jpg)  
   _SCART_  
   European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards, including composite video (see also: [S-Video] (README.md#s-video), [RGBS] (README.md#rgbs), [YPbPr] (README.md#component-ypbpr)).  
   Audio: yes, stereo, unbalanced  
@@ -114,7 +111,6 @@ YPbPr signal is often referred to, imprecisely, simply as "component" video, alt
 **Introduced:**  
 **Max resolution:** High Definition (up to 1080p)  
 **Connectors and ports:**  
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Component-cables.jpg/309px-Component-cables.jpg)  
 _RCA_  
 Used primarily with consumer equipment  
 Audio: no
@@ -123,7 +119,6 @@ _BNC_
 Seen with professional broadcast and production equipment, some consumer electronics  
 Audio: no  
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/SCART_20050724_002.jpg/320px-SCART_20050724_002.jpg)  
 _SCART_  
 European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards; a YPbPr pinout is possible with a SCART connector but extremely rare as European monitors generally did not support YPbPr input.  
 Audio: yes, stereo, unbalanced  
@@ -134,7 +129,6 @@ S-Video (sometimes known as "separate video") cables carry video over two synchr
 **Introduced:**  
 **Max resolution:** Standard Definition (generally 480i or 576i)  
 **Connectors and ports:**  
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/S-video-connection.jpg/320px-S-video-connection.jpg)  
 _Mini-DIN 4-pin_  
 The most common type of S-Video connector. The exact same mini-DIN connector is used for the [Apple Desktop Bus] (README.md#apple-desktop-bus) data protocol and these cables are interchangeable.  
 Audio: no  
@@ -143,7 +137,6 @@ _BNC_
 Generally for use in some S-Video patch panels.  
 Audio: no
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/SCART_20050724_002.jpg/320px-SCART_20050724_002.jpg)  
 _SCART_  
 European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards; an S-Video pinout is possible with a SCART connector but rare, as European monitors generally did not support S-Video input.  
 Audio: yes, stereo, unbalanced  
@@ -154,7 +147,6 @@ A component video standard in which luminance and chrominance information is enc
 **Introduced:**  
 **Max resolution:** Generally up to 1080p (HD), but can go beyond  
 **Connectors and ports:**  
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/SCART_20050724_002.jpg/320px-SCART_20050724_002.jpg)  
 _SCART_  
 European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards. RGBS cables most frequently have SCART connectors and vice versa.  
 Audio: yes, stereo, unbalanced  
@@ -165,7 +157,6 @@ A component video standard essentially the same as [RGBS] (README.md#rgbs), exce
 **Introduced:**  
 **Max resolution:** Generally up to 1080p (HD), but can go beyond  
 **Connectors and ports:**  
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Vga-cable.jpg/320px-Vga-cable.jpg)  
 _VGA (DE-15)_  
 A 15-pin D-sub connector commonly offered on modern computers for display connections.  
 Audio: no  
@@ -417,7 +408,6 @@ Used with the most common 40-wire PATA ribbon cables, as well as the more rare 8
 #### Parallel SCSI ####
 Referred to alternately as SCSI (Small Computers Systems Interface) Parallel Interface, SPI, or before the advent of [Serial SCSI] (README.md#serial-scsi), simply SCSI (pronounced "scuzzy"). Unfortunately, Parallel SCSI is not technically a single standard, but a series of almost a dozen related interfaces with ambiguous names ("Fast SCSI", "Ultra SCSI," etc.) and variable bit depths and rates. See the link to a comparison table below. In any case, Parallel SCSI cables were used to connect peripheral devices to computers; unlike PATA, which could only connect a maximum of two devices, a single Parallel SCSI data bus could be attached to up to 8 or 16 devices. The symbol below generally marked a SCSI port on computers.  
 
-![](https://upload.wikimedia.org/wikipedia/commons/6/6e/Scsi_logo.svg)
 
 **Introduced:** 1986  
 **Max bit depth and rate:** See [comparison table] (https://en.wikipedia.org/wiki/Parallel_SCSI#Comparison_table)  
@@ -434,7 +424,6 @@ A singular square-shaped pin contact connector used by Apple for Parallel SCSI c
 #### IEEE 1284 ####
 A standard for parallel communication alternately, and more commonly, referred to as "parallel port", "printer port" or the "Centronics port", as it was originally developed by Centronics to facilitate communication between computers and Centronics-brand dot-matrix printers. Originally unidirectional ("send-only") for sending data from a computer to a printer, but later developed to allow for bidirectional communication, it became a popular alternative to Parallel SCSI for peripherals like floppy drives and network adapters and hard drives as it had cheaper circuitry. A symbol similar to the one below generally marked parallel/printer port connections on computers.  
 
-![](http://www.danielcraig.com/indiana/classes/r521/ports/picts/lptsymbol.gif)  
 
 **Introduced:** 1970s  
 **Max bit depth and rate:**  
@@ -451,7 +440,6 @@ As opposed to [parallel transmission] (README.md#parallel), in serial communicat
 #### RS-232 ####
 Because it was the first serial data protocol to become a standard feature in personal computing, RS-232 was commonly referred to simply as "the serial port." It was used for bidirectional connection to many peripheral computer devices, including modems, printers, mice, external drives, etc. It was also used for remote connection and control of some VTRs. It is referred to as "RS" because it was originally sponsored by the Radio Sector of the Electronic Industries Association - changes in the sponsoring organization have caused the standard to be alternately referred to as EIA-232 and TIA-232. The symbol below generally marked serial port connections on computers.  
 
-![](http://www.danielcraig.com/indiana/classes/r521/ports/picts/comsymbol.gif)  
 
 **Introduced:** 1962  
 **Max bit depth and rate:**  
@@ -504,7 +492,6 @@ Found exclusively with SATA connections to external drives (the "e" stands for "
 #### Apple Desktop Bus ####
 A Macintosh-exclusive computer bus for connecting low-speed peripherals - mice, keyboards, etc. ADB connections were generally marked by the symbol below. 
 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/ADB_Icon.svg/130px-ADB_Icon.svg.png)  
 
 **Introduced:** 1986  
 **Max bit depth and rate:** 125 Kbit/s  
@@ -524,7 +511,6 @@ The only connectors used for PS/2 connections. Often color-coded: green connecto
 #### USB ####
 Short for Universal Serial Bus, designed to standardize connections of computer peripherals after the proliferation of connections in the '80s and early '90s. Used with keyboards, mice, digital cameras, external drives, network adapters, etc. Capable of supplying power to many of these devices in addition to transmitting data. Updates to the original USB 1.0 standard (1.5 Mbit/s at Low Speed, 12 Mbit/s at Full Speed) have represented major shifts in data transmission, usually with accompanied changes in physical connection, so they are elaborated on more below. All advancements in USB have been backwards-compatible (so a USB 3.0 connection can carry USB 2.0 data, etc). Ports are also usually marked by the symbol below.  
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/USB_Icon.svg/320px-USB_Icon.svg.png)  
 
 **Introduced:** 1996  
 
@@ -580,7 +566,6 @@ A reversible, symmetrical design capable of carrying data at 10 Gbit/s (between 
 #### FireWire ####
 Developed by Apple at roughly the same time as [USB] (README.md#usb), for the similar purpose of consolidating connections and improving data transfer speeds. Unlike USB, FireWire does not require the use of a host controller (FireWire-compatible devices can communicate directly to each other without the use of a computer), but it was more costly to implement than USB and therefore never quite as popular. Sometimes referred to as i.Link (in Sony applications) and Lynx (Texas Instruments), as FireWire is technically just the Apple branding of the IEEE 1394 standard. Used for connections to external hard drives, as well as A/V component communication and control. Two major flavors of FireWire were introduced before Apple phased out development of the standard in favor of [ThunderBolt] (README.md#thunderbolt). Ports usually represented by the symbol below.  
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/FireWire_Logo.svg/200px-FireWire_Logo.svg.png)  
 
 ##### FireWire 400 #####
 "IEEE 1394a"  
@@ -604,7 +589,6 @@ Commonly found on Apple computers. Can be adapted to older 6-pin and 4-pin conne
 #### ThunderBolt ####
 Developed by Apple as a replacement for [FireWire] (README.md#firewire-1). Combines computer bus data transmission with the DisplayPort digital video interface, as well as DC power, all over one cable/connection. The first two major versions of ThunderBolt shared a physical connector and had compatible wiring/channels, but the introduction of ThunderBolt 3 has been marked by major shifts in physical interface. Ports usually labelled by the symbol below.  
 
-![](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macpro/thunderbolt_logo.png)  
 
 ##### ThunderBolt 1 and 2 #####
 **Introduced:** 2011; 2013  
