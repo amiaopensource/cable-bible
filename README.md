@@ -77,7 +77,7 @@ Analog audiovisual media record image and sound information as a continuous sign
   **Introduced:** 1956  
   **Max resolution:** Standard Definition (typically 480i or 576i)  
   **Connectors and ports:**  
-  _RCA_  
+  [_RCA_](pinouts.md#rca)  
   Used primarily with consumer equipment (e.g. Betamax, VHS, DVD)  
   Audio: no
   
@@ -111,7 +111,7 @@ YPbPr signal is often referred to, imprecisely, simply as "component" video, alt
 **Introduced:**  
 **Max resolution:** High Definition (up to 1080p)  
 **Connectors and ports:**  
-_RCA_  
+[_RCA_](pinouts.md#rca)  
 Used primarily with consumer equipment  
 Audio: no
 
@@ -303,7 +303,7 @@ Another brand of modular, adaptable connectors. Similar in appearance and use to
 #### Unbalanced ####
 Unbalanced audio cables contain only two wires for any one audio channel: "earth" (electrical ground) and "hot" (the audio signal). These are employed with short cables, internal cables or components (inside sound equipment), or consumer-grade equipment where noise is considered less of an issue.  
 
-_RCA_  
+[_RCA_](pinouts.md#rca)  
 By nature unbalanced connectors as they only have one pin/contact point. Frequently used for the two-channel (left and right) audio output of video decks, especially consumer-grade equipment (in such cases, often color-coded white and red, where white = channel 1/left, red = channel 2, right).  
 
 _1/4" TS jack_  
@@ -344,7 +344,7 @@ Standing for Sony/Philips Digital Interface Format, S/PDIF refers to a consumer-
 
 **Introduced:** 1985  
 **Max resolution:** 20-bit  
-**Wiring, Connectors and Ports:**  
+**Wiring, Connectors and Ports:**
 
 ##### Optical #####
 Fiber optic cables transmit data signals as flashes of light over flexible, transparent fibers made of glass or plastic. In audio applications, they can allow transmission at higher bandwidths without the electromagnetic interference to which metal wires are susceptible. Due to attenuation (the reduction of the intensity of the light over distance), consumer-grade optical audio cables are generally short (5-10 meters).  
@@ -356,7 +356,7 @@ _Mini TOSLINK_
 A smaller version of the TOSLINK connector that is almost the same size and shape of a 1/8" TRS stereo jack. Some combined 1/8" stereo jack and Mini TOSLINK ports exist to accept either digital or analog audio input/output. Mini TOSLINK is generally used with smaller consumer-grade digital audio equipment (e.g. portable CD players).  
 
 ##### Unbalanced #####
-_RCA_  
+[_RCA_](pinouts.md#rca)  
 The S/PDIF protocol can also be found in consumer audio installations with two-contact RCA connectors over unbalanced coax cables. Such S/PDIF connectors are usually color-coded orange to differentiate them from analog audio and video cables that employ RCA.  
 
 #### MIDI ####
