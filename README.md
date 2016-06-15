@@ -81,7 +81,7 @@ Analog audiovisual media record image and sound information as a continuous sign
   Used primarily with consumer equipment (e.g. Betamax, VHS, DVD)  
   Audio: no
   
-  _BNC_  
+  [_BNC_](pinouts.md#bnc)  
   Used in professional broadcast and some consumer equipment  
   Audio: no
   
@@ -97,11 +97,11 @@ Analog audiovisual media record image and sound information as a continuous sign
   Originally developed for manually switching signals in radar installations; now commonly used for patch bays in production and preservation workflows.  
   Audio: no
   
-  _8-pin EIAJ_  
+  [_8-pin EIAJ_](pinouts.md#8-pin-eiaj)  
   Monitor cables designed specifically to carry both input and output signal between a video deck and monitor over the same cable. Seen on 1/2" open reel decks (the only available output on Sony CVs), 3/4" U-matic, and contemporary monitors.  
   Audio: yes, stereo, unbalanced
   
-  _SCART_  
+  [_SCART_](pinouts.md#scart)  
   European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards, including composite video (see also: [S-Video] (README.md#s-video), [RGBS] (README.md#rgbs), [YPbPr] (README.md#component-ypbpr)).  
   Audio: yes, stereo, unbalanced  
   
@@ -115,11 +115,11 @@ YPbPr signal is often referred to, imprecisely, simply as "component" video, alt
 Used primarily with consumer equipment  
 Audio: no
 
-_BNC_  
+[_BNC_](pinouts.md#bnc)  
 Seen with professional broadcast and production equipment, some consumer electronics  
 Audio: no  
 
-_SCART_  
+[_SCART_](pinouts.md#scart)  
 European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards; a YPbPr pinout is possible with a SCART connector but extremely rare as European monitors generally did not support YPbPr input.  
 Audio: yes, stereo, unbalanced  
 
@@ -129,15 +129,15 @@ S-Video (sometimes known as "separate video") cables carry video over two synchr
 **Introduced:**  
 **Max resolution:** Standard Definition (generally 480i or 576i)  
 **Connectors and ports:**  
-_Mini-DIN 4-pin_  
+[_Mini-DIN 4-pin_](pinouts.md#mini-din-4-pin)  
 The most common type of S-Video connector. The exact same mini-DIN connector is used for the [Apple Desktop Bus] (README.md#apple-desktop-bus) data protocol and these cables are interchangeable.  
 Audio: no  
 
-_BNC_  
+[_BNC_](pinouts.md#bnc)  
 Generally for use in some S-Video patch panels.  
 Audio: no
 
-_SCART_  
+[_SCART_](pinouts.md#scart)  
 European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards; an S-Video pinout is possible with a SCART connector but rare, as European monitors generally did not support S-Video input.  
 Audio: yes, stereo, unbalanced  
 
@@ -147,7 +147,7 @@ A component video standard in which luminance and chrominance information is enc
 **Introduced:**  
 **Max resolution:** Generally up to 1080p (HD), but can go beyond  
 **Connectors and ports:**  
-_SCART_  
+[_SCART_](pinouts.md#scart)  
 European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards. RGBS cables most frequently have SCART connectors and vice versa.  
 Audio: yes, stereo, unbalanced  
 
@@ -157,23 +157,23 @@ A component video standard essentially the same as [RGBS] (README.md#rgbs), exce
 **Introduced:**  
 **Max resolution:** Generally up to 1080p (HD), but can go beyond  
 **Connectors and ports:**  
-_VGA (DE-15)_  
+[_VGA (DE-15)_](pinouts.md#de-15)  
 A 15-pin D-sub connector commonly offered on modern computers for display connections.  
 Audio: no  
 
-_Mini-VGA_  
+[_Mini-VGA_](pinouts.md#mini-vga)  
 Used to adapt VGA/RGBVH signals input and output for laptop computers.  
 Audio: no  
 
-_BNC_  
+[_BNC_](pinouts.md#bnc)  
 Found with some high-end monitors and video cards. Wires are usually color-coded, though the colors used for the two sync signals sometimes varies: e.g. yellow (H) and white (V), yellow (H) and black (V), gray (H) and black (V).  
 Audio: no  
 
-_DVI-A_  
+[_DVI-A_](pinouts.md#dvi)  
 Much more frequently found in its [DVI-D] (README.md#dvi) and [DVI-I] (README.md#DVI-I) flavors, Digital Video Interface (DVI) is designed to transmit uncompressed digital video information, but can be compatible with analog RGBVH video through the VGA interface. DVI-A (analog) cables and connectors are essentially the same electrically as VGA cables and connectors.  
 Audio: no  
 
-_Mini-DVI_  
+[_Mini-DVI_](pinouts.md#mini-dvi)  
 Used on certain Apple computers, especially laptops, to accept a DVI-A/VGA connection.  
 Audio: no  
 
@@ -186,7 +186,7 @@ Serial Digital Interface (SDI) actually refers to a family of SMPTE interface st
 **Introduced:** 1989  
 **Max resolution and data rate:** As of 2015, the 12G-SDI standard allows up to 2160p60 video at 12 Gb/s  
 **Connectors and ports:**  
-_BNC_  
+[_BNC_](pinouts.md#bnc)  
 SDI-compatible equipment almost always employ BNC connections, especially in broadcast/production environments. Note: even though they use the same connectors, SDI coax cables using BNC are wired differently than composite/component video cables that use BNC, and the two are not interchangeable.  
 Audio: yes
 
@@ -199,7 +199,7 @@ IEEE 1394, referred to as "FireWire," was developed by Apple as an interface for
 **Introduced:** 1994  
 **Max resolution and data rate:** Standard Definiton, 100 Mb/s  
 **Connectors and ports:**  
-_4-pin_  
+[_4-pin_](pinouts.md#firewire)  
 The smallest type of FireWire connector - found on DV cameras.  
 Audio: yes  
 
@@ -208,15 +208,15 @@ Digital Video Interface (DVI) was designed to transmit uncompressed digital vide
 **Introduced:** 1999  
 **Max resolution and data rate:**  _Single Link_: 1920x1200, 4.95 Gb/s, _Dual Link_: 2560x1600, 9.90 Gb/s  
 **Connectors and ports:**  
-_DVI-D Single Link_  
+[_DVI-D Single Link_](pinouts.md#dvi)  
 Employs a single transmitter to support 1920x1200 resolution digital video. Notably missing the 4 pins present in DVI-A and DVI-A to carry analog video signal.  
 Audio: no  
 
-_DVI-D Dual Link_  
+[_DVI-D Dual Link_](pinouts.md#dvi)  
 The same as DVI-D Single Link connectors, except with six additional pins in the center of the connector/port to increase bandwidth and support higher resolutions.  
 Audio: no  
 
-_Mini-DVI_  
+[_Mini-DVI_](pinouts.md#mini-dvi)  
 Used on some laptops, especially Apple products, to accept a DVI-D signal.  
 Audio: no  
 
@@ -229,11 +229,11 @@ A digital display interface standard developed by the Video Electronics Standard
 **Introduced:** 2008  
 **Max video resolution and data rate:** _1.0/1.1_: 1.62 Gb/s, _1.2_: 2.7 Gb/s, _1.3_: 8K UHD, 5.4 Gb/s, _1.4_: 8K UHD, 8.1 Gb/s
 **Connectors and ports:**  
-_DisplayPort (20-pin)_  
+[_DisplayPort (20-pin)_](pinouts.md#displayport)  
 The full-size, 20-pin DisplayPort connection used for external connections on desktop computers, graphics cards, monitors, etc.
 Audio: yes, optionally (use of channels for audio signal will limit bandwidth, resolution available for video)  
 
-_Mini DisplayPort_  
+[_Mini DisplayPort_](pinouts.md#displayport)  
 Miniaturized version of the DisplayPort connector developed by Apple. Used on Apple products, especially laptops, from 2008 to the present (from ~2011 on, paired with the DisplayPort-compatible [ThunderBolt] (README.md#thunderbolt) protocol). Licensed out to many PC manufacturers as well.  
 Audio: yes (if used in conjunction with an audio-capable DisplayPort or HDMI cable)  
 
@@ -242,15 +242,15 @@ High-Definition Multimedia Interface (HDMI) is a proprietary interface for trans
 **Introduced:** 2002  
 **Max video resolution and data rate:** _1.0/1.1/1.2_: 1920x1200p, 4.95 Gb/s, _1.3/1.4_: 2560x1600p, 10.2 Gb/s, _2.0_: 4096x1600p, 18 Gb/s  
 **Connectors and ports:**  
-_Type A ("Standard","Full Size")_  
+[_Type A ("Standard","Full Size")_](pinouts.md#hdmi)  
 Generally used for HDMI input/output on television/computer monitors and desktops.  
 Audio: yes  
 
-_Type B ("Mini")_  
+[_Type C ("Mini")_](pinouts.md#hdmi)  
 Employed starting with HDMI Version 1.3 - designed for smaller, portable equipment such as laptops.  
 Audio: yes  
 
-_Type C ("Micro")_  
+[_Type D ("Micro")_](pinouts.md#hdmi)  
 Released starting with HDMI Version 1.4, intended for use with cell phones/smart phones.  
 Audio: yes  
 
@@ -259,15 +259,15 @@ There is no such thing as a signal that combines analog and digital data in the 
 
 #### DVI-I ####
 DVI are backwards-compatible to allow for the transmission of analog RGBVH data via the VGA standard. The cable is the same as that employed by [DVI-A] (README.md#rgbvh) (analog-only) or [DVI-D] (README.md#dvi) (digital only), the difference with DVI-I is merely in the compatible connectors and ports.  
-_Single-Link DVI-I_  
+[_Single-Link DVI-I_](pinouts.md#dvi)  
 Contains pins that allow for an analog VGA signal or digital video at up to 1920x1200 resolution.  
 Audio: no  
 
-_Dual-Link DVI-I_  
+[_Dual-Link DVI-I_](pinouts.md#dvi)  
 The same as Single-Link DVI-I, but adds six pins in the middle of the connector for increased digital video resolution up to 2560x1600.  
 Audio: no  
 
-_Mini-DVI_  
+[_Mini-DVI_](pinouts.md#dvi)  
 Can connect either an analog or digital signal to an Apple laptop, as long as the proper adapter is used in conjunction with a DVI cable with DVI-A, DVI-D or DVI-I connectors.  
 Audio: no  
 
@@ -282,16 +282,16 @@ Balanced coaxial audio cables contain three wires: "earth" (electrical ground), 
 
 Reducing analog audio noise is an issue primarily with longer cables, or in professional/broadcast or preservation environments, where the absolute integrity of the audio signal is more highly valued than on consumer equipment.  
 
-_1/4" TRS jack (mono)_  
+[_1/4" TRS jack (mono)_](pinouts.md#tip-ring-sleeve)  
 Also known as a "phone connector" for its use for many years to patch telephone connections. TRS stands for "Tip-Ring-Sleeve", referring to the three contacts on the jack (for the three wires, earth, hot and cold, present in balanced wiring). Often found with speakers, amps, some video equipment that produces monaural audio.  
 
-_1/8" TRS "mini" jack (mono)_  
+[_1/8" TRS "mini" jack (mono)_](pinouts.md#tip-ring-sleeve)  
 Essentially the same in design as the 1/4" jack, just smaller. Used sometimes for balanced mono audio with computers or portable devices.  
 
-_Tiny Telephone (TT)/Bantam jack_  
+[_Tiny Telephone (TT)/Bantam jack_](pinouts.md#tip-ring-sleeve)  
 TT (also called bantam) jacks are smaller than 1/4" but larger than 1/8" jacks (approx 4.40mm). Frequently employed with patch bays in professional audio recording and preservation environments. TT jacks are most commonly found with TRS design on balanced mono cables, but unbalanced or stereo versions are possible.  
 
-_XLR_  
+[_XLR_](pinouts.md#xlr)  
 A three-pin connector favored for long balanced cables in pro audio equipment.  
 
 _Phoenix_  
@@ -306,19 +306,19 @@ Unbalanced audio cables contain only two wires for any one audio channel: "earth
 [_RCA_](pinouts.md#rca)  
 By nature unbalanced connectors as they only have one pin/contact point. Frequently used for the two-channel (left and right) audio output of video decks, especially consumer-grade equipment (in such cases, often color-coded white and red, where white = channel 1/left, red = channel 2, right).  
 
-_1/4" TS jack_  
+[_1/4" TS jack_](pinouts.md#tip-sleeve)  
 TS (Tip/Sleeve) jacks are exactly the same in appearance as balanced 1/4" TRS jacks, except missing the "ring" contact point and cold wire. Often used for the output on musical instruments such as electric guitars.  
 
-_1/8" TS "mini" jack_  
+[_1/8" TS "mini" jack_](pinouts.md#tip-sleeve)  
 Smaller version of the unbalanced 1/4" TS jack. Seen with [???]  
 
-_1/4" TRS jack (stereo)_  
+[_1/4" TRS jack (stereo)_](pinouts.md#tip-ring-sleeve)  
 By all outward appearance, the same as the 1/4" TRS jacks used for balanced mono cables, except in the case of unbalanced stereo the three contact points are used for ground and two channels of audio, rather than ground and hot/cold versions of one audio channel. Often seen with professional headphones, and stereo microphone/monitor connections on professional video decks.  
 
-_1/8" TRS "mini" jack (stereo)_  
+[_1/8" TRS "mini" jack (stereo)_](pinouts.md#tip-ring-sleeve)  
 See above. Frequently used for stereo output on portable audio devices - also on computer sound cards for line-in/line-out connections (to/from headphones, microphones, speakers, etc).  
 
-_DIN 5-pin_  
+[_DIN 5-pin_](pinouts.md#din-5-pin)  
 Similar to the purpose of the 8-pin video monitor cable/connector, DIN 5-pins were used to carry both the audio input and output of a piece of equipment over the same cable/connection. Could carry mono or stereo signal.  
 
 ### Digital ###
@@ -332,11 +332,11 @@ AES-3 is a standard for the exchange of digital audio signals developed in conju
 **Wiring, Connectors and Ports:**  
 
 ##### Balanced #####
-_XLR_  
+[_XLR_](pinouts.md#xlr)  
 The most common variant of AES-3 connection, found with professional installations and equipment.  
 
 ##### Unbalanced #####
-_BNC_  
+[_BNC_](pinouts.md#bnc)  
 A variant of AES-3 with lower (75-ohm vs balanced XLR's 110-ohm) electrical impedence. Sometimes found in broadcast applications as it uses the same cabling infrastructure as digital video, so it can be convenient for patch bays that employ BNC connections.  
 
 #### SPDIF ####
@@ -415,7 +415,7 @@ Referred to alternately as SCSI (Small Computers Systems Interface) Parallel Int
 _50-pin micro-ribbon_  
 Micro ribbon or miniature ribbon connectors have a similar shielded design to the D-sub family of connectors, but used a different kind of contact known as ribbon contacts rather than pin contacts. There are various configurations that were used with Parallel SCSI but the most common variety was a 50-contact micro-ribbon connector. These connectors were often referred to by the brand name of the company that manufactured them: for instance, Amphenol-50, IDC-50, CN-50 (Centronics).  
 
-_DB-25_  
+[_DB-25_](pinouts.md#db-25)  
 A D-sub connector used by Apple for Parallel SCSI connections on their early desktop computers.  
 
 _HDI-30_  
@@ -428,7 +428,7 @@ A standard for parallel communication alternately, and more commonly, referred t
 **Introduced:** 1970s  
 **Max bit depth and rate:**  
 **Connectors and ports:**  
-_DB-25_  
+[_DB-25_](pinouts.md#db-25)  
 A D-sub connection, usually used for the host (computer) end of a parallel port cable/connection.  
 
 _36-pin micro-ribbon_  
@@ -444,16 +444,16 @@ Because it was the first serial data protocol to become a standard feature in pe
 **Introduced:** 1962  
 **Max bit depth and rate:**  
 **Connectors and ports:**  
-_DB-25_  
+[_DB-25_](pinouts.md#db-25)  
 The RS-232 standard recommends a 25-pin D-sub connector but did not make it mandatory - therefore it is by far the most common type of connector for both host computers and peripherals but not exclusive.  
 
-_DB-15_  
+[_DB-15_](pinouts.md#db-15)  
 Found with RS-232 connections on some modems (on the modem end).  
 
 _DB-9_  
 Found with RS-232 connections with some modems, printers, peripherals (on the host computer end).  
 
-_DE-9_  
+[_DE-9_](pinouts.md#de-9)  
 Found with RS-232 connections on early mice and keyboards.  
 
 #### RS-422 ####
@@ -462,10 +462,10 @@ An improvement to the RS-232 standard to increase transmit speeds and/or maximum
 **Introduced:** 1996  
 **Max bit depth and rate:** 10Mbit/s  
 **Connectors and ports:**  
-_DE-9_  
+[_DE-9_](pinouts.md#de-9)  
 Found on later VTRs, especially Sony models.  
 
-_Mini-DIN 8-pin_  
+[_Mini-DIN 8-pin_](pinouts.md#mini-din-8-pin)  
 An RS-232 compatible variant of RS-422 widely used on Macintosh hardware.  
 
 #### Serial SCSI ####
@@ -486,7 +486,7 @@ Developed to replace [Parallel ATA] (README.md#pata), Serial ATA is used to conn
 **Introduced:** 2003  
 **Max bit depth and rate:** Originally 1.5 Gbit/s, now up to 16 Gbit/s  
 **Connectors and ports:**  
-_eSATA_  
+[_eSATA_](pinouts.md#esata)  
 Found exclusively with SATA connections to external drives (the "e" stands for "external").  
 
 #### Apple Desktop Bus ####
@@ -496,7 +496,7 @@ A Macintosh-exclusive computer bus for connecting low-speed peripherals - mice, 
 **Introduced:** 1986  
 **Max bit depth and rate:** 125 Kbit/s  
 **Connectors and ports:**  
-_Mini-DIN 4-pin_  
+[_Mini-DIN 4-pin_](pinouts.md#mini-din-4-pin)  
 The exact same connector used for [S-Video] (README.md#s-video) connections and the cables are interchangeable. ADB cables usually were marked by the symbol above.  
 
 #### PS2 ####
@@ -505,7 +505,7 @@ A PC-compatible low-speed computer bus for peripherals like mice, keyboards, etc
 **Introduced:** 1987  
 **Max bit depth and rate:**  
 **Connectors and ports:**  
-_Mini-DIN 6-pin_  
+[_Mini-DIN 6-pin_](pinouts.md#mini-din-6-pin)  
 The only connectors used for PS/2 connections. Often color-coded: green connectors were used for mice and purple for keyboards.  
 
 #### USB ####
@@ -519,25 +519,25 @@ Short for Universal Serial Bus, designed to standardize connections of computer 
 **Introduced:** 2000  
 **Max bit depth and rate:** 480 Mbit/s  
 **Connectors and ports:**  
-_Type A_  
+[_Type A_](pinouts.md#usb-20)  
 Found with USB host controllers, i.e. computers and hubs. Uses flat pins to withstand repeated attachment and removal.  
 
-_Type B_  
+[_Type B_](pinouts.md#usb-20)  
 An "upstream" connection intended for use on USB-compatible peripheral devices (thus, the majority of USB 2.0 connections require a Type A-to-Type B cable).  
 
-_Mini Type A_  
+[_Mini Type A_](pinouts.md#usb-20)  
 Designed to slim down the Type A interface for use with mobile devices; quickly deprecated by the USB Implementers Forum (which guides specification and compliance of the USB protocol), meaning only a handful of certified devices ever used Mini Type A connections.  
 
-_Mini Type B 5-pin_  
+[_Mini Type B 5-pin_](pinouts.md#usb-20)  
 Designed to slim down the Type B interface for use with mobile devices (PDAs, digital cameras, etc.)
 
 _Mini Type B 4-pin_  
 An unofficial implementation of USB (never supported by the USB-IF), used with some digital cameras, particularly Kodak models.  
 
-_Micro Type A_  
+[_Micro Type A_](pinouts.md#usb-20)  
 Used on mobile devices such as cellphones, digital cameras, GPS units, etc. Smaller than Mini Type connections and identified by white-colored receptacle with 5 pins.  
 
-_Micro Type B_  
+[_Micro Type B_](pinouts.md#usb-20)  
 Used on mobile devices such as cellphones, digital cameras, GPS units, etc. Smaller than Mini Type connections and identified by black-colored receptacle with 5 pins.  
 
 ##### USB 3.0 #####
@@ -546,13 +546,13 @@ Used on mobile devices such as cellphones, digital cameras, GPS units, etc. Smal
 **Max bit depth and rate:** 5 Gbit/s  
 **Connectors and ports:**  
 
-_Type A_  
+[_Type A_](pinouts.md#usb-30)  
 Similar in sixe, shape, appearance to USB 2.0 Type A, though it has additional pins. Typically colored blue to differentiate from USB 2.0 Type A connections.  
 
-_Type B_  
+[_Type B_](pinouts.md#usb-30)  
 A boxy connection similar in appearance to USB 2.0 Type B, but (unlike Type A) not physically compatible with its preceding equivalent. Therefore cables with a USB 3.0 Type B connector are not compatible with devices with a USB 2.0 Type B port; however devices with a USB 3.0 Type B port _will_ accept USB 2.0 Type B cables. Usually colored blue.  
 
-_Micro Type B_  
+[_Micro Type B_](pinouts.md#usb-30)  
 A connection totally unique to USB 3.0 cables and devices, incompatible with previous USB devices.  
 
 ##### USB 3.1 #####
@@ -560,7 +560,7 @@ A connection totally unique to USB 3.0 cables and devices, incompatible with pre
 **Introduced:** 2013  
 **Max bit depth and rate:** 10 Gbit/s  
 **Connectors and ports:**  
-_Type C_  
+[_Type C_](pinouts.md#usb-31)  
 A reversible, symmetrical design capable of carrying data at 10 Gbit/s (between two USB 3.1-compatible devices), power, and built-in support for DisplayPort video and four channels of audio. Increasingly found as a charging/data port for PC laptops and Apple laptops via the [ThunderBolt] (README.md#thunderbolt-3) protocol.  
 
 #### FireWire ####
@@ -572,10 +572,10 @@ Developed by Apple at roughly the same time as [USB] (README.md#usb), for the si
 **Introduced:** 1995  
 **Max bit depth and rate:** 400 Mbit/s  
 **Connectors and ports:**  
-_6-pin_  
+[_6-pin_](pinouts.md#firewire)  
 Can carry DC power in addition to data; thus 6-pin connections are usually found on devices that can provide power, e.g. computers.  
 
-_4-pin_  
+[_4-pin_](pinouts.md#firewire)  
 Can only carry data, no power, thus found on peripherals and devices with their own power supply, such as DV cameras, certain external hard drives.  
 
 ##### FireWire 800 #####
@@ -583,7 +583,7 @@ Can only carry data, no power, thus found on peripherals and devices with their 
 **Introduced:** 2002  
 **Max bit depth and rate:** 800 Mbit/s  
 **Connectors and ports:**  
-_9-pin_  
+[_9-pin_](pinouts.md#firewire)  
 Commonly found on Apple computers. Can be adapted to older 6-pin and 4-pin connectors, but data transfer will be limited to the old 400 Mbit/s rate.  
 
 #### ThunderBolt ####
@@ -594,14 +594,14 @@ Developed by Apple as a replacement for [FireWire] (README.md#firewire-1). Combi
 **Introduced:** 2011; 2013  
 **Max bit depth and rate:** 10 Gbit/s; 20 Gbit/s  
 **Connectors and ports:**  
-_Mini DisplayPort_  
+[_Mini DisplayPort_](pinouts.md#displayport)  
 The ThunderBolt protocol was designed to be compatible with the Mini DisplayPort connections already present since 2008 on many Apple computers. Saved Apple from a major redesign for several years.  
 
 ##### ThunderBolt 3 #####
 **Introduced:** 2015  
 **Max bit depth and rate:** 40 Gbit/s  
 **Connectors and ports:**  
-_USB Type C_  
+[_USB Type C_](pinouts.md#usb-31)  
 Because of its capability for transferring data, digital video/audio and power all over the same connection, Apple adapted the USB Type C connector to its ThunderBolt protocol and has started using the connection as the single port on its latest MacBook Air products.  
 
 #### HDBaseT ####
