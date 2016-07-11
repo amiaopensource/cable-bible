@@ -77,6 +77,8 @@ Analog audiovisual media record image and sound information as a continuous sign
   **Introduced:** 1956  
   **Max resolution:** Standard Definition (typically 480i or 576i)  
   **Connectors and ports:**  
+  
+  ![](images/composite_RCA.jpg)  
   [_RCA_](pinouts.md#rca)  
   Used primarily with consumer equipment (e.g. Betamax, VHS, DVD)  
   Audio: no
@@ -89,6 +91,7 @@ Analog audiovisual media record image and sound information as a continuous sign
   A WWII-era connector design originally intended for video connections in radar applications. Used with late-period 1/2" open reel decks (e.g. Sony AV decks) and some early 3/4" U-matic players.  
   Audio: no  
   
+  ![](images/composite_F-type.jpg)  
   _F-type_  
   Found in North American television antenna, cable and satellite television installations; some older VCRs  
   Audio: no
@@ -101,6 +104,7 @@ Analog audiovisual media record image and sound information as a continuous sign
   Monitor cables designed specifically to carry both input and output signal between a video deck and monitor over the same cable. Seen on 1/2" open reel decks (the only available output on Sony CVs), 3/4" U-matic, and contemporary monitors.  
   Audio: yes, stereo, unbalanced
   
+  ![](images/SCART.jpg)  
   [_SCART_](pinouts.md#scart)  
   European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards, including composite video (see also: [S-Video] (README.md#s-video), [RGBS] (README.md#rgbs), [YPbPr] (README.md#component-ypbpr)).  
   Audio: yes, stereo, unbalanced  
@@ -111,6 +115,8 @@ YPbPr signal is often referred to, imprecisely, simply as "component" video, alt
 **Introduced:**  
 **Max resolution:** High Definition (up to 1080p)  
 **Connectors and ports:**  
+
+![](images/component_rca.jpg)  
 [_RCA_](pinouts.md#rca)  
 Used primarily with consumer equipment  
 Audio: no
@@ -129,6 +135,8 @@ S-Video (sometimes known as "separate video") cables carry video over two synchr
 **Introduced:**  
 **Max resolution:** Standard Definition (generally 480i or 576i)  
 **Connectors and ports:**  
+
+![](images/S-video.jpg)  
 [_Mini-DIN 4-pin_](pinouts.md#mini-din-4-pin)  
 The most common type of S-Video connector. The exact same mini-DIN connector is used for the [Apple Desktop Bus] (README.md#apple-desktop-bus) data protocol and these cables are interchangeable.  
 Audio: no  
@@ -147,6 +155,8 @@ A component video standard in which luminance and chrominance information is enc
 **Introduced:**  
 **Max resolution:** Generally up to 1080p (HD), but can go beyond  
 **Connectors and ports:**  
+
+![](images/SCART.jpg)  
 [_SCART_](pinouts.md#scart)  
 European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards. RGBS cables most frequently have SCART connectors and vice versa.  
 Audio: yes, stereo, unbalanced  
@@ -157,10 +167,12 @@ A component video standard essentially the same as [RGBS] (README.md#rgbs), exce
 **Introduced:**  
 **Max resolution:** Generally up to 1080p (HD), but can go beyond  
 **Connectors and ports:**  
+
 [_VGA (DE-15)_](pinouts.md#de-15)  
 A 15-pin D-sub connector commonly offered on modern computers for display connections.  
 Audio: no  
 
+![](images/VGA-mini.jpg)  
 [_Mini-VGA_](pinouts.md#mini-vga)  
 Used to adapt VGA/RGBVH signals input and output for laptop computers.  
 Audio: no  
@@ -199,6 +211,8 @@ IEEE 1394, referred to as "FireWire," was developed by Apple as an interface for
 **Introduced:** 1994  
 **Max resolution and data rate:** Standard Definiton, 100 Mb/s  
 **Connectors and ports:**  
+
+![](images/firewire_4-pin.jpg)  
 [_4-pin_](pinouts.md#firewire)  
 The smallest type of FireWire connector - found on DV cameras.  
 Audio: yes  
@@ -208,6 +222,8 @@ Digital Video Interface (DVI) was designed to transmit uncompressed digital vide
 **Introduced:** 1999  
 **Max resolution and data rate:**  _Single Link_: 1920x1200, 4.95 Gb/s, _Dual Link_: 2560x1600, 9.90 Gb/s  
 **Connectors and ports:**  
+
+![](images/dvi-d_single_link.jpg)  
 [_DVI-D Single Link_](pinouts.md#dvi)  
 Employs a single transmitter to support 1920x1200 resolution digital video. Notably missing the 4 pins present in DVI-A and DVI-A to carry analog video signal.  
 Audio: no  
@@ -229,6 +245,7 @@ A digital display interface standard developed by the Video Electronics Standard
 **Introduced:** 2008  
 **Max video resolution and data rate:** _1.0/1.1_: 1.62 Gb/s, _1.2_: 2.7 Gb/s, _1.3_: 8K UHD, 5.4 Gb/s, _1.4_: 8K UHD, 8.1 Gb/s
 **Connectors and ports:**  
+
 [_DisplayPort (20-pin)_](pinouts.md#displayport)  
 The full-size, 20-pin DisplayPort connection used for external connections on desktop computers, graphics cards, monitors, etc.
 Audio: yes, optionally (use of channels for audio signal will limit bandwidth, resolution available for video)  
@@ -263,6 +280,7 @@ DVI are backwards-compatible to allow for the transmission of analog RGBVH data 
 Contains pins that allow for an analog VGA signal or digital video at up to 1920x1200 resolution.  
 Audio: no  
 
+![](images/dvi-i_dual_link.jpg)  
 [_Dual-Link DVI-I_](pinouts.md#dvi)  
 The same as Single-Link DVI-I, but adds six pins in the middle of the connector for increased digital video resolution up to 2560x1600.  
 Audio: no  
@@ -572,9 +590,12 @@ Developed by Apple at roughly the same time as [USB] (README.md#usb), for the si
 **Introduced:** 1995  
 **Max bit depth and rate:** 400 Mbit/s  
 **Connectors and ports:**  
+
+![](images/firewire_6-pin.jpg)  
 [_6-pin_](pinouts.md#firewire)  
 Can carry DC power in addition to data; thus 6-pin connections are usually found on devices that can provide power, e.g. computers.  
 
+![](images/firewire_4-pin.jpg)  
 [_4-pin_](pinouts.md#firewire)  
 Can only carry data, no power, thus found on peripherals and devices with their own power supply, such as DV cameras, certain external hard drives.  
 
