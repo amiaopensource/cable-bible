@@ -4,8 +4,10 @@ A comprehensive guide to cables and connectors potentially used for audiovisual/
 ## Contribute ##
 Please feel free to clone this repository or create a new branch with your own additions of signal types, interfaces or connectors you think we're missing (there's a lot!). There are already some checklists under the [Issue] (https://github.com/amiaopensource/cable-bible/issues) page that show what at least needs to be filled in from the current TOC. Submit a pull request so that someone can review your changes and make sure that everything remains at least somewhat orderly - or if you're not so comfortable with github but have photos or information that you think should be added, please submit an issue and I'll update when I can!
 
-## License ##
+## License and Attribution ##
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+
+Images pulled from the web are reused here under principle of fair use - they have all been downloaded and uploaded to this repository for the sake of stability, but original URLs are provided in mouse-over text.
 
 ## Table of Contents ##
 
@@ -78,37 +80,37 @@ Analog audiovisual media record image and sound information as a continuous sign
   **Max resolution:** Standard Definition (typically 480i or 576i)  
   **Connectors and ports:**  
   
-  ![](images/composite_RCA.jpg) ![](images/Video/composite_rca_bottle.jpg)  
+  ![](images/composite_RCA.jpg "https://upload.wikimedia.org/wikipedia/commons/c/cd/Composite-video-cable.jpg") ![](images/Video/composite_rca_bottle.jpg "http://www.doom9.org/capture/images/CompositeJack.jpeg")  
   [_RCA_](pinouts.md#rca)  
   Used primarily with consumer equipment (e.g. Betamax, VHS, DVD)  
   Audio: no
   
-  ![](images/Video/BNC_cork.jpg) ![](images/Video/composite_bnc_bottle.jpg)  
+  ![](images/Video/BNC_cork.jpg "http://blog.dvrunlimited.com/wp-content/uploads/2013/09/BNC_connector_male.jpg") ![](images/Video/composite_bnc_bottle.jpg "http://s3.showmecables.com/images/catalog/product/FME-Female-to-BNC-Female-Adaptor.jpg")   
   [_BNC_](pinouts.md#bnc)  
   Used in professional broadcast and some consumer equipment  
   Audio: no
   
-  ![](images/Video/composite_UHF_cork.jpg) ![](images/Video/composite_uhf_bottle.jpg)  
+  ![](images/Video/composite_UHF_cork.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/UHF-Connector.png/250px-UHF-Connector.png") ![](images/Video/composite_uhf_bottle.jpg "http://ecx.images-amazon.com/images/I/41QIUVFJkbL.jpg")  
   _UHF_  
   A WWII-era connector design originally intended for video connections in radar applications. Used with late-period 1/2" open reel decks (e.g. Sony AV decks) and some early 3/4" U-matic players.  
   Audio: no  
   
-  ![](images/composite_F-type.jpg) ![](images/Video/composite_f-type_bottle.jpg)  
+  ![](images/composite_F-type.jpg) ![](images/Video/composite_f-type_bottle.jpg "http://www.cutcabletoday.com/wp-content/uploads/2015/03/coax-jack.jpg")  
   _F-type_  
   Found in North American television antenna, cable and satellite television installations; some older VCRs  
   Audio: no
   
-  ![](images/Video/composite_video-patch_cork.jpg) ![](images/Video/composite_video-patch_bottle.jpg)  
+  ![](images/Video/composite_video-patch_cork.jpg "http://www.bhphotovideo.com/images/images2500x2500/Canare_VPC006F_Video_Patch_Cable_154113.jpg") ![](images/Video/composite_video-patch_bottle.jpg)  
   _Video patch (MUSA)_  
   Originally developed for manually switching signals in radar installations; now commonly used for patch bays in production and preservation workflows.  
   Audio: no
   
-  ![](images/Video/composite_eiaj_cork.jpg) ![](images/Video/composite_eiaj_bottle.jpg)  
+  ![](images/Video/composite_eiaj_cork.jpg "http://www.markertek.com/productImage/HI-RES/E8M.JPG") ![](images/Video/composite_eiaj_bottle.jpg "http://www.markertek.com/productImage/450X450/E8FCM.JPG")  
   [_8-pin EIAJ_](pinouts.md#8-pin-eiaj)  
   Monitor cables designed specifically to carry both input and output signal between a video deck and monitor over the same cable. Seen on 1/2" open reel decks (the only available output on Sony CVs), 3/4" U-matic, and contemporary monitors.  
   Audio: yes, stereo, unbalanced
   
-  ![](images/SCART.jpg) ![](images/Video/scart_bottle.jpg)  
+  ![](images/SCART.jpg "https://upload.wikimedia.org/wikipedia/commons/1/11/SCART_20050724_002.jpg") ![](images/Video/scart_bottle.jpg "http://img.publish.it168.com/2005/1201/images/526200.jpg")  
   [_SCART_](pinouts.md#scart)  
   European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards, including composite video (see also: [S-Video] (README.md#s-video), [RGBS] (README.md#rgbs), [YPbPr] (README.md#component-ypbpr)).  
   Audio: yes, stereo, unbalanced  
@@ -120,17 +122,17 @@ YPbPr signal is often referred to, imprecisely, simply as "component" video, alt
 **Max resolution:** High Definition (up to 1080p)  
 **Connectors and ports:**  
 
-![](images/component_rca.jpg) ![](images/Video/component_rca_bottle.jpg)  
+![](images/component_rca.jpg "https://upload.wikimedia.org/wikipedia/commons/1/1d/Component-cables.jpg") ![](images/Video/component_rca_bottle.jpg "https://upload.wikimedia.org/wikipedia/commons/e/ef/Component_video_jack.jpg")  
 [_RCA_](pinouts.md#rca)  
 Used primarily with consumer equipment  
 Audio: no
 
-![](images/Video/component_bnc_cork.jpg) ![](images/Video/component_bnc_bottle.jpg)  
+![](images/Video/component_bnc_cork.jpg "http://s3.showmecables.com/images/catalog/product/Python-3-BNC-To-3-RCA-Component-Video-Cable-4.jpg") ![](images/Video/component_bnc_bottle.jpg "http://salestores.com/stores/images/images_747/AVOV3HDF.jpg")  
 [_BNC_](pinouts.md#bnc)  
 Seen with professional broadcast and production equipment, some consumer electronics  
 Audio: no  
 
-![](images/SCART.jpg) ![](images/Video/scart_bottle.jpg)  
+![](images/SCART.jpg "https://upload.wikimedia.org/wikipedia/commons/1/11/SCART_20050724_002.jpg") ![](images/Video/scart_bottle.jpg "http://img.publish.it168.com/2005/1201/images/526200.jpg")  
 [_SCART_](pinouts.md#scart)  
 European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards; a YPbPr pinout is possible with a SCART connector but extremely rare as European monitors generally did not support YPbPr input.  
 Audio: yes, stereo, unbalanced  
@@ -142,17 +144,17 @@ S-Video (sometimes known as "separate video") cables carry video over two synchr
 **Max resolution:** Standard Definition (generally 480i or 576i)  
 **Connectors and ports:**  
 
-![](images/S-video.jpg) ![](images/Video/s-video_mini-din-4_bottle.jpg)  
+![](images/S-video.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/S-video-connection.jpg/120px-S-video-connection.jpg") ![](images/Video/s-video_mini-din-4_bottle.jpg "http://sewelldirect.com/images/connectors/photos/S-Video.jpg")  
 [_Mini-DIN 4-pin_](pinouts.md#mini-din-4-pin)  
 The most common type of S-Video connector. The exact same mini-DIN connector is used for the [Apple Desktop Bus] (README.md#apple-desktop-bus) data protocol and these cables are interchangeable.  
 Audio: no  
 
-![](images/Video/s-video_bnc_cork.jpg)  
+![](images/Video/s-video_bnc_cork.jpg "http://www.comprehensiveco.com/resize/shared/images/products/comprehensive/s4pyc6hr.jpg?lr=t&bw=1000&w=1000&bh=1000&h=1000")  
 [_BNC_](pinouts.md#bnc)  
 Generally for use in some S-Video patch panels.  
 Audio: no
 
-![](images/SCART.jpg) ![](images/Video/scart_bottle.jpg)  
+![](images/SCART.jpg "https://upload.wikimedia.org/wikipedia/commons/1/11/SCART_20050724_002.jpg") ![](images/Video/scart_bottle.jpg "http://img.publish.it168.com/2005/1201/images/526200.jpg")  
 [_SCART_](pinouts.md#scart)  
 European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards; an S-Video pinout is possible with a SCART connector but rare, as European monitors generally did not support S-Video input.  
 Audio: yes, stereo, unbalanced  
@@ -164,7 +166,7 @@ A component video standard in which luminance and chrominance information is enc
 **Max resolution:** Generally up to 1080p (HD), but can go beyond  
 **Connectors and ports:**  
 
-![](images/SCART.jpg) ![](images/Video/scart_bottle.jpg)  
+![](images/SCART.jpg "https://upload.wikimedia.org/wikipedia/commons/1/11/SCART_20050724_002.jpg") ![](images/Video/scart_bottle.jpg "http://img.publish.it168.com/2005/1201/images/526200.jpg")  
 [_SCART_](pinouts.md#scart)  
 European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards. RGBS cables most frequently have SCART connectors and vice versa.  
 Audio: yes, stereo, unbalanced  
@@ -176,27 +178,27 @@ A component video standard essentially the same as [RGBS] (README.md#rgbs), exce
 **Max resolution:** Generally up to 1080p (HD), but can go beyond  
 **Connectors and ports:**  
 
-![](images/Video/VGA_D-sub15_cork.jpg) ![](images/Video/vga_d-sub15_bottle.jpg)  
+![](images/Video/VGA_D-sub15_cork.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Male_VGA_connector.jpg/170px-Male_VGA_connector.jpg") ![](images/Video/vga_d-sub15_bottle.jpg "http://farm3.static.flickr.com/2550/3811864542_1e11553fa8_o.jpg")  
 [_VGA (DE-15)_](pinouts.md#de-15)  
 A 15-pin D-sub connector commonly offered on modern computers for display connections.  
 Audio: no  
 
-![](images/VGA-mini.jpg) ![](images/Video/vga_mini-vga_bottle.jpg)  
+![](images/VGA-mini.jpg "https://upload.wikimedia.org/wikipedia/commons/5/57/Mini-VGA-Connector.jpg") ![](images/Video/vga_mini-vga_bottle.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Mini-VGA_cropped.jpg/250px-Mini-VGA_cropped.jpg")  
 [_Mini-VGA_](pinouts.md#mini-vga)  
 Used to adapt VGA/RGBVH signals input and output for laptop computers.  
 Audio: no  
 
-![](images/Video/RGBVH_BNC_cork.jpg)  
+![](images/Video/RGBVH_BNC_cork.jpg "https://upload.wikimedia.org/wikipedia/commons/8/83/BNC_connectors.jpg")  
 [_BNC_](pinouts.md#bnc)  
 Found with some high-end monitors and video cards. Wires are usually color-coded, though the colors used for the two sync signals sometimes varies: e.g. yellow (H) and white (V), yellow (H) and black (V), gray (H) and black (V).  
 Audio: no  
 
-![](images/Video/dvi-a_cork.jpg) ![](images/Video/dvi-a_bottle.jpg)  
+![](images/Video/dvi-a_cork.jpg "https://rubimages-liberty.netdna-ssl.com/hi-res/E-DVI_A-5BNCM_DVIend.png") ![](images/Video/dvi-a_bottle.jpg "http://img.bhs4.com/07/A/07A6C8140CC3555552F53D6859963A86DC347FE2_large.jpg")  
 [_DVI-A_](pinouts.md#dvi)  
 Much more frequently found in its [DVI-D] (README.md#dvi) and [DVI-I] (README.md#DVI-I) flavors, Digital Video Interface (DVI) is designed to transmit uncompressed digital video information, but can be compatible with analog RGBVH video through the VGA interface. DVI-A (analog) cables and connectors are essentially the same electrically as VGA cables and connectors.  
 Audio: no  
 
-![](images/Video/dvi_mini-DVI_cork.jpg) ![](images/Video/dvi_mini-dvi_bottle.jpg)  
+![](images/Video/dvi_mini-DVI_cork.jpg "https://upload.wikimedia.org/wikipedia/commons/2/25/Mini-DVI_-_male_oblique_PNr%C2%B00282.jpg") ![](images/Video/dvi_mini-dvi_bottle.jpg "https://upload.wikimedia.org/wikipedia/commons/4/4f/Kobushi-mini-dvi.jpg")  
 [_Mini-DVI_](pinouts.md#mini-dvi)  
 Used on certain Apple computers, especially laptops, to accept a DVI-A/VGA connection.  
 Audio: no  
@@ -211,12 +213,12 @@ Serial Digital Interface (SDI) actually refers to a family of SMPTE interface st
 **Max resolution and data rate:** As of 2015, the 12G-SDI standard allows up to 2160p60 video at 12 Gb/s  
 **Connectors and ports:**  
 
-![](images/Video/BNC_cork.jpg) ![](images/Video/sdi_bnc_bottle.jpg)  
+![](images/Video/BNC_cork.jpg "http://blog.dvrunlimited.com/wp-content/uploads/2013/09/BNC_connector_male.jpg") ![](images/Video/sdi_bnc_bottle.jpg "http://www.crestron.com/content/publicdownloads/products/a/a-dmc-sdi.png")  
 [_BNC_](pinouts.md#bnc)  
 SDI-compatible equipment almost always employ BNC connections, especially in broadcast/production environments. Note: even though they use the same connectors, SDI coax cables using BNC are wired differently than composite/component video cables that use BNC, and the two are not interchangeable.  
 Audio: yes
 
-![](images/Video/composite_video-patch_cork.jpg) ![](images/Video/composite_video-patch_bottle.jpg) 
+![](images/Video/composite_video-patch_cork.jpg "http://www.bhphotovideo.com/images/images2500x2500/Canare_VPC006F_Video_Patch_Cable_154113.jpg") ![](images/Video/composite_video-patch_bottle.jpg) 
 _Video patch (MUSA)_  
 Video patch connections can be used to transfer SDI signals through a patch bay.  
 Audio: No  
@@ -227,7 +229,7 @@ IEEE 1394, referred to as "FireWire," was developed by Apple as an interface for
 **Max resolution and data rate:** Standard Definiton, 100 Mb/s  
 **Connectors and ports:**  
 
-![](images/firewire_4-pin.jpg) ![](images/Video/firewire_4-pin_bottle.jpg)  
+![](images/firewire_4-pin.jpg "https://static.gearslutz.com/board/imgext.php?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fc%2Fca%2FFirewire4-pin.jpg&h=d489e11c664e0701ef5ff2c3bc40ca7e") ![](images/Video/firewire_4-pin_bottle.jpg "http://forum.notebookreview.com/attachments/firewire1-jpg.6106/")  
 [_4-pin_](pinouts.md#firewire)  
 The smallest type of FireWire connector - found on DV cameras.  
 Audio: yes  
@@ -238,22 +240,22 @@ Digital Video Interface (DVI) was designed to transmit uncompressed digital vide
 **Max resolution and data rate:**  _Single Link_: 1920x1200, 4.95 Gb/s, _Dual Link_: 2560x1600, 9.90 Gb/s  
 **Connectors and ports:**  
 
-![](images/Video/dvi-d_single-link_cork.jpg)   
+![](images/Video/dvi-d_single-link_cork.jpg "https://sgcdn.startech.com/005329/media/products/gallery_large/DVIDSMMX.C.jpg")   
 [_DVI-D Single Link_](pinouts.md#dvi)  
 Employs a single transmitter to support 1920x1200 resolution digital video. Notably missing the 4 pins present in DVI-A and DVI-A to carry analog video signal.  
 Audio: no  
 
-![](images/Video/dvi-d_dual-link_cork.jpg) ![](images/Video/dvi-d_dual-link_bottle.jpg)  
+![](images/Video/dvi-d_dual-link_cork.jpg "https://sgcdn.startech.com/005329/media/products/gallery_large/DVIDDMMTA6.C.jpg") ![](images/Video/dvi-d_dual-link_bottle.jpg "http://www.nikoslab.com/wp-content/uploads/2014/11/dvi_d_dual_port.jpg")  
 [_DVI-D Dual Link_](pinouts.md#dvi)  
 The same as DVI-D Single Link connectors, except with six additional pins in the center of the connector/port to increase bandwidth and support higher resolutions.  
 Audio: no  
 
-![](images/Video/dvi_mini-DVI_cork.jpg) ![](images/Video/dvi_mini-dvi_bottle.jpg)  
+![](images/Video/dvi_mini-DVI_cork.jpg "https://upload.wikimedia.org/wikipedia/commons/2/25/Mini-DVI_-_male_oblique_PNr%C2%B00282.jpg") ![](images/Video/dvi_mini-dvi_bottle.jpg "https://upload.wikimedia.org/wikipedia/commons/4/4f/Kobushi-mini-dvi.jpg")  
 [_Mini-DVI_](pinouts.md#mini-dvi)  
 Used on some laptops, especially Apple products, to accept a DVI-D signal.  
 Audio: no  
 
-![](images/Video/dvi-d_micro_dvi_cork.jpg) ![](images/Video/dvi-d_micro-dvi_bottle.jpg)  
+![](images/Video/dvi-d_micro_dvi_cork.jpg "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macbookpro/apple-micro-dvi-to-dvi-adapter.png") ![](images/Video/dvi-d_micro-dvi_bottle.jpg "http://www.cis.hawaii.edu/wp-content/uploads/2014/04/microdvi.jpg")  
 _Micro-DVI_  
 Employed for a very brief time by Apple specifically on its 2008 MacBook Air line of laptops. Smaller than Mini-DVI connectors but can only accept DVI-D signals (incompatible with DVI-I or DVI-A) and almost immediately replaced by the [DisplayPort] (README.md#displayport) standard.  
 Audio: no  
@@ -264,12 +266,12 @@ A digital display interface standard developed by the Video Electronics Standard
 **Max video resolution and data rate:** _1.0/1.1_: 1.62 Gb/s, _1.2_: 2.7 Gb/s, _1.3_: 8K UHD, 5.4 Gb/s, _1.4_: 8K UHD, 8.1 Gb/s
 **Connectors and ports:**  
 
-![](images/Video/displayport_20-pin_cork.jpg) ![](images/Video/displayport_20-pin_bottle.jpg)  
+![](images/Video/displayport_20-pin_cork.jpg "https://upload.wikimedia.org/wikipedia/commons/a/a6/Displayport-cable.jpg") ![](images/Video/displayport_20-pin_bottle.jpg "http://farm4.static.flickr.com/3642/3534308094_79c94bd454.jpg")  
 [_DisplayPort (20-pin)_](pinouts.md#displayport)  
 The full-size, 20-pin DisplayPort connection used for external connections on desktop computers, graphics cards, monitors, etc.
 Audio: yes, optionally (use of channels for audio signal will limit bandwidth, resolution available for video)  
 
-![](images/Video/displayport_mini-displayport_cork.jpg) ![](images/Video/displayport_mini-displayport_bottle.jpg)  
+![](images/Video/displayport_mini-displayport_cork.jpg "https://upload.wikimedia.org/wikipedia/commons/e/ea/Mini_displayport.jpg") ![](images/Video/displayport_mini-displayport_bottle.jpg "https://upload.wikimedia.org/wikipedia/commons/4/47/Mini_DisplayPort_on_Apple_MacBook.jpg")  
 [_Mini DisplayPort_](pinouts.md#displayport)  
 Miniaturized version of the DisplayPort connector developed by Apple. Used on Apple products, especially laptops, from 2008 to the present (from ~2011 on, paired with the DisplayPort-compatible [ThunderBolt] (README.md#thunderbolt) protocol). Licensed out to many PC manufacturers as well.  
 Audio: yes (if used in conjunction with an audio-capable DisplayPort or HDMI cable)  
@@ -280,17 +282,17 @@ High-Definition Multimedia Interface (HDMI) is a proprietary interface for trans
 **Max video resolution and data rate:** _1.0/1.1/1.2_: 1920x1200p, 4.95 Gb/s, _1.3/1.4_: 2560x1600p, 10.2 Gb/s, _2.0_: 4096x1600p, 18 Gb/s  
 **Connectors and ports:**  
 
-![](images/Video/hdmi_full_A_cork.jpg) ![](images/Video/hdmi_full_A_bottle.jpg)  
+![](images/Video/hdmi_full_A_cork.jpg "https://classrooms.berkeley.edu/sites/default/files/images/hdmi_full.jpeg") ![](images/Video/hdmi_full_A_bottle.jpg "http://www.eos.ncsu.edu/e115/text/io_images/hdmi.jpg")  
 [_Type A ("Standard","Full Size")_](pinouts.md#hdmi)  
 Generally used for HDMI input/output on television/computer monitors and desktops.  
 Audio: yes  
 
-![](images/Video/hdmi_mini_C_cork.jpg) ![](images/Video/hdmi_mini_C_bottle.jpg)  
+![](images/Video/hdmi_mini_C_cork.jpg "http://4.bp.blogspot.com/_-4V2pG048aQ/TETWXYtMcbI/AAAAAAAAA3o/NXf3avRXGjA/s1600/HDMI-MINI-HDMI-MICRO-HDMI.jpg") ![](images/Video/hdmi_mini_C_bottle.jpg "https://cable-trader.co.uk/images/finder/mini-hdmi-port.jpg")  
 [_Type C ("Mini")_](pinouts.md#hdmi)  
 Employed starting with HDMI Version 1.3 - designed for smaller, portable equipment such as laptops.  
 Audio: yes  
 
-![](images/Video/hdmi_mini_C_cork.jpg) ![](images/Video/hdmi_micro_D_bottle.jpg)  
+![](images/Video/hdmi_mini_C_cork.jpg "http://4.bp.blogspot.com/_-4V2pG048aQ/TETWXYtMcbI/AAAAAAAAA3o/NXf3avRXGjA/s1600/HDMI-MINI-HDMI-MICRO-HDMI.jpg") ![](images/Video/hdmi_micro_D_bottle.jpg "https://cnet2.cbsistatic.com/hub/i/2011/05/09/e8365dde-fdc7-11e2-8c7c-d4ae52e62bcc/4e7eb083d9859813fa3d698b38bfc09b/Android-HDMI-Phone-port.jpg")  
 [_Type D ("Micro")_](pinouts.md#hdmi)  
 Released starting with HDMI Version 1.4, intended for use with cell phones/smart phones.  
 Audio: yes  
@@ -301,17 +303,17 @@ There is no such thing as a signal that combines analog and digital data in the 
 #### DVI-I ####
 DVI are backwards-compatible to allow for the transmission of analog RGBVH data via the VGA standard. The cable is the same as that employed by [DVI-A] (README.md#rgbvh) (analog-only) or [DVI-D] (README.md#dvi) (digital only), the difference with DVI-I is merely in the compatible connectors and ports.  
 
-![](images/Video/dvi-i_single-link_cork.jpg)  
+![](images/Video/dvi-i_single-link_cork.jpg "http://www.yourcablestore.com/assets/images/guides/plug_dvi-i_single.gif")  
 [_Single-Link DVI-I_](pinouts.md#dvi)  
 Contains pins that allow for an analog VGA signal or digital video at up to 1920x1200 resolution.  
 Audio: no  
 
-![](images/Video/dvi-i_dual-link_cork.jpg) ![](images/Video/dvi-i_dual-link_bottle.jpg)  
+![](images/Video/dvi-i_dual-link_cork.jpg "http://www.cablemagic.com.au/media/catalog/product/cache/1/image/5e06319eda06f020e43594a9c230972d/d/v/dviidual352_1.jpg") ![](images/Video/dvi-i_dual-link_bottle.jpg "http://s3.showmecables.com/images/catalog/product/2904-4.jpg")  
 [_Dual-Link DVI-I_](pinouts.md#dvi)  
 The same as Single-Link DVI-I, but adds six pins in the middle of the connector for increased digital video resolution up to 2560x1600.  
 Audio: no  
 
-![](images/Video/dvi_mini-DVI_cork.jpg) ![](images/Video/dvi_mini-dvi_bottle.jpg)  
+![](images/Video/dvi_mini-DVI_cork.jpg "https://upload.wikimedia.org/wikipedia/commons/2/25/Mini-DVI_-_male_oblique_PNr%C2%B00282.jpg") ![](images/Video/dvi_mini-dvi_bottle.jpg "https://upload.wikimedia.org/wikipedia/commons/4/4f/Kobushi-mini-dvi.jpg")  
 [_Mini-DVI_](pinouts.md#dvi)  
 Can connect either an analog or digital signal to an Apple laptop, as long as the proper adapter is used in conjunction with a DVI cable with DVI-A, DVI-D or DVI-I connectors.  
 Audio: no  
@@ -327,54 +329,54 @@ Balanced coaxial audio cables contain three wires: "earth" (electrical ground), 
 
 Reducing analog audio noise is an issue primarily with longer cables, or in professional/broadcast or preservation environments, where the absolute integrity of the audio signal is more highly valued than on consumer equipment.  
 
-![](images/Audio/1:4-TRS_cork.jpg)  
+![](images/Audio/1:4-TRS_cork.jpg "http://cdn-tp1.mozu.com/2199-2317/cms/2317/files/42f48ea4-d4d4-4ef4-a7a0-0738d4c95ba6?max=400&_mzcb=")  
 [_1/4" TRS jack (mono)_](pinouts.md#tip-ring-sleeve)  
 Also known as a "phone connector" for its use for many years to patch telephone connections. TRS stands for "Tip-Ring-Sleeve", referring to the three contacts on the jack (for the three wires, earth, hot and cold, present in balanced wiring). Often found with speakers, amps, some video equipment that produces monaural audio.  
 
-![](images/Audio/1:8"-TRS_cork.jpg)  
+![](images/Audio/1:8"-TRS_cork.jpg "https://upload.wikimedia.org/wikipedia/commons/8/8b/Audio-TRS-Mini-Plug.jpg")  
 [_1/8" TRS "mini" jack (mono)_](pinouts.md#tip-ring-sleeve)  
 Essentially the same in design as the 1/4" jack, just smaller. Used sometimes for balanced mono audio with computers or portable devices.  
 
-![](images/Audio/TT_bantam_cork.jpg)  
+![](images/Audio/TT_bantam_cork.jpg "http://www.canford.co.uk/Images/ItemImages/large/43-183_01.jpg")  
 [_Tiny Telephone (TT)/Bantam jack_](pinouts.md#tip-ring-sleeve)  
 TT (also called bantam) jacks are smaller than 1/4" but larger than 1/8" jacks (approx 4.40mm). Frequently employed with patch bays in professional audio recording and preservation environments. TT jacks are most commonly found with TRS design on balanced mono cables, but unbalanced or stereo versions are possible.  
 
-![](images/Audio/xlr_cork_bottle_cable.jpg) ![](images/Audio/xlr_cork_port.jpg) ![](images/Audio/xlr_bottle_port.jpg)  
+![](images/Audio/xlr_cork_bottle_cable.jpg "https://upload.wikimedia.org/wikipedia/commons/1/15/Xlr-connectors.jpg") ![](images/Audio/xlr_cork_port.jpg "http://jp.music-group.com/TCE/CR/StudioKonnekt48/images/main_out_xlr_large.jpg") ![](images/Audio/xlr_bottle_port.jpg "http://proaudioblog.co.uk/wp-content/uploads/2014/06/XLR-Input.jpg")  
 [_XLR_](pinouts.md#xlr)  
 A three-pin connector favored for long balanced cables in pro audio equipment.  
 
-![](images/Audio/phoenix_cork.jpg)  
+![](images/Audio/phoenix_cork.jpg "http://q1engravers.com/images/Phoenix_Connector_block_ELC-2MKKDS%20and%203MKKDS.JPG")  
 _Phoenix_  
 A modular, adaptable brand of connectors for crafting one's own multi-channel, balanced or unbalanced cables and connections. Generally used to make connections on the back end of patch bays, distribution amplifiers, etc. Available in various configurations.  
 
-![](images/Audio/edac_elco_cork.jpg)  
+![](images/Audio/edac_elco_cork.jpg "http://www.canford.co.uk/Images/ItemImages/large/47-201_01.jpg")  
 _EDAC/ELCO_  
 Another brand of modular, adaptable connectors. Similar in appearance and use to Phoenix. Available in various configurations.  
 
 #### Unbalanced ####
 Unbalanced audio cables contain only two wires for any one audio channel: "earth" (electrical ground) and "hot" (the audio signal). These are employed with short cables, internal cables or components (inside sound equipment), or consumer-grade equipment where noise is considered less of an issue.  
 
-![](images/Audio/audio_rca_cork.jpg) ![](images/Audio/audio_rca_bottle.jpg)  
+![](images/Audio/audio_rca_cork.jpg "http://resource.supercheats.com/library/300w/xbox-360/xbox-hdmi-audio7.jpg") ![](images/Audio/audio_rca_bottle.jpg "http://icdn9.digitaltrends.com/image/nuforce-s3_bt-bluetooth-bookshelf-speakers-right-channel-rear-audio-input-macro-1500x991.jpg")  
 [_RCA_](pinouts.md#rca)  
 By nature unbalanced connectors as they only have one pin/contact point. Frequently used for the two-channel (left and right) audio output of video decks, especially consumer-grade equipment (in such cases, often color-coded white and red, where white = channel 1/left, red = channel 2, right).  
 
-![](images/Audio/1:4-TS_cork.jpg)  
+![](images/Audio/1:4-TS_cork.jpg "http://s3.showmecables.com/images/catalog/product/1-4-Mono-Plug-to-3-5mm-Mono-Jack-1.jpg")  
 [_1/4" TS jack_](pinouts.md#tip-sleeve)  
 TS (Tip/Sleeve) jacks are exactly the same in appearance as balanced 1/4" TRS jacks, except missing the "ring" contact point and cold wire. Often used for the output on musical instruments such as electric guitars.  
 
-![](images/Audio/1:8-TS_cork.jpg)  
+![](images/Audio/1:8-TS_cork.jpg "https://images-na.ssl-images-amazon.com/images/G/01/musical-instruments/detail-page/B000068O47_img1.jpg")  
 [_1/8" TS "mini" jack_](pinouts.md#tip-sleeve)  
 Smaller version of the unbalanced 1/4" TS jack. Seen with [???]  
 
-![](images/Audio/1:4-TRS_cork.jpg)  
+![](images/Audio/1:4-TRS_cork.jpg "http://cdn-tp1.mozu.com/2199-2317/cms/2317/files/42f48ea4-d4d4-4ef4-a7a0-0738d4c95ba6?max=400&_mzcb=")  
 [_1/4" TRS jack (stereo)_](pinouts.md#tip-ring-sleeve)  
 By all outward appearance, the same as the 1/4" TRS jacks used for balanced mono cables, except in the case of unbalanced stereo the three contact points are used for ground and two channels of audio, rather than ground and hot/cold versions of one audio channel. Often seen with professional headphones, and stereo microphone/monitor connections on professional video decks.  
 
-![](images/Audio/1:8"-TRS_cork.jpg)  
+![](images/Audio/1:8"-TRS_cork.jpg "https://upload.wikimedia.org/wikipedia/commons/8/8b/Audio-TRS-Mini-Plug.jpg")  
 [_1/8" TRS "mini" jack (stereo)_](pinouts.md#tip-ring-sleeve)  
 See above. Frequently used for stereo output on portable audio devices - also on computer sound cards for line-in/line-out connections (to/from headphones, microphones, speakers, etc).  
 
-![](images/Audio/audio_din-5-pin_cork.jpg) ![](images/Audio/audio_din-5-pin_bottle.jpg)  
+![](images/Audio/audio_din-5-pin_cork.jpg "https://www.c2g.com/uk/static/content/images/resources/connector-guides/450/107_5_pin_din_at_m_iso.jpg") ![](images/Audio/audio_din-5-pin_bottle.jpg "http://connector.pinoutsguide.com/photo/din5df.jpg")  
 [_DIN 5-pin_](pinouts.md#din-5-pin)  
 Similar to the purpose of the 8-pin video monitor cable/connector, DIN 5-pins were used to carry both the audio input and output of a piece of equipment over the same cable/connection. Could carry mono or stereo signal.  
 
@@ -389,12 +391,12 @@ AES-3 is a standard for the exchange of digital audio signals developed in conju
 **Wiring, Connectors and Ports:**  
 
 ##### Balanced #####
-![](images/Audio/xlr_cork_bottle_cable.jpg)  
+![](images/Audio/xlr_cork_bottle_cable.jpg "https://upload.wikimedia.org/wikipedia/commons/1/15/Xlr-connectors.jpg")  
 [_XLR_](pinouts.md#xlr)  
 The most common variant of AES-3 connection, found with professional installations and equipment.  
 
 ##### Unbalanced #####
-![](images/Video/BNC_cork.jpg)  
+![](images/Video/BNC_cork.jpg "http://blog.dvrunlimited.com/wp-content/uploads/2013/09/BNC_connector_male.jpg")  
 [_BNC_](pinouts.md#bnc)  
 A variant of AES-3 with lower (75-ohm vs balanced XLR's 110-ohm) electrical impedence. Sometimes found in broadcast applications as it uses the same cabling infrastructure as digital video, so it can be convenient for patch bays that employ BNC connections.  
 
@@ -408,16 +410,16 @@ Standing for Sony/Philips Digital Interface Format, S/PDIF refers to a consumer-
 ##### Optical #####
 Fiber optic cables transmit data signals as flashes of light over flexible, transparent fibers made of glass or plastic. In audio applications, they can allow transmission at higher bandwidths without the electromagnetic interference to which metal wires are susceptible. Due to attenuation (the reduction of the intensity of the light over distance), consumer-grade optical audio cables are generally short (5-10 meters).  
 
-![](images/Audio/spdif_toslink_cork.jpg) ![](images/Audio/spdif_toslink_bottle.jpg)  
+![](images/Audio/spdif_toslink_cork.jpg "http://www.soundsupport.biz/wp-content/uploads/2012/08/spdif-toslink1.jpg") ![](images/Audio/spdif_toslink_bottle.jpg "http://www.teac.com/content/images/universal/misc/ai-301da_w_digital-in.jpg")  
 _F05/TOSLINK_  
 Also sometimes referred to as "EIAJ optical" connectors. While F05 is the technical name for the physical specification, Toshiba's specific brand name for optical cables, TOSLINK, has essentially become the name for the connector. Found with larger consumer-grade S/PDIF devices, particularly Toshiba-brand audio products.  
 
-![](images/Audio/spdif_mini-toslink_cork.jpg) ![](images/Audio/spdif_mini-toslink_bottle.jpg)  
+![](images/Audio/spdif_mini-toslink_cork.jpg "http://images.monoprice.com/productlargeimages/26711.jpg") ![](images/Audio/spdif_mini-toslink_bottle.jpg "http://www.headfonia.com/wp-content/uploads/2010/05/drdac_prime_10.jpg")  
 _Mini TOSLINK_  
 A smaller version of the TOSLINK connector that is almost the same size and shape of a 1/8" TRS stereo jack. Some combined 1/8" stereo jack and Mini TOSLINK ports exist to accept either digital or analog audio input/output. Mini TOSLINK is generally used with smaller consumer-grade digital audio equipment (e.g. portable CD players).  
 
 ##### Unbalanced #####
-![](images/Audio/spdif_rca_cork.jpg) ![](images/Audio/spdif_rca_bottle.jpg)  
+![](images/Audio/spdif_rca_cork.jpg "https://www.cablesnmore.com/content/images/thumbs/0004559_spdif-digital-rca_450.jpeg") ![](images/Audio/spdif_rca_bottle.jpg "http://www.homestudiocorner.com/wp-content/uploads/2011/01/SPDIF.jpg")  
 [_RCA_](pinouts.md#rca)  
 The S/PDIF protocol can also be found in consumer audio installations with two-contact RCA connectors over unbalanced coax cables. Such S/PDIF connectors are usually color-coded orange to differentiate them from analog audio and video cables that employ RCA.  
 
@@ -429,7 +431,7 @@ Short for Musical Instrument Digital Interface, a standard usually used for conn
 **Wiring, Connectors and Ports:**  
 
 ##### Balanced ######
-![](images/Audio/midi_din-5-pin_cork.jpg) ![](images/Audio/midi_din-5-pin_bottle.jpg)  
+![](images/Audio/midi_din-5-pin_cork.jpg "http://www.image-tmart.com/images/C/CL036/USB-to-MIDI-Keyboard-Interface-Converter-Cable-Adapter-02.gif") ![](images/Audio/midi_din-5-pin_bottle.jpg "https://upload.wikimedia.org/wikipedia/commons/0/02/Midi_ports_and_cable.jpg")  
 _DIN 5-pin_  
 Though they have 5-pins, only 3 of the pins in MIDI connectors are used in typical applications: ground, and then a balanced pair of contacts.  
 
@@ -441,7 +443,7 @@ The Tascam Digital Interface Format is a proprietary protocol and connector, the
 **Wiring, Connectors and Ports:**  
 
 ##### Unbalanced ######
-![](images/Audio/tdif_d-sub-25_cork.jpg) ![](images/Audio/tdif_d-sub-25_bottle.jpg)  
+![](images/Audio/tdif_d-sub-25_cork.jpg "http://hosatech.com/wp-content/uploads/2014/03/DBK-300_RGB_856.jpg") ![](images/Audio/tdif_d-sub-25_bottle.jpg "https://www.scmsinc.com/uploads/ecomm/my16-tdfronta.jpg")  
 _DB-25_  
 A D-subminiature connection with a pinout that allows for input and ouput of TDIF's eight channels of audio to be transmitted over the same cable.  
 
@@ -453,7 +455,7 @@ Originally developed by Alesis for its Digital Audio Tape products, the ADAT Lig
 **Wiring, Connectors and Ports:**  
 
 ##### Optical #####
-![](images/Audio/spdif_toslink_cork.jpg) ![](images/Audio/adat_toslink_bottle.jpg)  
+![](images/Audio/spdif_toslink_cork.jpg "http://www.soundsupport.biz/wp-content/uploads/2012/08/spdif-toslink1.jpg") ![](images/Audio/adat_toslink_bottle.jpg "http://www.harmonycentral.com/forum/filedata/fetch?id=31138107&d=1398720428")  
 _F05/TOSLINK_  
 Since they use the exact same connectors, ADAT cables and connections are visually indistinguishable from S/PDIF, though the interfaces and cables are completely incompatible at the protocol level.  
 
