@@ -469,35 +469,45 @@ Short for Parallel Advanced Technology Attachment, originally known simply as AT
 **Introduced:** 1986  
 **Max bit depth and rate:** 16-bit depth; originally 16 mb/s, developed up to 133 mb/s  
 **Connectors and ports:**  
+
+![](images/Data/pata_40-pin_cork.jpg "http://img.tomshardware.com/us/2005/11/23/pc_interfaces_101/ide_w_cable.jpg") ![](images/Data/pata_40-pin_bottle.jpg "http://chebgym5.ru/computer/images/ide-cable.jpg")  
 _40-pin ribbon_  
 Used with the most common 40-wire PATA ribbon cables, as well as the more rare 80-wire ribbons developed late in the PATA standard's lifespan to increase data rate.  
 
 #### Parallel SCSI ####
 Referred to alternately as SCSI (Small Computers Systems Interface) Parallel Interface, SPI, or before the advent of [Serial SCSI] (README.md#serial-scsi), simply SCSI (pronounced "scuzzy"). Unfortunately, Parallel SCSI is not technically a single standard, but a series of almost a dozen related interfaces with ambiguous names ("Fast SCSI", "Ultra SCSI," etc.) and variable bit depths and rates. See the link to a comparison table below. In any case, Parallel SCSI cables were used to connect peripheral devices to computers; unlike PATA, which could only connect a maximum of two devices, a single Parallel SCSI data bus could be attached to up to 8 or 16 devices. The symbol below generally marked a SCSI port on computers.  
 
+![](images/Data/scsi_logo.png "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Scsi_logo.svg/2000px-Scsi_logo.svg.png")  
+
 
 **Introduced:** 1986  
 **Max bit depth and rate:** See [comparison table] (https://en.wikipedia.org/wiki/Parallel_SCSI#Comparison_table)  
 **Connectors and ports:**  
+![](images/Data/scsi_50-pin_cork.jpg "http://www.datapro.net/images/SCSI_CN50.jpg") ![](images/Data/scsi_50-pin_bottle.jpg "https://upload.wikimedia.org/wikipedia/commons/1/1b/Scsi-1_gehaeuse.jpg")  
 _50-pin micro-ribbon_  
 Micro ribbon or miniature ribbon connectors have a similar shielded design to the D-sub family of connectors, but used a different kind of contact known as ribbon contacts rather than pin contacts. There are various configurations that were used with Parallel SCSI but the most common variety was a 50-contact micro-ribbon connector. These connectors were often referred to by the brand name of the company that manufactured them: for instance, Amphenol-50, IDC-50, CN-50 (Centronics).  
 
+![](images/Data/scsi_25-pin_cork.jpg "http://www.datapro.net/images/SCSI_DB25.jpg") ![](images/Data/scsi_25-pin_bottle.jpg "https://www.cs.uaf.edu/users/olawlor/public_html/ref/mac_ports/scsi_db25.jpg")  
 [_DB-25_](pinouts.md#db-25)  
 A D-sub connector used by Apple for Parallel SCSI connections on their early desktop computers.  
 
+![](images/Data/scsi_hdi-30_cork.jpg "http://cdn2.goughlui.com/wp-content/uploads/2013/07/DSC_00114.jpg") ![](images/Data/scsi_hdi-30_bottle.jpg "http://www.libellules.ch/Img_connecteur/lib_scsi_hdi30f.jpg")  
 _HDI-30_  
 A singular square-shaped pin contact connector used by Apple for Parallel SCSI connections on a few of their early laptop designs.  
 
 #### IEEE 1284 ####
 A standard for parallel communication alternately, and more commonly, referred to as "parallel port", "printer port" or the "Centronics port", as it was originally developed by Centronics to facilitate communication between computers and Centronics-brand dot-matrix printers. Originally unidirectional ("send-only") for sending data from a computer to a printer, but later developed to allow for bidirectional communication, it became a popular alternative to Parallel SCSI for peripherals like floppy drives and network adapters and hard drives as it had cheaper circuitry. A symbol similar to the one below generally marked parallel/printer port connections on computers.  
 
+![](images/Data/parallel_port_logo.png "https://openclipart.org/image/2400px/svg_to_png/189941/Parallel-port.png")  
 
 **Introduced:** 1970s  
 **Max bit depth and rate:**  
 **Connectors and ports:**  
+![](images/Data/parallel_port_25-pin_cork.jpg "http://img.alibaba.com/img/pb/487/415/275/275415487_248.jpg") ![](images/Data/parallel_port_25-pin_bottle.jpg "http://cdn.computerhope.com/parallel-port.jpg")  
 [_DB-25_](pinouts.md#db-25)  
 A D-sub connection, usually used for the host (computer) end of a parallel port cable/connection.  
 
+![](images/Data/parallel_port_36-pin_cork.jpg "https://upload.wikimedia.org/wikipedia/commons/d/d2/IEEE_1284_36pin_plughead.jpg") ![](images/Data/parallel_port_36-pin_bottle.jpg "http://www.kenosha-reuse.com/SALEM,-WI/Commercial/Mechanical/Used/Plus-Warranty/Wasp-rp-WPRP200-thermal-receipt-printer-parallel-port-picture-1.jpg")  
 _36-pin micro-ribbon_  
 A micro-ribbon connector developed by Centronics (also called CN-36), usually used for the printer or device connection.  
 
@@ -507,6 +517,7 @@ As opposed to [parallel transmission] (README.md#parallel), in serial communicat
 #### RS-232 ####
 Because it was the first serial data protocol to become a standard feature in personal computing, RS-232 was commonly referred to simply as "the serial port." It was used for bidirectional connection to many peripheral computer devices, including modems, printers, mice, external drives, etc. It was also used for remote connection and control of some VTRs. It is referred to as "RS" because it was originally sponsored by the Radio Sector of the Electronic Industries Association - changes in the sponsoring organization have caused the standard to be alternately referred to as EIA-232 and TIA-232. The symbol below generally marked serial port connections on computers.  
 
+![](images/Data/serial_port_logo.png "http://cliparts.co/cliparts/Big/E86/BigE86ErT.png")  
 
 **Introduced:** 1962  
 **Max bit depth and rate:**  
@@ -553,16 +564,19 @@ Developed to replace [Parallel ATA] (README.md#pata), Serial ATA is used to conn
 **Introduced:** 2003  
 **Max bit depth and rate:** Originally 1.5 Gbit/s, now up to 16 Gbit/s  
 **Connectors and ports:**  
+![](images/Data/e-sata_cork.jpg "https://sgcdn.startech.com/005329/media/products/gallery_large/USB3S2ESATA3.C.jpg") ![](images/Data/e-sata_bottle.jpg "http://www.thecomputercoach.net/assets/images/eSATA_port.jpg")  
 [_eSATA_](pinouts.md#esata)  
 Found exclusively with SATA connections to external drives (the "e" stands for "external").  
 
 #### Apple Desktop Bus ####
 A Macintosh-exclusive computer bus for connecting low-speed peripherals - mice, keyboards, etc. ADB connections were generally marked by the symbol below. 
 
+![](images/Data/apple_desktop_bus_logo.png "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/ADB_Icon.svg/130px-ADB_Icon.svg.png")  
 
 **Introduced:** 1986  
 **Max bit depth and rate:** 125 Kbit/s  
 **Connectors and ports:**  
+![](images/Data/apple_desktop_bus_cork.jpg) ![](images/Data/apple_desktop_bus_bottle.jpg "http://ttic.uchicago.edu/~cotter/projects/aek2/images/adb.jpg")  
 [_Mini-DIN 4-pin_](pinouts.md#mini-din-4-pin)  
 The exact same connector used for [S-Video] (README.md#s-video) connections and the cables are interchangeable. ADB cables usually were marked by the symbol above.  
 
@@ -572,12 +586,14 @@ A PC-compatible low-speed computer bus for peripherals like mice, keyboards, etc
 **Introduced:** 1987  
 **Max bit depth and rate:**  
 **Connectors and ports:**  
+![](images/Data/PS2_cork1.jpg) ![](images/Data/PS2_cork2.jpg) ![](images/Data/PS2_bottle.jpg "http://11986-presscdn-0-77.pagely.netdna-cdn.com/wp-content/uploads/2014/08/ps2-ports.jpg")  
 [_Mini-DIN 6-pin_](pinouts.md#mini-din-6-pin)  
 The only connectors used for PS/2 connections. Often color-coded: green connectors were used for mice and purple for keyboards.  
 
 #### USB ####
 Short for Universal Serial Bus, designed to standardize connections of computer peripherals after the proliferation of connections in the '80s and early '90s. Used with keyboards, mice, digital cameras, external drives, network adapters, etc. Capable of supplying power to many of these devices in addition to transmitting data. Updates to the original USB 1.0 standard (1.5 Mbit/s at Low Speed, 12 Mbit/s at Full Speed) have represented major shifts in data transmission, usually with accompanied changes in physical connection, so they are elaborated on more below. All advancements in USB have been backwards-compatible (so a USB 3.0 connection can carry USB 2.0 data, etc). Ports are also usually marked by the symbol below.  
 
+![](images/Data/usb_logo.png "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/USB_Icon.svg/2000px-USB_Icon.svg.png")  
 
 **Introduced:** 1996  
 
@@ -586,39 +602,49 @@ Short for Universal Serial Bus, designed to standardize connections of computer 
 **Introduced:** 2000  
 **Max bit depth and rate:** 480 Mbit/s  
 **Connectors and ports:**  
+![](images/Data/USB2_typeA_cork.jpg) ![](images/Data/USB_typeA_bottle.jpg "http://www.what-is-my-computer.com/images/usb-ports.jpg")  
 [_Type A_](pinouts.md#usb-20)  
 Found with USB host controllers, i.e. computers and hubs. Uses flat pins to withstand repeated attachment and removal.  
 
+![](images/Data/USB_typeB_cork.jpg "http://www.datapro.net/images/techinfo/usb_info_type-b.jpg")  
 [_Type B_](pinouts.md#usb-20)  
 An "upstream" connection intended for use on USB-compatible peripheral devices (thus, the majority of USB 2.0 connections require a Type A-to-Type B cable).  
 
+![](images/Data/USB2_miniA_cork.jpg)  
 [_Mini Type A_](pinouts.md#usb-20)  
 Designed to slim down the Type A interface for use with mobile devices; quickly deprecated by the USB Implementers Forum (which guides specification and compliance of the USB protocol), meaning only a handful of certified devices ever used Mini Type A connections.  
 
+![](images/Data/USB2_miniB_cork.jpg)  
 [_Mini Type B 5-pin_](pinouts.md#usb-20)  
 Designed to slim down the Type B interface for use with mobile devices (PDAs, digital cameras, etc.)
 
 _Mini Type B 4-pin_  
 An unofficial implementation of USB (never supported by the USB-IF), used with some digital cameras, particularly Kodak models.  
 
+![](images/Data/USB2_microA_cork.jpg)  
 [_Micro Type A_](pinouts.md#usb-20)  
 Used on mobile devices such as cellphones, digital cameras, GPS units, etc. Smaller than Mini Type connections and identified by white-colored receptacle with 5 pins.  
 
+![](images/Data/USB2_microB_cork.jpg)  
 [_Micro Type B_](pinouts.md#usb-20)  
 Used on mobile devices such as cellphones, digital cameras, GPS units, etc. Smaller than Mini Type connections and identified by black-colored receptacle with 5 pins.  
 
 ##### USB 3.0 #####
 "SuperSpeed"  
+![](images/Data/usb3_logo.jpg "http://www.kurokatta.org/pix/usb-superspeed-s")  
 **Introduced:** 2008  
 **Max bit depth and rate:** 5 Gbit/s  
 **Connectors and ports:**  
 
+![](images/Data/USB3_typeA_cork.jpg "https://upload.wikimedia.org/wikipedia/commons/7/75/Connector_USB_3_IMGP6024_wp.jpg") ![](images/Data/USB3_typeA_bottle1.jpg "http://icdn8.digitaltrends.com/image/usb-3-0-ports-625x300-c.jpg") ![](images/Data/USB3_typeA_bottle2.jpg "http://www.howtogeek.com/wp-content/uploads/2014/01/650x434xusb-2.0-vs-usb-3.0-blue-port.jpg.pagespeed.gp+jp+jw+pj+js+rj+rp+rw+ri+cp+md.ic.Hw2qDXl-UA.jpg")  
 [_Type A_](pinouts.md#usb-30)  
 Similar in sixe, shape, appearance to USB 2.0 Type A, though it has additional pins. Typically colored blue to differentiate from USB 2.0 Type A connections.  
 
+![](images/Data/USB3_typeB_cork.jpg "http://www.datapro.net/images/usb_3_b.jpg") ![](images/Data/USB3_typeB_bottle.jpg "https://hsto.org/getpro/habr/post_images/c40/af2/062/c40af20620352d5a35b1cadb413bc739.jpg")  
 [_Type B_](pinouts.md#usb-30)  
 A boxy connection similar in appearance to USB 2.0 Type B, but (unlike Type A) not physically compatible with its preceding equivalent. Therefore cables with a USB 3.0 Type B connector are not compatible with devices with a USB 2.0 Type B port; however devices with a USB 3.0 Type B port _will_ accept USB 2.0 Type B cables. Usually colored blue.  
 
+![](images/Data/USB3_microB_cork.jpg "https://sgcdn.startech.com/005329/media/products/gallery_large/USB3SAUBX.C.jpg") ![](images/Data/USB3_microB_bottle.jpg "https://farm6.staticflickr.com/5590/14717534619_7bf547c241_o.jpg")  
 [_Micro Type B_](pinouts.md#usb-30)  
 A connection totally unique to USB 3.0 cables and devices, incompatible with previous USB devices.  
 
@@ -627,12 +653,14 @@ A connection totally unique to USB 3.0 cables and devices, incompatible with pre
 **Introduced:** 2013  
 **Max bit depth and rate:** 10 Gbit/s  
 **Connectors and ports:**  
+![](images/Data/USB3-1_typeC_cork.jpg "https://cnet2.cbsistatic.com/img/JplrP5OaMw-Qjju0FM-E9SJEPIs=/570x0/2015/12/07/fcf70d65-4104-465e-b017-c5af7e122527/20151203-usb-type-c-001.jpg") ![](images/Data/USB3-1_typeC_bottle.jpg "http://liliputing.com/wp-content/uploads/2015/03/macbook-type-c2.jpg")  
 [_Type C_](pinouts.md#usb-31)  
 A reversible, symmetrical design capable of carrying data at 10 Gbit/s (between two USB 3.1-compatible devices), power, and built-in support for DisplayPort video and four channels of audio. Increasingly found as a charging/data port for PC laptops and Apple laptops via the [ThunderBolt] (README.md#thunderbolt-3) protocol.  
 
 #### FireWire ####
 Developed by Apple at roughly the same time as [USB] (README.md#usb), for the similar purpose of consolidating connections and improving data transfer speeds. Unlike USB, FireWire does not require the use of a host controller (FireWire-compatible devices can communicate directly to each other without the use of a computer), but it was more costly to implement than USB and therefore never quite as popular. Sometimes referred to as i.Link (in Sony applications) and Lynx (Texas Instruments), as FireWire is technically just the Apple branding of the IEEE 1394 standard. Used for connections to external hard drives, as well as A/V component communication and control. Two major flavors of FireWire were introduced before Apple phased out development of the standard in favor of [ThunderBolt] (README.md#thunderbolt). Ports usually represented by the symbol below.  
 
+![](images/Data/firewire_logo.png "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/FireWire_Logo.svg/2000px-FireWire_Logo.svg.png")  
 
 ##### FireWire 400 #####
 "IEEE 1394a"  
@@ -640,11 +668,11 @@ Developed by Apple at roughly the same time as [USB] (README.md#usb), for the si
 **Max bit depth and rate:** 400 Mbit/s  
 **Connectors and ports:**  
 
-![](images/firewire_6-pin.jpg)  
+![](images/firewire_6-pin.jpg) ![](images/Data/firewire_6-pin_bottle.jpg "http://etc.usf.edu/te_mac/hardware/i/img_1744.jpg")  
 [_6-pin_](pinouts.md#firewire)  
 Can carry DC power in addition to data; thus 6-pin connections are usually found on devices that can provide power, e.g. computers.  
 
-![](images/firewire_4-pin.jpg)  
+![](images/firewire_4-pin.jpg) ![](images/Data/firewire_4-pin_bottle.jpg "http://www.jontrosky.com/images/firewire_4_pin_port.jpg")  
 [_4-pin_](pinouts.md#firewire)  
 Can only carry data, no power, thus found on peripherals and devices with their own power supply, such as DV cameras, certain external hard drives.  
 
@@ -653,17 +681,20 @@ Can only carry data, no power, thus found on peripherals and devices with their 
 **Introduced:** 2002  
 **Max bit depth and rate:** 800 Mbit/s  
 **Connectors and ports:**  
+![](images/Data/firewire_9-pin_cork.jpg) ![](images/Data/firewire_9-pin_bottle.jpg "http://cdn-image.realsimple.com/sites/default/files/styles/rs_main_image/public/image/images/0809/firewire-800-port_300.jpg?itok=UMxZPpBw")  
 [_9-pin_](pinouts.md#firewire)  
 Commonly found on Apple computers. Can be adapted to older 6-pin and 4-pin connectors, but data transfer will be limited to the old 400 Mbit/s rate.  
 
 #### ThunderBolt ####
 Developed by Apple as a replacement for [FireWire] (README.md#firewire-1). Combines computer bus data transmission with the DisplayPort digital video interface, as well as DC power, all over one cable/connection. The first two major versions of ThunderBolt shared a physical connector and had compatible wiring/channels, but the introduction of ThunderBolt 3 has been marked by major shifts in physical interface. Ports usually labelled by the symbol below.  
 
+![](images/Data/thunderbolt_logo.jpg "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macpro/thunderbolt_logo.png")  
 
 ##### ThunderBolt 1 and 2 #####
 **Introduced:** 2011; 2013  
 **Max bit depth and rate:** 10 Gbit/s; 20 Gbit/s  
 **Connectors and ports:**  
+![](images/Data/thunderbolt_mini-displayport_cork.jpg "https://sgcdn.startech.com/005329/media/products/gallery_large/TBOLTMMXMW.D.jpg") ![](images/Data/thunderbolt_mini-displayport_bottle.jpg "http://support.seagate.com/kbimg/004528-1.jpg")  
 [_Mini DisplayPort_](pinouts.md#displayport)  
 The ThunderBolt protocol was designed to be compatible with the Mini DisplayPort connections already present since 2008 on many Apple computers. Saved Apple from a major redesign for several years.  
 
@@ -671,6 +702,7 @@ The ThunderBolt protocol was designed to be compatible with the Mini DisplayPort
 **Introduced:** 2015  
 **Max bit depth and rate:** 40 Gbit/s  
 **Connectors and ports:**  
+![](images/Data/thunderbolt_typeC_cork.jpg "http://www.flatpanelshd.com/pictures/thunderbolt3-1l.jpg") ![](images/Data/thunderbolt_typeC_bottle.jpg "http://blogs.intel.com/technology/files/2015/08/Lenovo-ports.jpg")  
 [_USB Type C_](pinouts.md#usb-31)  
 Because of its capability for transferring data, digital video/audio and power all over the same connection, Apple adapted the USB Type C connector to its ThunderBolt protocol and has started using the connection as the single port on its latest MacBook Air products.  
 
