@@ -14,7 +14,7 @@ Images pulled from the web are reused here under principle of fair use - they ha
 1. [Video] (README.md#video) :tv:
   1. [Analog] (README.md#analog)
     1. [Composite] (README.md#composite)
-    2. [Component YPbPr] (README.md#component-ypbpr)
+    2. [Component Y′P<sub>B</sub>P<sub>R</sub>] (README.md#component-ypbpr)
     3. [S-Video] (README.md#s-video)
     4. [RGBS] (README.md#rgbs)
     5. [RGBVH] (README.md#rgbvh)
@@ -112,11 +112,11 @@ Analog audiovisual media record image and sound information as a continuous sign
   
   ![](images/SCART.jpg "https://upload.wikimedia.org/wikipedia/commons/1/11/SCART_20050724_002.jpg") ![](images/Video/scart_bottle.jpg "http://img.publish.it168.com/2005/1201/images/526200.jpg")  
   [_SCART_](pinouts.md#scart)  
-  European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards, including composite video (see also: [S-Video] (README.md#s-video), [RGBS] (README.md#rgbs), [YPbPr] (README.md#component-ypbpr)).  
+  European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards, including composite video (see also: [S-Video] (README.md#s-video), [RGBS] (README.md#rgbs), [Y′P<sub>B</sub>P<sub>R</sub>] (README.md#component-ypbpr)).  
   Audio: yes, stereo, unbalanced  
   
-#### Component YPbPr ####
-YPbPr signal is often referred to, imprecisely, simply as "component" video, although there are actually several standards of component video (any signal standard that splits video information into multiple channels is component, including S-Video and the multiple RGB standards). In YPbPr, the video signal is split into three channels: Y (containing luminance and sync), Pb (the difference between blue and luma), and Pr (the difference between red and luma). The remaining (green) chrominance information is derived from the relationship between these three signals. YPbPr cables are sometimes referred to as "yipper" cables and are connectors are usually color-coded (Y=green, Pb=blue, Pr=red); however YPbPr cables are fundamentally wired the same as composite cables and can be used interchangeably as long as the corresponding ports are properly connected.
+#### Component Y′P<sub>B</sub>P<sub>R</sub> ####
+Y′P<sub>B</sub>P<sub>R</sub> signal is often referred to, imprecisely, simply as "component" video, although there are actually several standards of component video (any signal standard that splits video information into multiple channels is component, including S-Video and the multiple RGB standards). In Y′P<sub>B</sub>P<sub>R</sub>, the video signal is split into three channels: Y (containing luminance and sync), P<sub>B</sub> (the difference between blue and luma), and P<sub>R</sub> (the difference between red and luma). The remaining (green) chrominance information is derived from the relationship between these three signals. Y′P<sub>B</sub>P<sub>R</sub> cables are sometimes referred to as "yipper" cables and are connectors are usually color-coded (Y=green, P<sub>B</sub>=blue, P<sub>R</sub>=red); however Y′P<sub>B</sub>P<sub>R</sub> cables are fundamentally wired the same as composite cables and can be used interchangeably as long as the corresponding ports are properly connected.
 
 **Introduced:**  
 **Max resolution:** High Definition (up to 1080p)  
@@ -134,11 +134,11 @@ Audio: no
 
 ![](images/SCART.jpg "https://upload.wikimedia.org/wikipedia/commons/1/11/SCART_20050724_002.jpg") ![](images/Video/scart_bottle.jpg "http://img.publish.it168.com/2005/1201/images/526200.jpg")  
 [_SCART_](pinouts.md#scart)  
-European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards; a YPbPr pinout is possible with a SCART connector but extremely rare as European monitors generally did not support YPbPr input.  
+European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards; a Y′P<sub>B</sub>P<sub>R</sub> pinout is possible with a SCART connector but extremely rare as European monitors generally did not support Y′P<sub>B</sub>P<sub>R</sub> input.  
 Audio: yes, stereo, unbalanced  
 
 #### S-Video ####
-S-Video (sometimes known as "separate video") cables carry video over two synchronized signal channels: Y (luma) and C (chroma, including saturation and hue). It can achieve better image quality than composite but lower color resolution than component RGB or YPbPr video. Most often associated with S-VHS but found with many other consumer deck formats as well.  
+S-Video (sometimes known as "separate video") cables carry video over two synchronized signal channels: Y (luma) and C (chroma, including saturation and hue). It can achieve better image quality than composite but lower color resolution than component RGB or Y′P<sub>B</sub>P<sub>R</sub> video. Most often associated with S-VHS but found with many other consumer deck formats as well.  
 
 **Introduced:**  
 **Max resolution:** Standard Definition (generally 480i or 576i)  
