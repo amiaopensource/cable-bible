@@ -715,3 +715,5 @@ _8P8C/RJ-45_
 A modular connector with 8 pins/conductors. Similar to but wider than the modular connectors used for phone lines.  
 
 ## Power ##
+
+From Type A to Type N, [the IEC website](http://www.iec.ch/worldplugs/) provides descriptions, images, and supporting countries to plugs and sockets used around the world.
