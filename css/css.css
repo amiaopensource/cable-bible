@@ -55,7 +55,6 @@ div {
 }
 .btn:before {
   position: absolute;
-  left: 1em;
   padding: 0 1px;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
