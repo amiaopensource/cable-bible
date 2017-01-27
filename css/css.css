@@ -1,5 +1,10 @@
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Contrail One", cursive;
+  color: black;
+}
+
+body {
+  background-color: #3491d6;
 }
 
 code {
@@ -11,13 +16,15 @@ dd {
 }
 
 dt {
-  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+  font-family: "Oxygen Mono",monospace;
+  color: black;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 6px;
 }
 
 .sample-image {
@@ -25,14 +32,13 @@ img {
 }
 
 h1 {
-  letter-spacing:8px;
   font-size:86px;
   line-height:120px;
 }
 
 div {
-  font-family: 'Merriweather', serif;
-  color: white;
+  font-family: "Oxygen Mono", monospace;;
+  color: black;
 }
 
 .btn {
