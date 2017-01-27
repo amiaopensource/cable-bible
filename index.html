@@ -1,956 +1,106 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>The Cable Bible by MIAPtech</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Cable Bible</title>
+    <meta charset="utf-8">
+
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">The Cable Bible</h1>
-      <h2 class="project-tagline">A guide to cables and connectors used for audiovisual tech</h2>
-      <a href="https://github.com/MIAPtech/cable-bible" class="btn">View on GitHub</a>
-      <a href="https://github.com/MIAPtech/cable-bible/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/MIAPtech/cable-bible/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
 
-    <section class="main-content">
-      <h1>
-<a id="the-cable-bible" class="anchor" href="#the-cable-bible" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Cable Bible</h1>
-
-<p>A comprehensive guide to cables and connectors potentially used for audiovisual/media preservation. Cable types and connectors are organized by the primary purpose of the signal being transferred - video, audio-only, data (i.e. computer cables) and power. Examples of physical connectors, pinouts and contextual uses for each kind of cable are nested within descriptions of signal types, wiring, interfaces and protocols!</p>
-
-<h2>
-<a id="contribute" class="anchor" href="#contribute" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contribute</h2>
-
-<p>Please feel free to clone this repository or create a new branch with your own additions of signal types, interfaces or connectors you think we're missing (there's a lot!). There are already some checklists under the <a href="https://github.com/amiaopensource/cable-bible/issues">Issue</a> page that show what at least needs to be filled in from the current TOC. Submit a pull request so that someone can review your changes and make sure that everything remains at least somewhat orderly - or if you're not so comfortable with github but have photos or information that you think should be added, please submit an issue and I'll update when I can!</p>
-
-<h2>
-<a id="license-and-attribution" class="anchor" href="#license-and-attribution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License and Attribution</h2>
-
-<p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
-
-<p>Images pulled from the web are reused here under principle of fair use - they have all been downloaded and uploaded to this repository for the sake of stability, but original URLs are provided in mouse-over text.</p>
-
-<h2>
-<a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Table of Contents</h2>
-
-<ol>
-<li>
-<a href="README.md#video">Video</a> <g-emoji alias="tv" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4fa.png" ios-version="6.0">📺</g-emoji>
-
-<ol>
-<li>
-<a href="README.md#analog">Analog</a>
-
-<ol>
-<li><a href="README.md#composite">Composite</a></li>
-<li><a href="README.md#component-ypbpr">Component YPbPr</a></li>
-<li><a href="README.md#s-video">S-Video</a></li>
-<li><a href="README.md#rgbs">RGBS</a></li>
-<li><a href="README.md#rgbvh">RGBVH</a></li>
-</ol>
-</li>
-<li>
-<a href="README.md#digital">Digital</a>
-
-<ol>
-<li><a href="README.md#sdi">SDI</a></li>
-<li><a href="README.md#firewire">FireWire (IEEE 1394)</a></li>
-<li><a href="README.md#dvi">DVI</a></li>
-<li><a href="README.md#displayport">DisplayPort</a></li>
-<li><a href="README.md#hdmi">HDMI</a></li>
-</ol>
-</li>
-<li>
-<a href="README.md#integrated">Integrated</a>
-
-<ol>
-<li><a href="README.md#dvi-i">DVI-I</a></li>
-</ol>
-</li>
-</ol>
-</li>
-<li>
-<a href="README.md#audio">Audio</a> <g-emoji alias="sound" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f509.png" ios-version="6.0">🔉</g-emoji>
-
-<ol>
-<li>
-<a href="README.md#analog-1">Analog</a>
-
-<ol>
-<li><a href="README.md#balanced">Balanced</a></li>
-<li><a href="README.md#unbalanced">Unbalanced</a></li>
-</ol>
-</li>
-<li>
-<a href="README.md#digital-1">Digital</a>
-
-<ol>
-<li>
-<a href="README.md#aes-3">AES-3 (AES/EBU)</a>
-
-<ol>
-<li><a href="README.md#balanced-1">Balanced</a></li>
-<li><a href="README.md#unbalanced-1">Unbalanced</a></li>
-</ol>
-</li>
-<li>
-<a href="README.md#spdif">S/PDIF</a>
-
-<ol>
-<li><a href="README.md#optical">Optical</a></li>
-<li><a href="README.md#unbalanced-2">Unbalanced</a></li>
-</ol>
-</li>
-<li>
-<a href="README.md#midi">MIDI</a>
-
-<ol>
-<li><a href="README.md#balanced-2">Balanced</a></li>
-</ol>
-</li>
-<li>
-<a href="README.md#tdif">TDIF</a>
-
-<ol>
-<li><a href="README.md#unbalanced-3">Unbalanced</a></li>
-</ol>
-</li>
-<li>
-<a href="README.md#adat">ADAT</a>
-
-<ol>
-<li><a href="README.md#optical-1">Optical</a></li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>
-<a href="README.md#data">Data</a> <g-emoji alias="computer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" ios-version="6.0">💻</g-emoji> <g-emoji alias="floppy_disk" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4be.png" ios-version="6.0">💾</g-emoji>
-
-<ol>
-<li>
-<a href="README.md#parallel">Parallel</a>
-
-<ol>
-<li><a href="README.md#pata">PATA</a></li>
-<li><a href="README.md#parallel-scsi">Parallel SCSI</a></li>
-<li><a href="README.md#ieee-1284">IEEE 1284 ("Parallel Port", "printer port", "Centronics port")</a></li>
-</ol>
-</li>
-<li>
-<a href="README.md#serial">Serial</a>
-
-<ol>
-<li><a href="README.md#rs-232">RS-232 ("the serial port")</a></li>
-<li><a href="README.md#rs-422">RS-422</a></li>
-<li><a href="README.md#serial-scsi">SAS (Serial Attached SCSI)</a></li>
-<li><a href="README.md#sata">SATA</a></li>
-<li><a href="README.md#apple-desktop-bus">Apple Desktop Bus</a></li>
-<li><a href="README.md#ps2">PS/2</a></li>
-<li>
-<a href="README.md#usb">USB</a>
-
-<ol>
-<li><a href="README.md#usb-20">USB 2.0</a></li>
-<li><a href="README.md#usb-30">USB 3.0</a></li>
-<li><a href="README.md#usb-31">USB 3.1</a></li>
-</ol>
-</li>
-<li>
-<a href="README.md#firewire-1">FireWire</a>
-
-<ol>
-<li><a href="README.md#firewire-400">FireWire 400</a></li>
-<li><a href="README.md#firewire-800">FireWire 800</a></li>
-</ol>
-</li>
-<li>
-<a href="README.md#thunderbolt">ThunderBolt</a>
-
-<ol>
-<li><a href="README.md#thunderbolt-1-and-2">ThunderBolt 1 and 2</a></li>
-<li><a href="README.md#thunderbolt-3">ThunderBolt 3</a></li>
-</ol>
-</li>
-<li><a href="README.md#hdbaset">HDBaseT</a></li>
-</ol>
-</li>
-</ol>
-</li>
-<li><a href="README.md#power">Power</a></li>
-</ol>
-
-<h2>
-<a id="video" class="anchor" href="#video" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Video</h2>
-
-<h3>
-<a id="analog" class="anchor" href="#analog" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Analog</h3>
-
-<p>Analog audiovisual media record image and sound information as a continuous signal stored in or on the media itself (in the case of most "video" formats, as a continually fluctuating level of magnetic field strength on tape). Different types of video processing can allow that signal to be carried along different channels, with each channel representing a different portion of the video information (e.g. luminance/brightness, chrominance/color, sync). The types of cable you will need to work with an analog video signal will depend primarily on how these channels have been divided, as well as considerations of signal-to-noise ratio - all analog signals are subject to some degree of electronic noise or distortion, and different connection standards and interfaces have been developed to combat such signal degradation.  </p>
-
-<h4>
-<a id="composite" class="anchor" href="#composite" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Composite</h4>
-
-<p>In composite cables, all video information (including both luminance and chrominance) is encoded on to a single channel/wire. As all information is traveling along one channel, composite video is the most susceptible to noise in the signal.  </p>
-
-<p><strong>Introduced:</strong> 1956<br>
-  <strong>Max resolution:</strong> Standard Definition (typically 480i or 576i)<br>
-  <strong>Connectors and ports:</strong>  </p>
-
-<p><img src="images/composite_RCA.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/c/cd/Composite-video-cable.jpg"> <img src="images/Video/composite_rca_bottle.jpg" alt="" title="http://www.doom9.org/capture/images/CompositeJack.jpeg"><br>
-  <a href="pinouts.md#rca"><em>RCA</em></a><br>
-  Used primarily with consumer equipment (e.g. Betamax, VHS, DVD)<br>
-  Audio: no</p>
-
-<p><img src="images/Video/BNC_cork.jpg" alt="" title="http://blog.dvrunlimited.com/wp-content/uploads/2013/09/BNC_connector_male.jpg"> <img src="images/Video/composite_bnc_bottle.jpg" alt="" title="http://s3.showmecables.com/images/catalog/product/FME-Female-to-BNC-Female-Adaptor.jpg"><br>
-  <a href="pinouts.md#bnc"><em>BNC</em></a><br>
-  Used in professional broadcast and some consumer equipment<br>
-  Audio: no</p>
-
-<p><img src="images/Video/composite_UHF_cork.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/UHF-Connector.png/250px-UHF-Connector.png"> <img src="images/Video/composite_uhf_bottle.jpg" alt="" title="http://ecx.images-amazon.com/images/I/41QIUVFJkbL.jpg"><br>
-  <em>UHF</em><br>
-  A WWII-era connector design originally intended for video connections in radar applications. Used with late-period 1/2" open reel decks (e.g. Sony AV decks) and some early 3/4" U-matic players.<br>
-  Audio: no  </p>
-
-<p><img src="images/composite_F-type.jpg" alt=""> <img src="images/Video/composite_f-type_bottle.jpg" alt="" title="http://www.cutcabletoday.com/wp-content/uploads/2015/03/coax-jack.jpg"><br>
-  <em>F-type</em><br>
-  Found in North American television antenna, cable and satellite television installations; some older VCRs<br>
-  Audio: no</p>
-
-<p><img src="images/Video/composite_video-patch_cork.jpg" alt="" title="http://www.bhphotovideo.com/images/images2500x2500/Canare_VPC006F_Video_Patch_Cable_154113.jpg"> <img src="images/Video/composite_video-patch_bottle.jpg" alt=""><br>
-  <em>Video patch (MUSA)</em><br>
-  Originally developed for manually switching signals in radar installations; now commonly used for patch bays in production and preservation workflows.<br>
-  Audio: no</p>
-
-<p><img src="images/Video/composite_eiaj_cork.jpg" alt="" title="http://www.markertek.com/productImage/HI-RES/E8M.JPG"> <img src="images/Video/composite_eiaj_bottle.jpg" alt="" title="http://www.markertek.com/productImage/450X450/E8FCM.JPG"><br>
-  <a href="pinouts.md#8-pin-eiaj"><em>8-pin EIAJ</em></a><br>
-  Monitor cables designed specifically to carry both input and output signal between a video deck and monitor over the same cable. Seen on 1/2" open reel decks (the only available output on Sony CVs), 3/4" U-matic, and contemporary monitors.<br>
-  Audio: yes, stereo, unbalanced</p>
-
-<p><img src="images/SCART.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/1/11/SCART_20050724_002.jpg"> <img src="images/Video/scart_bottle.jpg" alt="" title="http://img.publish.it168.com/2005/1201/images/526200.jpg"><br>
-  <a href="pinouts.md#scart"><em>SCART</em></a><br>
-  European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards, including composite video (see also: <a href="README.md#s-video">S-Video</a>, <a href="README.md#rgbs">RGBS</a>, <a href="README.md#component-ypbpr">YPbPr</a>).<br>
-  Audio: yes, stereo, unbalanced  </p>
-
-<h4>
-<a id="component-ypbpr" class="anchor" href="#component-ypbpr" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Component YPbPr</h4>
-
-<p>YPbPr signal is often referred to, imprecisely, simply as "component" video, although there are actually several standards of component video (any signal standard that splits video information into multiple channels is component, including S-Video and the multiple RGB standards). In YPbPr, the video signal is split into three channels: Y (containing luminance and sync), Pb (the difference between blue and luma), and Pr (the difference between red and luma). The remaining (green) chrominance information is derived from the relationship between these three signals. YPbPr cables are sometimes referred to as "yipper" cables and are connectors are usually color-coded (Y=green, Pb=blue, Pr=red); however YPbPr cables are fundamentally wired the same as composite cables and can be used interchangeably as long as the corresponding ports are properly connected.</p>
-
-<p><strong>Introduced:</strong><br>
-<strong>Max resolution:</strong> High Definition (up to 1080p)<br>
-<strong>Connectors and ports:</strong>  </p>
-
-<p><img src="images/component_rca.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/1/1d/Component-cables.jpg"> <img src="images/Video/component_rca_bottle.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/e/ef/Component_video_jack.jpg"><br>
-<a href="pinouts.md#rca"><em>RCA</em></a><br>
-Used primarily with consumer equipment<br>
-Audio: no</p>
-
-<p><img src="images/Video/component_bnc_cork.jpg" alt="" title="http://s3.showmecables.com/images/catalog/product/Python-3-BNC-To-3-RCA-Component-Video-Cable-4.jpg"> <img src="images/Video/component_bnc_bottle.jpg" alt="" title="http://salestores.com/stores/images/images_747/AVOV3HDF.jpg"><br>
-<a href="pinouts.md#bnc"><em>BNC</em></a><br>
-Seen with professional broadcast and production equipment, some consumer electronics<br>
-Audio: no  </p>
-
-<p><img src="images/SCART.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/1/11/SCART_20050724_002.jpg"> <img src="images/Video/scart_bottle.jpg" alt="" title="http://img.publish.it168.com/2005/1201/images/526200.jpg"><br>
-<a href="pinouts.md#scart"><em>SCART</em></a><br>
-European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards; a YPbPr pinout is possible with a SCART connector but extremely rare as European monitors generally did not support YPbPr input.<br>
-Audio: yes, stereo, unbalanced  </p>
-
-<h4>
-<a id="s-video" class="anchor" href="#s-video" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>S-Video</h4>
-
-<p>S-Video (sometimes known as "separate video") cables carry video over two synchronized signal channels: Y (luma) and C (chroma, including saturation and hue). It can achieve better image quality than composite but lower color resolution than component RGB or YPbPr video. Most often associated with S-VHS but found with many other consumer deck formats as well.  </p>
-
-<p><strong>Introduced:</strong><br>
-<strong>Max resolution:</strong> Standard Definition (generally 480i or 576i)<br>
-<strong>Connectors and ports:</strong>  </p>
-
-<p><img src="images/S-video.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/S-video-connection.jpg/120px-S-video-connection.jpg"> <img src="images/Video/s-video_mini-din-4_bottle.jpg" alt="" title="http://sewelldirect.com/images/connectors/photos/S-Video.jpg"><br>
-<a href="pinouts.md#mini-din-4-pin"><em>Mini-DIN 4-pin</em></a><br>
-The most common type of S-Video connector. The exact same mini-DIN connector is used for the <a href="README.md#apple-desktop-bus">Apple Desktop Bus</a> data protocol and these cables are interchangeable.<br>
-Audio: no  </p>
-
-<p><img src="images/Video/s-video_bnc_cork.jpg" alt="" title="http://www.comprehensiveco.com/resize/shared/images/products/comprehensive/s4pyc6hr.jpg?lr=t&amp;bw=1000&amp;w=1000&amp;bh=1000&amp;h=1000"><br>
-<a href="pinouts.md#bnc"><em>BNC</em></a><br>
-Generally for use in some S-Video patch panels.<br>
-Audio: no</p>
-
-<p><img src="images/SCART.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/1/11/SCART_20050724_002.jpg"> <img src="images/Video/scart_bottle.jpg" alt="" title="http://img.publish.it168.com/2005/1201/images/526200.jpg"><br>
-<a href="pinouts.md#scart"><em>SCART</em></a><br>
-European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards; an S-Video pinout is possible with a SCART connector but rare, as European monitors generally did not support S-Video input.<br>
-Audio: yes, stereo, unbalanced  </p>
-
-<h4>
-<a id="rgbs" class="anchor" href="#rgbs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RGBS</h4>
-
-<p>A component video standard in which luminance and chrominance information is encoded into three channels (red, green and blue) and a fourth is used for composite sync (vertical and horizontal sync encoded together on the same wire). RGBS utilizes no compression and has no particular limit on color depth or resolution, but requires a high bandwidth as the three channels carry much redundant information (i.e. the same black-and-white luma information repeated three times). Extremely common in European equipment (especially monitors), rare elsewhere.  </p>
-
-<p><strong>Introduced:</strong><br>
-<strong>Max resolution:</strong> Generally up to 1080p (HD), but can go beyond<br>
-<strong>Connectors and ports:</strong>  </p>
-
-<p><img src="images/SCART.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/1/11/SCART_20050724_002.jpg"> <img src="images/Video/scart_bottle.jpg" alt="" title="http://img.publish.it168.com/2005/1201/images/526200.jpg"><br>
-<a href="pinouts.md#scart"><em>SCART</em></a><br>
-European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards. RGBS cables most frequently have SCART connectors and vice versa.<br>
-Audio: yes, stereo, unbalanced  </p>
-
-<h4>
-<a id="rgbvh" class="anchor" href="#rgbvh" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RGBVH</h4>
-
-<p>A component video standard essentially the same as <a href="README.md#rgbs">RGBS</a>, except the sync signal is split into vertical and horizontal sync on separate wires. Most frequently employed in the context of the Video Graphics Array (VGA) display standard.  </p>
-
-<p><strong>Introduced:</strong><br>
-<strong>Max resolution:</strong> Generally up to 1080p (HD), but can go beyond<br>
-<strong>Connectors and ports:</strong>  </p>
-
-<p><img src="images/Video/VGA_D-sub15_cork.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Male_VGA_connector.jpg/170px-Male_VGA_connector.jpg"> <img src="images/Video/vga_d-sub15_bottle.jpg" alt="" title="http://farm3.static.flickr.com/2550/3811864542_1e11553fa8_o.jpg"><br>
-<a href="pinouts.md#de-15"><em>VGA (DE-15)</em></a><br>
-A 15-pin D-sub connector commonly offered on modern computers for display connections.<br>
-Audio: no  </p>
-
-<p><img src="images/VGA-mini.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/5/57/Mini-VGA-Connector.jpg"> <img src="images/Video/vga_mini-vga_bottle.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Mini-VGA_cropped.jpg/250px-Mini-VGA_cropped.jpg"><br>
-<a href="pinouts.md#mini-vga"><em>Mini-VGA</em></a><br>
-Used to adapt VGA/RGBVH signals input and output for laptop computers.<br>
-Audio: no  </p>
-
-<p><img src="images/Video/RGBVH_BNC_cork.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/8/83/BNC_connectors.jpg"><br>
-<a href="pinouts.md#bnc"><em>BNC</em></a><br>
-Found with some high-end monitors and video cards. Wires are usually color-coded, though the colors used for the two sync signals sometimes varies: e.g. yellow (H) and white (V), yellow (H) and black (V), gray (H) and black (V).<br>
-Audio: no  </p>
-
-<p><img src="images/Video/dvi-a_cork.jpg" alt="" title="https://rubimages-liberty.netdna-ssl.com/hi-res/E-DVI_A-5BNCM_DVIend.png"> <img src="images/Video/dvi-a_bottle.jpg" alt="" title="http://img.bhs4.com/07/A/07A6C8140CC3555552F53D6859963A86DC347FE2_large.jpg"><br>
-<a href="pinouts.md#dvi"><em>DVI-A</em></a><br>
-Much more frequently found in its <a href="README.md#dvi">DVI-D</a> and <a href="README.md#DVI-I">DVI-I</a> flavors, Digital Video Interface (DVI) is designed to transmit uncompressed digital video information, but can be compatible with analog RGBVH video through the VGA interface. DVI-A (analog) cables and connectors are essentially the same electrically as VGA cables and connectors.<br>
-Audio: no  </p>
-
-<p><img src="images/Video/dvi_mini-DVI_cork.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/2/25/Mini-DVI_-_male_oblique_PNr%C2%B00282.jpg"> <img src="images/Video/dvi_mini-dvi_bottle.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/4/4f/Kobushi-mini-dvi.jpg"><br>
-<a href="pinouts.md#mini-dvi"><em>Mini-DVI</em></a><br>
-Used on certain Apple computers, especially laptops, to accept a DVI-A/VGA connection.<br>
-Audio: no  </p>
-
-<h3>
-<a id="digital" class="anchor" href="#digital" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Digital</h3>
-
-<p>As opposed to <a href="README.md#analog">analog video</a>, in digital recording the video and/or audio signal is converted into a stream of numbers (bits), that collectively represent the luminance, chrominance, and other values that make up the image. The stream must be converted back into analog waveforms to be viewed on a monitor/video screen. Provided electrical noise is not too great, it will theoretically not affect the quantification of the signal. Different standards for digital video and audio have developed in order to make it possible to pass more information along one connection in the same (or shorter) amount of time (also to make it possible to send audio information along the same cable/connection as video).  </p>
-
-<h4>
-<a id="sdi" class="anchor" href="#sdi" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SDI</h4>
-
-<p>Serial Digital Interface (SDI) actually refers to a family of SMPTE interface standards designed for the transmission of uncompressed, unencrypted digital video signals. The original standard ("SD-SDI"), defined for 480i and 576i standard definition video, has been periodically updated (e.g. HD-SDI, 6G-SDI) to allow for steadily increasing bit rates, frame rates, video resolutions, etc. Because SDI is an unencypted digital signal, it has generally been restricted from use in consumer equipment, and is usually found in professional, broadcast-grade production and preservation environments.</p>
-
-<p><strong>Introduced:</strong> 1989<br>
-<strong>Max resolution and data rate:</strong> As of 2015, the 12G-SDI standard allows up to 2160p60 video at 12 Gb/s<br>
-<strong>Connectors and ports:</strong>  </p>
-
-<p><img src="images/Video/BNC_cork.jpg" alt="" title="http://blog.dvrunlimited.com/wp-content/uploads/2013/09/BNC_connector_male.jpg"> <img src="images/Video/sdi_bnc_bottle.jpg" alt="" title="http://www.crestron.com/content/publicdownloads/products/a/a-dmc-sdi.png"><br>
-<a href="pinouts.md#bnc"><em>BNC</em></a><br>
-SDI-compatible equipment almost always employ BNC connections, especially in broadcast/production environments. Note: even though they use the same connectors, SDI coax cables using BNC are wired differently than composite/component video cables that use BNC, and the two are not interchangeable.<br>
-Audio: yes</p>
-
-<p><img src="images/Video/composite_video-patch_cork.jpg" alt="" title="http://www.bhphotovideo.com/images/images2500x2500/Canare_VPC006F_Video_Patch_Cable_154113.jpg"> <img src="images/Video/composite_video-patch_bottle.jpg" alt=""> 
-<em>Video patch (MUSA)</em><br>
-Video patch connections can be used to transfer SDI signals through a patch bay.<br>
-Audio: No  </p>
-
-<h4>
-<a id="firewire" class="anchor" href="#firewire" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FireWire</h4>
-
-<p>IEEE 1394, referred to as "FireWire," was developed by Apple as an interface for high-speed data transfer (see: <a href="README.md#firewire-1">FireWire</a> section under Data signals). However the FireWire interface was also employed by digital cameras recording to tape media with the DV (Digital Video) protocol (e.g. MiniDV, DVCAM, DVCPRO). Some camcorders were also able to directly output a DV signal to a digital video recorder or computer via a FireWire cable/interface.  When used with digital video, the FireWire interface operates at a slower data rate than in most of its data transfer applications.<br>
-<strong>Introduced:</strong> 1994<br>
-<strong>Max resolution and data rate:</strong> Standard Definiton, 100 Mb/s<br>
-<strong>Connectors and ports:</strong>  </p>
-
-<p><img src="images/firewire_4-pin.jpg" alt="" title="https://static.gearslutz.com/board/imgext.php?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fc%2Fca%2FFirewire4-pin.jpg&amp;h=d489e11c664e0701ef5ff2c3bc40ca7e"> <img src="images/Video/firewire_4-pin_bottle.jpg" alt="" title="http://forum.notebookreview.com/attachments/firewire1-jpg.6106/"><br>
-<a href="pinouts.md#firewire"><em>4-pin</em></a><br>
-The smallest type of FireWire connector - found on DV cameras.<br>
-Audio: yes  </p>
-
-<h4>
-<a id="dvi" class="anchor" href="#dvi" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DVI</h4>
-
-<p>Digital Video Interface (DVI) was designed to transmit uncompressed digital video while also supporting analog video modes (see <a href="README.md#rgbvh">DVI-A</a>, <a href="README.md#dvi-i">DVI-I</a>). This broad compatibility led ot widespread adoption in consumer electronics/computers. 
-<strong>Introduced:</strong> 1999<br>
-<strong>Max resolution and data rate:</strong>  <em>Single Link</em>: 1920x1200, 4.95 Gb/s, <em>Dual Link</em>: 2560x1600, 9.90 Gb/s<br>
-<strong>Connectors and ports:</strong>  </p>
-
-<p><img src="images/Video/dvi-d_single-link_cork.jpg" alt="" title="https://sgcdn.startech.com/005329/media/products/gallery_large/DVIDSMMX.C.jpg"><br>
-<a href="pinouts.md#dvi"><em>DVI-D Single Link</em></a><br>
-Employs a single transmitter to support 1920x1200 resolution digital video. Notably missing the 4 pins present in DVI-A and DVI-A to carry analog video signal.<br>
-Audio: no  </p>
-
-<p><img src="images/Video/dvi-d_dual-link_cork.jpg" alt="" title="https://sgcdn.startech.com/005329/media/products/gallery_large/DVIDDMMTA6.C.jpg"> <img src="images/Video/dvi-d_dual-link_bottle.jpg" alt="" title="http://www.nikoslab.com/wp-content/uploads/2014/11/dvi_d_dual_port.jpg"><br>
-<a href="pinouts.md#dvi"><em>DVI-D Dual Link</em></a><br>
-The same as DVI-D Single Link connectors, except with six additional pins in the center of the connector/port to increase bandwidth and support higher resolutions.<br>
-Audio: no  </p>
-
-<p><img src="images/Video/dvi_mini-DVI_cork.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/2/25/Mini-DVI_-_male_oblique_PNr%C2%B00282.jpg"> <img src="images/Video/dvi_mini-dvi_bottle.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/4/4f/Kobushi-mini-dvi.jpg"><br>
-<a href="pinouts.md#mini-dvi"><em>Mini-DVI</em></a><br>
-Used on some laptops, especially Apple products, to accept a DVI-D signal.<br>
-Audio: no  </p>
-
-<p><img src="images/Video/dvi-d_micro_dvi_cork.jpg" alt="" title="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macbookpro/apple-micro-dvi-to-dvi-adapter.png"> <img src="images/Video/dvi-d_micro-dvi_bottle.jpg" alt="" title="http://www.cis.hawaii.edu/wp-content/uploads/2014/04/microdvi.jpg"><br>
-<em>Micro-DVI</em><br>
-Employed for a very brief time by Apple specifically on its 2008 MacBook Air line of laptops. Smaller than Mini-DVI connectors but can only accept DVI-D signals (incompatible with DVI-I or DVI-A) and almost immediately replaced by the <a href="README.md#displayport">DisplayPort</a> standard.<br>
-Audio: no  </p>
-
-<h4>
-<a id="displayport" class="anchor" href="#displayport" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DisplayPort</h4>
-
-<p>A digital display interface standard developed by the Video Electronics Standards Association (VESA). Can be used to carry audio and packeted data transmissions, but most frequently employed to connect video sources to display devices. The development of succeeding versions of the DisplayPort standard (from 1.0 to the latest 1.4) have allowed for increases in display resolution, data rate, color depth, etc. "Dual-Mode DisplayPort" ports and connectors (also known as DisplayPort++) are also compatible with single-link DVI and HDMI output with the use of adapters; active converters are also available to make DisplayPort compatible with dual-link DVI or DVI-A/VGA signals.<br>
-<strong>Introduced:</strong> 2008<br>
-<strong>Max video resolution and data rate:</strong> <em>1.0/1.1</em>: 1.62 Gb/s, <em>1.2</em>: 2.7 Gb/s, <em>1.3</em>: 8K UHD, 5.4 Gb/s, <em>1.4</em>: 8K UHD, 8.1 Gb/s
-<strong>Connectors and ports:</strong>  </p>
-
-<p><img src="images/Video/displayport_20-pin_cork.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/a/a6/Displayport-cable.jpg"> <img src="images/Video/displayport_20-pin_bottle.jpg" alt="" title="http://farm4.static.flickr.com/3642/3534308094_79c94bd454.jpg"><br>
-<a href="pinouts.md#displayport"><em>DisplayPort (20-pin)</em></a><br>
-The full-size, 20-pin DisplayPort connection used for external connections on desktop computers, graphics cards, monitors, etc.
-Audio: yes, optionally (use of channels for audio signal will limit bandwidth, resolution available for video)  </p>
-
-<p><img src="images/Video/displayport_mini-displayport_cork.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/e/ea/Mini_displayport.jpg"> <img src="images/Video/displayport_mini-displayport_bottle.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/4/47/Mini_DisplayPort_on_Apple_MacBook.jpg"><br>
-<a href="pinouts.md#displayport"><em>Mini DisplayPort</em></a><br>
-Miniaturized version of the DisplayPort connector developed by Apple. Used on Apple products, especially laptops, from 2008 to the present (from ~2011 on, paired with the DisplayPort-compatible <a href="README.md#thunderbolt">ThunderBolt</a> protocol). Licensed out to many PC manufacturers as well.<br>
-Audio: yes (if used in conjunction with an audio-capable DisplayPort or HDMI cable)  </p>
-
-<h4>
-<a id="hdmi" class="anchor" href="#hdmi" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HDMI</h4>
-
-<p>High-Definition Multimedia Interface (HDMI) is a proprietary interface for transferring uncompressed digital video and audio signals. HDMI was developed in order to provide an integrated, increased-bandwidth interface capable of carrying very high video resolutions and an audio signal while maintaining backwards compatibility with DVI. As with DisplayPort, succeeding versions (from 1.0 to current 2.0) have allowed for increases in resolution, frame rate, data rate, etc.<br>
-<strong>Introduced:</strong> 2002<br>
-<strong>Max video resolution and data rate:</strong> <em>1.0/1.1/1.2</em>: 1920x1200p, 4.95 Gb/s, <em>1.3/1.4</em>: 2560x1600p, 10.2 Gb/s, <em>2.0</em>: 4096x1600p, 18 Gb/s<br>
-<strong>Connectors and ports:</strong>  </p>
-
-<p><img src="images/Video/hdmi_full_A_cork.jpg" alt="" title="https://classrooms.berkeley.edu/sites/default/files/images/hdmi_full.jpeg"> <img src="images/Video/hdmi_full_A_bottle.jpg" alt="" title="http://www.eos.ncsu.edu/e115/text/io_images/hdmi.jpg"><br>
-<a href="pinouts.md#hdmi"><em>Type A ("Standard","Full Size")</em></a><br>
-Generally used for HDMI input/output on television/computer monitors and desktops.<br>
-Audio: yes  </p>
-
-<p><img src="images/Video/hdmi_mini_C_cork.jpg" alt="" title="http://4.bp.blogspot.com/_-4V2pG048aQ/TETWXYtMcbI/AAAAAAAAA3o/NXf3avRXGjA/s1600/HDMI-MINI-HDMI-MICRO-HDMI.jpg"> <img src="images/Video/hdmi_mini_C_bottle.jpg" alt="" title="https://cable-trader.co.uk/images/finder/mini-hdmi-port.jpg"><br>
-<a href="pinouts.md#hdmi"><em>Type C ("Mini")</em></a><br>
-Employed starting with HDMI Version 1.3 - designed for smaller, portable equipment such as laptops.<br>
-Audio: yes  </p>
-
-<p><img src="images/Video/hdmi_mini_C_cork.jpg" alt="" title="http://4.bp.blogspot.com/_-4V2pG048aQ/TETWXYtMcbI/AAAAAAAAA3o/NXf3avRXGjA/s1600/HDMI-MINI-HDMI-MICRO-HDMI.jpg"> <img src="images/Video/hdmi_micro_D_bottle.jpg" alt="" title="https://cnet2.cbsistatic.com/hub/i/2011/05/09/e8365dde-fdc7-11e2-8c7c-d4ae52e62bcc/4e7eb083d9859813fa3d698b38bfc09b/Android-HDMI-Phone-port.jpg"><br>
-<a href="pinouts.md#hdmi"><em>Type D ("Micro")</em></a><br>
-Released starting with HDMI Version 1.4, intended for use with cell phones/smart phones.<br>
-Audio: yes  </p>
-
-<h3>
-<a id="integrated" class="anchor" href="#integrated" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Integrated</h3>
-
-<p>There is no such thing as a signal that combines analog and digital data in the same channel. However, The DVI interface allows for both analog and digital signals to be passed through the same cable and connector, creating something of a unique case.  </p>
-
-<h4>
-<a id="dvi-i" class="anchor" href="#dvi-i" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DVI-I</h4>
-
-<p>DVI are backwards-compatible to allow for the transmission of analog RGBVH data via the VGA standard. The cable is the same as that employed by <a href="README.md#rgbvh">DVI-A</a> (analog-only) or <a href="README.md#dvi">DVI-D</a> (digital only), the difference with DVI-I is merely in the compatible connectors and ports.  </p>
-
-<p><img src="images/Video/dvi-i_single-link_cork.jpg" alt="" title="http://www.yourcablestore.com/assets/images/guides/plug_dvi-i_single.gif"><br>
-<a href="pinouts.md#dvi"><em>Single-Link DVI-I</em></a><br>
-Contains pins that allow for an analog VGA signal or digital video at up to 1920x1200 resolution.<br>
-Audio: no  </p>
-
-<p><img src="images/Video/dvi-i_dual-link_cork.jpg" alt="" title="http://www.cablemagic.com.au/media/catalog/product/cache/1/image/5e06319eda06f020e43594a9c230972d/d/v/dviidual352_1.jpg"> <img src="images/Video/dvi-i_dual-link_bottle.jpg" alt="" title="http://s3.showmecables.com/images/catalog/product/2904-4.jpg"><br>
-<a href="pinouts.md#dvi"><em>Dual-Link DVI-I</em></a><br>
-The same as Single-Link DVI-I, but adds six pins in the middle of the connector for increased digital video resolution up to 2560x1600.<br>
-Audio: no  </p>
-
-<p><img src="images/Video/dvi_mini-DVI_cork.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/2/25/Mini-DVI_-_male_oblique_PNr%C2%B00282.jpg"> <img src="images/Video/dvi_mini-dvi_bottle.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/4/4f/Kobushi-mini-dvi.jpg"><br>
-<a href="pinouts.md#dvi"><em>Mini-DVI</em></a><br>
-Can connect either an analog or digital signal to an Apple laptop, as long as the proper adapter is used in conjunction with a DVI cable with DVI-A, DVI-D or DVI-I connectors.<br>
-Audio: no  </p>
-
-<h2>
-<a id="audio" class="anchor" href="#audio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Audio</h2>
-
-<h3>
-<a id="analog-1" class="anchor" href="#analog-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Analog</h3>
-
-<p>Unlike analog video, analog audio signals are essentially only ever transferred over one channel (i.e. one-track monaural/"mono") or two (two-track mono, or stereo). Analog audio cables, generally speaking, thus only had to carry one channel of audio and two cables would simply be employed for recording or reproducing two-track mono or stereo (in contrast to the proliferation of standards and cables for video - composite, S-Video, RBG, etc). The most critical characteristic in regard to analog audio cabling, then (beyond connector types), regards balanced vs. unbalanced wiring, a method employed to reduce noise interference in audio cables.  </p>
-
-<h4>
-<a id="balanced" class="anchor" href="#balanced" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Balanced</h4>
-
-<p>Balanced coaxial audio cables contain three wires: "earth" (electrical ground), "hot" (positive audio signal), and "cold" (negative audio signal). The audio signal is transferred on both the hot and cold lines, but the voltage in the cold line is inverted (i.e. signal is negative when the hot line's is positive, and vice versa). When the cable is plugged into an input, the hot and cold signals are mixed together, but the cold signal is also inverted again. This has the effect of strengthening the original, recorded audio signal (doubling the number of wires it was carried on) while also canceling out the signal of any unintentional noise in the signal picked up as the audio traveled over the cable. (Since that noise was essentially "recorded" positively on to both the hot and cold lines, flipping the polarity of the cold line at input gives you exact opposite noise signals, which cancel each other out)  </p>
-
-<p>Reducing analog audio noise is an issue primarily with longer cables, or in professional/broadcast or preservation environments, where the absolute integrity of the audio signal is more highly valued than on consumer equipment.  </p>
-
-<p><img src="images/Audio/1:4-TRS_cork.jpg" alt="" title="http://cdn-tp1.mozu.com/2199-2317/cms/2317/files/42f48ea4-d4d4-4ef4-a7a0-0738d4c95ba6?max=400&amp;_mzcb="><br>
-<a href="pinouts.md#tip-ring-sleeve"><em>1/4" TRS jack (mono)</em></a><br>
-Also known as a "phone connector" for its use for many years to patch telephone connections. TRS stands for "Tip-Ring-Sleeve", referring to the three contacts on the jack (for the three wires, earth, hot and cold, present in balanced wiring). Often found with speakers, amps, some video equipment that produces monaural audio.  </p>
-
-<p><img src="images/Audio/1:8%22-TRS_cork.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/8/8b/Audio-TRS-Mini-Plug.jpg"><br>
-<a href="pinouts.md#tip-ring-sleeve"><em>1/8" TRS "mini" jack (mono)</em></a><br>
-Essentially the same in design as the 1/4" jack, just smaller. Used sometimes for balanced mono audio with computers or portable devices.  </p>
-
-<p><img src="images/Audio/TT_bantam_cork.jpg" alt="" title="http://www.canford.co.uk/Images/ItemImages/large/43-183_01.jpg"><br>
-<a href="pinouts.md#tip-ring-sleeve"><em>Tiny Telephone (TT)/Bantam jack</em></a><br>
-TT (also called bantam) jacks are smaller than 1/4" but larger than 1/8" jacks (approx 4.40mm). Frequently employed with patch bays in professional audio recording and preservation environments. TT jacks are most commonly found with TRS design on balanced mono cables, but unbalanced or stereo versions are possible.  </p>
-
-<p><img src="images/Audio/xlr_cork_bottle_cable.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/1/15/Xlr-connectors.jpg"> <img src="images/Audio/xlr_cork_port.jpg" alt="" title="http://jp.music-group.com/TCE/CR/StudioKonnekt48/images/main_out_xlr_large.jpg"> <img src="images/Audio/xlr_bottle_port.jpg" alt="" title="http://proaudioblog.co.uk/wp-content/uploads/2014/06/XLR-Input.jpg"><br>
-<a href="pinouts.md#xlr"><em>XLR</em></a><br>
-A three-pin connector favored for long balanced cables in pro audio equipment.  </p>
-
-<p><img src="images/Audio/phoenix_cork.jpg" alt="" title="http://q1engravers.com/images/Phoenix_Connector_block_ELC-2MKKDS%20and%203MKKDS.JPG"><br>
-<em>Phoenix</em><br>
-A modular, adaptable brand of connectors for crafting one's own multi-channel, balanced or unbalanced cables and connections. Generally used to make connections on the back end of patch bays, distribution amplifiers, etc. Available in various configurations.  </p>
-
-<p><img src="images/Audio/edac_elco_cork.jpg" alt="" title="http://www.canford.co.uk/Images/ItemImages/large/47-201_01.jpg"><br>
-<em>EDAC/ELCO</em><br>
-Another brand of modular, adaptable connectors. Similar in appearance and use to Phoenix. Available in various configurations.  </p>
-
-<h4>
-<a id="unbalanced" class="anchor" href="#unbalanced" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Unbalanced</h4>
-
-<p>Unbalanced audio cables contain only two wires for any one audio channel: "earth" (electrical ground) and "hot" (the audio signal). These are employed with short cables, internal cables or components (inside sound equipment), or consumer-grade equipment where noise is considered less of an issue.  </p>
-
-<p><img src="images/Audio/audio_rca_cork.jpg" alt="" title="http://resource.supercheats.com/library/300w/xbox-360/xbox-hdmi-audio7.jpg"> <img src="images/Audio/audio_rca_bottle.jpg" alt="" title="http://icdn9.digitaltrends.com/image/nuforce-s3_bt-bluetooth-bookshelf-speakers-right-channel-rear-audio-input-macro-1500x991.jpg"><br>
-<a href="pinouts.md#rca"><em>RCA</em></a><br>
-By nature unbalanced connectors as they only have one pin/contact point. Frequently used for the two-channel (left and right) audio output of video decks, especially consumer-grade equipment (in such cases, often color-coded white and red, where white = channel 1/left, red = channel 2, right).  </p>
-
-<p><img src="images/Audio/1:4-TS_cork.jpg" alt="" title="http://s3.showmecables.com/images/catalog/product/1-4-Mono-Plug-to-3-5mm-Mono-Jack-1.jpg"><br>
-<a href="pinouts.md#tip-sleeve"><em>1/4" TS jack</em></a><br>
-TS (Tip/Sleeve) jacks are exactly the same in appearance as balanced 1/4" TRS jacks, except missing the "ring" contact point and cold wire. Often used for the output on musical instruments such as electric guitars.  </p>
-
-<p><img src="images/Audio/1:8-TS_cork.jpg" alt="" title="https://images-na.ssl-images-amazon.com/images/G/01/musical-instruments/detail-page/B000068O47_img1.jpg"><br>
-<a href="pinouts.md#tip-sleeve"><em>1/8" TS "mini" jack</em></a><br>
-Smaller version of the unbalanced 1/4" TS jack. Seen with [???]  </p>
-
-<p><img src="images/Audio/1:4-TRS_cork.jpg" alt="" title="http://cdn-tp1.mozu.com/2199-2317/cms/2317/files/42f48ea4-d4d4-4ef4-a7a0-0738d4c95ba6?max=400&amp;_mzcb="><br>
-<a href="pinouts.md#tip-ring-sleeve"><em>1/4" TRS jack (stereo)</em></a><br>
-By all outward appearance, the same as the 1/4" TRS jacks used for balanced mono cables, except in the case of unbalanced stereo the three contact points are used for ground and two channels of audio, rather than ground and hot/cold versions of one audio channel. Often seen with professional headphones, and stereo microphone/monitor connections on professional video decks.  </p>
-
-<p><img src="images/Audio/1:8%22-TRS_cork.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/8/8b/Audio-TRS-Mini-Plug.jpg"><br>
-<a href="pinouts.md#tip-ring-sleeve"><em>1/8" TRS "mini" jack (stereo)</em></a><br>
-See above. Frequently used for stereo output on portable audio devices - also on computer sound cards for line-in/line-out connections (to/from headphones, microphones, speakers, etc).  </p>
-
-<p><img src="images/Audio/audio_din-5-pin_cork.jpg" alt="" title="https://www.c2g.com/uk/static/content/images/resources/connector-guides/450/107_5_pin_din_at_m_iso.jpg"> <img src="images/Audio/audio_din-5-pin_bottle.jpg" alt="" title="http://connector.pinoutsguide.com/photo/din5df.jpg"><br>
-<a href="pinouts.md#din-5-pin"><em>DIN 5-pin</em></a><br>
-Similar to the purpose of the 8-pin video monitor cable/connector, DIN 5-pins were used to carry both the audio input and output of a piece of equipment over the same cable/connection. Could carry mono or stereo signal.  </p>
-
-<h3>
-<a id="digital-1" class="anchor" href="#digital-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Digital</h3>
-
-<p>See <a href="README.md#digital">digital video</a>.</p>
-
-<h4>
-<a id="aes-3" class="anchor" href="#aes-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AES-3</h4>
-
-<p>AES-3 is a standard for the exchange of digital audio signals developed in conjunction by the Audio Engineering Society and the European Broadcasting Union, and is therefore also often referred to as "AES-EBU." AES-3 is capable of carrying two uncompressed channels of uncompressed PCM audio, or compressed 5.1/7.1 surround sound over the same cable.  </p>
-
-<p><strong>Introduced:</strong> 1985<br>
-<strong>Max resolution:</strong> 24-bit<br>
-<strong>Wiring, Connectors and Ports:</strong>  </p>
-
-<h5>
-<a id="balanced-1" class="anchor" href="#balanced-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Balanced</h5>
-
-<p><img src="images/Audio/xlr_cork_bottle_cable.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/1/15/Xlr-connectors.jpg"><br>
-<a href="pinouts.md#xlr"><em>XLR</em></a><br>
-The most common variant of AES-3 connection, found with professional installations and equipment.  </p>
-
-<h5>
-<a id="unbalanced-1" class="anchor" href="#unbalanced-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Unbalanced</h5>
-
-<p><img src="images/Video/BNC_cork.jpg" alt="" title="http://blog.dvrunlimited.com/wp-content/uploads/2013/09/BNC_connector_male.jpg"><br>
-<a href="pinouts.md#bnc"><em>BNC</em></a><br>
-A variant of AES-3 with lower (75-ohm vs balanced XLR's 110-ohm) electrical impedence. Sometimes found in broadcast applications as it uses the same cabling infrastructure as digital video, so it can be convenient for patch bays that employ BNC connections.  </p>
-
-<h4>
-<a id="spdif" class="anchor" href="#spdif" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SPDIF</h4>
-
-<p>Standing for Sony/Philips Digital Interface Format, S/PDIF refers to a consumer-grade variant of the AES-3 protocol (listed as "Type II" in the same international standard as AES-3: IEC 60958). Essentially interchangeable at the protocol level with AES-3, so devices carrying these signals can interface easily, provided the difference in physical connections and electrical level/impedence are accounted for.  </p>
-
-<p><strong>Introduced:</strong> 1985<br>
-<strong>Max resolution:</strong> 20-bit<br>
-<strong>Wiring, Connectors and Ports:</strong></p>
-
-<h5>
-<a id="optical" class="anchor" href="#optical" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Optical</h5>
-
-<p>Fiber optic cables transmit data signals as flashes of light over flexible, transparent fibers made of glass or plastic. In audio applications, they can allow transmission at higher bandwidths without the electromagnetic interference to which metal wires are susceptible. Due to attenuation (the reduction of the intensity of the light over distance), consumer-grade optical audio cables are generally short (5-10 meters).  </p>
-
-<p><img src="images/Audio/spdif_toslink_cork.jpg" alt="" title="http://www.soundsupport.biz/wp-content/uploads/2012/08/spdif-toslink1.jpg"> <img src="images/Audio/spdif_toslink_bottle.jpg" alt="" title="http://www.teac.com/content/images/universal/misc/ai-301da_w_digital-in.jpg"><br>
-<em>F05/TOSLINK</em><br>
-Also sometimes referred to as "EIAJ optical" connectors. While F05 is the technical name for the physical specification, Toshiba's specific brand name for optical cables, TOSLINK, has essentially become the name for the connector. Found with larger consumer-grade S/PDIF devices, particularly Toshiba-brand audio products.  </p>
-
-<p><img src="images/Audio/spdif_mini-toslink_cork.jpg" alt="" title="http://images.monoprice.com/productlargeimages/26711.jpg"> <img src="images/Audio/spdif_mini-toslink_bottle.jpg" alt="" title="http://www.headfonia.com/wp-content/uploads/2010/05/drdac_prime_10.jpg"><br>
-<em>Mini TOSLINK</em><br>
-A smaller version of the TOSLINK connector that is almost the same size and shape of a 1/8" TRS stereo jack. Some combined 1/8" stereo jack and Mini TOSLINK ports exist to accept either digital or analog audio input/output. Mini TOSLINK is generally used with smaller consumer-grade digital audio equipment (e.g. portable CD players).  </p>
-
-<h5>
-<a id="unbalanced-2" class="anchor" href="#unbalanced-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Unbalanced</h5>
-
-<p><img src="images/Audio/spdif_rca_cork.jpg" alt="" title="https://www.cablesnmore.com/content/images/thumbs/0004559_spdif-digital-rca_450.jpeg"> <img src="images/Audio/spdif_rca_bottle.jpg" alt="" title="http://www.homestudiocorner.com/wp-content/uploads/2011/01/SPDIF.jpg"><br>
-<a href="pinouts.md#rca"><em>RCA</em></a><br>
-The S/PDIF protocol can also be found in consumer audio installations with two-contact RCA connectors over unbalanced coax cables. Such S/PDIF connectors are usually color-coded orange to differentiate them from analog audio and video cables that employ RCA.  </p>
-
-<h4>
-<a id="midi" class="anchor" href="#midi" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MIDI</h4>
-
-<p>Short for Musical Instrument Digital Interface, a standard usually used for connecting a wide variety of musical instruments and/or computers to each other. MIDI links allow for the transmission of up to 16 channels of information at a time (although only in one direction, so separate cables are required for input/output). Technically speaking, MIDI does not actually carry digital audio - it carries event information that specifies control parameters such as pitch, notation, volume, vibrato, clock signals and other metadata to synchronize audio/musical devices with each other. MIDI is usually employed fairly exclusively in production/recording envrionments.  </p>
-
-<p><strong>Introduced:</strong> 1983<br>
-<strong>Max speed:</strong> 31.25 kb/s<br>
-<strong>Wiring, Connectors and Ports:</strong>  </p>
-
-<h5>
-<a id="balanced-2" class="anchor" href="#balanced-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Balanced</h5>
-
-<p><img src="images/Audio/midi_din-5-pin_cork.jpg" alt="" title="http://www.image-tmart.com/images/C/CL036/USB-to-MIDI-Keyboard-Interface-Converter-Cable-Adapter-02.gif"> <img src="images/Audio/midi_din-5-pin_bottle.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/0/02/Midi_ports_and_cable.jpg"><br>
-<em>DIN 5-pin</em><br>
-Though they have 5-pins, only 3 of the pins in MIDI connectors are used in typical applications: ground, and then a balanced pair of contacts.  </p>
-
-<h4>
-<a id="tdif" class="anchor" href="#tdif" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TDIF</h4>
-
-<p>The Tascam Digital Interface Format is a proprietary protocol and connector, therefore seen exclusively with Tascam devices. It is bidirectional, allowing the transmission of up to eight channels of digital audio. </p>
-
-<p><strong>Introduced:</strong> 1993<br>
-<strong>Max resolution:</strong><br>
-<strong>Wiring, Connectors and Ports:</strong>  </p>
-
-<h5>
-<a id="unbalanced-3" class="anchor" href="#unbalanced-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Unbalanced</h5>
-
-<p><img src="images/Audio/tdif_d-sub-25_cork.jpg" alt="" title="http://hosatech.com/wp-content/uploads/2014/03/DBK-300_RGB_856.jpg"> <img src="images/Audio/tdif_d-sub-25_bottle.jpg" alt="" title="https://www.scmsinc.com/uploads/ecomm/my16-tdfronta.jpg"><br>
-<em>DB-25</em><br>
-A D-subminiature connection with a pinout that allows for input and ouput of TDIF's eight channels of audio to be transmitted over the same cable.  </p>
-
-<h4>
-<a id="adat" class="anchor" href="#adat" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ADAT</h4>
-
-<p>Originally developed by Alesis for its Digital Audio Tape products, the ADAT Lightpipe interface became popular with third party manufacturers and so became synonymous with the standard rather than specifically Alesis DAT connections. ADAT supports transmission of up to eight channels of uncompressed digital audio at up to 48 kHz and 24-bit, giving them a much higher bandwidth than similar S/PDIF optical cables. Found exclusively in optical cable variety.  </p>
-
-<p><strong>Introduced:</strong> 1992<br>
-<strong>Max resolution:</strong> 24-bit<br>
-<strong>Wiring, Connectors and Ports:</strong>  </p>
-
-<h5>
-<a id="optical-1" class="anchor" href="#optical-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Optical</h5>
-
-<p><img src="images/Audio/spdif_toslink_cork.jpg" alt="" title="http://www.soundsupport.biz/wp-content/uploads/2012/08/spdif-toslink1.jpg"> <img src="images/Audio/adat_toslink_bottle.jpg" alt="" title="http://www.harmonycentral.com/forum/filedata/fetch?id=31138107&amp;d=1398720428"><br>
-<em>F05/TOSLINK</em><br>
-Since they use the exact same connectors, ADAT cables and connections are visually indistinguishable from S/PDIF, though the interfaces and cables are completely incompatible at the protocol level.  </p>
-
-<h2>
-<a id="data" class="anchor" href="#data" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data</h2>
-
-<h3>
-<a id="parallel" class="anchor" href="#parallel" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Parallel</h3>
-
-<p>Digital transmission can occur in one of two basic methods: parallel or serial communication. In parallel communication, multiple bits (usually 8 bits, otherwise known as one byte) are transferred simultaneously on separate channels within the same cable, then combined and synchronized. This can result in a faster bit rate than serial transmission, but is also significantly more expensive (since it requires far more wires to create the cable) and the synchronization timing in parallel transmission is also susceptible to distance, making it impractical for longer cables. Parallel communication was popular in the 1980s but has generally fallen out of favor in modern data transmission.   </p>
-
-<h4>
-<a id="pata" class="anchor" href="#pata" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PATA</h4>
-
-<p>Short for Parallel Advanced Technology Attachment, originally known simply as ATA until the later <a href="README.md#SATA">Serial ATA</a> standard was developed. An interface standard for the connection of storage devices, e.g. hard disk drives, floppy drives and optical drives. Given its maximum cable length of 18 inches, PATA is mostly limited to internal computer use, but it can occasionally be seen/used to connect to external drives.  </p>
-
-<p><strong>Introduced:</strong> 1986<br>
-<strong>Max bit depth and rate:</strong> 16-bit depth; originally 16 mb/s, developed up to 133 mb/s<br>
-<strong>Connectors and ports:</strong>  </p>
-
-<p><img src="images/Data/pata_40-pin_cork.jpg" alt="" title="http://img.tomshardware.com/us/2005/11/23/pc_interfaces_101/ide_w_cable.jpg"> <img src="images/Data/pata_40-pin_bottle.jpg" alt="" title="http://chebgym5.ru/computer/images/ide-cable.jpg"><br>
-<em>40-pin ribbon</em><br>
-Used with the most common 40-wire PATA ribbon cables, as well as the more rare 80-wire ribbons developed late in the PATA standard's lifespan to increase data rate.  </p>
-
-<h4>
-<a id="parallel-scsi" class="anchor" href="#parallel-scsi" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Parallel SCSI</h4>
-
-<p>Referred to alternately as SCSI (Small Computers Systems Interface) Parallel Interface, SPI, or before the advent of <a href="README.md#serial-scsi">Serial SCSI</a>, simply SCSI (pronounced "scuzzy"). Unfortunately, Parallel SCSI is not technically a single standard, but a series of almost a dozen related interfaces with ambiguous names ("Fast SCSI", "Ultra SCSI," etc.) and variable bit depths and rates. See the link to a comparison table below. In any case, Parallel SCSI cables were used to connect peripheral devices to computers; unlike PATA, which could only connect a maximum of two devices, a single Parallel SCSI data bus could be attached to up to 8 or 16 devices. The symbol below generally marked a SCSI port on computers.  </p>
-
-<p><img src="images/Data/scsi_logo.png" alt="" title="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Scsi_logo.svg/2000px-Scsi_logo.svg.png">  </p>
-
-<p><strong>Introduced:</strong> 1986<br>
-<strong>Max bit depth and rate:</strong> See <a href="https://en.wikipedia.org/wiki/Parallel_SCSI#Comparison_table">comparison table</a><br>
-<strong>Connectors and ports:</strong><br>
-<img src="images/Data/scsi_50-pin_cork.jpg" alt="" title="http://www.datapro.net/images/SCSI_CN50.jpg"> <img src="images/Data/scsi_50-pin_bottle.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/1/1b/Scsi-1_gehaeuse.jpg"><br>
-<em>50-pin micro-ribbon</em><br>
-Micro ribbon or miniature ribbon connectors have a similar shielded design to the D-sub family of connectors, but used a different kind of contact known as ribbon contacts rather than pin contacts. There are various configurations that were used with Parallel SCSI but the most common variety was a 50-contact micro-ribbon connector. These connectors were often referred to by the brand name of the company that manufactured them: for instance, Amphenol-50, IDC-50, CN-50 (Centronics).  </p>
-
-<p><img src="images/Data/scsi_25-pin_cork.jpg" alt="" title="http://www.datapro.net/images/SCSI_DB25.jpg"> <img src="images/Data/scsi_25-pin_bottle.jpg" alt="" title="https://www.cs.uaf.edu/users/olawlor/public_html/ref/mac_ports/scsi_db25.jpg"><br>
-<a href="pinouts.md#db-25"><em>DB-25</em></a><br>
-A D-sub connector used by Apple for Parallel SCSI connections on their early desktop computers.  </p>
-
-<p><img src="images/Data/scsi_hdi-30_cork.jpg" alt="" title="http://cdn2.goughlui.com/wp-content/uploads/2013/07/DSC_00114.jpg"> <img src="images/Data/scsi_hdi-30_bottle.jpg" alt="" title="http://www.libellules.ch/Img_connecteur/lib_scsi_hdi30f.jpg"><br>
-<em>HDI-30</em><br>
-A singular square-shaped pin contact connector used by Apple for Parallel SCSI connections on a few of their early laptop designs.  </p>
-
-<h4>
-<a id="ieee-1284" class="anchor" href="#ieee-1284" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>IEEE 1284</h4>
-
-<p>A standard for parallel communication alternately, and more commonly, referred to as "parallel port", "printer port" or the "Centronics port", as it was originally developed by Centronics to facilitate communication between computers and Centronics-brand dot-matrix printers. Originally unidirectional ("send-only") for sending data from a computer to a printer, but later developed to allow for bidirectional communication, it became a popular alternative to Parallel SCSI for peripherals like floppy drives and network adapters and hard drives as it had cheaper circuitry. A symbol similar to the one below generally marked parallel/printer port connections on computers.  </p>
-
-<p><img src="images/Data/parallel_port_logo.png" alt="" title="https://openclipart.org/image/2400px/svg_to_png/189941/Parallel-port.png">  </p>
-
-<p><strong>Introduced:</strong> 1970s<br>
-<strong>Max bit depth and rate:</strong><br>
-<strong>Connectors and ports:</strong><br>
-<img src="images/Data/parallel_port_25-pin_cork.jpg" alt="" title="http://img.alibaba.com/img/pb/487/415/275/275415487_248.jpg"> <img src="images/Data/parallel_port_25-pin_bottle.jpg" alt="" title="http://cdn.computerhope.com/parallel-port.jpg"><br>
-<a href="pinouts.md#db-25"><em>DB-25</em></a><br>
-A D-sub connection, usually used for the host (computer) end of a parallel port cable/connection.  </p>
-
-<p><img src="images/Data/parallel_port_36-pin_cork.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/d/d2/IEEE_1284_36pin_plughead.jpg"> <img src="images/Data/parallel_port_36-pin_bottle.jpg" alt="" title="http://www.kenosha-reuse.com/SALEM,-WI/Commercial/Mechanical/Used/Plus-Warranty/Wasp-rp-WPRP200-thermal-receipt-printer-parallel-port-picture-1.jpg"><br>
-<em>36-pin micro-ribbon</em><br>
-A micro-ribbon connector developed by Centronics (also called CN-36), usually used for the printer or device connection.  </p>
-
-<h3>
-<a id="serial" class="anchor" href="#serial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Serial</h3>
-
-<p>As opposed to <a href="README.md#parallel">parallel transmission</a>, in serial communication bits are transferred sequentially over the same wire. Bytes must be assembled and sent as a unit and then disassembled by the receiving device. Though serial data transmission was developed before parallel transmission, parallel communication reigned for much of the late 1970s-1980s as physical performance limitations originally gave parallel communication higher data rates. Improvements in cable and circuit design have since made serial transmission the far faster and preferred option.  </p>
-
-<h4>
-<a id="rs-232" class="anchor" href="#rs-232" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RS-232</h4>
-
-<p>Because it was the first serial data protocol to become a standard feature in personal computing, RS-232 was commonly referred to simply as "the serial port." It was used for bidirectional connection to many peripheral computer devices, including modems, printers, mice, external drives, etc. It was also used for remote connection and control of some VTRs. It is referred to as "RS" because it was originally sponsored by the Radio Sector of the Electronic Industries Association - changes in the sponsoring organization have caused the standard to be alternately referred to as EIA-232 and TIA-232. The symbol below generally marked serial port connections on computers.  </p>
-
-<p><img src="images/Data/serial_port_logo.png" alt="" title="http://cliparts.co/cliparts/Big/E86/BigE86ErT.png">  </p>
-
-<p><strong>Introduced:</strong> 1962<br>
-<strong>Max bit depth and rate:</strong><br>
-<strong>Connectors and ports:</strong><br>
-<a href="pinouts.md#db-25"><em>DB-25</em></a><br>
-The RS-232 standard recommends a 25-pin D-sub connector but did not make it mandatory - therefore it is by far the most common type of connector for both host computers and peripherals but not exclusive.  </p>
-
-<p><a href="pinouts.md#db-15"><em>DB-15</em></a><br>
-Found with RS-232 connections on some modems (on the modem end).  </p>
-
-<p><em>DB-9</em><br>
-Found with RS-232 connections with some modems, printers, peripherals (on the host computer end).  </p>
-
-<p><a href="pinouts.md#de-9"><em>DE-9</em></a><br>
-Found with RS-232 connections on early mice and keyboards.  </p>
-
-<h4>
-<a id="rs-422" class="anchor" href="#rs-422" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RS-422</h4>
-
-<p>An improvement to the RS-232 standard to increase transmit speeds and/or maximum cable length. Introduced differential signaling to data cabling - a technique of reducing electromagnetic noise as it is transmitted over the wires in a cable, similar to <a href="README.md#balanced">balanced cables</a> in analog audio.  </p>
-
-<p><strong>Introduced:</strong> 1996<br>
-<strong>Max bit depth and rate:</strong> 10Mbit/s<br>
-<strong>Connectors and ports:</strong><br>
-<a href="pinouts.md#de-9"><em>DE-9</em></a><br>
-Found on later VTRs, especially Sony models.  </p>
-
-<p><a href="pinouts.md#mini-din-8-pin"><em>Mini-DIN 8-pin</em></a><br>
-An RS-232 compatible variant of RS-422 widely used on Macintosh hardware.  </p>
-
-<h4>
-<a id="serial-scsi" class="anchor" href="#serial-scsi" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Serial SCSI</h4>
-
-<p>Serial Attached SCSI (SAS) replaced <a href="README.md#parallel-scsi">Parallel SCSI</a>, using the same basic command set but replacing the transmission method from parallel to serial to improve transfer rate. Backwards compatible with <a href="README.md#sata">SATA</a>. Unlike Parallel SCSI, almost exclusively used in internal computer connections and very rarely found in use with peripherals.  </p>
-
-<p><strong>Introduced:</strong> 2004<br>
-<strong>Max bit depth and rate:</strong> Originally 3.0 Gbit/s, now 12.0 Gbit/s<br>
-<strong>Connectors and ports:</strong><br>
-<em>SF-8088 (Mini-SAS)</em><br>
-Shielded 26-pin implementation of SAS.  </p>
-
-<p><em>SFF-8470 (Infiniband)</em><br>
-High-density, 34-pin external connector.  </p>
-
-<h4>
-<a id="sata" class="anchor" href="#sata" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SATA</h4>
-
-<p>Developed to replace <a href="README.md#pata">Parallel ATA</a>, Serial ATA is used to connect host bus devices to mass storage devices such as hard drives, optical drives, solid-state drives, etc. Generally found for internal connections in desktops and laptops, but used in some cases to connect to external drives as well.  </p>
-
-<p><strong>Introduced:</strong> 2003<br>
-<strong>Max bit depth and rate:</strong> Originally 1.5 Gbit/s, now up to 16 Gbit/s<br>
-<strong>Connectors and ports:</strong><br>
-<img src="images/Data/e-sata_cork.jpg" alt="" title="https://sgcdn.startech.com/005329/media/products/gallery_large/USB3S2ESATA3.C.jpg"> <img src="images/Data/e-sata_bottle.jpg" alt="" title="http://www.thecomputercoach.net/assets/images/eSATA_port.jpg"><br>
-<a href="pinouts.md#esata"><em>eSATA</em></a><br>
-Found exclusively with SATA connections to external drives (the "e" stands for "external").  </p>
-
-<h4>
-<a id="apple-desktop-bus" class="anchor" href="#apple-desktop-bus" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Apple Desktop Bus</h4>
-
-<p>A Macintosh-exclusive computer bus for connecting low-speed peripherals - mice, keyboards, etc. ADB connections were generally marked by the symbol below. </p>
-
-<p><img src="images/Data/apple_desktop_bus_logo.png" alt="" title="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/ADB_Icon.svg/130px-ADB_Icon.svg.png">  </p>
-
-<p><strong>Introduced:</strong> 1986<br>
-<strong>Max bit depth and rate:</strong> 125 Kbit/s<br>
-<strong>Connectors and ports:</strong><br>
-<img src="images/Data/apple_desktop_bus_cork.jpg" alt=""> <img src="images/Data/apple_desktop_bus_bottle.jpg" alt="" title="http://ttic.uchicago.edu/~cotter/projects/aek2/images/adb.jpg"><br>
-<a href="pinouts.md#mini-din-4-pin"><em>Mini-DIN 4-pin</em></a><br>
-The exact same connector used for <a href="README.md#s-video">S-Video</a> connections and the cables are interchangeable. ADB cables usually were marked by the symbol above.  </p>
-
-<h4>
-<a id="ps2" class="anchor" href="#ps2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PS2</h4>
-
-<p>A PC-compatible low-speed computer bus for peripherals like mice, keyboards, etc. Its name comes from the IBM Personal System/2 line of computers with which it was introduced. Generally replaced older <a href="README.md#rs-232">RS-232</a> connections employing DE-9 connectors.</p>
-
-<p><strong>Introduced:</strong> 1987<br>
-<strong>Max bit depth and rate:</strong><br>
-<strong>Connectors and ports:</strong><br>
-<img src="images/Data/PS2_cork1.jpg" alt=""> <img src="images/Data/PS2_cork2.jpg" alt=""> <img src="images/Data/PS2_bottle.jpg" alt="" title="http://11986-presscdn-0-77.pagely.netdna-cdn.com/wp-content/uploads/2014/08/ps2-ports.jpg"><br>
-<a href="pinouts.md#mini-din-6-pin"><em>Mini-DIN 6-pin</em></a><br>
-The only connectors used for PS/2 connections. Often color-coded: green connectors were used for mice and purple for keyboards.  </p>
-
-<h4>
-<a id="usb" class="anchor" href="#usb" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>USB</h4>
-
-<p>Short for Universal Serial Bus, designed to standardize connections of computer peripherals after the proliferation of connections in the '80s and early '90s. Used with keyboards, mice, digital cameras, external drives, network adapters, etc. Capable of supplying power to many of these devices in addition to transmitting data. Updates to the original USB 1.0 standard (1.5 Mbit/s at Low Speed, 12 Mbit/s at Full Speed) have represented major shifts in data transmission, usually with accompanied changes in physical connection, so they are elaborated on more below. All advancements in USB have been backwards-compatible (so a USB 3.0 connection can carry USB 2.0 data, etc). Ports are also usually marked by the symbol below.  </p>
-
-<p><img src="images/Data/usb_logo.png" alt="" title="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/USB_Icon.svg/2000px-USB_Icon.svg.png">  </p>
-
-<p><strong>Introduced:</strong> 1996  </p>
-
-<h5>
-<a id="usb-20" class="anchor" href="#usb-20" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>USB 2.0</h5>
-
-<p>"High Speed"<br>
-<strong>Introduced:</strong> 2000<br>
-<strong>Max bit depth and rate:</strong> 480 Mbit/s<br>
-<strong>Connectors and ports:</strong><br>
-<img src="images/Data/USB2_typeA_cork.jpg" alt=""> <img src="images/Data/USB_typeA_bottle.jpg" alt="" title="http://www.what-is-my-computer.com/images/usb-ports.jpg"><br>
-<a href="pinouts.md#usb-20"><em>Type A</em></a><br>
-Found with USB host controllers, i.e. computers and hubs. Uses flat pins to withstand repeated attachment and removal.  </p>
-
-<p><img src="images/Data/USB_typeB_cork.jpg" alt="" title="http://www.datapro.net/images/techinfo/usb_info_type-b.jpg"><br>
-<a href="pinouts.md#usb-20"><em>Type B</em></a><br>
-An "upstream" connection intended for use on USB-compatible peripheral devices (thus, the majority of USB 2.0 connections require a Type A-to-Type B cable).  </p>
-
-<p><img src="images/Data/USB2_miniA_cork.jpg" alt=""><br>
-<a href="pinouts.md#usb-20"><em>Mini Type A</em></a><br>
-Designed to slim down the Type A interface for use with mobile devices; quickly deprecated by the USB Implementers Forum (which guides specification and compliance of the USB protocol), meaning only a handful of certified devices ever used Mini Type A connections.  </p>
-
-<p><img src="images/Data/USB2_miniB_cork.jpg" alt=""><br>
-<a href="pinouts.md#usb-20"><em>Mini Type B 5-pin</em></a><br>
-Designed to slim down the Type B interface for use with mobile devices (PDAs, digital cameras, etc.)</p>
-
-<p><em>Mini Type B 4-pin</em><br>
-An unofficial implementation of USB (never supported by the USB-IF), used with some digital cameras, particularly Kodak models.  </p>
-
-<p><img src="images/Data/USB2_microA_cork.jpg" alt=""><br>
-<a href="pinouts.md#usb-20"><em>Micro Type A</em></a><br>
-Used on mobile devices such as cellphones, digital cameras, GPS units, etc. Smaller than Mini Type connections and identified by white-colored receptacle with 5 pins.  </p>
-
-<p><img src="images/Data/USB2_microB_cork.jpg" alt=""><br>
-<a href="pinouts.md#usb-20"><em>Micro Type B</em></a><br>
-Used on mobile devices such as cellphones, digital cameras, GPS units, etc. Smaller than Mini Type connections and identified by black-colored receptacle with 5 pins.  </p>
-
-<h5>
-<a id="usb-30" class="anchor" href="#usb-30" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>USB 3.0</h5>
-
-<p>"SuperSpeed"<br>
-<img src="images/Data/usb3_logo.jpg" alt="" title="http://www.kurokatta.org/pix/usb-superspeed-s"><br>
-<strong>Introduced:</strong> 2008<br>
-<strong>Max bit depth and rate:</strong> 5 Gbit/s<br>
-<strong>Connectors and ports:</strong>  </p>
-
-<p><img src="images/Data/USB3_typeA_cork.jpg" alt="" title="https://upload.wikimedia.org/wikipedia/commons/7/75/Connector_USB_3_IMGP6024_wp.jpg"> <img src="images/Data/USB3_typeA_bottle1.jpg" alt="" title="http://icdn8.digitaltrends.com/image/usb-3-0-ports-625x300-c.jpg"> <img src="images/Data/USB3_typeA_bottle2.jpg" alt="" title="http://www.howtogeek.com/wp-content/uploads/2014/01/650x434xusb-2.0-vs-usb-3.0-blue-port.jpg.pagespeed.gp+jp+jw+pj+js+rj+rp+rw+ri+cp+md.ic.Hw2qDXl-UA.jpg"><br>
-<a href="pinouts.md#usb-30"><em>Type A</em></a><br>
-Similar in sixe, shape, appearance to USB 2.0 Type A, though it has additional pins. Typically colored blue to differentiate from USB 2.0 Type A connections.  </p>
-
-<p><img src="images/Data/USB3_typeB_cork.jpg" alt="" title="http://www.datapro.net/images/usb_3_b.jpg"> <img src="images/Data/USB3_typeB_bottle.jpg" alt="" title="https://hsto.org/getpro/habr/post_images/c40/af2/062/c40af20620352d5a35b1cadb413bc739.jpg"><br>
-<a href="pinouts.md#usb-30"><em>Type B</em></a><br>
-A boxy connection similar in appearance to USB 2.0 Type B, but (unlike Type A) not physically compatible with its preceding equivalent. Therefore cables with a USB 3.0 Type B connector are not compatible with devices with a USB 2.0 Type B port; however devices with a USB 3.0 Type B port <em>will</em> accept USB 2.0 Type B cables. Usually colored blue.  </p>
-
-<p><img src="images/Data/USB3_microB_cork.jpg" alt="" title="https://sgcdn.startech.com/005329/media/products/gallery_large/USB3SAUBX.C.jpg"> <img src="images/Data/USB3_microB_bottle.jpg" alt="" title="https://farm6.staticflickr.com/5590/14717534619_7bf547c241_o.jpg"><br>
-<a href="pinouts.md#usb-30"><em>Micro Type B</em></a><br>
-A connection totally unique to USB 3.0 cables and devices, incompatible with previous USB devices.  </p>
-
-<h5>
-<a id="usb-31" class="anchor" href="#usb-31" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>USB 3.1</h5>
-
-<p>"SuperSpeed+"<br>
-<strong>Introduced:</strong> 2013<br>
-<strong>Max bit depth and rate:</strong> 10 Gbit/s<br>
-<strong>Connectors and ports:</strong><br>
-<img src="images/Data/USB3-1_typeC_cork.jpg" alt="" title="https://cnet2.cbsistatic.com/img/JplrP5OaMw-Qjju0FM-E9SJEPIs=/570x0/2015/12/07/fcf70d65-4104-465e-b017-c5af7e122527/20151203-usb-type-c-001.jpg"> <img src="images/Data/USB3-1_typeC_bottle.jpg" alt="" title="http://liliputing.com/wp-content/uploads/2015/03/macbook-type-c2.jpg"><br>
-<a href="pinouts.md#usb-31"><em>Type C</em></a><br>
-A reversible, symmetrical design capable of carrying data at 10 Gbit/s (between two USB 3.1-compatible devices), power, and built-in support for DisplayPort video and four channels of audio. Increasingly found as a charging/data port for PC laptops and Apple laptops via the <a href="README.md#thunderbolt-3">ThunderBolt</a> protocol.  </p>
-
-<h4>
-<a id="firewire-1" class="anchor" href="#firewire-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FireWire</h4>
-
-<p>Developed by Apple at roughly the same time as <a href="README.md#usb">USB</a>, for the similar purpose of consolidating connections and improving data transfer speeds. Unlike USB, FireWire does not require the use of a host controller (FireWire-compatible devices can communicate directly to each other without the use of a computer), but it was more costly to implement than USB and therefore never quite as popular. Sometimes referred to as i.Link (in Sony applications) and Lynx (Texas Instruments), as FireWire is technically just the Apple branding of the IEEE 1394 standard. Used for connections to external hard drives, as well as A/V component communication and control. Two major flavors of FireWire were introduced before Apple phased out development of the standard in favor of <a href="README.md#thunderbolt">ThunderBolt</a>. Ports usually represented by the symbol below.  </p>
-
-<p><img src="images/Data/firewire_logo.png" alt="" title="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/FireWire_Logo.svg/2000px-FireWire_Logo.svg.png">  </p>
-
-<h5>
-<a id="firewire-400" class="anchor" href="#firewire-400" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FireWire 400</h5>
-
-<p>"IEEE 1394a"<br>
-<strong>Introduced:</strong> 1995<br>
-<strong>Max bit depth and rate:</strong> 400 Mbit/s<br>
-<strong>Connectors and ports:</strong>  </p>
-
-<p><img src="images/firewire_6-pin.jpg" alt=""> <img src="images/Data/firewire_6-pin_bottle.jpg" alt="" title="http://etc.usf.edu/te_mac/hardware/i/img_1744.jpg"><br>
-<a href="pinouts.md#firewire"><em>6-pin</em></a><br>
-Can carry DC power in addition to data; thus 6-pin connections are usually found on devices that can provide power, e.g. computers.  </p>
-
-<p><img src="images/firewire_4-pin.jpg" alt=""> <img src="images/Data/firewire_4-pin_bottle.jpg" alt="" title="http://www.jontrosky.com/images/firewire_4_pin_port.jpg"><br>
-<a href="pinouts.md#firewire"><em>4-pin</em></a><br>
-Can only carry data, no power, thus found on peripherals and devices with their own power supply, such as DV cameras, certain external hard drives.  </p>
-
-<h5>
-<a id="firewire-800" class="anchor" href="#firewire-800" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FireWire 800</h5>
-
-<p>"IEEE 1394b"<br>
-<strong>Introduced:</strong> 2002<br>
-<strong>Max bit depth and rate:</strong> 800 Mbit/s<br>
-<strong>Connectors and ports:</strong><br>
-<img src="images/Data/firewire_9-pin_cork.jpg" alt=""> <img src="images/Data/firewire_9-pin_bottle.jpg" alt="" title="http://cdn-image.realsimple.com/sites/default/files/styles/rs_main_image/public/image/images/0809/firewire-800-port_300.jpg?itok=UMxZPpBw"><br>
-<a href="pinouts.md#firewire"><em>9-pin</em></a><br>
-Commonly found on Apple computers. Can be adapted to older 6-pin and 4-pin connectors, but data transfer will be limited to the old 400 Mbit/s rate.  </p>
-
-<h4>
-<a id="thunderbolt" class="anchor" href="#thunderbolt" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ThunderBolt</h4>
-
-<p>Developed by Apple as a replacement for <a href="README.md#firewire-1">FireWire</a>. Combines computer bus data transmission with the DisplayPort digital video interface, as well as DC power, all over one cable/connection. The first two major versions of ThunderBolt shared a physical connector and had compatible wiring/channels, but the introduction of ThunderBolt 3 has been marked by major shifts in physical interface. Ports usually labelled by the symbol below.  </p>
-
-<p><img src="images/Data/thunderbolt_logo.jpg" alt="" title="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macpro/thunderbolt_logo.png">  </p>
-
-<h5>
-<a id="thunderbolt-1-and-2" class="anchor" href="#thunderbolt-1-and-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ThunderBolt 1 and 2</h5>
-
-<p><strong>Introduced:</strong> 2011; 2013<br>
-<strong>Max bit depth and rate:</strong> 10 Gbit/s; 20 Gbit/s<br>
-<strong>Connectors and ports:</strong><br>
-<img src="images/Data/thunderbolt_mini-displayport_cork.jpg" alt="" title="https://sgcdn.startech.com/005329/media/products/gallery_large/TBOLTMMXMW.D.jpg"> <img src="images/Data/thunderbolt_mini-displayport_bottle.jpg" alt="" title="http://support.seagate.com/kbimg/004528-1.jpg"><br>
-<a href="pinouts.md#displayport"><em>Mini DisplayPort</em></a><br>
-The ThunderBolt protocol was designed to be compatible with the Mini DisplayPort connections already present since 2008 on many Apple computers. Saved Apple from a major redesign for several years.  </p>
-
-<h5>
-<a id="thunderbolt-3" class="anchor" href="#thunderbolt-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ThunderBolt 3</h5>
-
-<p><strong>Introduced:</strong> 2015<br>
-<strong>Max bit depth and rate:</strong> 40 Gbit/s<br>
-<strong>Connectors and ports:</strong><br>
-<img src="images/Data/thunderbolt_typeC_cork.jpg" alt="" title="http://www.flatpanelshd.com/pictures/thunderbolt3-1l.jpg"> <img src="images/Data/thunderbolt_typeC_bottle.jpg" alt="" title="http://blogs.intel.com/technology/files/2015/08/Lenovo-ports.jpg"><br>
-<a href="pinouts.md#usb-31"><em>USB Type C</em></a><br>
-Because of its capability for transferring data, digital video/audio and power all over the same connection, Apple adapted the USB Type C connector to its ThunderBolt protocol and has started using the connection as the single port on its latest MacBook Air products.  </p>
-
-<h4>
-<a id="hdbaset" class="anchor" href="#hdbaset" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HDBaseT</h4>
-
-<p>A standard for the transmission of uncompressed HD video, audio, power, and/or networking and Ethernet connections.<br>
-<strong>Introduced:</strong> 2010<br>
-<strong>Max bit depth and rate:</strong> 10.2 Gbit/s (100 Mbit/s Ethernet)<br>
-<strong>Connectors and ports:</strong><br>
-<em>8P8C/RJ-45</em><br>
-A modular connector with 8 pins/conductors. Similar to but wider than the modular connectors used for phone lines.  </p>
-
-<h2>
-<a id="power" class="anchor" href="#power" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Power</h2>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/MIAPtech/cable-bible">The Cable Bible</a> is maintained by <a href="https://github.com/MIAPtech">MIAPtech</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
+<body>
+<div class="container">
+
+<div class="text-center">
+  <h1>The Cable Bible</h1>
+</div>
+
+<!-- BUTTONS! -->
+<div class="row">
+
+<div class="well col-md-3 col-md-offset-0">
+  <h5>A Guide to Cables and Connectors Used For Audiovisual Tech</h5>
+  <p>A comprehensive guide to cables and connectors potentially used for audiovisual/media preservation. Cable types and connectors are organized by the primary purpose of the signal being transferred - video, audio-only, data (i.e. computer cables) and power. Examples of physical connectors, pinouts and contextual uses for each kind of cable are nested within descriptions of signal types, wiring, interfaces and protocols!</p>
+  <h5>License and Attribution</h5>
+  <p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
+  <p>Images pulled from the web are reused here under principle of fair use - they have all been downloaded and uploaded to this repository for the sake of stability, but original URLs are provided in mouse-over text.</p>
+</div>
+
+<div class="well col-md-8 col-md-offset-0">
+  <div class="well">
+    <h3>What kind of cable are you looking for?</h3>
+    <h6>Select from the following.</h6>
+  </div>
+  <div class="well"><h4>Video</h4>
+    <div class="well"><h3>Analog</h3>
+      <p>Analog audiovisual media record image and sound information as a continuous signal stored in or on the media itself (in the case of most "video" formats, as a continually fluctuating level of magnetic field strength on tape). Different types of video processing can allow that signal to be carried along different channels, with each channel representing a different portion of the video information (e.g. luminance/brightness, chrominance/color, sync). The types of cable you will need to work with an analog video signal will depend primarily on how these channels have been divided, as well as considerations of signal-to-noise ratio - all analog signals are subject to some degree of electronic noise or distortion, and different connection standards and interfaces have been developed to combat such signal degradation.</p>
+      <div class="well"><h2>Composite</h2>
+        <p>In composite cables, all video information (including both luminance and chrominance) is encoded on to a single channel/wire. As all information is traveling along one channel, composite video is the most susceptible to noise in the signal.  
   
-  </body>
+  **Introduced:** 1956  
+          **Max resolution:** Standard Definition (typically 480i or 576i)</p>
+    
+  <!-- Composite RCA -->
+  <span data-toggle="modal" data-target="#RCA"><button type="button" class="btn btn-default">RCA</button></span>
+  <div id="RCA" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="well">
+          <h3>Composite RCA</h3>
+          <p>![](images/composite_RCA.jpg "https://upload.wikimedia.org/wikipedia/commons/c/cd/Composite-video-cable.jpg") ![](images/Video/composite_rca_bottle.jpg "http://www.doom9.org/capture/images/CompositeJack.jpeg")  
+  [_RCA_](pinouts.md#rca)  
+  Used primarily with consumer equipment (e.g. Betamax, VHS, DVD)  
+  Audio: no>/p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ends WAV to MP3 -->
+
+
+<!-- sample example -->
+<!-- <span data-toggle="modal" data-target="#*****unique name*****"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="*****Hover-over description*****">*****Small title****</button></span>
+Change the above data-target field, the hover-over description, the button text, and the below div ID
+<div id="*****unique name*****" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      where the text goes
+      <div class="well">
+        <h3>*****Longer title*****</h3>
+        <p> <code>ffmpeg -i <i>input_file</i> *****code goes here***** <i>output_file</i></code> </p>
+        <p>This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info!</p>
+        <dl>
+          <dt>ffmpeg</dt><dd>starts the command</dd>
+          <dt>-i <i>input file</i></dt><dd>path, name and extension of the input file</dd>
+          <dt>*****parameter*****</dt><dd>*****comments*****</dd>
+          <dt><i>output file</i></dt><dd>path, name and extension of the output file</dd>
+        </dl>
+        <p class="link"></p>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!-- ends sample example -->        
+        
+        
+      </div><!-- end Composite well -->
+  </div><!-- end Analog well -->
+  </div><!-- end Video well -->
+</div> <!-- end "well col-md-6 col-md-offset-2" -->
+</div> <!-- row -->
+
+<div class="footer text-center">
+  <p>Created by Ethan Gates</p>
+  <p>Code adapted from the amazing <a href="https://amiaopensource.github.io/ffmprovisr/" target="_blank">ffmprovisr</a> project!</p>
+  <p>Contribute to the Cable Bible project via (link here to Github page)!</p>
+</div>
+
+</div> <!-- class="container" -->
+</body>
 </html>
