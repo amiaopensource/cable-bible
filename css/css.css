@@ -1,10 +1,14 @@
 h1,h2,h3,h4,h5,h6 {
   font-family: "Contrail One", cursive;
-  color: black;
+  color: gray;
 }
 
 body {
   background-color: #3491d6;
+}
+
+p {
+  color: gray;
 }
 
 code {
@@ -37,9 +41,8 @@ h1 {
 }
 
 div {
-  background-color: #3491d6;
-  font-family: "Oxygen Mono", monospace;;
-  color: : black;
+  color: black;
+  font-family: "Oxygen Mono", monospace;
 }
 
 .btn {
