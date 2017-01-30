@@ -47,8 +47,9 @@ div {
 }
 
 button {
-  height:133px;
-  width:200px;
+  height: 133px;
+  width: 200px;
+  padding: 5px;
 }
 
 .btn {
