@@ -20,7 +20,7 @@ dd {
 }
 
 dt {
-  font-family: "Oxygen Mono",monospace;
+  font-family: "Merriweather",serif;
   color: black;
 }
 
@@ -38,11 +38,17 @@ img {
 h1 {
   font-size:86px;
   line-height:120px;
+  color:black;
 }
 
 div {
   color: black;
-  font-family: "Oxygen Mono", monospace;
+  font-family: "Merriweather", serif;
+}
+
+button {
+  height:100px;
+  width:150px;
 }
 
 .btn {

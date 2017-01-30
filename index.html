@@ -4,7 +4,7 @@
   <title>The Cable Bible</title>
   <meta charset="utf-8">
 
-  <link href="https://fonts.googleapis.com/css?family=Contrail+One|Oxygen+Mono" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Contrail+One|Merriweather" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/css.css">
 
@@ -28,17 +28,24 @@
   <p>A comprehensive source for identifying cables and connectors potentially used for audiovisual/media preservation. Cable types and connectors are organized by the primary purpose of the signal being transferred - video, audio-only, data (i.e. computer cables) and power. Examples of physical connectors (along with pinouts and contextual uses for each kind of cable/connector combination) are provided in buttons, nested within descriptions of signal types, wiring, interfaces and protocols!</p>
   <h5>License and Attribution</h5>
   <p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
-  <p>Images pulled from the web are reused here under principle of fair use - they have all been downloaded and uploaded to this repository for the sake of stability, but original URLs are provided in mouse-over text.</p>
+  <p>Images pulled from the web are reused here under principle of fair use - they have all been downloaded and uploaded to the <a href="https://github.com/amiaopensource/cable-bible">Github repository</a> for the sake of stability, but original URLs are provided in mouse-over text.</p>
 </div>
 
 <div class="well col-md-8 col-md-offset-0">
   <div class="well">
-    <h3>What kind of cable are you looking for?</h3>
-    <h6>Select from the following.</h6>
+    <h2>What kind of cable are you looking for?</h2>
+    <h5>Select from the following.</h5>
   </div>
+
+  <!-- start Video cables -->
+
   <div class="well"><h2>Video</h2>
+    <!-- start Analog Video cables -->
+
     <div class="well"><h3>Analog</h3>
       <p>Analog audiovisual media record image and sound information as a continuous signal stored in or on the media itself (in the case of most "video" formats, as a continually fluctuating level of magnetic field strength on tape). Different types of video processing can allow that signal to be carried along different channels, with each channel representing a different portion of the video information (e.g. luminance/brightness, chrominance/color, sync). The types of cable you will need to work with an analog video signal will depend primarily on how these channels have been divided, as well as considerations of signal-to-noise ratio - all analog signals are subject to some degree of electronic noise or distortion, and different connection standards and interfaces have been developed to combat such signal degradation.</p>
+
+    <!-- start Analog Composite protocol cables -->
       <div class="well"><h4>Composite</h4>
         <p>In composite cables, all video information (including both luminance and chrominance) is encoded on to a single channel/wire. As all information is traveling along one channel, composite video is the most susceptible to noise in the signal.</p>
         <p><b>Introduced:</b> 1956</p>
@@ -62,44 +69,63 @@
       </div>
     </div>
   </div>
-  <!-- ends WAV to MP3 -->
+  <!-- end Composite RCA -->
 
-
-<!-- sample example -->
-<!-- <span data-toggle="modal" data-target="#*****unique name*****"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="*****Hover-over description*****">*****Small title****</button></span>
-Change the above data-target field, the hover-over description, the button text, and the below div ID
-<div id="*****unique name*****" class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      where the text goes
-      <div class="well">
-        <h3>*****Longer title*****</h3>
-        <p> <code>ffmpeg -i <i>input_file</i> *****code goes here***** <i>output_file</i></code> </p>
-        <p>This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info! This is all about info!</p>
-        <dl>
-          <dt>ffmpeg</dt><dd>starts the command</dd>
-          <dt>-i <i>input file</i></dt><dd>path, name and extension of the input file</dd>
-          <dt>*****parameter*****</dt><dd>*****comments*****</dd>
-          <dt><i>output file</i></dt><dd>path, name and extension of the output file</dd>
-        </dl>
-        <p class="link"></p>
+  <!-- Composite BNC -->
+  <span data-toggle="modal" data-target="#composite_BNC"><button type="button" class="btn btn-default"><img src="images/Video/BNC_cork.jpg">BNC</button></span>
+  <div id="composite_BNC" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="well">
+          <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#bnc">Composite BNC</a></h3>
+          <div class="sample-image">
+            <img src="images/Video/BNC_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://blog.dvrunlimited.com/wp-content/uploads/2013/09/BNC_connector_male.jpg">
+            <img src="images/Video/composite_bnc_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://s3.showmecables.com/images/catalog/product/FME-Female-to-BNC-Female-Adaptor.jpg">
+          </div>
+          <p>Used in professional broadcast and some consumer equipment</p>
+          <p>Audio: no</p>
+        </div>
       </div>
     </div>
   </div>
+  <!-- end Composite BNC -->
+
+  </div><!-- end Composite well -->
+
+  </div><!-- end Analog well -->
+
+  </div><!-- end Video well -->
+
+
+
+</div> <!-- end class="well col-md-8 col-md-offset-0" -->
+</div> <!-- end class="row" -->
+
+
+<!-- sample example -->
+<!-- <span data-toggle="modal" data-target="#*****unique name*****"><button type="button" class="btn btn-default"><img src="****link to image in Github repo****">**name of connector**</button></span>
+Change the above data-target field, the link to the corresponding connector image (in the Github repo "images" folder), the button text, and the below div ID
+<div id="*****unique name*****" class="modal fade" tabindex="-1" role="dialog">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+    <div class="well">
+      <h3><a href="***link to connector pinout in Github repo pinouts.md file***">*****Longer title(protocol + connector)*****</a></h3>
+      <div class="sample-image">
+        <img src="***link to cork connector image" data-toggle="tooltip" data-placement="bottom" title="***link to original image URL, if applicable***">
+        <img src="***link to bottle connector image" data-toggle="tooltip" data-placement="bottom" title="***link to original image URL, if applicable***">
+      </div>
+      <p>*****description of connector context, equipment or scenarios where you would see it****</p>
+      <p>Audio: ***yes or no?***</p>
+    </div>
+  </div>
+</div>
 </div> -->
 <!-- ends sample example -->
 
-
-      </div><!-- end Composite well -->
-  </div><!-- end Analog well -->
-  </div><!-- end Video well -->
-</div> <!-- end "well col-md-8 col-md-offset-0" -->
-</div> <!-- row -->
-
 <div class="footer text-center">
-  <p>Created by Ethan Gates</p>
-  <p>Code adapted from the amazing <a href="https://amiaopensource.github.io/ffmprovisr/" target="_blank">ffmprovisr</a> project!</p>
-  <p>Contribute to the Cable Bible project via the AMIA Open Source Committee <a href="https://github.com/amiaopensource/cable-bible">Github</a> page!</p>
+  <p color="black">Created by Ethan Gates</p>
+  <p color="black">Code adapted from the amazing <a href="https://amiaopensource.github.io/ffmprovisr/" target="_blank">ffmprovisr</a> project!</p>
+  <p color="black">Contribute to the Cable Bible project via the AMIA Open Source Committee <a href="https://github.com/amiaopensource/cable-bible">Github</a> page!</p>
 </div>
 
 </div> <!-- class="container" -->
