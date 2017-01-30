@@ -4,15 +4,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 body {
-  background-color: #3491d6;
+  background-color: #2d80BD;
 }
 
 p {
   color: gray;
-}
-
-code {
-  word-break: break-all;
 }
 
 dd {
@@ -48,7 +44,7 @@ div {
 
 button {
   height: 133px;
-  width: 200px;
+  width: 175px;
 }
 
 .btn {

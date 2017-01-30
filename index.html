@@ -45,7 +45,7 @@
     <div class="well"><h3>Analog</h3>
       <p>Analog audiovisual media record image and sound information as a continuous signal stored in or on the media itself (in the case of most "video" formats, as a continually fluctuating level of magnetic field strength on tape). Different types of video processing can allow that signal to be carried along different channels, with each channel representing a different portion of the video information (e.g. luminance/brightness, chrominance/color, sync). The types of cable you will need to work with an analog video signal will depend primarily on how these channels have been divided, as well as considerations of signal-to-noise ratio - all analog signals are subject to some degree of electronic noise or distortion, and different connection standards and interfaces have been developed to combat such signal degradation.</p>
 
-    <!-- start Analog Composite protocol cables -->
+    <!-- start Composite protocol cables -->
       <div class="well"><h4>Composite</h4>
         <p>In composite cables, all video information (including both luminance and chrominance) is encoded on to a single channel/wire. As all information is traveling along one channel, composite video is the most susceptible to noise in the signal.</p>
         <p><b>Introduced:</b> 1956</p>
@@ -187,6 +187,141 @@
 
   </div><!-- end Composite well -->
 
+
+<!-- start Component YPbPr cables -->
+  <div class="well"><h4>Component Y'P<sub>B</sub>P<sub>R</sub></h4>
+    <p>Y′P<sub>B</sub>P<sub>R</sub> signal is often referred to, imprecisely, simply as "component" video, although there are actually several standards of component video (any signal standard that splits video information into multiple channels is component, including S-Video and the multiple RGB standards). In Y′P<sub>B</sub>P<sub>R</sub>, the video signal is split into three channels: Y (containing luminance and sync), P<sub>B</sub> (the difference between blue and luma), and P<sub>R</sub> (the difference between red and luma). The remaining (green) chrominance information is derived from the relationship between these three signals. Y′P<sub>B</sub>P<sub>R</sub> cables are sometimes referred to as "yipper" cables and are connectors are usually color-coded (Y=green, P<sub>B</sub>=blue, P<sub>R</sub>=red); however Y′P<sub>B</sub>P<sub>R</sub> cables are fundamentally wired the same as composite cables and can be used interchangeably as long as the corresponding ports are properly connected.</p>
+    <p><b>Introduced:</b>unknown</p>
+    <p><b>Max resolution:</b> High Definition (up to 1080p)</p>
+    <p><b>Connectors:</b></p>
+
+<!--> Component YPbPr RCA -->
+<span data-toggle="modal" data-target="#component_rca"><button type="button" class="btn btn-default"><img src="images/component_rca.jpg" class="img-responsive" style="max-height:100px; width:auto;">RCA</button></span>
+<div id="component_rca" class="modal fade" tabindex="-1" role="dialog">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+    <div class="well">
+      <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#rca">Component Y'P<sub>B</sub>P<sub>R</sub> RCA</a></h3>
+      <div class="sample-image">
+        <img src="images/component_rca.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/1/1d/Component-cables.jpg">
+        <img src="images/Video/component_rca_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/e/ef/Component_video_jack.jpg">
+      </div>
+      <p>Used primarily with consumer equipment</p>
+      <p>Audio: no</p>
+    </div>
+  </div>
+</div>
+</div>
+<!-- end Component YPbPr RCA -->
+
+<!-- Component YPbPr BNC -->
+<span data-toggle="modal" data-target="#component_bnc"><button type="button" class="btn btn-default"><img src="images/Video/component_bnc_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">BNC</button></span>
+<div id="component_bnc" class="modal fade" tabindex="-1" role="dialog">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+    <div class="well">
+      <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#bnc">Component Y'P<sub>B</sub>P<sub>R</sub> BNC</a></h3>
+      <div class="sample-image">
+        <img src="images/Video/component_bnc_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://s3.showmecables.com/images/catalog/product/Python-3-BNC-To-3-RCA-Component-Video-Cable-4.jpg">
+        <img src="images/Video/component_bnc_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://salestores.com/stores/images/images_747/AVOV3HDF.jpg">
+      </div>
+      <p>Seen with professional broadcast and production equipment, some consumer electronics</p>
+      <p>Audio: no</p>
+    </div>
+  </div>
+</div>
+</div>
+<!-- end Component YPbPr BNC -->
+
+<!-- Component YPbPr SCART -->
+<span data-toggle="modal" data-target="#scart"><button type="button" class="btn btn-default"><img src="images/SCART.jpg" class="img-responsive" style="max-height:100px; width:auto;">SCART</button></span>
+<div id="component_scart" class="modal fade" tabindex="-1" role="dialog">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+    <div class="well">
+      <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#scart">Component Y'P<sub>B</sub>P<sub>R</sub> SCART</a></h3>
+      <div class="sample-image">
+        <img src="images/SCART.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/1/11/SCART_20050724_002.jpg">
+        <img src="images/Video/scart_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://img.publish.it168.com/2005/1201/images/526200.jpg">
+      </div>
+      <p>European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards; a Y′P<sub>B</sub>P<sub>R</sub> pinout is possible with a SCART connector but extremely rare as European monitors generally did not support Y′P<sub>B</sub>P<sub>R</sub> input.</p>
+      <p>Audio: yes, stereo, unbalanced</p>
+    </div>
+  </div>
+</div>
+</div>
+<!-- end Component YPbPr SCART -->
+
+  </div><!-- end Component YPbPr well -->
+
+
+  <!-- start Analog S-Video protocol cables -->
+    <div class="well"><h4>S-Video</h4>
+      <p>S-Video (sometimes known as "separate video") cables carry video over two synchronized signal channels: Y (luma) and C (chroma, including saturation and hue). It can achieve better image quality than composite but lower color resolution than component RGB or Y′P<sub>B</sub>P<sub>R</sub> video. Most often associated with S-VHS but found with many other consumer deck formats as well.</p>
+      <p><b>Introduced:</b>unknown</p>
+      <p><b>Max resolution:</b> Standard Definition (typically 480i or 576i)</p>
+      <p><b>Connectors:</b></p>
+
+  <!-- S-Video Mini-DIN 4-pin -->
+  <span data-toggle="modal" data-target="#s-video_mini-din-4-pin"><button type="button" class="btn btn-default"><img src="images/S-video.jpg" class="img-responsive" style="max-height:100px; width:auto;">Mini-DIN 4-pin</button></span>
+  <div id="s-video_mini-din-4-pin" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="well">
+        <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#mini-din-4-pin">S-Video Mini-DIN 4-pin</a></h3>
+        <div class="sample-image">
+          <img src="images/S-video.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/S-video-connection.jpg/120px-S-video-connection.jpg">
+          <img src="images/Video/s-video_mini-din-4_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://sewelldirect.com/images/connectors/photos/S-Video.jpg">
+        </div>
+        <p>The most common type of S-Video connector. The exact same mini-DIN connector is used for the [Apple Desktop Bus] (README.md#apple-desktop-bus) data protocol and these cables are interchangeable.</p>
+        <p>Audio: no</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- end S-Video Mini-DIN 4-pin -->
+
+  <!-- S-Video BNC -->
+  <span data-toggle="modal" data-target="#s-video_bnc"><button type="button" class="btn btn-default"><img src="images/Video/s-video_bnc_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">BNC</button></span>
+  <div id="s-video_bnc" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="well">
+        <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#bnc">S-Video BNC</a></h3>
+        <div class="sample-image">
+          <img src="images/Video/s-video_bnc_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.comprehensiveco.com/resize/shared/images/products/comprehensive/s4pyc6hr.jpg?lr=t&bw=1000&w=1000&bh=1000&h=1000">
+        </div>
+        <p>Generally for use in some S-Video patch panels.</p>
+        <p>Audio: no</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- end S-Video BNC -->
+
+  <!-- S-Video SCART -->
+  <span data-toggle="modal" data-target="#s-video_scart"><button type="button" class="btn btn-default"><img src="images/SCART.jpg" class="img-responsive" style="max-height:100px; width:auto;">SCART</button></span>
+  <div id="s-video_scart" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="well">
+        <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#mini-din-4-pin">S-Video Mini-DIN 4-pin</a></h3>
+        <div class="sample-image">
+          <img src="images/SCART.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/1/11/SCART_20050724_002.jpg">
+          <img src="images/Video/scart_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://img.publish.it168.com/2005/1201/images/526200.jpg">
+        </div>
+        <p>European 21-pin connector designed to be capable of carrying both input and output of multiple signal standards; an S-Video pinout is possible with a SCART connector but rare, as European monitors generally did not support S-Video input.</p>
+        <p>Audio: yes, stereo, unbalanced</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- end S-Video SCART -->
+
+    </div><!--end S-Video well -->
+
+
+
   </div><!-- end Analog well -->
 
   </div><!-- end Video well -->
@@ -198,7 +333,7 @@
 
 
 <!-- sample example -->
-<!-- <span data-toggle="modal" data-target="#*****unique name*****"><button type="button" class="btn btn-default"><img src="****link to image in Github repo****">**name of connector**</button></span>
+<!-- <span data-toggle="modal" data-target="#*****unique name*****"><button type="button" class="btn btn-default"><img src="****link to image in Github repo****" class="img-responsive" style="max-height:100px; width:auto;">**name of connector**</button></span>
 Change the above data-target field, the link to the corresponding connector image (in the Github repo "images" folder), the button text, and the below div ID
 <div id="*****unique name*****" class="modal fade" tabindex="-1" role="dialog">
 <div class="modal-dialog modal-lg">
