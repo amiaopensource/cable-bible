@@ -66,6 +66,7 @@ button {
   position: relative;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+  overflow: hidden;
 }
 .btn:before {
   position: absolute;
