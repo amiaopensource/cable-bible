@@ -431,14 +431,14 @@
               <!-- end RGBVH DVI-A -->
 
               <!-- RGBVH Mini-DVI -->
-              <span data-toggle="modal" data-target="#rgbvh_mini-dvi"><button type="button" class="btn btn-default"><img src="images/Video/dvi_mini-dvi_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Mini-DVI</button></span>
+              <span data-toggle="modal" data-target="#rgbvh_mini-dvi"><button type="button" class="btn btn-default"><img src="images/Video/dvi_mini-DVI_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Mini-DVI</button></span>
               <div id="rgbvh_mini-dvi" class="modal fade" tabindex="-1" role="dialog">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div class="well">
                     <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#mini-dvi">RGBVH Mini-DVI</a></h3>
                     <div class="sample-image">
-                      <img src="images/Video/dvi_mini-dvi_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/2/25/Mini-DVI_-_male_oblique_PNr%C2%B00282.jpg">
+                      <img src="images/Video/dvi_mini-DVI_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/2/25/Mini-DVI_-_male_oblique_PNr%C2%B00282.jpg">
                       <img src="images/Video/dvi_mini-dvi_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/4/4f/Kobushi-mini-dvi.jpg">
                     </div>
                     <p>Used on certain Apple computers, especially laptops, to accept a DVI-A/VGA connection.</p>
@@ -451,7 +451,291 @@
 
             </div><!-- end RGBVH well -->
 
-  </div><!-- end Analog well -->
+  </div><!-- end Analog video well -->
+
+<!-- start Digital Video -->
+  <div class="well"><h3>Digital</h3>
+    <p>As opposed to analog video, in digital recording the video and/or audio signal is converted into a stream of numbers (bits), that collectively represent the luminance, chrominance, and other values that make up the image. The stream must be converted back into analog waveforms to be viewed on a monitor/video screen. Provided electrical noise is not too great, it will theoretically not affect the quantification of the signal. Different standards for digital video and audio have developed in order to make it possible to pass more information along one connection in the same (or shorter) amount of time (also to make it possible to send audio information along the same cable/connection as video).</p>
+
+    <!-- start SDI protocol cables -->
+    <div class="well"><h4>SDI</h4>
+      <p>Serial Digital Interface (SDI) actually refers to a family of SMPTE interface standards designed for the transmission of uncompressed, unencrypted digital video signals. The original standard ("SD-SDI"), defined for 480i and 576i standard definition video, has been periodically updated (e.g. HD-SDI, 6G-SDI) to allow for steadily increasing bit rates, frame rates, video resolutions, etc. Because SDI is an unencypted digital signal, it has generally been restricted from use in consumer equipment, and is usually found in professional, broadcast-grade production and preservation environments.</p>
+      <p><b>Introduced: </b>1989</p>
+      <p><b>Max resolution:</b> As of 2015, the 12G-SDI standard allows up to 2160p60 video at 12 Gb/s</p>
+      <p><b>Connectors:</b></p>
+
+        <!-- SDI BNC -->
+        <span data-toggle="modal" data-target="#sdi_bnc"><button type="button" class="btn btn-default"><img src="images/Video/BNC_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">BNC</button></span>
+        <div id="sdi_bnc" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#bnc">SDI BNC</a></h3>
+            <div class="sample-image">
+              <img src="images/Video/BNC_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://blog.dvrunlimited.com/wp-content/uploads/2013/09/BNC_connector_male.jpg">
+              <img src="images/Video/sdi_bnc_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.crestron.com/content/publicdownloads/products/a/a-dmc-sdi.png">
+            </div>
+            <p>SDI-compatible equipment almost always employ BNC connections, especially in broadcast/production environments. Note: even though they use the same connectors, SDI coax cables using BNC are wired differently than composite/component video cables that use BNC, and the two are not interchangeable.</p>
+            <p>Audio: yes</p>
+          </div>
+          </div>
+          </div>
+        </div>
+      <!-- end SDI BNC -->
+
+      <!-- SDI Video Patch (MUSA) -->
+      <span data-toggle="modal" data-target="#sdi_video-patch"><button type="button" class="btn btn-default"><img src="images/Video/BNC_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Video Patch (MUSA)</button></span>
+      <div id="sdi_video-patch" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="well">
+          <h3>SDI Video Patch (MUSA)</h3>
+          <div class="sample-image">
+            <img src="images/Video/composite_video-patch_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.bhphotovideo.com/images/images2500x2500/Canare_VPC006F_Video_Patch_Cable_154113.jpg">
+            <img src="images/Video/composite_video-patch_bottle.jpg" data-toggle="tooltip" data-placement="bottom">
+          </div>
+          <p>Video patch connections can be used to transfer SDI signals through a patch bay.</p>
+          <p>Audio: yes</p>
+        </div>
+        </div>
+        </div>
+      </div>
+      <!-- end SDI Video Patch (MUSA) -->
+
+    </div> <!-- end SDI -->
+
+  <!--  start Firewire protocol cables -->
+    <div class="well"><h4>FireWire</h4>
+        <p>IEEE 1394, referred to as "FireWire," was developed by Apple as an interface for high-speed data transfer. However the FireWire interface was also employed by digital cameras recording to tape media with the DV (Digital Video) protocol (e.g. MiniDV, DVCAM, DVCPRO). Some camcorders were also able to directly output a DV signal to a digital video recorder or computer via a FireWire cable/interface.  When used with digital video, the FireWire interface operates at a slower data rate than in most of its data transfer applications.</p>
+        <p><b>Introduced: </b>1994</p>
+        <p><b>Max resolution:</b> Standard Definiton, 100 Mb/s</p>
+        <p><b>Connectors:</b></p>
+
+        <!-- FireWire 4-pin -->
+        <span data-toggle="modal" data-target="#firewire_4-pin"><button type="button" class="btn btn-default"><img src="images/firewire_4-pin.jpg" class="img-responsive" style="max-height:100px; width:auto;">4-pin</button></span>
+        <div id="firewire_4-pin" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#4-pin">FireWire 4-pin</a></h3>
+            <div class="sample-image">
+              <img src="images/firewire_4-pin.jpg" data-toggle="tooltip" data-placement="bottom" title="https://static.gearslutz.com/board/imgext.php?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fc%2Fca%2FFirewire4-pin.jpg&h=d489e11c664e0701ef5ff2c3bc40ca7e">
+              <img src="images/Video/firewire_4-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://forum.notebookreview.com/attachments/firewire1-jpg.6106/">
+            </div>
+            <p>The smallest type of FireWire connector - found on DV cameras.</p>
+            <p>Audio: yes</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end FireWire 4-pin -->
+
+    </div> <!-- end Firewire well-->
+
+
+    <!-- start DVI protocol cables -->
+    <div class="well"><h4>DVI</h4>
+        <p>Digital Video Interface (DVI) was designed to transmit uncompressed digital video while also supporting analog video modes (see: DVI-I, DVI-A). This broad compatibility led to widespread adoption in consumer electronics/computers. Digital-only DVI cables and interfaces were referred to as "DVI-D".</p>
+        <p><b>Introduced: </b>1999</p>
+        <p><b>Max resolution:</b> Single Link: 1920x1200, 4.95 Gb/s; Dual Link: 2560x1600, 9.90 Gb/s</p>
+        <p><b>Connectors:</b></p>
+
+        <!-- DVI-D single-link -->
+        <span data-toggle="modal" data-target="#dvi-d_single-link"><button type="button" class="btn btn-default"><img src="images/Video/dvi-d_single-link_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Single-Link</button></span>
+        <div id="dvi-d_single-link" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#dvi">DVI-D Single-Link</a></h3>
+            <div class="sample-image">
+              <img src="images/Video/dvi-d_single-link_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://sgcdn.startech.com/005329/media/products/gallery_large/DVIDSMMX.C.jpg">
+            </div>
+            <p>Employs a single transmitter to support 1920x1200 resolution digital video. Notably missing the 4 pins present in DVI-A and DVI-A to carry analog video signal.</p>
+            <p>Audio: no</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end DVI-D single-link -->
+
+        <!-- DVI-D dual-link -->
+        <span data-toggle="modal" data-target="#dvi-d_dual-link"><button type="button" class="btn btn-default"><img src="images/Video/dvi-d_dual-link_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Dual-Link</button></span>
+        <div id="dvi-d_dual-link" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#dvi">DVI-D Dual-Link</a></h3>
+            <div class="sample-image">
+              <img src="images/Video/dvi-d_dual-link_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://sgcdn.startech.com/005329/media/products/gallery_large/DVIDDMMTA6.C.jpg">
+              <img src="images/Video/dvi-d_dual-link_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.nikoslab.com/wp-content/uploads/2014/11/dvi_d_dual_port.jpg">
+            </div>
+            <p>The same as DVI-D Single Link connectors, except with six additional pins in the center of the connector/port to increase bandwidth and support higher resolutions.</p>
+            <p>Audio: no</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end DVI-D dual-link -->
+
+        <!-- DVI-D Mini-DVI -->
+        <span data-toggle="modal" data-target="#dvi-d_mini-dvi"><button type="button" class="btn btn-default"><img src="images/Video/dvi_mini-DVI_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Mini-DVI</button></span>
+        <div id="dvi-d_mini-dvi" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#mini-dvi">DVI-D Mini-DVI</a></h3>
+            <div class="sample-image">
+              <img src="images/Video/dvi_mini-DVI_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/2/25/Mini-DVI_-_male_oblique_PNr%C2%B00282.jpg">
+              <img src="images/Video/dvi_mini-dvi_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/4/4f/Kobushi-mini-dvi.jpg">
+            </div>
+            <p>Used on some laptops, especially Apple products, to accept a DVI-D signal.</p>
+            <p>Audio: no</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end DVI-D Mini-DVI -->
+
+        <!-- DVI-D Micro-DVI -->
+        <span data-toggle="modal" data-target="#dvi-d_micro-dvi"><button type="button" class="btn btn-default"><img src="images/Video/dvi-d_micro_dvi_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Micro-DVI</button></span>
+        <div id="dvi-d_micro-dvi" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3>DVI-D Micro-DVI</h3>
+            <div class="sample-image">
+              <img src="images/Video/dvi-d_micro_dvi_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macbookpro/apple-micro-dvi-to-dvi-adapter.png">
+              <img src="images/Video/dvi-d_micro-dvi_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.cis.hawaii.edu/wp-content/uploads/2014/04/microdvi.jpg">
+            </div>
+            <p>Employed for a very brief time by Apple specifically on its 2008 MacBook Air line of laptops. Smaller than Mini-DVI connectors but can only accept DVI-D signals (incompatible with DVI-I or DVI-A) and almost immediately replaced by the DisplayPort standard.</p>
+            <p>Audio: no</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end DVI-D Micro-DVI -->
+
+    </div> <!-- end DVI well -->
+
+
+  <!-- start DisplayPort protocol cables -->
+  <div class="well"><h4>DisplayPort</h4>
+      <p>A digital display interface standard developed by the Video Electronics Standards Association (VESA). Can be used to carry audio and packeted data transmissions, but most frequently employed to connect video sources to display devices. The development of succeeding versions of the DisplayPort standard (from 1.0 to the latest 1.4) have allowed for increases in display resolution, data rate, color depth, etc. "Dual-Mode DisplayPort" ports and connectors (also known as DisplayPort++) are also compatible with single-link DVI and HDMI output with the use of adapters; active converters are also available to make DisplayPort compatible with dual-link DVI or DVI-A/VGA signals.</p>
+      <p><b>Introduced: </b>2008</p>
+      <p><b>Max resolution:</b> v1.0/1.1: 1.62 Gb/s; v1.2: 2.7 Gb/s; v1.3: 8K UHD, 5.4 Gb/s; v1.4: 8K UHD, 8.1 Gb/s</p>
+      <p><b>Connectors:</b></p>
+
+      <!-- DisplayPort 20-pin -->
+      <span data-toggle="modal" data-target="#displayport_20-pin"><button type="button" class="btn btn-default"><img src="images/Video/displayport_20-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">20-pin (Full)</button></span>
+      <div id="displayport_20-pin" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="well">
+          <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#displayport">DisplayPort 20-pin (Full)</h3>
+          <div class="sample-image">
+            <img src="images/Video/displayport_20-pin_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/a/a6/Displayport-cable.jpg">
+            <img src="images/Video/displayport_20-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://farm4.static.flickr.com/3642/3534308094_79c94bd454.jpg">
+          </div>
+          <p>The full-size, 20-pin DisplayPort connection used for external connections on desktop computers, graphics cards, monitors, etc.</p>
+          <p>Audio: yes, optionally (use of channels for audio signal will limit bandwidth, resolution available for video)</p>
+        </div>
+        </div>
+        </div>
+      </div>
+      <!-- end DisplayPort 20-pin -->
+
+      <!-- DisplayPort Mini-DisplayPort -->
+      <span data-toggle="modal" data-target="#mini-displayport"><button type="button" class="btn btn-default"><img src="images/Video/displayport_mini-displayport_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Mini-DisplayPort</button></span>
+      <div id="mini-displayport" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="well">
+          <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#displayport">Mini-DisplayPort</h3>
+          <div class="sample-image">
+            <img src="images/Video/displayport_mini-displayport_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/e/ea/Mini_displayport.jpg">
+            <img src="images/Video/displayport_mini-displayport_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/4/47/Mini_DisplayPort_on_Apple_MacBook.jpg">
+          </div>
+          <p>Miniaturized version of the DisplayPort connector developed by Apple. Used on Apple products, especially laptops, from 2008 to the present (from ~2011 on, paired with the DisplayPort-compatible Thunderbolt protocol). Licensed out to many PC manufacturers as well.</p>
+          <p>Audio: yes (if used in conjunction with an audio-capable DisplayPort or HDMI cable)</p>
+        </div>
+        </div>
+        </div>
+      </div>
+      <!-- end DisplayPort Mini-DisplayPort -->
+
+  </div> <!-- end DisplayPort well -->
+
+
+  <!-- start HDMI protocol cables -->
+  <div class="well"><h4>HDMI</h4>
+      <p>High-Definition Multimedia Interface (HDMI) is a proprietary interface for transferring uncompressed digital video and audio signals. HDMI was developed in order to provide an integrated, increased-bandwidth interface capable of carrying very high video resolutions and an audio signal while maintaining backwards compatibility with DVI. As with DisplayPort, succeeding versions (from 1.0 to current 2.0) have allowed for increases in resolution, frame rate, data rate, etc.</p>
+      <p><b>Introduced: </b>2002</p>
+      <p><b>Max resolution:</b> v1.0/1.1/1.2: 1920x1200p, 4.95 Gb/s; v1.3/1.4: 2560x1600p, 10.2 Gb/s; v2.0: 4096x1600p, 18 Gb/s</p>
+      <p><b>Connectors:</b></p>
+
+      <!-- HDMI Type A -->
+      <span data-toggle="modal" data-target="#hdmi_type-A"><button type="button" class="btn btn-default"><img src="images/Video/hdmi_full_A_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Type A</button></span>
+      <div id="hdmi_type-A" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="well">
+          <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#hdmi">HDMI Type A</h3>
+          <div class="sample-image">
+            <img src="images/Video/hdmi_full_A_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://classrooms.berkeley.edu/sites/default/files/images/hdmi_full.jpeg">
+            <img src="images/Video/hdmi_full_A_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.eos.ncsu.edu/e115/text/io_images/hdmi.jpg">
+          </div>
+          <p>Generally used for HDMI input/output on television/computer monitors and desktops.</p>
+          <p>Audio: yes</p>
+        </div>
+        </div>
+        </div>
+      </div>
+      <!-- end HDMI Type A -->
+
+      <!-- HDMI Type C -->
+      <span data-toggle="modal" data-target="#hdmi_type-C"><button type="button" class="btn btn-default"><img src="images/Video/hdmi_mini_C_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Type C (Mini)</button></span>
+      <div id="hdmi_type-C" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="well">
+          <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#hdmi">HDMI Type C (Mini)</h3>
+          <div class="sample-image">
+            <img src="images/Video/hdmi_mini_C_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://4.bp.blogspot.com/_-4V2pG048aQ/TETWXYtMcbI/AAAAAAAAA3o/NXf3avRXGjA/s1600/HDMI-MINI-HDMI-MICRO-HDMI.jpg">
+            <img src="images/Video/hdmi_mini_C_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://cable-trader.co.uk/images/finder/mini-hdmi-port.jpg">
+          </div>
+          <p>Employed starting with HDMI Version 1.3 - designed for smaller, portable equipment such as laptops.</p>
+          <p>Audio: yes</p>
+        </div>
+        </div>
+        </div>
+      </div>
+      <!-- end HDMI Type C -->
+
+      <!-- HDMI Type D -->
+      <span data-toggle="modal" data-target="#hdmi_type-D"><button type="button" class="btn btn-default"><img src="images/Video/hdmi_mini_C_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Type D (Micro)</button></span>
+      <div id="hdmi_type-D" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="well">
+          <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#hdmi">HDMI Type D (Micro)</h3>
+          <div class="sample-image">
+            <img src="images/Video/hdmi_mini_C_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://4.bp.blogspot.com/_-4V2pG048aQ/TETWXYtMcbI/AAAAAAAAA3o/NXf3avRXGjA/s1600/HDMI-MINI-HDMI-MICRO-HDMI.jpg">
+            <img src="images/Video/hdmi_micro_D_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://cnet2.cbsistatic.com/hub/i/2011/05/09/e8365dde-fdc7-11e2-8c7c-d4ae52e62bcc/4e7eb083d9859813fa3d698b38bfc09b/Android-HDMI-Phone-port.jpg">
+          </div>
+          <p>Released starting with HDMI Version 1.4, intended for use with cell phones/smart phones.</p>
+          <p>Audio: yes</p>
+        </div>
+        </div>
+        </div>
+      </div>
+      <!-- end HMDI Type D -->
+
+  </div> <!-- end HDMI well -->
+
+    </div> <!-- end Digital Video well -->
+
+
+
 
   </div><!-- end Video well -->
 
