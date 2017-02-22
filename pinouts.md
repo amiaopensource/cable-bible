@@ -2,7 +2,7 @@ Unless otherwise noted, credit for pinout images and information from [Pinouts.r
 
 ## [RCA](http://pinoutsguide.com/Home/rca_connector_pinout.shtml) ##
 
-![](http://connector.pinoutsguide.com/diagram/rca.gif "http://connector.pinoutsguide.com/diagram/rca.gif") 
+![](http://connector.pinoutsguide.com/diagram/rca.gif "http://connector.pinoutsguide.com/diagram/rca.gif")
 
 ## BNC ##
 
@@ -341,7 +341,7 @@ Pin | Description
 17 | Power +5V
 18 | DCC data
 19 | not used
-20 | Analog Blue 
+20 | Analog Blue
 22 | Analog Green
 21, 23 | not used
 24 | Analog Red
@@ -380,7 +380,7 @@ Pin | Description
 20 | Data 5-
 21 | Data 5+
 22 | Clock shield
-23 | Clock + 
+23 | Clock +
 24 | Clock -
 C1 | Analog Red
 C2 | Analog Green
@@ -515,7 +515,7 @@ Pin | Description
 7 | Data Bit 5
 8 | Data Bit 6
 9 | Data Bit 7
-10 | Ackowledge
+10 | Acknowledge
 11 | Busy
 12 | Paper Out
 13 | Select
