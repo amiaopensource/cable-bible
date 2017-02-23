@@ -42,7 +42,7 @@
   <div class="well"><h2>Video</h2>
     <!-- start Analog Video cables -->
 
-    <div class="well"><h3>Analog</h3>
+    <div class="well"><h3>Analog Video</h3>
       <p>Analog audiovisual media record image and sound information as a continuous signal stored in or on the media itself (in the case of most "video" formats, as a continually fluctuating level of magnetic field strength on tape). Different types of video processing can allow that signal to be carried along different channels, with each channel representing a different portion of the video information (e.g. luminance/brightness, chrominance/color, sync). The types of cable you will need to work with an analog video signal will depend primarily on how these channels have been divided, as well as considerations of signal-to-noise ratio - all analog signals are subject to some degree of electronic noise or distortion, and different connection standards and interfaces have been developed to combat such signal degradation.</p>
 
     <!-- start Composite protocol cables -->
@@ -454,7 +454,7 @@
   </div><!-- end Analog video well -->
 
 <!-- start Digital Video -->
-  <div class="well"><h3>Digital</h3>
+  <div class="well"><h3>Digital Video</h3>
     <p>As opposed to analog video, in digital recording the video and/or audio signal is converted into a stream of numbers (bits), that collectively represent the luminance, chrominance, and other values that make up the image. The stream must be converted back into analog waveforms to be viewed on a monitor/video screen. Provided electrical noise is not too great, it will theoretically not affect the quantification of the signal. Different standards for digital video and audio have developed in order to make it possible to pass more information along one connection in the same (or shorter) amount of time (also to make it possible to send audio information along the same cable/connection as video).</p>
 
     <!-- start SDI protocol cables -->
@@ -735,12 +735,12 @@
   </div> <!-- end Digital Video well -->
 
   <!-- start Integrated Video -->
-    <div class="well"><h3>Integrated</h3>
+    <div class="well"><h3>Integrated Video</h3>
       <p>There is no such thing as a signal that combines analog and digital data in the same channel. However, The DVI interface allows for both analog and digital signals to be passed through the same cable and connector, creating something of a unique case.</p>
 
       <!-- start DVI-I protocol cables -->
-      <div class="well"><h4>SDI</h4>
-        <p>DVI are backwards-compatible to allow for the transmission of analog RGBVH data via the VGA standard. The cable is the same as that employed by DVI-A (analog-only) or DVI-D (digital only), the difference with DVI-I is merely in the compatible connectors and ports.</p>
+      <div class="well"><h4>DVI-I</h4>
+        <p>The DVI protocol is backwards-compatible to allow for the transmission of analog RGBVH data via the VGA standard. The cable is the same as that employed by DVI-A (analog-only) or DVI-D (digital only), the difference with DVI-I is merely in the compatible connectors and ports.</p>
         <p><b>Connectors:</b></p>
 
         <!-- DVI-I Single-Link -->
@@ -804,6 +804,469 @@
     </div> <!-- end Integrated Video well -->
 
   </div><!-- end Video well -->
+
+
+  <!-- start Audio cables -->
+  <div class="well"><h2>Audio</h2>
+
+  <!-- start Analog Audio cables -->
+    <div class="well"><h3>Analog Audio</h3>
+      <p>Unlike analog video, analog audio signals are essentially only ever transferred over one channel (i.e. one-track monaural/"mono") or two (two-track mono, or stereo). Analog audio cables, generally speaking, thus only had to carry one channel of audio and two cables would simply be employed for recording or reproducing two-track mono or stereo (in contrast to the proliferation of standards and cables for video - composite, S-Video, RBG, etc). The most critical characteristic in regard to analog audio cabling, then (beyond connector types), regards balanced vs. unbalanced wiring, a method employed to reduce noise interference in audio cables.</p>
+
+      <!-- start Balanced Analog audio cables -->
+      <div class="well"><h4>Balanced Analog Audio</h4>
+        <p>Balanced coaxial audio cables contain three wires: "earth" (electrical ground), "hot" (positive audio signal), and "cold" (negative audio signal). The audio signal is transferred on both the hot and cold lines, but the voltage in the cold line is inverted (i.e. signal is negative when the hot line's is positive, and vice versa). When the cable is plugged into an input, the hot and cold signals are mixed together, but the cold signal is also inverted again. This has the effect of strengthening the original, recorded audio signal (doubling the number of wires it was carried on) while also canceling out the signal of any unintentional noise in the signal picked up as the audio traveled over the cable. (Since that noise was essentially "recorded" positively on to both the hot and cold lines, flipping the polarity of the cold line at input gives you exact opposite noise signals, which cancel each other out) </p>
+        <p>Reducing analog audio noise is an issue primarily with longer cables, or in professional/broadcast or preservation environments, where the absolute integrity of the audio signal is more highly valued than on consumer equipment.</p>
+        <p><b>Connectors:</b></p>
+
+        <!-- Balanced 1/4" TRS jack (mono) -->
+        <span data-toggle="modal" data-target="#1:4_trs_mono"><button type="button" class="btn btn-default"><img src="images/Audio/1:4-TRS_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">1/4" TRS jack (mono)</button></span>
+        <div id="1:4_trs_mono" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#tip-ring-sleeve">Balanced 1/4" TRS Jack (mono)</a></h3>
+            <div class="sample-image">
+              <img src="images/Audio/1:4-TRS_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://cdn-tp1.mozu.com/2199-2317/cms/2317/files/42f48ea4-d4d4-4ef4-a7a0-0738d4c95ba6?max=400&_mzcb=">
+            </div>
+            <p>Also known as a "phone connector" for its use for many years to patch telephone connections. TRS stands for "Tip-Ring-Sleeve", referring to the three contacts on the jack (for the three wires, earth, hot and cold, present in balanced wiring). Often found with speakers, amps, some video equipment that produces monaural audio.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Balanced 1/4" TRS jack (mono) -->
+
+        <!-- Balanced 1/8" TRS jack (mono) -->
+        <span data-toggle="modal" data-target="#1:8_trs_mono"><button type="button" class="btn btn-default"><img src="images/Audio/1:8-TRS_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">1/8" TRS "mini" jack (mono)</button></span>
+        <div id="1:8_trs_mono" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#tip-ring-sleeve">Balanced 1/8" TRS "Mini" Jack (mono)</a></h3>
+            <div class="sample-image">
+              <img src="images/Audio/1:8-TRS_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/8/8b/Audio-TRS-Mini-Plug.jpg">
+            </div>
+            <p>Essentially the same in design as the 1/4" jack, just smaller. Used sometimes for balanced mono audio with computers or portable devices.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Balanced 1/8" TRS jack (mono) -->
+
+        <!-- Balanced TT (Bantam) -->
+        <span data-toggle="modal" data-target="#tt_bantam"><button type="button" class="btn btn-default"><img src="images/Audio/TT_bantam_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">TT/bantam Jack</button></span>
+        <div id="tt_bantam" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#tip-ring-sleeve">Balanced Tiny Telephone (TT)/Bantam Jack</a></h3>
+            <div class="sample-image">
+              <img src="images/Audio/TT_bantam_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.canford.co.uk/Images/ItemImages/large/43-183_01.jpg">
+            </div>
+            <p>Tiny Telephone (TT, also sometimes called bantam) jacks are smaller than 1/4" but larger than 1/8" jacks (approx 4.40mm). Frequently employed with patch bays in professional audio recording and preservation environments. TT jacks are most commonly found with TRS design on balanced mono cables, but unbalanced or stereo versions are possible.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Balanced TT (Bantam) -->
+
+        <!-- Balanced XLR -->
+        <span data-toggle="modal" data-target="#balanced_xlr"><button type="button" class="btn btn-default"><img src="images/Audio/xlr_cork_bottle_cable.jpg" class="img-responsive" style="max-height:100px; width:auto;">XLR</button></span>
+        <div id="balanced_xlr" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#xlr">Balanced XLR</a></h3>
+            <div class="sample-image">
+              <img src="images/Audio/xlr_cork_bottle_cable.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/1/15/Xlr-connectors.jpg">
+              <img src="images/Audio/xlr_cork_port.jpg" data-toggle="tooltip" data-placement="bottom" title="http://jp.music-group.com/TCE/CR/StudioKonnekt48/images/main_out_xlr_large.jpg">
+              <img src="images/Audio/xlr_bottle_port.jpg" data-toggle="tooltip" data-placement="bottom" title="http://proaudioblog.co.uk/wp-content/uploads/2014/06/XLR-Input.jpg">
+            </div>
+            <p>A three-pin connector favored for long balanced cables in pro audio equipment.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Balanced XLR -->
+
+        <!-- Balanced Phoenix -->
+        <span data-toggle="modal" data-target="#balanced_phoenix"><button type="button" class="btn btn-default"><img src="images/Audio/phoenix_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Phoenix</button></span>
+        <div id="balanced_phoenix" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3>Balanced Phoenix</h3>
+            <div class="sample-image">
+              <img src="images/Audio/phoenix_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://q1engravers.com/images/Phoenix_Connector_block_ELC-2MKKDS%20and%203MKKDS.JPG">
+            </div>
+            <p>A modular, adaptable brand of connectors for crafting one's own multi-channel, balanced or unbalanced cables and connections. Generally used to make connections on the back end of patch bays, distribution amplifiers, etc. Available in various configurations.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Balanced Phoenix -->
+
+        <!-- Balanced EDAC/ELCO -->
+        <span data-toggle="modal" data-target="#balanced_edac/elco"><button type="button" class="btn btn-default"><img src="images/Audio/edac_elco_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">EDAC/ELCO</button></span>
+        <div id="balanced_edac/elco" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3>Balanced EDAC/ELCO</h3>
+            <div class="sample-image">
+              <img src="images/Audio/edac_elco_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.canford.co.uk/Images/ItemImages/large/47-201_01.jpg">
+            </div>
+            <p>Another brand of modular, adaptable connectors. Similar in appearance and use to Phoenix. Available in various configurations..</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Balanced EDAC/ELCO -->
+
+      </div> <!-- end Balanced analog audio well -->
+
+      <!-- start Unbalanced Analog audio cables -->
+      <div class="well"><h4>Unbalanced Analog Audio</h4>
+        <p>nbalanced audio cables contain only two wires for any one audio channel: "earth" (electrical ground) and "hot" (the audio signal). These are employed with short cables, internal cables or components (inside sound equipment), or consumer-grade equipment where noise is considered less of an issue.</p>
+        <p><b>Connectors:</b></p>
+
+        <!-- Unbalanced RCA -->
+        <span data-toggle="modal" data-target="#unbalanced_rca"><button type="button" class="btn btn-default"><img src="images/Audio/audio_rca_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">RCA</button></span>
+        <div id="unbalanced_rca" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#rca">Unbalanced RCA</a></h3>
+            <div class="sample-image">
+              <img src="images/Audio/audio_rca_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://resource.supercheats.com/library/300w/xbox-360/xbox-hdmi-audio7.jpg">
+              <img src="images/Video/audio_rca_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://icdn9.digitaltrends.com/image/nuforce-s3_bt-bluetooth-bookshelf-speakers-right-channel-rear-audio-input-macro-1500x991.jpg">
+            </div>
+            <p>By nature unbalanced connectors as they only have one pin/contact point. Frequently used for the two-channel (left and right) audio output of video decks, especially consumer-grade equipment (in such cases, often color-coded white and red, where white = channel 1/left, red = channel 2, right).</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Unbalanced RCA -->
+
+        <!-- Unbalanced 1/4" TS jack (mono) -->
+        <span data-toggle="modal" data-target="#1:4_TS_jack"><button type="button" class="btn btn-default"><img src="images/Audio/1:4-TS_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">1/4" TS jack</button></span>
+        <div id="1:4_TS_jack" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#tip-sleeve">Unbalanced 1/4" Tip-Sleeve Jack (mono)</a></h3>
+            <div class="sample-image">
+              <img src="images/Audio/1:4-TS_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://s3.showmecables.com/images/catalog/product/1-4-Mono-Plug-to-3-5mm-Mono-Jack-1.jpg">
+            </div>
+            <p>TS (Tip/Sleeve) jacks are exactly the same in appearance as balanced 1/4" TRS jacks, except missing the "ring" contact point and cold wire. Often used for the output on musical instruments such as electric guitars.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Unbalanced 1/4" TS jack (mono) -->
+
+        <!-- Unbalanced 1/8" TS jack (mono) -->
+        <span data-toggle="modal" data-target="#1:8_TS_jack"><button type="button" class="btn btn-default"><img src="images/Audio/1:8-TS_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">1/8" TS jack</button></span>
+        <div id="1:8_TS_jack" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#tip-sleeve">Unbalanced 1/8" Tip-Sleeve Jack (mono)</a></h3>
+            <div class="sample-image">
+              <img src="images/Audio/1:8-TS_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://images-na.ssl-images-amazon.com/images/G/01/musical-instruments/detail-page/B000068O47_img1.jpg">
+            </div>
+            <p>Smaller version of the unbalanced 1/4" TS jack. Seen with [???]</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Unbalanced 1/8" TS jack (mono) -->
+
+        <!-- Unbalanced 1/4" TRS jack (stereo) -->
+        <span data-toggle="modal" data-target="#unbalanced_1:4_TRS_jack"><button type="button" class="btn btn-default"><img src="images/Audio/1:4-TRS_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">1/4" TRS jack (stereo)</button></span>
+        <div id="unbalanced_1:8_TRS_jack" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#tip-ring-sleeve">Unbalanced 1/4" Tip-Ring-Sleeve Jack (stereo)</a></h3>
+            <div class="sample-image">
+              <img src="images/Audio/1:4-TRS_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://cdn-tp1.mozu.com/2199-2317/cms/2317/files/42f48ea4-d4d4-4ef4-a7a0-0738d4c95ba6?max=400&_mzcb=">
+            </div>
+            <p>By all outward appearance, the same as the 1/4" TRS jacks used for balanced mono cables, except in the case of unbalanced stereo the three contact points are used for ground and two channels of audio, rather than ground and hot/cold versions of one audio channel. Often seen with professional headphones, and stereo microphone/monitor connections on professional video decks.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Unbalanced 1/4" TRS jack (stereo) -->
+
+        <!-- Unbalanced 1/8" TRS jack (stereo) -->
+        <span data-toggle="modal" data-target="#unbalanced_1:8_TRS_jack"><button type="button" class="btn btn-default"><img src="images/Audio/1:8-TRS_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">1/8" TRS jack (stereo)</button></span>
+        <div id="unbalanced_1:8_TRS_jack" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#tip-ring-sleeve">Unbalanced 1/8" Tip-Ring-Sleeve Jack (stereo)</a></h3>
+            <div class="sample-image">
+              <img src="images/Audio/1:8-TRS_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/8/8b/Audio-TRS-Mini-Plug.jpg">
+            </div>
+            <p>See previous. Frequently used for stereo output on portable audio devices - also on computer sound cards for line-in/line-out connections (to/from headphones, microphones, speakers, etc).</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Unbalanced 1/8" TRS jack (stereo) -->
+
+        <!-- Unbalanced DIN 5-pin -->
+        <span data-toggle="modal" data-target="#unbalanced_din_5-pin"><button type="button" class="btn btn-default"><img src="images/Audio/audio_din-5-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">DIN 5-pin</button></span>
+        <div id="unbalanced_din_5-pin" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#din-5-pin">Unbalanced DIN 5-pin</a></h3>
+            <div class="sample-image">
+              <img src="images/Audio/audio_din-5-pin_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://www.c2g.com/uk/static/content/images/resources/connector-guides/450/107_5_pin_din_at_m_iso.jpg">
+              <img src="images/Audio/audio_din-5-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://connector.pinoutsguide.com/photo/din5df.jpg">
+            </div>
+            <p>Similar to the purpose of the EIAJ 8-pin video monitor cable/connector, DIN 5-pins were used to carry both the audio input and output of a piece of equipment over the same cable/connection. Could carry mono or stereo signal.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Unbalanced DIN 5-pin -->
+
+      </div> <!-- end Unbalanced analog audio well -->
+
+    </div> <!-- end Analog Audio well -->
+
+    <!-- start Digital Audio cables -->
+    <div class="well"><h3>Digital Audio</h3>
+      <p>For explanation of digital signals, see Digital Video section above.</p>
+
+      <!-- start AES-3 protocol cables -->
+      <div class="well"><h4>AES-3</h4>
+          <p>AES-3 is a standard for the exchange of digital audio signals developed in conjunction by the Audio Engineering Society and the European Broadcasting Union, and is therefore also often referred to as "AES-EBU." AES-3 is capable of carrying two uncompressed channels of uncompressed PCM audio, or compressed 5.1/7.1 surround sound over the same cable.</p>
+          <p><b>Introduced: </b>1985</p>
+          <p><b>Max resolution:</b> 24-bit</p>
+          <p><b>Wiring and Connectors:</b></p>
+
+          <div class="well"><h5>Balanced</h5>
+
+            <!-- AES-3 Balanced XLR -->
+            <span data-toggle="modal" data-target="#aes-3_balanced_xlr"><button type="button" class="btn btn-default"><img src="images/Audio/xlr_cork_bottle_cable.jpg" class="img-responsive" style="max-height:100px; width:auto;">XLR</button></span>
+            <div id="aes-3_balanced_xlr" class="modal fade" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+              <div class="well">
+                <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#xlr">AES-3 XLR</a></h3>
+                <div class="sample-image">
+                  <img src="images/Audio/xlr_cork_bottle_cable.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/1/15/Xlr-connectors.jpg">
+                </div>
+                <p>The most common variant of AES-3 connection, found with professional installations and equipment.</p>
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- end AES-3 Balanced XLR -->
+
+          </div> <!-- end Balanced AES-3 well -->
+
+          <div class="well"><h5>Unbalanced</h5>
+
+            <!-- AES-3 Unbalanced BNC -->
+            <span data-toggle="modal" data-target="#aes-3_unbalanced_bnc"><button type="button" class="btn btn-default"><img src="images/Video/BNC_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">BNC</button></span>
+            <div id="aes-3_unbalanced_bnc" class="modal fade" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+              <div class="well">
+                <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#bnc">AES-3 BNC</a></h3>
+                <div class="sample-image">
+                  <img src="images/Video/BNC_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://blog.dvrunlimited.com/wp-content/uploads/2013/09/BNC_connector_male.jpg">
+                </div>
+                <p>A variant of AES-3 with lower (75-ohm vs balanced XLR's 110-ohm) electrical impedence. Sometimes found in broadcast applications as it uses the same cabling infrastructure as digital video, so it can be convenient for patch bays that employ BNC connections.</p>
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- end AES-3 Unbalanced BNC -->
+
+          </div> <!-- end Unbalanced AES-3 well -->
+
+      </div> <!-- end AES-3 well -->
+
+
+      <!-- start S/PDIF protocol cables -->
+      <div class="well"><h4>S/PDIF</h4>
+          <p>Standing for Sony/Philips Digital Interface Format, S/PDIF refers to a consumer-grade variant of the AES-3 protocol (listed as "Type II" in the same international standard as AES-3: IEC 60958). Essentially interchangeable at the protocol level with AES-3, so devices carrying these signals can interface easily, provided the difference in physical connections and electrical level/impedence are accounted for.</p>
+          <p><b>Introduced: </b>1985</p>
+          <p><b>Max resolution:</b> 20-bit</p>
+          <p><b>Wiring and Connectors:</b></p>
+
+          <div class="well"><h5>Optical</h5>
+            <p>Fiber optic cables transmit data signals as flashes of light over flexible, transparent fibers made of glass or plastic. In audio applications, they can allow transmission at higher bandwidths without the electromagnetic interference to which metal wires are susceptible. Due to attenuation (the reduction of the intensity of the light over distance), consumer-grade optical audio cables are generally short (5-10 meters).</p>
+
+            <!-- S/PDIF Optical TOSLINK -->
+            <span data-toggle="modal" data-target="#spdif_toslink"><button type="button" class="btn btn-default"><img src="images/Audio/spdif_toslink_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">F05/TOSLINK</button></span>
+            <div id="spdif_toslink" class="modal fade" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+              <div class="well">
+                <h3>S/PDIF F05/TOSLINK</h3>
+                <div class="sample-image">
+                  <img src="images/Audio/spdif_toslink_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.soundsupport.biz/wp-content/uploads/2012/08/spdif-toslink1.jpg">
+                  <img src="images/Audio/spdif_toslink_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.teac.com/content/images/universal/misc/ai-301da_w_digital-in.jpg">
+                </div>
+                <p>Also sometimes referred to as "EIAJ optical" connectors. While F05 is the technical name for the physical specification, Toshiba's specific brand name for optical cables, TOSLINK, has essentially become the name for the connector. Found with larger consumer-grade S/PDIF devices, particularly Toshiba-brand audio products.</p>
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- end S/PDIF Optical TOSLINK -->
+
+            <!-- S/PDIF Optical Mini-TOSLINK -->
+            <span data-toggle="modal" data-target="#spdif_mini-toslink"><button type="button" class="btn btn-default"><img src="images/Audio/spdif_mini-toslink_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Mini-TOSLINK</button></span>
+            <div id="spdif_mini-toslink" class="modal fade" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+              <div class="well">
+                <h3>S/PDIF Mini-TOSLINK</h3>
+                <div class="sample-image">
+                  <img src="images/Audio/spdif_mini-toslink_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://images.monoprice.com/productlargeimages/26711.jpg">
+                  <img src="images/Audio/spdif_mini-toslink_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.headfonia.com/wp-content/uploads/2010/05/drdac_prime_10.jpg">
+                </div>
+                <p>A smaller version of the TOSLINK connector that is almost the same size and shape of a 1/8" TRS stereo jack. Some combined 1/8" stereo jack and Mini TOSLINK ports exist to accept either digital or analog audio input/output. Mini TOSLINK is generally used with smaller consumer-grade digital audio equipment (e.g. portable CD players).</p>
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- end S/PDIF Optical Mini-TOSLINK -->
+
+          </div> <!-- end S/PDIF Optical well -->
+
+          <div class="well"><h5>Unbalanced</h5>
+
+            <!-- S/PDIF Unbalanced RCA -->
+            <span data-toggle="modal" data-target="#spdif_rca"><button type="button" class="btn btn-default"><img src="images/Audio/spdif_rca_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">RCA</button></span>
+            <div id="spdif_rca" class="modal fade" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+              <div class="well">
+                <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#rca">S/PDIF RCA</a></h3>
+                <div class="sample-image">
+                  <img src="images/Audio/spdif_rca_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://www.cablesnmore.com/content/images/thumbs/0004559_spdif-digital-rca_450.jpeg">
+                  <img src="images/Audio/spdif_rca_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.homestudiocorner.com/wp-content/uploads/2011/01/SPDIF.jpg">
+                </div>
+                <p>The S/PDIF protocol can also be found in consumer audio installations with two-contact RCA connectors over unbalanced coax cables. Such S/PDIF connectors are usually color-coded orange to differentiate them from analog audio and video cables that employ RCA.</p>
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- end S/PDIF Unbalanced RCA -->
+
+          </div> <!-- end S/PDIF Unbalanced well -->
+
+      </div> <!-- end S/PDIF well -->
+
+
+      <!-- start MIDI protocol cables -->
+      <div class="well"><h4>MIDI</h4>
+          <p>Short for Musical Instrument Digital Interface, a standard usually used for connecting a wide variety of musical instruments and/or computers to each other. MIDI links allow for the transmission of up to 16 channels of information at a time (although only in one direction, so separate cables are required for input/output). Technically speaking, MIDI does not actually carry digital audio - it carries event information that specifies control parameters such as pitch, notation, volume, vibrato, clock signals and other metadata to synchronize audio/musical devices with each other. MIDI is usually employed fairly exclusively in production/recording envrionments.</p>
+          <p><b>Introduced: </b>1983</p>
+          <p><b>Max resolution:</b> 31.25 kb/s</p>
+          <p><b>Wiring and Connectors:</b></p>
+
+          <div class="well"><h5>Balanced</h5>
+
+            <!-- MIDI Balanced DIN 5-pin -->
+            <span data-toggle="modal" data-target="#midi_din_5-pin"><button type="button" class="btn btn-default"><img src="images/Audio/midi_din-5-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">DIN 5-pin</button></span>
+            <div id="midi_din_5-pin" class="modal fade" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+              <div class="well">
+                <h3>MIDI DIN 5-pin</h3>
+                <div class="sample-image">
+                  <img src="images/Audio/midi_din-5-pin_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.image-tmart.com/images/C/CL036/USB-to-MIDI-Keyboard-Interface-Converter-Cable-Adapter-02.gif">
+                  <img src="images/Audio/midi_din-5-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/0/02/Midi_ports_and_cable.jpg">
+                </div>
+                <p>Though they have 5-pins, only 3 of the pins in MIDI connectors are used in typical applications: ground, and then a balanced pair of contacts.</p>
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- end MIDI Balanced DIN 5-pin -->
+
+          </div> <!-- end MIDI Balanced well -->
+
+      </div> <!-- end MIDI well -->
+
+
+      <!-- start TDIF protocol cables -->
+      <div class="well"><h4>TDIF</h4>
+          <p>The Tascam Digital Interface Format is a proprietary protocol and connector, therefore seen exclusively with Tascam devices. It is bidirectional, allowing the transmission of up to eight channels of digital audio.</p>
+          <p><b>Introduced: </b>1993</p>
+          <p><b>Max resolution:</b> 31.25 kb/s</p>
+          <p><b>Wiring and Connectors:</b></p>
+
+          <div class="well"><h5>Unbalanced</h5>
+
+            <!-- TDIF Unbalanced DB-25 -->
+            <span data-toggle="modal" data-target="#tdif_db-25"><button type="button" class="btn btn-default"><img src="images/Audio/tdif_d-sub-25_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">DB-25</button></span>
+            <div id="tdif_db-25" class="modal fade" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+              <div class="well">
+                <h3>TDIF DB-25</h3>
+                <div class="sample-image">
+                  <img src="images/Audio/tdif_d-sub-25_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://hosatech.com/wp-content/uploads/2014/03/DBK-300_RGB_856.jpg">
+                  <img src="images/Audio/tdif_d-sub-25_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://www.scmsinc.com/uploads/ecomm/my16-tdfronta.jpg">
+                </div>
+                <p>A D-subminiature connection with a pinout that allows for input and ouput of TDIF's eight channels of audio to be transmitted over the same cable.</p>
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- end TDIF Unbalanced DB-25 -->
+
+          </div> <!-- end TDIF Unbalanced well -->
+
+      </div> <!-- end TDIF well -->
+
+
+      <!-- start ADAT protocol cables -->
+      <div class="well"><h4>ADAT</h4>
+          <p>Originally developed by Alesis for its Digital Audio Tape products, the ADAT Lightpipe interface became popular with third party manufacturers and so became synonymous with the standard rather than specifically Alesis DAT connections. ADAT supports transmission of up to eight channels of uncompressed digital audio at up to 48 kHz and 24-bit, giving them a much higher bandwidth than similar S/PDIF optical cables. Found exclusively in optical cable variety.</p>
+          <p><b>Introduced: </b>1992</p>
+          <p><b>Max resolution:</b> 24-bit</p>
+          <p><b>Wiring and Connectors:</b></p>
+
+          <div class="well"><h5>Optical</h5>
+
+            <!-- ADAT F05/TOSLINK -->
+            <span data-toggle="modal" data-target="#adat_toslink"><button type="button" class="btn btn-default"><img src="images/Audio/spdif_toslink_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">F05/TOSLINK</button></span>
+            <div id="adat_toslink" class="modal fade" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+              <div class="well">
+                <h3>ADAT F05/TOSLINK</h3>
+                <div class="sample-image">
+                  <img src="images/Audio/spdif_toslink_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.soundsupport.biz/wp-content/uploads/2012/08/spdif-toslink1.jpg">
+                  <img src="images/Audio/adat_toslink_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.harmonycentral.com/forum/filedata/fetch?id=31138107&d=1398720428">
+                </div>
+                <p>Since they use the exact same connectors, ADAT cables and connections are visually indistinguishable from S/PDIF, though the interfaces and cables are completely incompatible at the protocol level.</p>
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- end ADAT F05 TOSLINK -->
+
+          </div> <!-- end ADAT Optical well -->
+
+      </div> <!-- end ADAT well -->
+
+
+    </div> <!-- end Digital Audio well -->
+
+  </div> <!-- end Audio well -->
+
 
 
 
