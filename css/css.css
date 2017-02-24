@@ -4,7 +4,7 @@ h2,h3,h4,h5,h6 {
 }
 
 body {
-  background-color: black;
+  background-color: #000145;
 }
 
 p {
@@ -39,7 +39,7 @@ h1 {
 }
 
 div {
-  color: black;
+  color: #000145;
   font-family: "Merriweather", serif;
 }
 
