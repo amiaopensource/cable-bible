@@ -1,0 +1,92 @@
+h2,h3,h4,h5,h6 {
+  font-family: "Contrail One", cursive;
+  color: #F7F9F9;
+}
+
+body {
+  background-color: black;
+}
+
+p {
+  color: #BDBDBD;
+}
+
+dd {
+  padding-left:24px;
+}
+
+dt {
+  font-family: "Merriweather",serif;
+  color: black;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 6px;
+}
+
+.sample-image {
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-family: "Contrail One", cursive;
+  font-size:86px;
+  line-height:120px;
+  color:white;
+}
+
+div {
+  color: #000145;
+  font-family: "Merriweather", serif;
+}
+
+ol {
+  color: #BDBDBD;
+}
+
+li {
+  color: #BDBDBD;
+}
+
+
+button {
+  height: 133px;
+  width: 175px;
+}
+
+.btn {
+  margin: 8px;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  overflow: hidden;
+}
+.btn:before {
+  position: absolute;
+  padding: 0 1px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.btn:hover:before, .btn:focus:before, .btn:active:before {
+  -webkit-transform: scale(1.3) translateZ(0);
+  transform: scale(1.3) translateZ(0);
+}
