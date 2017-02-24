@@ -10,7 +10,3 @@ Please feel free to clone this repository or create a new branch with your own a
 Images pulled from the web are reused here under principle of fair use - they have all been downloaded and uploaded to this repository for the sake of stability, but original URLs are provided in mouse-over text.
 
 Such enormous thanks to ablwr and the entire work of team [ffmprovisr](https://github.com/amiaopensource/ffmprovisr), on which so much of this project (code, spirit, COC) is based!
-
-## Code of Conduct ##
-
-Please read the contributor code of conduct [here](code_of_conduct.md)
