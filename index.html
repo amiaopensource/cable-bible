@@ -268,7 +268,7 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="well">
-        <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#mini-din-4-pin">S-Video Mini-DIN 4-pin</a></h3>
+        <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#s-video">S-Video Mini-DIN 4-pin</a></h3>
         <div class="sample-image">
           <img src="images/S-video.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/S-video-connection.jpg/120px-S-video-connection.jpg">
           <img src="images/Video/s-video_mini-din-4_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://sewelldirect.com/images/connectors/photos/S-Video.jpg">
@@ -1262,12 +1262,792 @@
 
       </div> <!-- end ADAT well -->
 
-
     </div> <!-- end Digital Audio well -->
 
   </div> <!-- end Audio well -->
 
 
+  <div class="well"><h2>Data</h2>
+
+    <div class="well"><h3>Parallel Data</h3>
+      <p>Digital transmission can occur in one of two basic methods: parallel or serial communication. In parallel communication, multiple bits (usually 8 bits, otherwise known as one byte) are transferred simultaneously on separate channels within the same cable, then combined and synchronized. This can result in a faster bit rate than serial transmission, but is also significantly more expensive (since it requires far more wires to create the cable) and the synchronization timing in parallel transmission is also susceptible to distance, making it impractical for longer cables. Parallel communication was popular in the 1980s but has generally fallen out of favor in modern data transmission.</p>
+
+      <!-- start PATA protocol cables -->
+      <div class="well"><h4>PATA</h4>
+        <p>Short for Parallel Advanced Technology Attachment, originally known simply as ATA until the later Serial ATA (SATA) standard was developed. An interface standard for the connection of storage devices, e.g. hard disk drives, floppy drives and optical drives. Given its maximum cable length of 18 inches, PATA is mostly limited to internal computer use, but it can occasionally be seen/used to connect to external drives.</p>
+        <p><b>Introduced: </b>1986</p>
+        <p><b>Max bit depth and rate: </b>16-bit; originally 16 mb/s, developed up to 133 mb/s</p>
+        <p><b>Connectors and ports:</b></p>
+
+        <!-- PATA 40-pin ribbon -->
+        <span data-toggle="modal" data-target="#pata_40-pin"><button type="button" class="btn btn-default"><img src="images/Data/pata_40-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">40-pin</button></span>
+        <div id="pata_40-pin" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3>PATA 40-pin</h3>
+            <div class="sample-image">
+              <img src="images/Data/pata_40-pin_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://img.tomshardware.com/us/2005/11/23/pc_interfaces_101/ide_w_cable.jpg">
+              <img src="images/Data/pata_40-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://chebgym5.ru/computer/images/ide-cable.jpg">
+            </div>
+            <p>Used with the most common 40-wire PATA ribbon cables, as well as the more rare 80-wire ribbons developed late in the PATA standard's lifespan to increase data rate.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end PATA 40-pin ribbon -->
+
+      </div> <!-- end PATA well -->
+
+
+      <!-- start Parallel SCSI protocol cables -->
+      <div class="well"><h4>Parallel SCSI</h4>
+        <p>Referred to alternately as SCSI (Small Computers Systems Interface) Parallel Interface, SPI, or, before the advent of Serial SCSI, simply SCSI (pronounced "scuzzy"). Unfortunately, Parallel SCSI is not technically a single standard, but a series of almost a dozen related interfaces with ambiguous names ("Fast SCSI", "Ultra SCSI," etc.) and variable bit depths and rates. See the link to a comparison table below. In any case, Parallel SCSI cables were used to connect peripheral devices to computers; unlike PATA, which could only connect a maximum of two devices, a single Parallel SCSI data bus could be attached to up to 8 or 16 devices. The symbol below generally marked a SCSI port on computers.</p>
+        <img src="images/Data/scsi_logo.png" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Scsi_logo.svg/2000px-Scsi_logo.svg.png">
+        <p><b>Introduced: </b>1986</p>
+        <p><b>Max bit depth and rate: </b>See <a href="https://en.wikipedia.org/wiki/Parallel_SCSI#Comparison_table">comparison table</a></p>
+        <p><b>Connectors and ports:</b></p>
+
+        <!-- Parallel SCSI 50-pin -->
+        <span data-toggle="modal" data-target="#scsi_50-pin"><button type="button" class="btn btn-default"><img src="images/Data/scsi_50-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">50-pin</button></span>
+        <div id="scsi_50-pin" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3>Parallel SCSI 50-pin Micro-Ribbon</h3>
+            <div class="sample-image">
+              <img src="images/Data/scsi_50-pin_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.datapro.net/images/SCSI_CN50.jpg">
+              <img src="images/Data/scsi_50-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/1/1b/Scsi-1_gehaeuse.jpg">
+            </div>
+            <p>Micro ribbon or miniature ribbon connectors have a similar shielded design to the D-sub family of connectors, but used a different kind of contact known as ribbon contacts rather than pin contacts. There are various configurations that were used with Parallel SCSI but the most common variety was a 50-contact micro-ribbon connector. These connectors were often referred to by the brand name of the company that manufactured them: for instance, Amphenol-50, IDC-50, CN-50 (Centronics).</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Parallel SCSI 50-pin -->
+
+        <!-- Parallel SCSI 25-pin -->
+        <span data-toggle="modal" data-target="#scsi_db-25"><button type="button" class="btn btn-default"><img src="images/Data/scsi_25-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">DB-25</button></span>
+        <div id="scsi_db-25" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#parallel-scsi">Parallel SCSI DB-25</a></h3>
+            <div class="sample-image">
+              <img src="images/Data/scsi_25-pin_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.datapro.net/images/SCSI_DB25.jpg">
+              <img src="images/Data/scsi_25-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://www.cs.uaf.edu/users/olawlor/public_html/ref/mac_ports/scsi_db25.jpg">
+            </div>
+            <p>A D-sub connector used by Apple for Parallel SCSI connections on their early desktop computers.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Parallel SCSI 25-pin -->
+
+        <!-- Parallel SCSI HDI-30 -->
+        <span data-toggle="modal" data-target="#scsi_hdi-30"><button type="button" class="btn btn-default"><img src="images/Data/scsi_hdi-30_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">HDI-30</button></span>
+        <div id="scsi_hdi-30" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3>Parallel SCSI HDI-30</h3>
+            <div class="sample-image">
+              <img src="images/Data/scsi_hdi-30_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://cdn2.goughlui.com/wp-content/uploads/2013/07/DSC_00114.jpg">
+              <img src="images/Data/scsi_hdi-30_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.libellules.ch/Img_connecteur/lib_scsi_hdi30f.jpg">
+            </div>
+            <p>A singular square-shaped pin contact connector used by Apple for Parallel SCSI connections on a few of their early laptop designs.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Parallel SCSI HDI-30 -->
+
+      </div> <!-- end Parallel SCSI well -->
+
+
+      <!-- start IEEE 1284/Parallel Port protocol cables -->
+      <div class="well"><h4>IEEE 1284</h4>
+        <p>A standard for parallel communication variably, and more commonly, referred to as "parallel port", "printer port" or the "Centronics port", as it was originally developed by Centronics to facilitate communication between computers and Centronics-brand dot-matrix printers. Originally unidirectional ("send-only") for sending data from a computer to a printer, but later developed to allow for bidirectional communication, it became a popular alternative to Parallel SCSI for peripherals like floppy drives and network adapters and hard drives as it had cheaper circuitry. A symbol similar to the one below generally marked parallel/printer port connections on computers.</p>
+        <img src="images/Data/parallel_port_logo.png" data-toggle="tooltip" data-placement="bottom" title="https://openclipart.org/image/2400px/svg_to_png/189941/Parallel-port.png">
+        <p><b>Introduced: </b>1970s</p>
+        <p><b>Max bit depth and rate: </b></p>
+        <p><b>Connectors and ports:</b></p>
+
+        <!-- Parallel Port DB-25 -->
+        <span data-toggle="modal" data-target="#parallel-port_25-pin"><button type="button" class="btn btn-default"><img src="images/Data/parallel_port_25-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">DB-25</button></span>
+        <div id="parallel-port_25-pin" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#parallelprinter-port">Parallel Port DB-25</a></h3>
+            <div class="sample-image">
+              <img src="images/Data/parallel_port_25-pin.jpg" data-toggle="tooltip" data-placement="bottom" title="http://img.alibaba.com/img/pb/487/415/275/275415487_248.jpg">
+              <img src="images/Data/parallel_port_25-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://cdn.computerhope.com/parallel-port.jpg">
+            </div>
+            <p>A D-sub connection, usually used for the host (computer) end of a parallel port cable/connection.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Parallel Port DB-25 -->
+
+        <!-- Parallel Port 36-pin -->
+        <span data-toggle="modal" data-target="#parallel-port_36-pin"><button type="button" class="btn btn-default"><img src="images/Data/parallel_port_36-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">36-pin</button></span>
+        <div id="parallel-port_36-pin" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3>Parallel Port 36-pin Micro-Ribbon</h3>
+            <div class="sample-image">
+              <img src="images/Data/parallel_port_36-pin.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/d/d2/IEEE_1284_36pin_plughead.jpg">
+              <img src="images/Data/parallel_port_36-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.kenosha-reuse.com/SALEM,-WI/Commercial/Mechanical/Used/Plus-Warranty/Wasp-rp-WPRP200-thermal-receipt-printer-parallel-port-picture-1.jpg">
+            </div>
+            <p>A micro-ribbon connector developed by Centronics (also called CN-36), usually used for the printer or device connection.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end Parallel Port 36-pin -->
+
+      </div> <!-- end IEEE 1284 well -->
+
+    </div> <!-- end Parallel Data well -->
+
+
+    <!-- start Serial Data cables -->
+    <div class="well"><h3>Serial Data</h3>
+      <p>As opposed to parallel transmission, in serial communication bits are transferred sequentially over the same wire. Bytes must be assembled and sent as a unit and then disassembled by the receiving device. Though serial data transmission was developed before parallel transmission, parallel communication reigned for much of the late 1970s-1980s as physical performance limitations originally gave parallel communication higher data rates. Improvements in cable and circuit design have since made serial transmission the far faster and preferred option.</p>
+
+      <!-- start RS-232 protocol cables -->
+      <div class="well"><h4>RS-232</h4>
+        <p>Because it was the first serial data protocol to become a standard feature in personal computing, RS-232 was commonly referred to simply as "the serial port." It was used for bidirectional connection to many peripheral computer devices, including modems, printers, mice, external drives, etc. It was also used for remote connection and control of some VTRs. It is referred to as "RS" because it was originally sponsored by the Radio Sector of the Electronic Industries Association - changes in the sponsoring organization have caused the standard to be alternately referred to as EIA-232 and TIA-232. The symbol below generally marked serial port connections on computers.</p>
+        <img src="images/Data/serial_port_logo.png" data-toggle="tooltip" data-placement="bottom" title="http://cliparts.co/cliparts/Big/E86/BigE86ErT.png">
+        <p><b>Introduced: </b>1962</p>
+        <p><b>Max bit depth and rate: </b></p>
+        <p><b>Connectors and ports:</b></p>
+
+        <!-- RS-232 DB-25 -->
+        <span data-toggle="modal" data-target="#rs-232_db-25"><button type="button" class="btn btn-default">DB-25</button></span>
+        <div id="rs-232_db-25" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3>RS-232 DB-25</h3>
+            <p>The RS-232 standard recommends a 25-pin D-sub connector but did not make it mandatory - therefore it is by far the most common type of connector for both host computers and peripherals but not exclusive.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end RS-232 DB-25 -->
+
+        <!-- RS-232 DB-15 -->
+        <span data-toggle="modal" data-target="#rs-232_db-15"><button type="button" class="btn btn-default">DB-15</button></span>
+        <div id="rs-232_db-15" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#db-15">RS-232 DB-15</a></h3>
+            <p>Found with RS-232 connections on some modems (on the modem end).</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end RS-232 DB-15 -->
+
+        <!-- RS-232 DB-9 -->
+        <span data-toggle="modal" data-target="#rs-232_db-9"><button type="button" class="btn btn-default">DB-9</button></span>
+        <div id="rs-232_db-9" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3>RS-232 DB-9</h3>
+            <p>Found with RS-232 connections with some modems, printers, peripherals (on the host computer end).</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end RS-232 DB-9 -->
+
+        <!-- RS-232 DE-9 -->
+        <span data-toggle="modal" data-target="#rs-232_de-9"><button type="button" class="btn btn-default">DE-9</button></span>
+        <div id="rs-232_de-9" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#rs-232">RS-232 DE-9</a></h3>
+            <p>Found with RS-232 connections on early mice and keyboards.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- RS-232 DE-9 -->
+
+      </div> <!-- end RS-232 well -->
+
+
+      <!-- start RS-422 protocol cables -->
+      <div class="well"><h4>RS-422</h4>
+        <p>An improvement to the RS-232 standard to increase transmit speeds and/or maximum cable length. Introduced differential signaling to data cabling - a technique of reducing electromagnetic noise as it is transmitted over the wires in a cable, similar to balanced cables in analog audio.</p>
+        <p><b>Introduced: </b>1996</p>
+        <p><b>Max bit depth and rate: </b>10 Mb/s</p>
+        <p><b>Connectors and ports:</b></p>
+
+        <!-- RS-422 DE-9 -->
+        <span data-toggle="modal" data-target="#rs-422_de-9"><button type="button" class="btn btn-default">DE-9</button></span>
+        <div id="rs-422_de-9" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#sony-9-pin-rs-422-vtr-protocol">RS-422 DE-9</a></h3>
+            <p>Found on later VTRs, especially Sony models.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end RS-422 DE-9 -->
+
+        <!-- RS-422 Mini-DIN 8-pin -->
+        <span data-toggle="modal" data-target="#rs-422_mini-din_8-pin"><button type="button" class="btn btn-default">Mini-DIN 8-pin</button></span>
+        <div id="rs-422_mini-din_8-pin" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#apple-rs-422">RS-422 Mini-DIN 8-pin</a></h3>
+            <p>An RS-232 compatible variant of RS-422 widely used on Macintosh hardware.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end RS-422 Mini-DIN 8-pin -->
+
+      </div> <!-- end RS-422 well -->
+
+
+      <!-- start Serial SCSI protocol cables -->
+      <div class="well"><h4>Serial Attached SCSI (SAS)</h4>
+        <p>Serial Attached SCSI (SAS) replaced Parallel SCSI, using the same basic command set but replacing the transmission method from parallel to serial to improve transfer rate. Backwards compatible with SATA. Unlike Parallel SCSI, almost exclusively used in internal computer connections and very rarely found in use with peripherals.</p>
+        <p><b>Introduced: </b>2004</p>
+        <p><b>Max bit depth and rate: </b>Originally 3.0 Gb/s, now up to 12.0 Gb/s</p>
+        <p><b>Connectors and ports:</b></p>
+
+        <!-- SAS SF-8088 (Mini-SAS) -->
+        <span data-toggle="modal" data-target="#sas_sf-8088_mini-sas"><button type="button" class="btn btn-default">SF-8088 (Mini-SAS)</button></span>
+        <div id="sas_sf-8088_mini-sas" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3>SAS SF-8088 (Mini-SAS)</h3>
+            <p>Shielded 26-pin implementation of SAS.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end SAS SF-8088 (Mini-SAS) -->
+
+        <!-- SAS SF-8470 (Infiniband) -->
+        <span data-toggle="modal" data-target="#sas_sff-8470_infiniband"><button type="button" class="btn btn-default">SFf-8470 (Infiniband)</button></span>
+        <div id="sas_sff-8470_infiniband" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3>SAS SF-8470 (Infiniband)</h3>
+            <p>High-density, 34-pin external connector.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end SAS SF-8470 (Infiniband) -->
+
+      </div> <!-- end Serial SCSI well -->
+
+
+      <!-- start SATA protocol cables -->
+      <div class="well"><h4>SATA</h4>
+        <p>Developed to replace Parallel ATA (PATA), Serial ATA is used to connect host bus devices to mass storage devices such as hard drives, optical drives, solid-state drives, etc. Generally found for internal connections in desktops and laptops, but used in some cases to connect to external drives as well.</p>
+        <p><b>Introduced: </b>2003</p>
+        <p><b>Max bit depth and rate: </b>Originally 1.5 Gb/s, now up to 16.0 Gb/s</p>
+        <p><b>Connectors and ports:</b></p>
+
+        <!-- SATA eSATA -->
+        <span data-toggle="modal" data-target="#sata_esata"><button type="button" class="btn btn-default"><img src="images/Data/e-sata_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">eSATA</button></span>
+        <div id="sata_esata" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#esata">eSATA</a></h3>
+            <div class="sample-image">
+              <img src="images/Data/e-sata_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://sgcdn.startech.com/005329/media/products/gallery_large/USB3S2ESATA3.C.jpg">
+              <img src="images/Data/e-sata_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.thecomputercoach.net/assets/images/eSATA_port.jpg">
+            </div>
+            <p>Found exclusively with SATA connections to external drives and devices (the "e" stands for "external").</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end SATA eSATA -->
+
+      </div> <!-- end SATA well -->
+
+
+      <!-- start Apple Desktop Bus protocol cables -->
+      <div class="well"><h4>Apple Desktop Bus (ADB)</h4>
+        <p>A Macintosh-exclusive computer bus for connecting low-speed peripherals - mice, keyboards, etc. ADB connections were generally marked by the symbol below.</p>
+        <img src="images/Data/apple_desktop_bus_logo.png" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/ADB_Icon.svg/130px-ADB_Icon.svg.png">
+        <p><b>Introduced: </b>1986</p>
+        <p><b>Max bit depth and rate: </b>125 Kb/s</p>
+        <p><b>Connectors and ports:</b></p>
+
+        <!-- ADB Mini-DIN 4-pin -->
+        <span data-toggle="modal" data-target="#adb_mini-din_4-pin"><button type="button" class="btn btn-default"><img src="images/Data/apple_desktop_bus_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Mini-DIN 4-pin</button></span>
+        <div id="adb_mini-din_4-pin" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#apple-desktop-bus">ADB Mini-DIN 4-pin</a></h3>
+            <div class="sample-image">
+              <img src="images/Data/apple_desktop_bus_cork.jpg">
+              <img src="images/Data/apple_desktop_bus_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://ttic.uchicago.edu/~cotter/projects/aek2/images/adb.jpg">
+            </div>
+            <p>The exact same connector used for S-Video connections and the cables are interchangeable. ADB cables usually were marked by the symbol above.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end ADB Mini-DIN 4-pin -->
+
+      </div> <!-- end Apple Desktop Bus well -->
+
+
+      <!-- start PS/2 protocol cables -->
+      <div class="well"><h4>PS/2</h4>
+        <p>A PC-compatible low-speed computer bus for peripherals like mice, keyboards, etc. Its name comes from the IBM Personal System/2 line of computers with which it was introduced. Generally replaced older RS-232 connections employing DE-9 connectors.</p>
+        <p><b>Introduced: </b>1987</p>
+        <p><b>Max bit depth and rate: </b></p>
+        <p><b>Connectors and ports:</b></p>
+
+        <!-- PS/2 Mini-DIN 6-pin -->
+        <span data-toggle="modal" data-target="#ps2_mini-din_6-pin"><button type="button" class="btn btn-default"><img src="images/Data/PS2_cork1.jpg" class="img-responsive" style="max-height:100px; width:auto;">Mini-DIN 6-pin</button></span>
+        <div id="ps2_mini-din_6-pin" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#ps2">PS/2 Mini-DIN 6-pin</a></h3>
+            <div class="sample-image">
+              <img src="images/Data/PS2_cork1.jpg">
+              <img src="images/Data/PS2_cork2.jpg">
+              <img src="images/Data/PS2_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://11986-presscdn-0-77.pagely.netdna-cdn.com/wp-content/uploads/2014/08/ps2-ports.jpg">
+            </div>
+            <p>The only connectors used for PS/2 connections. Often color-coded: green connectors were used for mice and purple for keyboards.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end PS/2 Mini-DIN 6-pin -->
+
+      </div> <!-- end PS/2 well -->
+
+
+      <!-- start USB protocol cables -->
+      <div class="well"><h4>USB</h4>
+        <p>Short for Universal Serial Bus, designed to standardize connections of computer peripherals after the proliferation of connections in the '80s and early '90s. Used with keyboards, mice, digital cameras, external drives, network adapters, etc. Capable of supplying power to many of these devices in addition to transmitting data. Updates to the original USB 1.0 standard (1.5 Mbit/s at Low Speed, 12 Mbit/s at Full Speed) have represented major shifts in data transmission, usually with accompanied changes in physical connection, so they are elaborated on more below. All advancements in USB have been backwards-compatible (so a USB 3.0 connection can carry USB 2.0 data, etc). Ports are also usually marked by the symbol below.</p>
+        <img src="images/Data/usb_logo.png" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/USB_Icon.svg/2000px-USB_Icon.svg.png">
+        <p><b>Introduced: </b>1996</p>
+
+        <div class="well"><h5>USB 2.0</h5>
+          <p>"High Speed"</p>
+          <p><b>Introduced: </b>2000</p>
+          <p><b>Max bit depth and rate: </b>480 Mb/s</p>
+          <p><b>Connectors and ports:</b></p>
+
+          <!-- USB 2.0 Type A -->
+          <span data-toggle="modal" data-target="#usb2_type-a"><button type="button" class="btn btn-default"><img src="images/Data/USB2_typeA_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Type A</button></span>
+          <div id="usb2_type-a" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#usb-20">USB 2.0 Type A</a></h3>
+              <div class="sample-image">
+                <img src="images/Data/USB2_typeA_cork.jpg">
+                <img src="images/Data/USB2_typeA_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.what-is-my-computer.com/images/usb-ports.jpg">
+              </div>
+              <p>Found with USB host controllers, i.e. computers and hubs. Uses flat pins to withstand repeated attachment and removal.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end USB 2.0 Type A -->
+
+          <!-- USB 2.0 Type B -->
+          <span data-toggle="modal" data-target="#usb2_type-b"><button type="button" class="btn btn-default"><img src="images/Data/USB_typeB_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Type B</button></span>
+          <div id="usb2_type-b" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#usb-20">USB 2.0 Type B</a></h3>
+              <div class="sample-image">
+                <img src="images/Data/USB_typeB_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.datapro.net/images/techinfo/usb_info_type-b.jpg">
+              </div>
+              <p>An "upstream" connection intended for use on USB-compatible peripheral devices (thus, the majority of USB 2.0 connections require a Type A-to-Type B cable).</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end USB 2.0 Type B -->
+
+          <!-- USB 2.0 Mini A -->
+          <span data-toggle="modal" data-target="#usb2_mini-a"><button type="button" class="btn btn-default"><img src="images/Data/USB2_miniA_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Mini A</button></span>
+          <div id="usb2_mini-a" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#usb-20">USB 2.0 Mini A</a></h3>
+              <div class="sample-image">
+                <img src="images/Data/USB2_miniA_cork.jpg">
+              </div>
+              <p>Designed to slim down the Type A interface for use with mobile devices; quickly deprecated by the USB Implementers Forum (which guides specification and compliance of the USB protocol), meaning only a handful of certified devices ever used Mini Type A connections.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end USB 2.0 Mini A -->
+
+          <!-- USB 2.0 Mini B 5-pin -->
+          <span data-toggle="modal" data-target="#usb2_mini-b_5-pin"><button type="button" class="btn btn-default"><img src="images/Data/USB2_miniB_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Mini B 5-pin</button></span>
+          <div id="usb2_mini-b_5-pin" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#usb-20">USB 2.0 Mini B 5-pin</a></h3>
+              <div class="sample-image">
+                <img src="images/Data/USB2_miniB_cork.jpg">
+              </div>
+              <p>Designed to slim down the Type B interface for use with mobile devices (PDAs, digital cameras, etc.)</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end USB 2.0 Mini B 5-pin -->
+
+          <!-- USB 2.0 Mini B 4-pin -->
+          <span data-toggle="modal" data-target="#usb2_mini-b_4-pin"><button type="button" class="btn btn-default">Mini B 4-pin</button></span>
+          <div id="usb2_mini-b_4-pin" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3>USB 2.0 Mini B 4-pin</h3>
+              <p>An unofficial implementation of USB (never supported by the USB-IF), used with some digital cameras, particularly Kodak models.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end USB 2.0 Mini B 4-pin -->
+
+          <!-- USB 2.0 Micro A -->
+          <span data-toggle="modal" data-target="#usb2_micro-a"><button type="button" class="btn btn-default"><img src="images/Data/USB2_microA_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Micro A</button></span>
+          <div id="usb2_micro-a" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#usb-20">USB 2.0 Micro A</a></h3>
+              <div class="sample-image">
+                <img src="images/Data/USB2_microA_cork.jpg">
+              </div>
+              <p>Used on mobile devices such as cellphones, digital cameras, GPS units, etc. Smaller than Mini Type connections and identified by white-colored receptacle with 5 pins.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end USB 2.0 Micro A -->
+
+          <!-- USB 2.0 Micro B -->
+          <span data-toggle="modal" data-target="#usb2_micro-b"><button type="button" class="btn btn-default"><img src="images/Data/USB2_microB_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Micro B</button></span>
+          <div id="usb2_micro-b" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#usb-20">USB 2.0 Micro B</a></h3>
+              <div class="sample-image">
+                <img src="images/Data/USB2_microB_cork.jpg">
+              </div>
+              <p>Used on mobile devices such as cellphones, digital cameras, GPS units, etc. Smaller than Mini Type connections and identified by black-colored receptacle with 5 pins.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end USB 2.0 Micro B -->
+
+        </div> <!-- end USB 2.0 well -->
+
+
+        <!-- start USB 3.0 protocol cables -->
+        <div class="well"><h5>USB 3.0</h5>
+          <p>"SuperSpeed"</p>
+          <img src="images/Data/usb3_logo.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.kurokatta.org/pix/usb-superspeed-s">
+          <p><b>Introduced: </b>2008</p>
+          <p><b>Max bit depth and rate: </b>5 Gb/s</p>
+          <p><b>Connectors and ports:</b></p>
+
+          <!-- USB 3.0 Type A -->
+          <span data-toggle="modal" data-target="#usb3_type-a"><button type="button" class="btn btn-default"><img src="images/Data/USB3_typeA_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Type A</button></span>
+          <div id="usb3_type-a" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#usb-30">USB 3.0 Type A</a></h3>
+              <div class="sample-image">
+                <img src="images/Data/USB3_typeA_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/7/75/Connector_USB_3_IMGP6024_wp.jpg">
+                <img src="images/Data/USB3_typeA_bottle1.jpg" data-toggle="tooltip" data-placement="bottom" title="http://icdn8.digitaltrends.com/image/usb-3-0-ports-625x300-c.jpg">
+                <img src="images/Data/USB3_typeA_bottle2.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.howtogeek.com/wp-content/uploads/2014/01/650x434xusb-2.0-vs-usb-3.0-blue-port.jpg.pagespeed.gp+jp+jw+pj+js+rj+rp+rw+ri+cp+md.ic.Hw2qDXl-UA.jpg">
+              </div>
+              <p>Similar in sixe, shape, appearance to USB 2.0 Type A, though it has additional pins. Typically colored blue to differentiate from USB 2.0 Type A connections.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end USB 3.0 Type A -->
+
+          <!-- USB 3.0 Type B -->
+          <span data-toggle="modal" data-target="#usb3_type-b"><button type="button" class="btn btn-default"><img src="images/Data/USB3_typeB_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Type B</button></span>
+          <div id="usb3_type-b" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#usb-30">USB 3.0 Type B</a></h3>
+              <div class="sample-image">
+                <img src="images/Data/USB3_typeB_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.datapro.net/images/usb_3_b.jpg">
+                <img src="images/Data/USB3_typeB_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://hsto.org/getpro/habr/post_images/c40/af2/062/c40af20620352d5a35b1cadb413bc739.jpg">
+              </div>
+              <p>A boxy connection similar in appearance to USB 2.0 Type B, but not physically compatible with its preceding equivalent (unlike Type A). Therefore cables with a USB 3.0 Type B connector are not compatible with devices with a USB 2.0 Type B port; however devices with a USB 3.0 Type B port *will* accept USB 2.0 Type B cables. Usually colored blue.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end USB 3.0 Type B -->
+
+          <!-- USB 3.0 Micro B -->
+          <span data-toggle="modal" data-target="#usb3_micro-b"><button type="button" class="btn btn-default"><img src="images/Data/USB3_microB_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Micro B</button></span>
+          <div id="usb3_micro-b" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#usb-30">USB 3.0 Micro B</a></h3>
+              <div class="sample-image">
+                <img src="images/Data/USB3_microB_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://sgcdn.startech.com/005329/media/products/gallery_large/USB3SAUBX.C.jpg">
+                <img src="images/Data/USB3_microB_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://farm6.staticflickr.com/5590/14717534619_7bf547c241_o.jpg">
+              </div>
+              <p>A connection totally unique to USB 3.0 cables and devices, incompatible with previous USB devices.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end USB 3.0 Micro B -->
+
+        </div> <!-- end USB 3.0 well -->
+
+
+        <!-- start USB 3.1 protocol cables -->
+        <div class="well"><h5>USB 3.1</h5>
+          <p>"SuperSpeed+"</p>
+          <p><b>Introduced: </b>2013</p>
+          <p><b>Max bit depth and rate: </b>10 Gb/s</p>
+          <p><b>Connectors and ports:</b></p>
+
+          <!-- USB 3.1 Type C -->
+          <span data-toggle="modal" data-target="#usb3-1_type-c"><button type="button" class="btn btn-default"><img src="images/Data/USB3-1_typeC_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Type C</button></span>
+          <div id="usb3-1_type-c" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#usb-31">USB 3.1 Type C</a></h3>
+              <div class="sample-image">
+                <img src="images/Data/USB3-1_typeC_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://cnet2.cbsistatic.com/img/JplrP5OaMw-Qjju0FM-E9SJEPIs=/570x0/2015/12/07/fcf70d65-4104-465e-b017-c5af7e122527/20151203-usb-type-c-001.jpg">
+                <img src="images/Data/USB3-1_typeC_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://liliputing.com/wp-content/uploads/2015/03/macbook-type-c2.jpg">
+              </div>
+              <p>A reversible, symmetrical design capable of carrying data at 10 Gbit/s (between two USB 3.1-compatible devices), power, and built-in support for DisplayPort video and four channels of audio. Increasingly found as a charging/data port for PC laptops and Apple laptops via the Thunderbolt protocol.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end USB 3.1 Type C -->
+
+        </div> <!-- end USB 3.1 well -->
+
+      </div> <!-- end USB well -->
+
+
+
+      <!-- start FireWire protocol cables -->
+      <div class="well"><h4>FireWire</h4>
+        <p>Developed by Apple at roughly the same time as USB, for the similar purpose of consolidating connections and improving data transfer speeds. Unlike USB, FireWire does not require the use of a host controller (FireWire-compatible devices can communicate directly to each other without the use of a computer), but it was more costly to implement than USB and therefore never quite as popular. Sometimes referred to as i.Link (in Sony applications) and Lynx (Texas Instruments), as FireWire is technically just the Apple branding of the IEEE 1394 standard. Used for connections to external hard drives, as well as A/V component communication and control. Two major flavors of FireWire were introduced before Apple phased out development of the standard in favor of ThunderBolt. Ports usually represented by the symbol below.</p>
+        <img src="images/Data/firewire_logo.png" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/FireWire_Logo.svg/2000px-FireWire_Logo.svg.png">
+
+        <!-- start FireWire 400 cables -->
+        <div class="well"><h5>FireWire 400</h5>
+          <p>"IEEE 1394a"</p>
+          <p><b>Introduced: </b>1995</p>
+          <p><b>Max bith depth and rate: </b>400 Mb/s</p>
+          <p><b>Connectors and ports:</b></p>
+
+          <!-- FireWire 400 6-pin -->
+          <span data-toggle="modal" data-target="#firewire400_6-pin"><button type="button" class="btn btn-default"><img src="images/firewire_6-pin.jpg" class="img-responsive" style="max-height:100px; width:auto;">6-pin</button></span>
+          <div id="firewire400_6-pin" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#6-pin">FireWire 400 6-pin</a></h3>
+              <div class="sample-image">
+                <img src="images/firewire_6-pin.jpg">
+                <img src="images/Data/firewire_6-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://etc.usf.edu/te_mac/hardware/i/img_1744.jpg">
+              </div>
+              <p>Can carry DC power in addition to data; thus 6-pin connections are usually found on devices that can provide power, e.g. computers.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end FireWire 400 6-pin -->
+
+          <!-- FireWire 400 4-pin -->
+          <span data-toggle="modal" data-target="#firewire400_4-pin"><button type="button" class="btn btn-default"><img src="images/firewire_4-pin.jpg" class="img-responsive" style="max-height:100px; width:auto;">4-pin</button></span>
+          <div id="firewire400_4-pin" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#4-pin">FireWire 400 4-pin</a></h3>
+              <div class="sample-image">
+                <img src="images/firewire_4-pin.jpg">
+                <img src="images/Data/firewire_4-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.jontrosky.com/images/firewire_4_pin_port.jpg">
+              </div>
+              <p>Can only carry data, no power, thus found on peripherals and devices with their own power supply, such as DV cameras, certain external hard drives.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end FireWire 400 4-pin -->
+
+        </div> <!-- end FireWire 400 well -->
+
+        <!-- start FireWire 800 cables -->
+        <div class="well"><h5>FireWire 800</h5>
+          <p>"IEEE 1394b"</p>
+          <p><b>Introduced: </b>2002</p>
+          <p><b>Max bith depth and rate: </b>800 Mb/s</p>
+          <p><b>Connectors and ports:</b></p>
+
+          <!-- FireWire 800 9-pin -->
+          <span data-toggle="modal" data-target="#firewire800_9-pin"><button type="button" class="btn btn-default"><img src="images/Data/firewire_9-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">9-pin</button></span>
+          <div id="firewire800_9-pin" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#9-pin">FireWire 800 9-pin</a></h3>
+              <div class="sample-image">
+                <img src="images/Data/firewire_9-pin_cork.jpg">
+                <img src="images/Data/firewire_9-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://cdn-image.realsimple.com/sites/default/files/styles/rs_main_image/public/image/images/0809/firewire-800-port_300.jpg?itok=UMxZPpBw">
+              </div>
+              <p>Commonly found on Apple computers. Can be adapted to older 6-pin and 4-pin connectors, but data transfer will be limited to the old 400 Mbit/s rate.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end FireWire 800 9-pin -->
+
+        </div> <!-- end FireWire 800 well -->
+
+      </div> <!-- end FireWire well -->
+
+
+      <!-- start ThunderBolt protocol cables -->
+      <div class="well"><h4>ThunderBolt</h4>
+        <p>Developed by Apple as a replacement for FireWire. Combines computer bus data transmission with the DisplayPort digital video interface, as well as DC power, all over one cable/connection. The first two major versions of ThunderBolt shared a physical connector and had compatible wiring/channels, but the introduction of ThunderBolt 3 has been marked by major shifts in physical interface. Ports usually labelled by the symbol below.</p>
+        <img src="images/Data/thunderbolt_logo.jpg" data-toggle="tooltip" data-placement="bottom" title="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macpro/thunderbolt_logo.png">
+
+        <!-- start ThunderBolt 1 and 2 cables -->
+        <div class="well"><h5>ThunderBolt 1 and 2</h5>
+          <p><b>Introduced: </b>2011;2013</p>
+          <p><b>Max bit depth and rate: </b>10 Gb/s; 20 Gb/s</p>
+          <p><b>Connectors and ports:</b></p>
+
+          <!-- ThunderBolt 1 and 2 Mini-DisplayPort -->
+          <span data-toggle="modal" data-target="#thunderbolt_mini-displayport"><button type="button" class="btn btn-default"><img src="images/Data/thunderbolt_mini-displayport_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Mini-DisplayPort</button></span>
+          <div id="thunderbolt_mini-displayport" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#displayport">ThunderBolt 1 and 2 Mini-DisplayPort</a></h3>
+              <div class="sample-image">
+                <img src="images/Data/thunderbolt_mini-displayport_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://sgcdn.startech.com/005329/media/products/gallery_large/TBOLTMMXMW.D.jpg">
+                <img src="images/Data/thunderbolt_mini_displayport_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://support.seagate.com/kbimg/004528-1.jpg">
+              </div>
+              <p>The ThunderBolt protocol was designed to be compatible with the Mini-DisplayPort connections already present since 2008 on many Apple computers. Saved Apple from a major redesign for several years.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end ThunderBolt 1 and 2 Mini-DisplayPort -->
+
+        </div> <!-- end ThunderBolt 1 and 2 -->
+
+
+        <!-- start ThunderBolt 3 cables -->
+        <div class="well"><h5>ThunderBolt 3</h5>
+          <p><b>Introduced: </b>2015</p>
+          <p><b>Max bit depth and rate: </b>40 Gb/s</p>
+          <p><b>Connectors and ports:</b></p>
+
+          <!-- ThunderBolt 3 USB Type C -->
+          <span data-toggle="modal" data-target="#thunderbolt3_usb_type-c"><button type="button" class="btn btn-default"><img src="images/Data/thunderbolt_typeC_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">USB Type C</button></span>
+          <div id="thunderbolt3_usb_type-c" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="well">
+              <h3><a href="https://github.com/amiaopensource/cable-bible/blob/master/pinouts.md#usb-31">ThunderBolt 3 USB Type C</a></h3>
+              <div class="sample-image">
+                <img src="images/Data/thunderbolt_typeC_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.flatpanelshd.com/pictures/thunderbolt3-1l.jpg">
+                <img src="images/Data/thunderbolt_typeC_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="http://blogs.intel.com/technology/files/2015/08/Lenovo-ports.jpg">
+              </div>
+              <p>Because of its capability for transferring data, digital video/audio and power all over the same connection, Apple adapted the USB Type C connector to its ThunderBolt protocol and has started using the connection as the single port on its latest MacBook Air products.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- end ThunderBolt 3 USB Type C -->
+
+        </div> <!-- end ThunderBolt 3 -->
+
+      </div> <!-- end ThunderBolt well -->
+
+
+      <!-- start HDBaseT protocol cables -->
+      <div class="well"><h4>HDBaseT</h4>
+        <p>A standard for the transmission of uncompressed HD video, audio, power, and/or networking and Ethernet connections.</p>
+        <p><b>Introduced: </b>2010</p>
+        <p><b>Max bit depth and rate: </b>10.2 Gbit/s (100 Mbit/s Ethernet)</p>
+        <p><b>Connectors and ports:</b></p>
+
+        <!-- HDBaseT 8P8C -->
+        <span data-toggle="modal" data-target="#hdbaset_8p8c"><button type="button" class="btn btn-default">8P8C/RJ-45</button></span>
+        <div id="hdbaset_8p8c" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="well">
+            <h3>HDBaseT 8P8C/RJ-45</h3>
+            <p>A modular connector with 8 pins/conductors. Similar to but wider than the modular connectors used for phone lines.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- end HDBaseT 8P8C -->
+
+      </div> <!-- end HDBaseT well -->
+
+    </div> <!-- end Serial Data well -->
+
+  </div> <!-- end Data well -->
+
+
+  <!-- start Power cables -->
+  <div class="well"><h2>Power</h2>
+    <p> From Type A to Type N, the <a href="http://www.iec.ch/worldplugs/">IEC website</a> provides descriptions, images, and supporting countries to plugs and sockets used around the world.</p>
 
 
 </div> <!-- end class="well col-md-8 col-md-offset-0" -->
