@@ -32,21 +32,63 @@
 </div>
 
 <div class="well col-md-8 col-md-offset-0">
-  <div class="well">
+  <div class="well" id="table_of_contents">
     <h2>What kind of cable are you looking for?</h2>
     <h5>Select from the following.</h5>
+    <p><a href="#video">I. Video</a></p>
+      <p><a href="#analog_video">A. Analog Video</a></p>
+        <p><a href="#composite">1. Composite</a></p>
+        <p><a href="#component_ypbpr">2. Component Y'P<sub>B</sub>P<sub>R</sub></a></p>
+        <p><a href="#s-video">3. S-Video</a></p>
+        <p><a href="#rgbs">4. RGBS</a></p>
+        <p><a href="#rgbvh">5. RGBVH</a></p>
+      <p><a href="#digital_video">B. Digital Video</a></p>
+        <p><a href="#sdi">1. SDI</a></p>
+        <p><a href="#firewire_video">2. FireWire (IEEE 1394)</a></p>
+        <p><a href="#dvi">3. DVI</a></p>
+        <p><a href="#displayport">4. DisplayPort</a></p>
+        <p><a href="#hdmi">5. HDMI</a></p>
+      <p><a href="#integrated_video">C. Integrated Video</a></p>
+        <p><a href="#dvi-i">1. DVI-I</a></p>
+    <p><a href="#audio">II. Audio</a></p>
+      <p><a href="#analog_audio">A. Analog Audio</a></p>
+        <p><a href="#balanced_analog">1. Balanced</a></p>
+        <p><a href="#unbalanced_analog">2. Unbalanced</a></p>
+      <p><a href="#digital_audio">B. Digital Audio</a></p>
+        <p><a href="#aes-3">1. AES-3 (AES-EBU)</a></p>
+        <p><a href="#spdif">2. S/PDIF</a></p>
+        <p><a href="#midi">3. MIDI</a></p>
+        <p><a href="#tdif">4. TDIF</a></p>
+        <p><a href="#adat">5. ADAT</a></p>
+    <p><a href="#data">III. Data</a></p>
+      <p><a href="#parallel_data">A. Parallel Data</a></p>
+        <p><a href="#pata">1. PATA</a></p>
+        <p><a href="#parallel_scsi">2. Parellel SCSI</a></p>
+        <p><a href="#parallel_port">3. IEEE 1284 "Parallel Port"</a></p>
+      <p><a href="#serial_data">B. Serial Data</a></p>
+        <p><a href="#rs-232">1. RS-232 "Serial Port"</a></p>
+        <p><a href="#rs-422">2. RS-422</a></p>
+        <p><a href="#sas">3. SAS (Serial Attached SCSI)</a></p>
+        <p><a href="#sata">4. SATA</a></p>
+        <p><a href="#apple_desktop_bus">5. Apple Desktop Bus</a></p>
+        <p><a href="#ps2">6. PS/2</a></p>
+        <p><a href="#usb">7. USB</a></p>
+        <p><a href="#firewire_data">8. FireWire</a></p>
+        <p><a href="#thunderbolt">9. ThunderBolt</a></p>
+        <p><a href="#hdbaset">10. HDBaseT</a></p>
+    <p><a href="#power">IV. Power</a></p>
   </div>
 
   <!-- start Video cables -->
 
-  <div class="well"><h2>Video</h2>
+  <div class="well"><h2 id="video">Video</h2>
     <!-- start Analog Video cables -->
 
-    <div class="well"><h3>Analog Video</h3>
+    <div class="well"><h3 id="analog_video">Analog Video</h3>
       <p>Analog audiovisual media record image and sound information as a continuous signal stored in or on the media itself (in the case of most "video" formats, as a continually fluctuating level of magnetic field strength on tape). Different types of video processing can allow that signal to be carried along different channels, with each channel representing a different portion of the video information (e.g. luminance/brightness, chrominance/color, sync). The types of cable you will need to work with an analog video signal will depend primarily on how these channels have been divided, as well as considerations of signal-to-noise ratio - all analog signals are subject to some degree of electronic noise or distortion, and different connection standards and interfaces have been developed to combat such signal degradation.</p>
 
     <!-- start Composite protocol cables -->
-      <div class="well"><h4>Composite</h4>
+      <div class="well"><h4 id="composite">Composite</h4>
         <p>In composite cables, all video information (including both luminance and chrominance) is encoded on to a single channel/wire. As all information is traveling along one channel, composite video is the most susceptible to noise in the signal.</p>
         <p><b>Introduced:</b> 1956</p>
         <p><b>Max resolution:</b> Standard Definition (typically 480i or 576i)</p>
@@ -189,7 +231,7 @@
 
 
 <!-- start Component YPbPr cables -->
-  <div class="well"><h4>Component Y'P<sub>B</sub>P<sub>R</sub></h4>
+  <div class="well"><h4 id="component_ypbpr">Component Y'P<sub>B</sub>P<sub>R</sub></h4>
     <p>Y′P<sub>B</sub>P<sub>R</sub> signal is often referred to, imprecisely, simply as "component" video, although there are actually several standards of component video (any signal standard that splits video information into multiple channels is component, including S-Video and the multiple RGB standards). In Y′P<sub>B</sub>P<sub>R</sub>, the video signal is split into three channels: Y (containing luminance and sync), P<sub>B</sub> (the difference between blue and luma), and P<sub>R</sub> (the difference between red and luma). The remaining (green) chrominance information is derived from the relationship between these three signals. Y′P<sub>B</sub>P<sub>R</sub> cables are sometimes referred to as "yipper" cables and are connectors are usually color-coded (Y=green, P<sub>B</sub>=blue, P<sub>R</sub>=red); however Y′P<sub>B</sub>P<sub>R</sub> cables are fundamentally wired the same as composite cables and can be used interchangeably as long as the corresponding ports are properly connected.</p>
     <p><b>Introduced:</b>unknown</p>
     <p><b>Max resolution:</b> High Definition (up to 1080p)</p>
@@ -256,7 +298,7 @@
 
 
   <!-- start Analog S-Video protocol cables -->
-    <div class="well"><h4>S-Video</h4>
+    <div class="well"><h4 id="s-video">S-Video</h4>
       <p>S-Video (sometimes known as "separate video") cables carry video over two synchronized signal channels: Y (luma) and C (chroma, including saturation and hue). It can achieve better image quality than composite but lower color resolution than component RGB or Y′P<sub>B</sub>P<sub>R</sub> video. Most often associated with S-VHS but found with many other consumer deck formats as well.</p>
       <p><b>Introduced:</b>unknown</p>
       <p><b>Max resolution:</b> Standard Definition (typically 480i or 576i)</p>
@@ -321,7 +363,7 @@
     </div><!--end S-Video well -->
 
 <!-- start Analog RGBS protocol cables -->
-      <div class="well"><h4>RGBS</h4>
+      <div class="well"><h4 id="rgbs">RGBS</h4>
         <p>A component video standard in which luminance and chrominance information is encoded into three channels (red, green and blue) and a fourth is used for composite sync (vertical and horizontal sync encoded together on the same wire). RGBS utilizes no compression and has no particular limit on color depth or resolution, but requires a high bandwidth as the three channels carry much redundant information (i.e. the same black-and-white luma information repeated three times). Extremely common in European equipment (especially monitors), rare elsewhere.</p>
         <p><b>Introduced:</b>unknown</p>
         <p><b>Max resolution:</b> Generally up to 1080p (HD), but can go beyond</p>
@@ -349,7 +391,7 @@
       </div><!-- end RGBS well -->
 
       <!-- start Analog RGBVH protocol cables -->
-            <div class="well"><h4>RGBVH</h4>
+            <div class="well"><h4 id="rgbvh">RGBVH</h4>
               <p>A component video standard essentially the same as RGBS, except the sync signal is split into vertical and horizontal sync on separate wires. Most frequently employed in the context of the Video Graphics Array (VGA) display standard.</p>
               <p><b>Introduced:</b>unknown</p>
               <p><b>Max resolution:</b> Generally up to 1080p (HD), but can go beyond</p>
@@ -454,11 +496,11 @@
   </div><!-- end Analog video well -->
 
 <!-- start Digital Video -->
-  <div class="well"><h3>Digital Video</h3>
+  <div class="well"><h3 id="digital_video">Digital Video</h3>
     <p>As opposed to analog video, in digital recording the video and/or audio signal is converted into a stream of numbers (bits), that collectively represent the luminance, chrominance, and other values that make up the image. The stream must be converted back into analog waveforms to be viewed on a monitor/video screen. Provided electrical noise is not too great, it will theoretically not affect the quantification of the signal. Different standards for digital video and audio have developed in order to make it possible to pass more information along one connection in the same (or shorter) amount of time (also to make it possible to send audio information along the same cable/connection as video).</p>
 
     <!-- start SDI protocol cables -->
-    <div class="well"><h4>SDI</h4>
+    <div class="well"><h4 id="sdi">SDI</h4>
       <p>Serial Digital Interface (SDI) actually refers to a family of SMPTE interface standards designed for the transmission of uncompressed, unencrypted digital video signals. The original standard ("SD-SDI"), defined for 480i and 576i standard definition video, has been periodically updated (e.g. HD-SDI, 6G-SDI) to allow for steadily increasing bit rates, frame rates, video resolutions, etc. Because SDI is an unencypted digital signal, it has generally been restricted from use in consumer equipment, and is usually found in professional, broadcast-grade production and preservation environments.</p>
       <p><b>Introduced: </b>1989</p>
       <p><b>Max resolution:</b> As of 2015, the 12G-SDI standard allows up to 2160p60 video at 12 Gb/s</p>
@@ -505,7 +547,7 @@
     </div> <!-- end SDI -->
 
   <!--  start Firewire protocol cables -->
-    <div class="well"><h4>FireWire</h4>
+    <div class="well"><h4 id="firewire_video">FireWire</h4>
         <p>IEEE 1394, referred to as "FireWire," was developed by Apple as an interface for high-speed data transfer. However the FireWire interface was also employed by digital cameras recording to tape media with the DV (Digital Video) protocol (e.g. MiniDV, DVCAM, DVCPRO). Some camcorders were also able to directly output a DV signal to a digital video recorder or computer via a FireWire cable/interface.  When used with digital video, the FireWire interface operates at a slower data rate than in most of its data transfer applications.</p>
         <p><b>Introduced: </b>1994</p>
         <p><b>Max resolution:</b> Standard Definiton, 100 Mb/s</p>
@@ -534,7 +576,7 @@
 
 
     <!-- start DVI protocol cables -->
-    <div class="well"><h4>DVI</h4>
+    <div class="well"><h4 id="dvi">DVI</h4>
         <p>Digital Video Interface (DVI) was designed to transmit uncompressed digital video while also supporting analog video modes (see: DVI-I, DVI-A). This broad compatibility led to widespread adoption in consumer electronics/computers. Digital-only DVI cables and interfaces were referred to as "DVI-D".</p>
         <p><b>Introduced: </b>1999</p>
         <p><b>Max resolution:</b> Single Link: 1920x1200, 4.95 Gb/s; Dual Link: 2560x1600, 9.90 Gb/s</p>
@@ -619,7 +661,7 @@
 
 
   <!-- start DisplayPort protocol cables -->
-  <div class="well"><h4>DisplayPort</h4>
+  <div class="well"><h4 id="displayport">DisplayPort</h4>
       <p>A digital display interface standard developed by the Video Electronics Standards Association (VESA). Can be used to carry audio and packeted data transmissions, but most frequently employed to connect video sources to display devices. The development of succeeding versions of the DisplayPort standard (from 1.0 to the latest 1.4) have allowed for increases in display resolution, data rate, color depth, etc. "Dual-Mode DisplayPort" ports and connectors (also known as DisplayPort++) are also compatible with single-link DVI and HDMI output with the use of adapters; active converters are also available to make DisplayPort compatible with dual-link DVI or DVI-A/VGA signals.</p>
       <p><b>Introduced: </b>2008</p>
       <p><b>Max resolution:</b> v1.0/1.1: 1.62 Gb/s; v1.2: 2.7 Gb/s; v1.3: 8K UHD, 5.4 Gb/s; v1.4: 8K UHD, 8.1 Gb/s</p>
@@ -667,7 +709,7 @@
 
 
   <!-- start HDMI protocol cables -->
-  <div class="well"><h4>HDMI</h4>
+  <div class="well"><h4 id="hdmi">HDMI</h4>
       <p>High-Definition Multimedia Interface (HDMI) is a proprietary interface for transferring uncompressed digital video and audio signals. HDMI was developed in order to provide an integrated, increased-bandwidth interface capable of carrying very high video resolutions and an audio signal while maintaining backwards compatibility with DVI. As with DisplayPort, succeeding versions (from 1.0 to current 2.0) have allowed for increases in resolution, frame rate, data rate, etc.</p>
       <p><b>Introduced: </b>2002</p>
       <p><b>Max resolution:</b> v1.0/1.1/1.2: 1920x1200p, 4.95 Gb/s; v1.3/1.4: 2560x1600p, 10.2 Gb/s; v2.0: 4096x1600p, 18 Gb/s</p>
@@ -735,11 +777,11 @@
   </div> <!-- end Digital Video well -->
 
   <!-- start Integrated Video -->
-    <div class="well"><h3>Integrated Video</h3>
+    <div class="well"><h3 id="integrated_video">Integrated Video</h3>
       <p>There is no such thing as a signal that combines analog and digital data in the same channel. However, The DVI interface allows for both analog and digital signals to be passed through the same cable and connector, creating something of a unique case.</p>
 
       <!-- start DVI-I protocol cables -->
-      <div class="well"><h4>DVI-I</h4>
+      <div class="well"><h4 id="dvi-i">DVI-I</h4>
         <p>The DVI protocol is backwards-compatible to allow for the transmission of analog RGBVH data via the VGA standard. The cable is the same as that employed by DVI-A (analog-only) or DVI-D (digital only), the difference with DVI-I is merely in the compatible connectors and ports.</p>
         <p><b>Connectors:</b></p>
 
@@ -807,14 +849,14 @@
 
 
   <!-- start Audio cables -->
-  <div class="well"><h2>Audio</h2>
+  <div class="well"><h2 id="audio">Audio</h2>
 
   <!-- start Analog Audio cables -->
-    <div class="well"><h3>Analog Audio</h3>
+    <div class="well"><h3 id="analog_audio">Analog Audio</h3>
       <p>Unlike analog video, analog audio signals are essentially only ever transferred over one channel (i.e. one-track monaural/"mono") or two (two-track mono, or stereo). Analog audio cables, generally speaking, thus only had to carry one channel of audio and two cables would simply be employed for recording or reproducing two-track mono or stereo (in contrast to the proliferation of standards and cables for video - composite, S-Video, RBG, etc). The most critical characteristic in regard to analog audio cabling, then (beyond connector types), regards balanced vs. unbalanced wiring, a method employed to reduce noise interference in audio cables.</p>
 
       <!-- start Balanced Analog audio cables -->
-      <div class="well"><h4>Balanced Analog Audio</h4>
+      <div class="well"><h4 id="balanced_analog">Balanced Analog Audio</h4>
         <p>Balanced coaxial audio cables contain three wires: "earth" (electrical ground), "hot" (positive audio signal), and "cold" (negative audio signal). The audio signal is transferred on both the hot and cold lines, but the voltage in the cold line is inverted (i.e. signal is negative when the hot line's is positive, and vice versa). When the cable is plugged into an input, the hot and cold signals are mixed together, but the cold signal is also inverted again. This has the effect of strengthening the original, recorded audio signal (doubling the number of wires it was carried on) while also canceling out the signal of any unintentional noise in the signal picked up as the audio traveled over the cable. (Since that noise was essentially "recorded" positively on to both the hot and cold lines, flipping the polarity of the cold line at input gives you exact opposite noise signals, which cancel each other out) </p>
         <p>Reducing analog audio noise is an issue primarily with longer cables, or in professional/broadcast or preservation environments, where the absolute integrity of the audio signal is more highly valued than on consumer equipment.</p>
         <p><b>Connectors:</b></p>
@@ -926,7 +968,7 @@
       </div> <!-- end Balanced analog audio well -->
 
       <!-- start Unbalanced Analog audio cables -->
-      <div class="well"><h4>Unbalanced Analog Audio</h4>
+      <div class="well"><h4 id="unbalanced_analog">Unbalanced Analog Audio</h4>
         <p>nbalanced audio cables contain only two wires for any one audio channel: "earth" (electrical ground) and "hot" (the audio signal). These are employed with short cables, internal cables or components (inside sound equipment), or consumer-grade equipment where noise is considered less of an issue.</p>
         <p><b>Connectors:</b></p>
 
@@ -1039,11 +1081,11 @@
     </div> <!-- end Analog Audio well -->
 
     <!-- start Digital Audio cables -->
-    <div class="well"><h3>Digital Audio</h3>
+    <div class="well"><h3 id="digital_audio">Digital Audio</h3>
       <p>For explanation of digital signals, see Digital Video section above.</p>
 
       <!-- start AES-3 protocol cables -->
-      <div class="well"><h4>AES-3</h4>
+      <div class="well"><h4 id="aes-3">AES-3</h4>
           <p>AES-3 is a standard for the exchange of digital audio signals developed in conjunction by the Audio Engineering Society and the European Broadcasting Union, and is therefore also often referred to as "AES-EBU." AES-3 is capable of carrying two uncompressed channels of uncompressed PCM audio, or compressed 5.1/7.1 surround sound over the same cable.</p>
           <p><b>Introduced: </b>1985</p>
           <p><b>Max resolution:</b> 24-bit</p>
@@ -1095,7 +1137,7 @@
 
 
       <!-- start S/PDIF protocol cables -->
-      <div class="well"><h4>S/PDIF</h4>
+      <div class="well"><h4 id="spdif">S/PDIF</h4>
           <p>Standing for Sony/Philips Digital Interface Format, S/PDIF refers to a consumer-grade variant of the AES-3 protocol (listed as "Type II" in the same international standard as AES-3: IEC 60958). Essentially interchangeable at the protocol level with AES-3, so devices carrying these signals can interface easily, provided the difference in physical connections and electrical level/impedence are accounted for.</p>
           <p><b>Introduced: </b>1985</p>
           <p><b>Max resolution:</b> 20-bit</p>
@@ -1168,7 +1210,7 @@
 
 
       <!-- start MIDI protocol cables -->
-      <div class="well"><h4>MIDI</h4>
+      <div class="well"><h4 id="midi">MIDI</h4>
           <p>Short for Musical Instrument Digital Interface, a standard usually used for connecting a wide variety of musical instruments and/or computers to each other. MIDI links allow for the transmission of up to 16 channels of information at a time (although only in one direction, so separate cables are required for input/output). Technically speaking, MIDI does not actually carry digital audio - it carries event information that specifies control parameters such as pitch, notation, volume, vibrato, clock signals and other metadata to synchronize audio/musical devices with each other. MIDI is usually employed fairly exclusively in production/recording envrionments.</p>
           <p><b>Introduced: </b>1983</p>
           <p><b>Max resolution:</b> 31.25 kb/s</p>
@@ -1200,7 +1242,7 @@
 
 
       <!-- start TDIF protocol cables -->
-      <div class="well"><h4>TDIF</h4>
+      <div class="well"><h4 id="tdif">TDIF</h4>
           <p>The Tascam Digital Interface Format is a proprietary protocol and connector, therefore seen exclusively with Tascam devices. It is bidirectional, allowing the transmission of up to eight channels of digital audio.</p>
           <p><b>Introduced: </b>1993</p>
           <p><b>Max resolution:</b> 31.25 kb/s</p>
@@ -1232,7 +1274,7 @@
 
 
       <!-- start ADAT protocol cables -->
-      <div class="well"><h4>ADAT</h4>
+      <div class="well"><h4 id="adat">ADAT</h4>
           <p>Originally developed by Alesis for its Digital Audio Tape products, the ADAT Lightpipe interface became popular with third party manufacturers and so became synonymous with the standard rather than specifically Alesis DAT connections. ADAT supports transmission of up to eight channels of uncompressed digital audio at up to 48 kHz and 24-bit, giving them a much higher bandwidth than similar S/PDIF optical cables. Found exclusively in optical cable variety.</p>
           <p><b>Introduced: </b>1992</p>
           <p><b>Max resolution:</b> 24-bit</p>
@@ -1267,13 +1309,13 @@
   </div> <!-- end Audio well -->
 
 
-  <div class="well"><h2>Data</h2>
+  <div class="well"><h2 id="data">Data</h2>
 
-    <div class="well"><h3>Parallel Data</h3>
+    <div class="well"><h3 id="parallel_data">Parallel Data</h3>
       <p>Digital transmission can occur in one of two basic methods: parallel or serial communication. In parallel communication, multiple bits (usually 8 bits, otherwise known as one byte) are transferred simultaneously on separate channels within the same cable, then combined and synchronized. This can result in a faster bit rate than serial transmission, but is also significantly more expensive (since it requires far more wires to create the cable) and the synchronization timing in parallel transmission is also susceptible to distance, making it impractical for longer cables. Parallel communication was popular in the 1980s but has generally fallen out of favor in modern data transmission.</p>
 
       <!-- start PATA protocol cables -->
-      <div class="well"><h4>PATA</h4>
+      <div class="well"><h4 id="pata">PATA</h4>
         <p>Short for Parallel Advanced Technology Attachment, originally known simply as ATA until the later Serial ATA (SATA) standard was developed. An interface standard for the connection of storage devices, e.g. hard disk drives, floppy drives and optical drives. Given its maximum cable length of 18 inches, PATA is mostly limited to internal computer use, but it can occasionally be seen/used to connect to external drives.</p>
         <p><b>Introduced: </b>1986</p>
         <p><b>Max bit depth and rate: </b>16-bit; originally 16 mb/s, developed up to 133 mb/s</p>
@@ -1301,7 +1343,7 @@
 
 
       <!-- start Parallel SCSI protocol cables -->
-      <div class="well"><h4>Parallel SCSI</h4>
+      <div class="well"><h4 id="parallel_scsi">Parallel SCSI</h4>
         <p>Referred to alternately as SCSI (Small Computers Systems Interface) Parallel Interface, SPI, or, before the advent of Serial SCSI, simply SCSI (pronounced "scuzzy"). Unfortunately, Parallel SCSI is not technically a single standard, but a series of almost a dozen related interfaces with ambiguous names ("Fast SCSI", "Ultra SCSI," etc.) and variable bit depths and rates. See the link to a comparison table below. In any case, Parallel SCSI cables were used to connect peripheral devices to computers; unlike PATA, which could only connect a maximum of two devices, a single Parallel SCSI data bus could be attached to up to 8 or 16 devices. The symbol below generally marked a SCSI port on computers.</p>
         <img src="images/Data/scsi_logo.png" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Scsi_logo.svg/2000px-Scsi_logo.svg.png" style="background-color:white; max-height:100px;">
         <p><b>Introduced: </b>1986</p>
@@ -1366,7 +1408,7 @@
 
 
       <!-- start IEEE 1284/Parallel Port protocol cables -->
-      <div class="well"><h4>IEEE 1284</h4>
+      <div class="well"><h4 id="parallel_port">IEEE 1284</h4>
         <p>A standard for parallel communication variably, and more commonly, referred to as "parallel port", "printer port" or the "Centronics port", as it was originally developed by Centronics to facilitate communication between computers and Centronics-brand dot-matrix printers. Originally unidirectional ("send-only") for sending data from a computer to a printer, but later developed to allow for bidirectional communication, it became a popular alternative to Parallel SCSI for peripherals like floppy drives and network adapters and hard drives as it had cheaper circuitry. A symbol similar to the one below generally marked parallel/printer port connections on computers.</p>
         <img src="images/Data/parallel_port_logo.png" data-toggle="tooltip" data-placement="bottom" title="https://openclipart.org/image/2400px/svg_to_png/189941/Parallel-port.png" style="background-color:white; max-height:100px;">
         <p><b>Introduced: </b>1970s</p>
@@ -1415,11 +1457,11 @@
 
 
     <!-- start Serial Data cables -->
-    <div class="well"><h3>Serial Data</h3>
+    <div class="well"><h3 id="serial_data">Serial Data</h3>
       <p>As opposed to parallel transmission, in serial communication bits are transferred sequentially over the same wire. Bytes must be assembled and sent as a unit and then disassembled by the receiving device. Though serial data transmission was developed before parallel transmission, parallel communication reigned for much of the late 1970s-1980s as physical performance limitations originally gave parallel communication higher data rates. Improvements in cable and circuit design have since made serial transmission the far faster and preferred option.</p>
 
       <!-- start RS-232 protocol cables -->
-      <div class="well"><h4>RS-232</h4>
+      <div class="well"><h4 id="rs-232">RS-232</h4>
         <p>Because it was the first serial data protocol to become a standard feature in personal computing, RS-232 was commonly referred to simply as "the serial port." It was used for bidirectional connection to many peripheral computer devices, including modems, printers, mice, external drives, etc. It was also used for remote connection and control of some VTRs. It is referred to as "RS" because it was originally sponsored by the Radio Sector of the Electronic Industries Association - changes in the sponsoring organization have caused the standard to be alternately referred to as EIA-232 and TIA-232. The symbol below generally marked serial port connections on computers.</p>
         <img src="images/Data/serial_port_logo.png" data-toggle="tooltip" data-placement="bottom" title="http://cliparts.co/cliparts/Big/E86/BigE86ErT.png" style="background-color:white; max-height:100px;">
         <p><b>Introduced: </b>1962</p>
@@ -1486,7 +1528,7 @@
 
 
       <!-- start RS-422 protocol cables -->
-      <div class="well"><h4>RS-422</h4>
+      <div class="well"><h4 id="rs-422">RS-422</h4>
         <p>An improvement to the RS-232 standard to increase transmit speeds and/or maximum cable length. Introduced differential signaling to data cabling - a technique of reducing electromagnetic noise as it is transmitted over the wires in a cable, similar to balanced cables in analog audio.</p>
         <p><b>Introduced: </b>1996</p>
         <p><b>Max bit depth and rate: </b>10 Mb/s</p>
@@ -1524,7 +1566,7 @@
 
 
       <!-- start Serial SCSI protocol cables -->
-      <div class="well"><h4>Serial Attached SCSI (SAS)</h4>
+      <div class="well"><h4 id="sas">Serial Attached SCSI (SAS)</h4>
         <p>Serial Attached SCSI (SAS) replaced Parallel SCSI, using the same basic command set but replacing the transmission method from parallel to serial to improve transfer rate. Backwards compatible with SATA. Unlike Parallel SCSI, almost exclusively used in internal computer connections and very rarely found in use with peripherals.</p>
         <p><b>Introduced: </b>2004</p>
         <p><b>Max bit depth and rate: </b>Originally 3.0 Gb/s, now up to 12.0 Gb/s</p>
@@ -1562,7 +1604,7 @@
 
 
       <!-- start SATA protocol cables -->
-      <div class="well"><h4>SATA</h4>
+      <div class="well"><h4 id="sata">SATA</h4>
         <p>Developed to replace Parallel ATA (PATA), Serial ATA is used to connect host bus devices to mass storage devices such as hard drives, optical drives, solid-state drives, etc. Generally found for internal connections in desktops and laptops, but used in some cases to connect to external drives as well.</p>
         <p><b>Introduced: </b>2003</p>
         <p><b>Max bit depth and rate: </b>Originally 1.5 Gb/s, now up to 16.0 Gb/s</p>
@@ -1590,7 +1632,7 @@
 
 
       <!-- start Apple Desktop Bus protocol cables -->
-      <div class="well"><h4>Apple Desktop Bus (ADB)</h4>
+      <div class="well"><h4 id="apple_desktop_bus">Apple Desktop Bus (ADB)</h4>
         <p>A Macintosh-exclusive computer bus for connecting low-speed peripherals - mice, keyboards, etc. ADB connections were generally marked by the symbol below.</p>
         <img src="images/Data/apple_desktop_bus_logo.png" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/ADB_Icon.svg/130px-ADB_Icon.svg.png" style="background-color:white; max-height:100px;">
         <p><b>Introduced: </b>1986</p>
@@ -1619,7 +1661,7 @@
 
 
       <!-- start PS/2 protocol cables -->
-      <div class="well"><h4>PS/2</h4>
+      <div class="well"><h4 id="ps2">PS/2</h4>
         <p>A PC-compatible low-speed computer bus for peripherals like mice, keyboards, etc. Its name comes from the IBM Personal System/2 line of computers with which it was introduced. Generally replaced older RS-232 connections employing DE-9 connectors.</p>
         <p><b>Introduced: </b>1987</p>
         <p><b>Max bit depth and rate: </b></p>
@@ -1648,7 +1690,7 @@
 
 
       <!-- start USB protocol cables -->
-      <div class="well"><h4>USB</h4>
+      <div class="well"><h4 id="usb">USB</h4>
         <p>Short for Universal Serial Bus, designed to standardize connections of computer peripherals after the proliferation of connections in the '80s and early '90s. Used with keyboards, mice, digital cameras, external drives, network adapters, etc. Capable of supplying power to many of these devices in addition to transmitting data. Updates to the original USB 1.0 standard (1.5 Mbit/s at Low Speed, 12 Mbit/s at Full Speed) have represented major shifts in data transmission, usually with accompanied changes in physical connection, so they are elaborated on more below. All advancements in USB have been backwards-compatible (so a USB 3.0 connection can carry USB 2.0 data, etc). Ports are also usually marked by the symbol below.</p>
         <img src="images/Data/usb_logo.png" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/USB_Icon.svg/2000px-USB_Icon.svg.png" style="background-color:white; max-height:100px;">
         <p><b>Introduced: </b>1996</p>
@@ -1876,7 +1918,7 @@
 
 
       <!-- start FireWire protocol cables -->
-      <div class="well"><h4>FireWire</h4>
+      <div class="well"><h4 id="firewire_data">FireWire</h4>
         <p>Developed by Apple at roughly the same time as USB, for the similar purpose of consolidating connections and improving data transfer speeds. Unlike USB, FireWire does not require the use of a host controller (FireWire-compatible devices can communicate directly to each other without the use of a computer), but it was more costly to implement than USB and therefore never quite as popular. Sometimes referred to as i.Link (in Sony applications) and Lynx (Texas Instruments), as FireWire is technically just the Apple branding of the IEEE 1394 standard. Used for connections to external hard drives, as well as A/V component communication and control. Two major flavors of FireWire were introduced before Apple phased out development of the standard in favor of ThunderBolt. Ports usually represented by the symbol below.</p>
         <img src="images/Data/firewire_logo.png" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/FireWire_Logo.svg/2000px-FireWire_Logo.svg.png" style="background-color:white; max-height:100px;">
 
@@ -1956,7 +1998,7 @@
 
 
       <!-- start ThunderBolt protocol cables -->
-      <div class="well"><h4>ThunderBolt</h4>
+      <div class="well"><h4 id="thunderbolt">ThunderBolt</h4>
         <p>Developed by Apple as a replacement for FireWire. Combines computer bus data transmission with the DisplayPort digital video interface, as well as DC power, all over one cable/connection. The first two major versions of ThunderBolt shared a physical connector and had compatible wiring/channels, but the introduction of ThunderBolt 3 has been marked by major shifts in physical interface. Ports usually labelled by the symbol below.</p>
         <img src="images/Data/thunderbolt_logo.jpg" data-toggle="tooltip" data-placement="bottom" title="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macpro/thunderbolt_logo.png" style="max-height:100px;">
 
@@ -2017,7 +2059,7 @@
 
 
       <!-- start HDBaseT protocol cables -->
-      <div class="well"><h4>HDBaseT</h4>
+      <div class="well"><h4 id="hdbaset">HDBaseT</h4>
         <p>A standard for the transmission of uncompressed HD video, audio, power, and/or networking and Ethernet connections.</p>
         <p><b>Introduced: </b>2010</p>
         <p><b>Max bit depth and rate: </b>10.2 Gbit/s (100 Mbit/s Ethernet)</p>
@@ -2045,7 +2087,7 @@
 
 
   <!-- start Power cables -->
-  <div class="well"><h2>Power</h2>
+  <div class="well"><h2 id="power">Power</h2>
     <p> From Type A to Type N, the <a href="http://www.iec.ch/worldplugs/">IEC website</a> provides descriptions, images, and supporting countries to plugs and sockets used around the world.</p>
 
   </div> <!-- end Power well -->
