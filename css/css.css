@@ -4,7 +4,7 @@ h2,h3,h4,h5,h6 {
 }
 
 body {
-  background-color: #2d80BD;
+  background-color: black;
 }
 
 p {
@@ -35,13 +35,22 @@ h1 {
   font-family: "Contrail One", cursive;
   font-size:86px;
   line-height:120px;
-  color:black;
+  color:white;
 }
 
 div {
   color: black;
   font-family: "Merriweather", serif;
 }
+
+ol {
+  color: #BDBDBD;
+}
+
+li {
+  color: #BDBDBD;
+}
+
 
 button {
   height: 133px;
