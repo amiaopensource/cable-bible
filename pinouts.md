@@ -531,7 +531,3 @@ Pin | Description
 23 | Signal Ground
 24 | Signal Ground
 25 | Signal Ground
-
-#### RS-232 ####
-Pin | Description
---- | ---
