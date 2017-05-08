@@ -1,4 +1,4 @@
-#!/usr/bin/env vash
+#!/usr/bin/env bash
 
 if [[ $OSTYPE = darwin* ]] ; then
   if [ -d /usr/local/Cellar/cable-bible ] ; then
