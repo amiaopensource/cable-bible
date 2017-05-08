@@ -1,0 +1,20 @@
+#!/usr/bin/env vash
+
+if [[ $OSTYPE = darwin* ]] ; then
+  if [ -d /usr/local/Cellar/cable-bible ] ; then
+      cablebible_path=$(find /usr/local/Cellar/cable-bible -iname 'index.html' | sort -M | tail -n1)
+  fi
+  if [ -z "${cablebible_path}" ] ; then
+    cablebible_path='https://amiaopensource.github.io/cable-bible'
+  fi
+  open "${cablebible_path}"
+
+elif [[ $OSTYPE = linux-gnu ]] ; then
+  if [ -d ~/.linuxbrew/Cellar/cable-bible ] ; then
+    cablebible_path=$(find ~/.linuxbrew/Cellar/cable-bible -iname 'index.html' | sort -M | tail -n1)
+  fi
+  if [ -z "${cablebible_path}" ] ; then
+    cablebible_path='https://amiaopensource.github.io/cable-bible'
+  fi
+  xdg-open "${cablebible_path}"
+fi
