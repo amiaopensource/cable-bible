@@ -1,24 +1,24 @@
 #!/usr/bin/env bash
 
-if [[ $OSTYPE = darwin* ]] ; then
+if [[ "$(uname -s)" = "Darwin" ]] ; then
   default_browser=$(plutil -convert json ~/Library/Preferences/com.apple.LaunchServices/com.apple.launchservices.secure.plist -r -o - | grep https -b1 | tail -n1 | cut -d'"' -f4)
   if [ -d /usr/local/Cellar/cable-bible ] ; then
       cablebible_path=$(find /usr/local/Cellar/cable-bible -iname 'index.html' | sort -M | tail -n1)
   fi
   if [ -z "${cablebible_path}" ] ; then
-    cablebible_path='https://amiaopensource.github.io/cable-bible'
+    cablebible_path='https://amiaopensource.github.io/cable-bible/'
   fi
   if [ -n "${default_browser}" ] ; then
-    open -b "${default_browser}" "${ffmprovisr_path}"
+    open -b "${default_browser}" "${cablebible_path}"
   else
     open "${cablebible_path}"
   fi
-elif [[ $OSTYPE = linux-gnu ]] ; then
+elif [[ "$(uname -s)" = "Linux" ]] ; then
   if [ -d ~/.linuxbrew/Cellar/cable-bible ] ; then
     cablebible_path=$(find ~/.linuxbrew/Cellar/cable-bible -iname 'index.html' | sort -M | tail -n1)
   fi
   if [ -z "${cablebible_path}" ] ; then
-    cablebible_path='https://amiaopensource.github.io/cable-bible'
+    cablebible_path='https://amiaopensource.github.io/cable-bible/'
   fi
   xdg-open "${cablebible_path}"
 fi
