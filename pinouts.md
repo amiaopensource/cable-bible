@@ -178,7 +178,7 @@ Pin | Description
 
 ![](http://connector.pinoutsguide.com/diagram/minivga.gif "http://connector.pinoutsguide.com/diagram/minivga.gif")
 
-Pin | VGA input | Video ouput
+Pin | VGA input | Video output
 --- | --- | ---
 1 | Ground | Ground
 2 | Vertical Sync | not used
