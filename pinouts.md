@@ -1,10 +1,10 @@
-Unless otherwise noted, credit for pinout images and information from [Pinouts.ru] (http://pinouts.ru/) - every connector type links back to corresponding Pinouts.ru page
+Unless otherwise noted, credit for pinout images and information from [Pinouts.ru](http://pinouts.ru/) - every connector type links back to corresponding Pinouts.ru page
 
-## [RCA](http://pinoutsguide.com/Home/rca_connector_pinout.shtml) ##
+## [RCA](http://pinoutsguide.com/Home/rca_connector_pinout.shtml)
 
 ![](http://connector.pinoutsguide.com/diagram/rca.gif "http://connector.pinoutsguide.com/diagram/rca.gif")
 
-## BNC ##
+## BNC
 
 ![](https://www.thorlabs.com/images/TabImages/BNC_Connector_dwg_150.jpg "https://www.thorlabs.com/images/TabImages/BNC_Connector_dwg_150.jpg")  
 Image credit to [Thor Labs](https://www.thorlabs.com/)
@@ -13,47 +13,47 @@ Image credit to [Thor Labs](https://www.thorlabs.com/)
 
 ![](http://connector.pinouts.ru/diagram/teleph35mm.gif "http://connector.pinouts.ru/diagram/teleph35mm.gif")
 
-## [Tip-Ring-Sleeve](http://pinoutsguide.com/Home/Tele35s_pinout.shtml) ##
+## [Tip-Ring-Sleeve](http://pinoutsguide.com/Home/Tele35s_pinout.shtml)
 
 ![](http://connector.pinoutsguide.com/diagram/teleph35sm.gif "http://connector.pinoutsguide.com/diagram/teleph35sm.gif")
 
-#### Balanced Mono ####
+#### Balanced Mono
 Pin | Description
 --- | ---
 1 | In Phase/Hot
 2 | Out of Phase/Cold
 3 | Ground
 
-#### Unbalanced Stereo ####
+#### Unbalanced Stereo
 Pin | Description
 --- | ---
 1 | Signal (Left Channel)
 2 | Signal (Right Channel)
 3 | Ground
 
-## [XLR](http://pinouts.ru/Home/xlr3_pinout.shtml) ##
+## [XLR](http://pinouts.ru/Home/xlr3_pinout.shtml)
 
 ![](http://connector.pinouts.ru/connectors/xlr3f.gif "http://connector.pinouts.ru/connectors/xlr3f.gif")
 
-#### Balanced Audio ####
+#### Balanced Audio
 Pin | Description
 --- | ---
 1 | Ground
 2 | In Phase/Hot
 3 | Out of phase/Cold
 
-#### AES/EBU ####
+#### AES/EBU
 Pin | Description
 --- | ---
 1 | Ground
 2 | Data (Channel 1)
 3 | Data (Channel 2)
 
-## [Mini-DIN 4-pin](http://connector.pinouts.ru/4_pin_mini-DIN_male/) ##
+## [Mini-DIN 4-pin](http://connector.pinouts.ru/4_pin_mini-DIN_male/)
 
 ![](http://connector.pinouts.ru/connectors/minidin4m.gif)
 
-#### S-Video ####
+#### S-Video
 Pin | Description
 --- | ---
 1 | Ground (Y)
@@ -61,7 +61,7 @@ Pin | Description
 3 | Luminance (Y)
 4 | Chrominance (C)
 
-#### Apple Desktop Bus ####
+#### Apple Desktop Bus
 Pin | Description
 --- | ---
 1 | ADB bidirectional data
@@ -70,7 +70,7 @@ Pin | Description
 4 | Ground
 
 
-## [DIN 5-pin](http://connector.pinouts.ru/5_pin_DIN_male/) ##
+## [DIN 5-pin](http://connector.pinouts.ru/5_pin_DIN_male/)
 
 ![](http://connector.pinouts.ru/diagram/din5dm.gif "http://connector.pinouts.ru/diagram/din5dm.gif")
 
@@ -82,11 +82,11 @@ Pin | Description
 4 | Signal Input (Right channel)
 5 | Signal Output (Right channel)
 
-## [Mini-DIN 6-pin](http://connector.pinouts.ru/6_pin_mini-DIN_male_PS2_STYLE/) ##
+## [Mini-DIN 6-pin](http://connector.pinouts.ru/6_pin_mini-DIN_male_PS2_STYLE/)
 
 ![](http://connector.pinoutsguide.com/diagram/minidin6m.gif "http://connector.pinoutsguide.com/diagram/minidin6m.gif")
 
-#### PS/2 ####
+#### PS/2
 Pin | Description
 --- | ---
 1 | Key data (keyboard), Button/Position data (mouse)
@@ -96,7 +96,7 @@ Pin | Description
 5 | Clock
 6 | not connected
 
-## [eSATA](http://pinoutsguide.com/HD/serialATA_pinout.shtml) ##
+## [eSATA](http://pinoutsguide.com/HD/serialATA_pinout.shtml)
 
 ![](http://connector.pinoutsguide.com/diagram/7pin_esata.gif "http://connector.pinoutsguide.com/diagram/7pin_esata.gif")
 
@@ -110,7 +110,7 @@ Pin | Description
 6 | Receive- (data)
 7 | Ground
 
-## [8-pin EIAJ](http://www.labguysworld.com/Connectors.htm) ##
+## [8-pin EIAJ](http://www.labguysworld.com/Connectors.htm)
 
 ![](http://www.labguysworld.com/8PinVTR.gif "http://www.labguysworld.com/8PinVTR.gif")
 Image credit to [Lab Guy's World](http://www.labguysworld.com/)
@@ -126,12 +126,11 @@ Pin | Description
 7 | Audio in
 8 | Audio in
 
-
-## [Mini-DIN 8-pin](http://connector.pinouts.ru/8_pin_mini-DIN_male/) ##
+## [Mini-DIN 8-pin](http://connector.pinouts.ru/8_pin_mini-DIN_male/)
 
 ![](http://connector.pinouts.ru/connectors/minidin8m.gif "http://connector.pinouts.ru/connectors/minidin8m.gif")
 
-#### Apple RS-422 ####
+#### Apple RS-422
 Pin | Description
 --- | ---
 1 | Output Handshake
@@ -143,11 +142,11 @@ Pin | Description
 7 | General Purpose Input
 8 | Receive data- (data)
 
-## [DE-9](http://connector.pinouts.ru/9_pin_D-SUB_male/) ##
+## [DE-9](http://connector.pinouts.ru/9_pin_D-SUB_male/)
 
 ![](http://connector.pinouts.ru/connectors/dsub9m.gif "http://connector.pinouts.ru/connectors/dsub9m.gif")
 
-#### RS-232 ####
+#### RS-232
 Pin | Description
 --- | ---
 1 | Carrier detect
@@ -160,7 +159,7 @@ Pin | Description
 8 | Clear to send
 9 | Ring indicator
 
-#### Sony 9-pin RS-422 VTR protocol ####
+#### Sony 9-pin RS-422 VTR protocol
 Pin | Description
 --- | ---
 1 | Frame ground
@@ -173,8 +172,7 @@ Pin | Description
 8 | Receive A
 9 | Frame ground
 
-
-## [Mini-VGA](http://pinoutsguide.com/Video/mini_vga_connector_pinout.shtml) ##
+## [Mini-VGA](http://pinoutsguide.com/Video/mini_vga_connector_pinout.shtml)
 
 ![](http://connector.pinoutsguide.com/diagram/minivga.gif "http://connector.pinoutsguide.com/diagram/minivga.gif")
 
@@ -195,11 +193,11 @@ Pin | VGA input | Video output
 13 | Cable detect | Cable detect
 14 | Blue return | Ground
 
-## [DE-15](http://connector.pinouts.ru/15_pin_highdensity_D-SUB_male/) ##
+## [DE-15](http://connector.pinouts.ru/15_pin_highdensity_D-SUB_male/)
 
 ![](http://connector.pinouts.ru/connectors/dsubhi15m.gif "http://connector.pinouts.ru/connectors/dsubhi15m.gif")
 
-#### VGA ####
+#### VGA
 Pin | Description
 --- | ---
 1 | Red video
@@ -218,14 +216,14 @@ Pin | Description
 14 | Vertical Sync
 15 | I2C data clock
 
-## [DB-15](http://connector.pinouts.ru/15_pin_D-SUB_male/) ##
+## [DB-15](http://connector.pinouts.ru/15_pin_D-SUB_male/)
 ![](http://connector.pinouts.ru/connectors/dsub15m.gif "http://connector.pinouts.ru/connectors/dsub15m.gif")
 
 Highly varied pinouts depending on specific peripheral in question. See [pinouts.ru](http://connector.pinouts.ru/15_pin_D-SUB_male/) for options.
 
-## [USB](http://pinouts.ru/Slots/USB_pinout.shtml) ##
+## [USB](http://pinouts.ru/Slots/USB_pinout.shtml)
 
-#### USB 2.0 ####
+#### USB 2.0
 ![](http://connector.pinouts.ru/diagram/usb_a_male.gif "http://connector.pinouts.ru/diagram/usb_a_male.gif")
 ![](http://connector.pinouts.ru/connectors/mini-usb_male.gif "http://connector.pinouts.ru/connectors/mini-usb_male.gif")
 ![](http://connector.pinouts.ru/diagram/microusb-ab_plug.gif "http://connector.pinouts.ru/diagram/microusb-ab_plug.gif")
@@ -238,7 +236,7 @@ Pin | Type A/Type B | Mini-A/Mini-B | Micro-A/Micro-B
 4 | Ground | Ground/Attached device indicator/not connected | Ground/attached device indicator/ground
 5 | | Ground | Ground
 
-#### USB 3.0 ####
+#### USB 3.0
 ![](http://connector.pinoutsguide.com/diagram/usb_3_plug.gif "http://connector.pinoutsguide.com/diagram/usb_3_plug.gif")
 ![](http://connector.pinoutsguide.com/diagram/usb_3_mini_plug.gif "http://connector.pinoutsguide.com/diagram/usb_3_mini_plug.gif")
 
@@ -256,8 +254,7 @@ Pin | Type A | Type B | Powered B | Micro-B
 10 | | | Power provided by device | RX+
 11 | | | Ground for power provided by device |
 
-
-#### USB 3.1 ####
+#### USB 3.1
 ![](http://connector.pinoutsguide.com/diagram/USB-C.gif "http://connector.pinoutsguide.com/diagram/USB-C.gif")
 
 Pin | Type C
@@ -287,11 +284,11 @@ B10 | RX1- (Superspeed receiver)
 B11 | RX1+ (Superspeed receiver)
 B12 | Ground
 
-## [FireWire](http://pinouts.ru/Slots/ieee1394_pinout.shtml) ##
+## [FireWire](http://pinouts.ru/Slots/ieee1394_pinout.shtml)
 
 ![](http://connector.pinouts.ru/diagram/firewire_cable.gif "http://connector.pinouts.ru/diagram/firewire_cable.gif")
 
-#### 4-pin ####
+#### 4-pin
 Pin | Description
 --- | ---
 1 | Twisted-Pair B- (data)
@@ -299,7 +296,7 @@ Pin | Description
 3 | Twisted-Pair A- (data)
 4 | Twisted-Pair A+ (data)
 
-#### 6-pin ####
+#### 6-pin
 Pin | Description
 --- | ---
 1 | Power
@@ -309,7 +306,7 @@ Pin | Description
 5 | Twisted-Pair A- (data)
 6 | Twisted-Pair A+ (data)
 
-#### 9-pin ####
+#### 9-pin
 Pin | Description
 --- | ---
 1 | Twisted-Pair B- (data)
@@ -322,8 +319,7 @@ Pin | Description
 8 | Power
 9 | B shield
 
-
-## [Mini-DVI](http://pinoutsguide.com/Video/mini_dvi_pinout.shtml) ##
+## [Mini-DVI](http://pinoutsguide.com/Video/mini_dvi_pinout.shtml)
 
 ![](http://connector.pinoutsguide.com/diagram/mini-dvi.gif "http://connector.pinoutsguide.com/diagram/mini-dvi.gif")
 
@@ -352,7 +348,7 @@ Pin | Description
 29 | Analog Horizontal Sync
 31 | Analog Vertical Sync
 
-## [DVI](http://pinouts.ru/Video/dvi_pinout.shtml) ##
+## [DVI](http://pinouts.ru/Video/dvi_pinout.shtml)
 
 ![](http://connector.pinouts.ru/diagram/dvi-pinout.gif "http://connector.pinouts.ru/diagram/dvi-pinout.gif")
 
@@ -388,7 +384,7 @@ C3 | Analog Blue
 C4 | Analog Horizontal Sync
 C5 | Analog Ground
 
-## [DisplayPort](http://pinoutsguide.com/Video/DisplayPort_pinout.shtml) ##
+## [DisplayPort](http://pinoutsguide.com/Video/DisplayPort_pinout.shtml)
 
 ![](http://connector.pinoutsguide.com/diagram/displayport_20pin.gif "http://connector.pinoutsguide.com/diagram/displayport_20pin.gif")
 ![](http://connector.pinoutsguide.com/diagram/thunderbolt.gif "http://connector.pinoutsguide.com/diagram/thunderbolt.gif")
@@ -416,7 +412,7 @@ Pin | DisplayPort (Full) | Mini DisplayPort
 19 | Return for Power | Ground
 20 | Power | Power
 
-## [HDMI](http://pinouts.ru/Video/hdmi_pinout.shtml) ##
+## [HDMI](http://pinouts.ru/Video/hdmi_pinout.shtml)
 ![](http://connector.pinouts.ru/diagram/hdmi_connector.gif "http://connector.pinouts.ru/diagram/hdmi_connector.gif")
 ![](http://connector.pinoutsguide.com/diagram/mini_hdmi_plug.gif "http://connector.pinoutsguide.com/diagram/mini_hdmi_plug.gif")
 ![](http://connector.pinoutsguide.com/diagram/hdmi_micro_plug.gif "http://connector.pinoutsguide.com/diagram/hdmi_micro_plug.gif")
@@ -443,7 +439,7 @@ Pin | Type A (Full) | Type C (Mini) | Type D (Micro)
 18 | Power +5V | Power +5V | DDC data
 19 | detect | HEC-/not connected | Power +5V
 
-## [SCART](http://pinouts.ru/Home/Scart_pinout.shtml) ##
+## [SCART](http://pinouts.ru/Home/Scart_pinout.shtml)
 
 ![](http://connector.pinouts.ru/connectors/scartm.gif "http://connector.pinouts.ru/connectors/scartm.gif")
 
@@ -471,10 +467,10 @@ Pin | Description
 20 | Composite video in / S-Video Luma / RGB Sync
 21 | Ground/shield (chassis)
 
-## [DB-25](http://connector.pinouts.ru/25_pin_D-SUB_male/) ##
+## [DB-25](http://connector.pinouts.ru/25_pin_D-SUB_male/)
 ![](http://connector.pinouts.ru/connectors/dsub25m.gif "http://connector.pinouts.ru/connectors/dsub25m.gif")
 
-#### Parallel SCSI ####
+#### Parallel SCSI
 Pin | Description
 --- | ---
 1 | Request
@@ -503,7 +499,7 @@ Pin | Description
 24 | not used
 25 | Termination Power
 
-#### Parallel/Printer Port ####
+#### Parallel/Printer Port
 Pin | Description
 --- | ---
 1 | Strobe
