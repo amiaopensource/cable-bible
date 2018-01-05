@@ -22,4 +22,6 @@ elif [[ "$(uname -s)" = "Linux" ]] ; then
         cablebible_path=$(find ~/.linuxbrew/Cellar/cable-bible -iname 'index.html' | sort -M | tail -n1)
     fi
     xdg-open "${cablebible_path}"
+else
+    echo "Please locate the 'cable-bible' folder, and open the 'index.html' file in a browser."
 fi
