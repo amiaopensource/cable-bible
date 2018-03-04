@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1188331.svg)](https://doi.org/10.5281/zenodo.1188331)
+
 # [The Cable Bible](https://amiaopensource.github.io/cable-bible)
 A comprehensive guide to cables and connectors potentially used for audiovisual/media preservation. Now hosted on GitHub Pages, at https://amiaopensource.github.io/cable-bible
 
