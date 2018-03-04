@@ -96,6 +96,12 @@ Pin | Description
 5 | Clock
 6 | not connected
 
+## [DIN 7-pin](https://captain18.livejournal.com/141361.html)
+
+![](images/din-7-pin.png)
+
+Image credit to [captain18 at LiveJournal](https://captain18.livejournal.com/)
+
 ## [eSATA](http://pinoutsguide.com/HD/serialATA_pinout.shtml)
 
 ![](http://connector.pinoutsguide.com/diagram/7pin_esata.gif "http://connector.pinoutsguide.com/diagram/7pin_esata.gif")
