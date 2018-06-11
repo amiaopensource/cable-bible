@@ -1451,7 +1451,7 @@
 <!-- start Parallel SCSI protocol cables -->
 <div class="well">
   <h4 id="parallel_scsi">Parallel SCSI</h4>
-  <p>Referred to alternately as SCSI (Small Computers Systems Interface) Parallel Interface, SPI, or, before the advent of Serial SCSI, simply SCSI (pronounced "scuzzy"). Unfortunately, Parallel SCSI is not technically a single standard, but a series of almost a dozen related interfaces with ambiguous names ("Fast SCSI", "Ultra SCSI," etc.) and variable bit depths and rates. See the link to a comparison table below. In any case, Parallel SCSI cables were used to connect peripheral devices to computers; unlike PATA, which could only connect a maximum of two devices, a single Parallel SCSI data bus could be attached to up to 8 or 16 devices. The symbol below generally marked a SCSI port on computers.</p>
+  <p>Referred to alternately as SCSI (Small Computers Systems Interface) Parallel Interface, SPI, or, before the advent of Serial SCSI, simply SCSI (pronounced "scuzzy"). Unfortunately, Parallel SCSI is not technically a single standard, but a series of almost a dozen related interfaces with ambiguous names ("Fast SCSI", "Ultra SCSI," etc.) and variable bit depths and rates. See the link to a comparison table below. In any case, Parallel SCSI cables were used to connect peripheral devices (scanners, removable storage drives and controllers, optical disc drives, etc.) to computers; unlike PATA, which could only connect a maximum of two devices, a single Parallel SCSI data bus could be attached to up to 8 or 16 devices. The symbol below generally marked a SCSI port on computers.</p>
   <img src="images/Data/scsi_logo.png" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Scsi_logo.svg/2000px-Scsi_logo.svg.png" style="background-color:white; max-height:100px;">
   <p><b>Introduced: </b>1986</p>
   <p><b>Max bit depth and rate: </b>See <a href="https://en.wikipedia.org/wiki/Parallel_SCSI#Comparison_table">comparison table</a></p>
@@ -1468,12 +1468,66 @@
           <img src="images/Data/scsi_50-pin_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.datapro.net/images/SCSI_CN50.jpg">
           <img src="images/Data/scsi_50-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/1/1b/Scsi-1_gehaeuse.jpg">
         </div>
-        <p>Micro ribbon or miniature ribbon connectors have a similar shielded design to the D-sub family of connectors, but used a different kind of contact known as ribbon contacts rather than pin contacts. There are various configurations that were used with Parallel SCSI but the most common variety was a 50-contact micro-ribbon connector. These connectors were often referred to by the brand name of the company that manufactured them: for instance, Amphenol-50, IDC-50, CN-50 (Centronics).</p>
+        <p>Micro ribbon or miniature ribbon connectors have a similar shielded design to the D-sub family of connectors, but used a different kind of contact known as ribbon contacts rather than pin contacts. There are various configurations that were used with Parallel SCSI but the most common variety was an 8-bit (one-byte-at-a-time) 50-contact micro-ribbon connector. These connectors were often referred to by the brand name of the company that manufactured them: for instance, Amphenol-50, IDC-50, CN-50 (Centronics).</p>
       </div>
     </div>
   </div>
 </div>
 <!-- end Parallel SCSI 50-pin -->
+
+<!-- Parallel SCSI Micro DB-50 -->
+<span data-toggle="modal" data-target="#scsi_micro-db50"><button type="button" class="btn btn-default"><img src="images/Data/scsi_micro-db50_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Micro DB-50</button></span>
+<div id="scsi_micro-db50" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="well">
+        <h3>Parallel SCSI Micro DB-50</h3>
+        <div class="sample-image">
+          <img src="images/Data/scsi_micro-db50_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://www.cablestogo.com/static/content/common/images/learning/connector-guides/scsi/450/micro-db50-m-a.jpg">
+          <img src="images/Data/scsi_micro-db50_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://www.cablestogo.com/static/content/common/images/learning/connector-guides/scsi/450/micro-db50-m-c.jpg">
+        </div>
+        <p>Similar to the 50-pin micro-ribbon parallel SCSI connectors but with traditional D-sub style pin contacts. Similarly allowed for 8-bit transmission. Seen with earlier (SCSI-2) removable storage devices, disc drives, controllers, etc.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end Parallel SCSI Micro DB-50 -->
+
+<!-- Parallel SCSI VHDCI -->
+<span data-toggle="modal" data-target="#scsi_vhdci"><button type="button" class="btn btn-default"><img src="images/Data/scsi_vhdci_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">VHDCI</button></span>
+<div id="scsi_vhdci" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="well">
+        <h3>Parallel SCSI VHDCI</h3>
+        <div class="sample-image">
+          <img src="images/Data/scsi_vhdci_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://www.cablestogo.com/static/content/common/images/learning/connector-guides/scsi/450/vhdci-68pin-m-a.jpg">
+          <img src="images/Data/scsi_vhdci_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://www.cablestogo.com/static/content/common/images/learning/connector-guides/scsi/450/vhdci-68pin-m-c.jpg">
+        </div>
+        <p>The Very High Density Cable Interconnect (VDHCI) connector had 68 pins, in a micro-ribbon contact design closely resembling the 50-pin micro-ribbon connectors in appearance (the extra pins allowed for 16-bit/2-byte transmission included in later SCSI standards rather than the original 8-bit). Typically seen with external mass storage devices like RAID units.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end Parallel SCSI VHDCI -->
+
+<!-- Parallel SCSI Micro DB68 -->
+<span data-toggle="modal" data-target="#scsi_micro-db68"><button type="button" class="btn btn-default"><img src="images/Data/scsi_micro-db68_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Micro DB-68</button></span>
+<div id="scsi_micro-db68" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="well">
+        <h3>Parallel SCSI Micro DB-68</h3>
+        <div class="sample-image">
+          <img src="images/Data/scsi_micro-db68_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://www.cablestogo.com/static/content/common/images/learning/connector-guides/scsi/450/micro-db68-m-a.jpg">
+          <img src="images/Data/scsi_micro-db68_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://www.cablestogo.com/static/content/common/images/learning/connector-guides/scsi/450/micro-db68-f-c.jpg">
+        </div>
+        <p>Like with VHDCI connectors, Micro DB-68 (MDB-68) connectors had 68 pins to allow for later, 16-bit applications of SCSI protocol transmission - but with traditional D-sub style pins instead of micro-ribbon pins. Seen most frequently with peripherals like scanners, disc drives, etc.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end Parallel SCSI Micro DB68 -->
 
 <!-- Parallel SCSI 25-pin -->
 <span data-toggle="modal" data-target="#scsi_db-25"><button type="button" class="btn btn-default"><img src="images/Data/scsi_25-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">DB-25</button></span>
