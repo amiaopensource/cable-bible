@@ -3,9 +3,10 @@
 # [The Cable Bible](https://amiaopensource.github.io/cable-bible)
 A comprehensive guide to cables and connectors potentially used for audiovisual/media preservation. Now hosted on GitHub Pages, at https://amiaopensource.github.io/cable-bible
 
-You can also install the latest [release](https://github.com/amiaopensource/cable-bible/releases) on your computer with the command:
+You can also install the latest [release](https://github.com/amiaopensource/cable-bible/releases) on your computer with the two commands:
 ```
-brew install amiaopensource/amiaos/cable-bible
+brew tap amiaopensource/amiaos
+brew install cable-bible
 ```
 and then call it locally with the command:
 ```
