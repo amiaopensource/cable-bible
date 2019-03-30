@@ -23,7 +23,7 @@ Please feel free to clone this repository or create a new branch and submit a pu
 If you're not comfortable working in GitHub, you can just supply the information and we'll be happy to add it! Please [submit an issue](https://github.com/amiaopensource/cable-bible/issues) or contact user EG-tech (Ethan Gates) with relevant descriptions, photos, info, etc.!
 
 ### Contributors
-Gathered using [octohatrack](https://github.com/LBAHR/octohatrack)
+Gathered using [octohatrack](https://github.com/LABHR/octohatrack)
 
 Code Contributors:
 - ablwr (Ashley)
