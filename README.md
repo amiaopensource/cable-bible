@@ -22,6 +22,16 @@ Please feel free to clone this repository or create a new branch and submit a pu
 
 If you're not comfortable working in GitHub, you can just supply the information and we'll be happy to add it! Please [submit an issue](https://github.com/amiaopensource/cable-bible/issues) or contact user EG-tech (Ethan Gates) with relevant descriptions, photos, info, etc.!
 
+### A Note on Inclusive Language
+"Traditional" electrical and mechanical trades have sorted cable connections and fasteners in terms of "Male" (to refer to a connector or plug featuring pins or protrusions) and "Female" (to refer to a connector or plug into which pins or protrusions are inserted). The creator and maintainers of the Cable Bible find this obvious reference to a limited, cis-gendered, heteronormative understanding of human genitalia, gender, and sexual intercourse to be at best inappropriate and unnecessary, and at worst a perpetuation of harmful biases in the world at large.
+
+The Cable Bible avoids using these classifications on the live site whenever possible. Suggested contributions should limit explanation of connections to "pins", "plugs", "sockets" or similar non-gendered terms. Maintainers will edit and enforce these terms before accepting pull requests to the main branch.
+
+Sample images uploaded to the Cable Bible source repository *do* use a naming convention to indicate whether they depict a connector or port with or without pins, for clearer organization and to ease editing of the main text. In this case, the creator opted to use the terms "Cork" (to refer to a connector or plug featuring pins) and "Bottle" (to refer to a connector or plug into which pins are inserted). Again, maintainers on this repository will enforce this non-gendered naming convention on suggested contributions before accepting any pull requests to the live branch.
+
+We acknowledge that this may cause some confusion when using the Cable Bible as a reference or educational tool, since few similar steps have been taken by cable manufacturers, vendors, or the vast majority of electrical, mechanical and technical professionals. So, a connector labeled "cork" in the Cable Bible source code should be considered equivalent to a "Male" connector elsewhere, and a "bottle" connector should be considered equivalent to a "Female" connector elsewhere.
+
+
 ### Contributors
 Gathered using [octohatrack](https://github.com/LABHR/octohatrack)
 
