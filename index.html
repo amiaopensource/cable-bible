@@ -1310,39 +1310,6 @@
 
 </div> <!-- end S/PDIF well -->
 
-<!-- start MIDI protocol cables -->
-<div class="well">
-  <h4 id="midi">MIDI</h4>
-  <p>Short for Musical Instrument Digital Interface, a standard usually used for connecting a wide variety of musical instruments and/or computers to each other. MIDI links allow for the transmission of up to 16 channels of information at a time (although only in one direction, so separate cables are required for input/output). Technically speaking, MIDI does not actually carry digital audio - it carries event information that specifies control change parameters (CC) such as pitch, notation, volume, vibrato, clock signals and other metadata to synchronize audio/musical devices with each other. MIDI is usually employed fairly exclusively in production/recording environments.</p>
-  <p><b>Introduced: </b>1983</p>
-  <p><b>Max resolution:</b> 31.25 kb/s</p>
-  <p><b>Wiring and Connectors:</b></p>
-
-<div class="well">
-  <h5>Balanced</h5>
-
-<!-- MIDI Balanced DIN 5-pin -->
-<span data-toggle="modal" data-target="#midi_din_5-pin"><button type="button" class="btn btn-default"><img src="images/Audio/midi_din-5-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">DIN 5-pin</button></span>
-<div id="midi_din_5-pin" class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="well">
-        <h3>MIDI DIN 5-pin</h3>
-        <div class="sample-image">
-          <img src="images/Audio/midi_din-5-pin_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.image-tmart.com/images/C/CL036/USB-to-MIDI-Keyboard-Interface-Converter-Cable-Adapter-02.gif">
-          <img src="images/Audio/midi_din-5-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/0/02/Midi_ports_and_cable.jpg">
-        </div>
-        <p>Though they have 5-pins, only 3 of the pins in MIDI connectors are used in typical applications: ground, and then a balanced pair of contacts.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- end MIDI Balanced DIN 5-pin -->
-
-</div> <!-- end MIDI Balanced well -->
-
-</div> <!-- end MIDI well -->
-
 <!-- start TDIF protocol cables -->
 <div class="well">
   <h4 id="tdif">TDIF</h4>
@@ -1711,13 +1678,17 @@
 <!-- end RS-422 DE-9 -->
 
 <!-- RS-422 Mini-DIN 8-pin -->
-<span data-toggle="modal" data-target="#rs-422_mini-din_8-pin"><button type="button" class="btn btn-default">Mini-DIN 8-pin</button></span>
+<span data-toggle="modal" data-target="#rs-422_mini-din_8-pin"><button type="button" class="btn btn-default"><img src="images/Data/rs-422_mini-din-8-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Mini-DIN 8-pin</button></span>
 <div id="rs-422_mini-din_8-pin" class="modal fade" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="well">
         <h3><a href="pinouts.html#apple-rs-422">RS-422 Mini-DIN 8-pin</a></h3>
-        <p>An RS-232 compatible variant of RS-422 widely used on Macintosh hardware.</p>
+          <div class="sample-image">
+            <img src="images/Data/rs-422_mini-din-8-pin_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://i.ebayimg.com/images/g/gVkAAOSwQJ5URiJx/s-l640.jpg">
+            <img src="images/Data/rs-422_mini-din-8-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Mac_lc_printer_modem_ports.jpg/220px-Mac_lc_printer_modem_ports.jpg">
+          </div>
+        <p>An RS-232 compatible variant of RS-422 widely used on Macintosh hardware for connecting to AppleTalk/LocalTalk-capable devices like printers, modems, etc.</p>
       </div>
     </div>
   </div>
@@ -1725,6 +1696,73 @@
 <!-- end RS-422 Mini-DIN 8-pin -->
 
 </div> <!-- end RS-422 well -->
+
+<!-- start MIDI protocol cables -->
+<div class="well">
+  <h4 id="midi">MIDI</h4>
+  <p>Short for Musical Instrument Digital Interface, a standard for connecting a wide variety of electronic musical instruments to each other or to digital audio workstations. Though heavily/exclusively associated with audio, MIDI itself is not an audio signal - it is a data signal that carries "event information" to specify "control change" (CC) paremeters such as pitch, notation, volume, vibrato, timing, and other metadata that electronic musical devices use to *create* an audio signal and synchronize with each other.   
+    
+  MIDI is usually employed in production and recording environments. As computer-based studio setups became more common, it became more and more desirable for MIDI devices to connect directly to a computer, rather than to dedicated MIDI devices. Existing connections for data streams were adapted to allow transmission of MIDI streams over more common, broader interfaces like serial buses, USB, FireWire, etc.</p>
+  <p><b>Introduced: </b>1983</p>
+  <p><b>Max resolution:</b> 31.25 kb/s</p>
+  <p><b>Connectors and ports:</b></p>
+
+<!-- MIDI DIN 5-pin -->
+<span data-toggle="modal" data-target="#midi_din_5-pin"><button type="button" class="btn btn-default"><img src="images/Data/midi_din-5-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">DIN 5-pin</button></span>
+<div id="midi_din_5-pin" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="well">
+        <h3><a href="pinouts.html/#midi">MIDI DIN 5-pin</a></h3>
+        <div class="sample-image">
+          <img src="images/Data/midi_din-5-pin_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.image-tmart.com/images/C/CL036/USB-to-MIDI-Keyboard-Interface-Converter-Cable-Adapter-02.gif">
+          <img src="images/Data/midi_din-5-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/0/02/Midi_ports_and_cable.jpg">
+        </div>
+        <p>Though they have 5-pins, only 3 of the pins in MIDI connectors are used in typical applications: ground, and then a balanced pair of contacts.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end MIDI DIN 5-pin -->
+
+<!-- MIDI Mini-DIN 8-pin -->
+<span data-toggle="modal" data-target="#midi_mini-din_8-pin"><button type="button" class="btn btn-default"><img src="images/Data/rs-422_mini-din-8-pin_cork.jpg" class="img-responsive" style="max-height:100px; width:auto;">Mini-DIN 8-pin</button></span>
+<div id="midi_mini-din_8-pin" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="well">
+        <h3><a href="pinouts.html#mini-din-8-pin">MIDI Mini-DIN 8-pin</a></h3>
+        <div class="sample-image">
+          <img src="images/Data/rs-422_mini-din-8-pin_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://i.ebayimg.com/images/g/gVkAAOSwQJ5URiJx/s-l640.jpg">
+          <img src="images/Data/midi_mini-din-8-pin_bottle.jpg" data-toggle="tooltip" data-placement="bottom" title="https://cdn.sparkfun.com/assets/learn_tutorials/4/0/8/midi-ports.jpg">
+        </div>
+        <p>MIDI cables using the 8-pin Mini-DIN connector allowed a MIDI device to be plugged directly into early Macintosh models that already featured the port for <a href="#rs-422_mini-din_8-pin">certain serial device and printer</a> connections. Surpassed by MIDI over USB and FireWire.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end MIDI Mini-DIN 8-pin -->
+
+<!-- MIDI DA-15 -->
+<span data-toggle="modal" data-target="#midi_da-15"><button type="button" class="btn btn-default"><img src="images/Data/midi_da-15.jpg" class="img-responsive" style="max-height:100px; width:auto;">DA-15 "Joystick"</button></span>
+<div id="midi_da-15" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="well">
+        <h3><a href="pinouts.html/#da-15">MIDI DA-15 "Joystick"</a></h3>
+        <div class="sample-image">
+          <img src="images/Data/midi_da-15.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.interfacebus.com/Midi-cable.jpg">
+          <img src="images/Data/midi_joystick_port.png" data-toggle="tooltip" data-placement="bottom" title="https://i.ebayimg.com/images/g/8f4AAOSwptJaZhkq/s-l300.png">
+          <img src="images/Data/midi_joystick_adapter.jpg" data-toggle="tooltip" data-placement="bottom" title="https://c1.neweggimages.com/NeweggImage/productimage/A50M_131654031583158354xqLkGqVwCE.jpg">
+        </div>
+        <p>Used to allow MIDI devices to connect directly to sound cards on early PCs. Generally limited to specific sound card or gaming computer models, generally associated with MIDI output from game consoles (hence the "joystick" name and association with this connector). Surpassed by MIDI over USB and FireWire.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end MIDI DA-15 -->
+
+</div> <!-- end MIDI well -->
 
 <!-- start Serial SCSI protocol cables -->
 <div class="well">
