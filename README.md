@@ -11,7 +11,7 @@ and then call it locally with the command:
 ```
 cable-bible
 ```
-This works currently under macOS, Linux and the Linux subsystem on Windows. On classic Windows you can install the last [release](https://github.com/amiaopensource/cable-bible/releases) manually and the open `index.html` in a browser.
+This works currently under macOS, Linux and Windows Terminal and the Linux subsystem on Windows. On classic Windows you can install the last [release](https://github.com/amiaopensource/cable-bible/releases) manually and the open `index.html` in a browser.
 
 ## Maintainers
 
