@@ -4,17 +4,12 @@
 # is connected to the Web, and the local version otherwise.
 
 if [[ "$(uname -s)" = "Darwin" ]] ; then
-    default_browser=$(plutil -convert json ~/Library/Preferences/com.apple.LaunchServices/com.apple.launchservices.secure.plist -r -o - | grep https -b1 | tail -n1 | cut -d'"' -f4)
     if ping -c 1 amiaopensource.github.io >/dev/null 2>&1 ; then
         cablebible_path='https://amiaopensource.github.io/cable-bible/'
     else
         cablebible_path=$(find /usr/local/Cellar/cable-bible -iname 'index.html' | sort -M | tail -n1)
     fi
-    if [ -n "${default_browser}" ] ; then
-        open -b "${default_browser}" "${cablebible_path}"
-    else
-        open "${cablebible_path}"
-    fi
+    open "${cablebible_path}"
 elif [[ "$(uname -s)" = "Linux" ]] ; then
     if ping -c 1 amiaopensource.github.io >/dev/null 2>&1 ; then
         cablebible_path='https://amiaopensource.github.io/cable-bible/'
