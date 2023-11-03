@@ -16,9 +16,10 @@ This works currently under macOS, Linux and Windows Terminal and the Linux subsy
 ## Maintainers
 
 - Ethan Gates (EG-tech)
+- Dylan Lorenz (dylanlorenz) has been temporarily added as a project maintainer to facilitate contributions to the Cable Bible in a workshop scheduled for 11/27/2023. Maintainer permissions will be revisited shortly after this date.
 
 ## Contribute
-Please feel free to clone this repository or create a new branch and submit a pull request with your own additions of modules for signal types, interfaces or connectors you think we're missing (there's a lot!). 
+Please feel free to fork this repository and submit a pull request with your own additions of modules for signal types, interfaces or connectors you think we're missing (there's a lot!)
 
 If you're not comfortable working in GitHub, you can just supply the information and we'll be happy to add it! Please [submit an issue](https://github.com/amiaopensource/cable-bible/issues) or contact user EG-tech (Ethan Gates) with relevant descriptions, photos, info, etc.!
 
