@@ -16,7 +16,7 @@ This works currently under macOS, Linux and Windows Terminal and the Linux subsy
 ## Maintainers
 
 - Ethan Gates (EG-tech)
-- Dylan Lorenz (dylanlorenz) has been temporarily added as a project maintainer to facilitate contributions to the Cable Bible in a workshop scheduled for 11/27/2023. Maintainer permissions will be revisited shortly after this date.
+- Dylan Lorenz (dylanlorenz)
 
 ## Contribute
 Please feel free to fork this repository and submit a pull request with your own additions of modules for signal types, interfaces or connectors you think we're missing (there's a lot!)
@@ -38,12 +38,14 @@ Gathered using [octohatrack](https://github.com/LABHR/octohatrack)
 
 Code Contributors:
 - ablwr (Ashley)
+- Dylan Lorenz (dylanlorenz)
 - EG-tech (Ethan Gates)
 - retokromer (Reto Kromer)  
 
 All Contributors:
 - ablwr (Ashley)
 - bturkus
+- Dylan Lorenz (dylanlorenz)
 - eddycolloton
 - EG-tech (Ethan Gates)
 - jfarbowitz (Jonathan Farbowitz)
@@ -54,8 +56,8 @@ All Contributors:
 - travislwagner
 
 Repo: amiaopensource/cable-bible  
-Code Contributors: 3  
-All Contributors: 10  
+Code Contributors: 4  
+All Contributors: 11  
 
 ## License and Attribution
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
