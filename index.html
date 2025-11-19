@@ -26,14 +26,14 @@
 <!-- sidebar -->
 <div class="well col-md-3 col-md-offset-0">
   <h5>A Guide to Cables and Connectors Used for Audiovisual Tech</h5>
-  <p>A comprehensive source for identifying cables and connectors potentially used for audiovisual/media preservation. Cable types and connectors are organized by the primary purpose of the signal being transferred - video, audio-only, data (i.e. computer cables) and power. Examples of physical connectors (along with pinouts and contextual uses for each kind of cable/connector combination) are provided in buttons, nested within descriptions of signal types, wiring, interfaces and protocols!</p>
+  <p>A comprehensive source for identifying cables and connectors potentially used for audiovisual/media preservation. Cable types and connectors are organized by the primary purpose of the signal being transferred - video, audio-only, data (e.g., computer cables) and power. Examples of physical connectors (along with pinouts and contextual uses for each kind of cable/connector combination) are provided in buttons, nested within descriptions of signal types, wiring, interfaces and protocols!</p>
   <h5>License and Attribution</h5>
   <p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
-  <p>Images pulled from the web are reused here under principle of fair use - they have all been downloaded and uploaded to the <a href="https://github.com/amiaopensource/cable-bible">Github repository</a> for the sake of stability, but original URLs are provided in mouse-over text.</p>
+  <p>Images pulled from the web are reused here under principle of fair use - they have all been downloaded and uploaded to the <a href="https://github.com/amiaopensource/cable-bible">GitHub repository</a> for the sake of stability, but original URLs are provided in mouse-over text.</p>
   <p>Page created by Ethan Gates</p>
   <p>Code adapted from the amazing <a href="https://amiaopensource.github.io/ffmprovisr/" target="_blank">ffmprovisr</a> project!</p>
   <h5>Contribute</h5>
-  <p>Contribute to the Cable Bible project via the AMIA Open Source Committee <a href="https://github.com/amiaopensource/cable-bible">Github</a> repository!</p>
+  <p>Contribute to the Cable Bible project via the AMIA Open Source Committee <a href="https://github.com/amiaopensource/cable-bible">GitHub</a> repository!</p>
   <h5>A Note on Inclusive Language</h5>
   <p>"Traditional" electrical and mechanical trades have sorted cable connections and fasteners in terms of "Male" (to refer to a connector or plug featuring pins or protrusions) and "Female" (to refer to a connector or plug into which pins or protrusions are inserted). The creator and maintainers of the Cable Bible find this obvious reference to a limited, cis-gendered, heteronormative understanding of human genitalia, gender, and sexual intercourse to be at best inappropriate and unnecessary, and at worst a perpetuation of harmful biases in the world at large.</p>
   <p>The Cable Bible avoids using these classifications on the live site whenever possible. Suggested contributions should limit explanation of connections to "pins", "plugs", "sockets" or similar non-gendered terms. Maintainers will edit and enforce these terms before accepting pull requests to the main branch.</p>
@@ -273,13 +273,32 @@
 </div>
 <!-- end Composite SCART -->
 
+<!-- Composite Belling-Lee -->
+<span data-toggle="modal" data-target="#composite_bellinglee"><button type="button" class="btn btn-default"><img src="images/Video/composite_bellinglee_cork-and-bottle.JPG" class="img-responsive" style="max-height:100px; width:auto;">Belling-Lee</button></span>
+<div id="composite_bellinglee" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="well">
+        <h3></h3>
+        <div class="sample-image">
+          <img src="images/Video/composite_bellinglee_cork-and-bottle.JPG" data-toggle="tooltip" data-placement="bottom" title="composite_bellinglee_cork-and-bottle.JPG">
+          <img src="images/Video/composite_bellinglee_ports.JPG" data-toggle="tooltip" data-placement="bottom" title="composite_bellinglee_ports.JPG">
+        </div>
+        <p>Used in Europe, parts of South-east Asia, and Australia. Belling-Lee connectors are commonly referred to as antenna connectors or TV aerial plugs. Used mainly for television and radio connections, but can be found on VCRs made for international markets.</p>
+        <p>Audio: yes, stereo, unbalanced</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end Composite Belling-Lee -->
+
 </div> <!-- end Composite well -->
 
 <!-- start Component YPbPr cables -->
 <div class="well">
   <h4 id="component_ypbpr">Component Y′P<sub>B</sub>P<sub>R</sub></h4>
   <p>Y′P<sub>B</sub>P<sub>R</sub> signal is often referred to, imprecisely, simply as "component" video, although there are actually several standards of component video (any signal standard that splits video information into multiple channels is component, including S-Video and the multiple RGB standards). In Y′P<sub>B</sub>P<sub>R</sub>, the video signal is split into three channels: Y (containing luminance and sync), P<sub>B</sub> (the difference between blue and luma), and P<sub>R</sub> (the difference between red and luma). The remaining (green) chrominance information is derived from the relationship between these three signals. Y′P<sub>B</sub>P<sub>R</sub> cables are sometimes referred to as "yipper" cables and are connectors are usually color-coded (Y&nbsp;=&nbsp;green, P<sub>B</sub>&nbsp;=&nbsp;blue, P<sub>R</sub>&nbsp;=&nbsp;red); however, Y′P<sub>B</sub>P<sub>R</sub> cables are fundamentally wired the same as composite cables and can be used interchangeably as long as the corresponding ports are properly connected.</p>
-  <p><b>Introduced:</b>unknown</p>
+  <p><b>Introduced: </b>Unknown</p>
   <p><b>Max resolution:</b> High Definition (up to 1080p)</p>
   <p><b>Connectors:</b></p>
 
@@ -365,7 +384,7 @@
 <div class="well">
   <h4 id="s-video">S-Video</h4>
   <p>S-Video (sometimes known as "separate video") cables carry video over two synchronized signal channels: Y (luma) and C (chroma, including saturation and hue). It can achieve better image quality than composite but lower color resolution than component RGB or Y′P<sub>B</sub>P<sub>R</sub> video. Most often associated with S-VHS but found with many other consumer deck formats as well.</p>
-  <p><b>Introduced:</b>unknown</p>
+  <p><b>Introduced: </b>Unknown</p>
   <p><b>Max resolution:</b> Standard Definition (typically 480i or 576i)</p>
   <p><b>Connectors:</b></p>
 
@@ -431,7 +450,7 @@
 <div class="well">
   <h4 id="yc-688">Y/C-688 ("Dub")</h4>
   <p>An earlier protocol that, like S-Video (which came later but was more common), split video into two components, luminance (Y) and chrominance (C). Intended to improve the quality of direct tape duplication from one video deck to another, this connection was often vaguely labeled/referred to simply as "dub". First seen on 3/4" U-matic decks, but continued to be used on professional Betacam and VHS/S-VHS decks. Though the same cables and pinouts were usually used, different Y/C-688-capable decks and devices modulated the chrominance signal at different frequencies - making Y/C-688 signal incompatible with S-Video devices (or sometimes even from one Y/C-688-capable deck to another)! Also incompatible with an implementation of Y′P<sub>B</sub>P<sub>R</sub> video that used the same connector and was *also* simply labeled "dub" (see above).</p>
-  <p><b>Introduced:</b>unknown</p>
+  <p><b>Introduced: </b>Unknown</p>
   <p><b>Max resolution:</b> Unknown</p>
   <p><b>Connectors:</b></p>
 
@@ -459,7 +478,7 @@
 <!-- start Analog RGBS protocol cables -->
 <div class="well">
   <h4 id="rgbs">RGBS</h4>
-  <p>A component video standard in which luminance and chrominance information is encoded into three channels (red, green and blue) and a fourth is used for composite sync (vertical and horizontal sync encoded together on the same wire). RGBS utilizes no compression and has no particular limit on color depth or resolution, but requires a high bandwidth as the three channels carry much redundant information (i.e. the same black-and-white luma information repeated three times). Extremely common in European equipment (especially monitors), rare elsewhere.</p>
+  <p>A component video standard in which luminance and chrominance information is encoded into three channels (red, green and blue) and a fourth is used for composite sync (vertical and horizontal sync encoded together on the same wire). RGBS utilizes no compression and has no particular limit on color depth or resolution, but requires a high bandwidth as the three channels carry much redundant information (e.g., the same black-and-white luma information repeated three times). Extremely common in European equipment (especially monitors), rare elsewhere.</p>
   <p><b>Introduced:</b>unknown</p>
   <p><b>Max resolution:</b> Generally up to 1080p (HD), but can go beyond</p>
   <p><b>Connectors:</b></p>
@@ -489,7 +508,7 @@
 <div class="well">
   <h4 id="rgbvh">RGBVH</h4>
   <p>A component video standard essentially the same as RGBS, except the sync signal is split into vertical and horizontal sync on separate wires. Most frequently employed in the context of the Video Graphics Array (VGA) display standard.</p>
-  <p><b>Introduced:</b>unknown</p>
+  <p><b>Introduced: </b>Unknown</p>
   <p><b>Max resolution:</b> Generally up to 1080p (HD), but can go beyond</p>
   <p><b>Connectors:</b></p>
 
@@ -676,7 +695,7 @@
 <!-- start DVI protocol cables -->
 <div class="well">
   <h4 id="dvi">DVI</h4>
-  <p>Digital Video Interface (DVI) was designed to transmit uncompressed digital video while also supporting analog video modes (see: DVI-I, DVI-A). This broad compatibility led to widespread adoption in consumer electronics/computers. Digital-only DVI cables and interfaces were referred to as "DVI-D".</p>
+  <p>Digital Video Interface (DVI) was designed to transmit uncompressed digital video while also supporting analog video modes (see: <a href="#dvi-i">DVI-I</a>, <a href="#rgbvh">DVI-A</a>). This broad compatibility led to widespread adoption in consumer electronics/computers. Digital-only DVI cables and interfaces were referred to as "DVI-D".</p>
   <p><b>Introduced: </b>1999</p>
   <p><b>Max resolution:</b> Single Link: 1920x1200, 4.95 Gb/s; Dual Link: 2560x1600, 9.90 Gb/s</p>
   <p><b>Connectors:</b></p>
@@ -954,12 +973,12 @@
 <!-- start Analog Audio cables -->
 <div class="well">
   <h3 id="analog_audio">Analog Audio</h3>
-  <p>Unlike analog video, analog audio signals are essentially only ever transferred over one channel (i.e. one-track monaural/"mono") or two (two-track mono, or stereo). Analog audio cables, generally speaking, thus only had to carry one channel of audio and two cables would simply be employed for recording or reproducing two-track mono or stereo (in contrast to the proliferation of standards and cables for video - composite, S-Video, RBG, etc). The most critical characteristic in regard to analog audio cabling, then (beyond connector types), regards balanced vs. unbalanced wiring, a method employed to reduce noise interference in audio cables.</p>
+  <p>Unlike analog video, analog audio signals are essentially only ever transferred over one channel (i.e. one-track monaural/"mono") or two (two-track mono, or stereo). Analog audio cables, generally speaking, thus only had to carry one channel of audio and two cables would simply be employed for recording or reproducing two-track mono or stereo (in contrast to the proliferation of standards and cables for video - composite, S-Video, RBG, etc.). The most critical characteristic in regard to analog audio cabling, then (beyond connector types), regards balanced vs. unbalanced wiring, a method employed to reduce noise interference in audio cables.</p>
 
 <!-- start Balanced Analog audio cables -->
 <div class="well">
   <h4 id="balanced_analog">Balanced Analog Audio</h4>
-  <p>Balanced coaxial audio cables contain three wires: "earth" (electrical ground), "hot" (positive audio signal), and "cold" (negative audio signal). The audio signal is transferred on both the hot and cold lines, but the voltage in the cold line is inverted (i.e. signal is negative when the hot line's is positive, and vice versa). When the cable is plugged into an input, the hot and cold signals are mixed together, but the cold signal is also inverted again. This has the effect of strengthening the original, recorded audio signal (doubling the number of wires it was carried on) while also canceling out the signal of any unintentional noise in the signal picked up as the audio traveled over the cable. (Since that noise was essentially "recorded" positively on to both the hot and cold lines, flipping the polarity of the cold line at input gives you exact opposite noise signals, which cancel each other out.)</p>
+  <p>Balanced coaxial audio cables contain three wires: "earth" (electrical ground), "hot" (positive audio signal), and "cold" (negative audio signal). The audio signal is transferred on both the hot and cold lines, but the voltage in the cold line is inverted (i.e., signal is negative when the hot line's is positive, and vice versa). When the cable is plugged into an input, the hot and cold signals are mixed together, but the cold signal is also inverted again. This has the effect of strengthening the original, recorded audio signal (doubling the number of wires it was carried on) while also canceling out the signal of any unintentional noise in the signal picked up as the audio traveled over the cable. (Since that noise was essentially "recorded" positively on to both the hot and cold lines, flipping the polarity of the cold line at input gives you exact opposite noise signals, which cancel each other out.)</p>
   <p>Reducing analog audio noise is an issue primarily with longer cables, or in professional/broadcast or preservation environments, where the absolute integrity of the audio signal is more highly valued than on consumer equipment.</p>
   <p>There are A-gauge connections and B-gauge connections (rounded tip). B-gauge is often used for patch cable connection. A-gauge and B-gauge connections should only be used in corresponding jacks.</p>
   <p><b>Connectors:</b></p>
@@ -1155,7 +1174,7 @@
         <div class="sample-image">
           <img src="images/Audio/1-8-TRS_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/8/8b/Audio-TRS-Mini-Plug.jpg">
         </div>
-        <p>See previous. Frequently used for stereo output on portable audio devices - also on computer sound cards for line-in/line-out connections (to/from headphones, microphones, speakers, etc).</p>
+        <p>See previous. Frequently used for stereo output on portable audio devices - also on computer sound cards for line-in/line-out connections (to/from headphones, microphones, speakers, etc.).</p>
       </div>
     </div>
   </div>
@@ -1926,7 +1945,7 @@
 <!-- start USB protocol cables -->
 <div class="well">
   <h4 id="usb">USB</h4>
-  <p>Short for Universal Serial Bus, designed to standardize connections of computer peripherals after the proliferation of connections in the 1980s and early 1990s. Used with keyboards, mice, digital cameras, external drives, network adapters, etc. Capable of supplying power to many of these devices in addition to transmitting data. Updates to the original USB 1.0 standard (1.5 Mbit/s at Low Speed, 12 Mbit/s at Full Speed) have represented major shifts in data transmission, usually with accompanied changes in physical connection, so they are elaborated on more below. All advancements in USB have been backwards-compatible (so a USB 3.0 connection can carry USB 2.0 data, etc). Ports are also usually marked by the symbol below.</p>
+  <p>Short for Universal Serial Bus, designed to standardize connections of computer peripherals after the proliferation of connections in the 1980s and early 1990s. Used with keyboards, mice, digital cameras, external drives, network adapters, etc. Capable of supplying power to many of these devices in addition to transmitting data. Updates to the original USB 1.0 standard (1.5 Mbit/s at Low Speed, 12 Mbit/s at Full Speed) have represented major shifts in data transmission, usually with accompanied changes in physical connection, so they are elaborated on more below. All advancements in USB have been backwards-compatible (so a USB 3.0 connection can carry USB 2.0 data, etc.). Ports are also usually marked by the symbol below.</p>
   <img src="images/Data/usb_logo.png" data-toggle="tooltip" data-placement="bottom" title="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/USB_Icon.svg/2000px-USB_Icon.svg.png" style="background-color:white; max-height:100px;">
   <p><b>Introduced: </b>1996</p>
 
@@ -1947,7 +1966,7 @@
         <div class="sample-image">
           <img src="images/Data/USB2_typeA_cork.jpg" data-toggle="tooltip" data-placement="bottom" title="http://www.what-is-my-computer.com/images/usb-ports.jpg">
         </div>
-        <p>Found with USB host controllers, i.e. computers and hubs. Uses flat pins to withstand repeated attachment and removal.</p>
+        <p>Found with USB host controllers, e.g., computers and hubs. Uses flat pins to withstand repeated attachment and removal.</p>
       </div>
     </div>
   </div>
@@ -2373,7 +2392,7 @@ Change the above data-target field, the link to the corresponding connector imag
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="well">
-        <h3><a href="***link to connector pinout in Github repo pinouts.html file***">*****Longer title(protocol + connector)*****</a></h3>
+        <h3><a href="***link to connector pinout in GitHub repo pinouts.html file***">*****Longer title(protocol + connector)*****</a></h3>
         <div class="sample-image">
           <img src="***link to cork connector image" data-toggle="tooltip" data-placement="bottom" title="***link to original image URL, if applicable***">
           <img src="***link to bottle connector image" data-toggle="tooltip" data-placement="bottom" title="***link to original image URL, if applicable***">
