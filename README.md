@@ -34,13 +34,22 @@ We acknowledge that this may cause some confusion when using the Cable Bible as 
 
 
 ### Contributors
-Gathered using [octohatrack](https://github.com/LABHR/octohatrack)
 
 Code Contributors:
 - ablwr (Ashley)
 - Dylan Lorenz (dylanlorenz)
 - EG-tech (Ethan Gates)
-- retokromer (Reto Kromer)  
+- retokromer (Reto Kromer)
+- pgaston99 (Phoenyx Gaston)
+- JossAlvarado5396 (Joss Alvarado)
+- nda253 (Nick Arroyo)
+- DataTango (Matt Yang)
+- chocolatti (Beibei He)
+- eu359 (Emily Uruchima)
+- hmr9162-droid (Hayla Ragland)
+- jennywhen26 (Jenny Hsu)
+- bturkus (Ben Turkus)
+- mercuryswitch
 
 All Contributors:
 - ablwr (Ashley)
@@ -54,10 +63,21 @@ All Contributors:
 - retokromer (Reto Kromer)
 - todrobbins (Tod Robbins)
 - travislwagner
+- pgaston99 (Phoenyx Gaston)
+- JossAlvarado5396 (Joss Alvarado)
+- nda253 (Nick Arroyo)
+- DataTango (Matt Yang)
+- chocolatti (Beibei He)
+- eu359 (Emily Uruchima)
+- hmr9162-droid (Hayla Ragland)
+- jennywhen26 (Jenny Hsu)
+- mercuryswitch
+- agentglover
+- DannyDannyDanny (Daniel Thoren)
 
 Repo: amiaopensource/cable-bible  
-Code Contributors: 4  
-All Contributors: 11  
+Code Contributors: 14  
+All Contributors: 22
 
 ## License and Attribution
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
